@@ -1,0 +1,9 @@
+Bulut bağlantı testi
+Tarih-saat: 2026-10-29 20:06:26 +03 (Europe/Istanbul)
+Metricool araçları bulundu mu: evet
+getBrandSettings instagramData: sqlogreniyorum
+30 Ekim 2026 planlı gönderi sayısı: 4 (10:00 STORY, 12:30 REEL, 18:00 STORY, 19:30 REEL)
+python3: Python 3.13.18
+ffmpeg: ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers
+/usr/share/fonts/opentype/inter/Inter-Black.otf var mı: evet
+Not: add_repo aracı bu oturumda bulunamadı; depo zaten kapsamdaydı ve çalışma dizininde klonluydu (git clone yerine mevcut klon kullanıldı).
