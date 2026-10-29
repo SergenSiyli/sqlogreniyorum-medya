@@ -86,7 +86,7 @@ def text_block(d, xy, text, fnt, fill=TEXT, max_w=920, spacing=1.22, highlight=N
 KEYWORDS = {
     "SELECT", "FROM", "WHERE", "GROUP", "BY", "HAVING", "ORDER", "JOIN", "INNER", "LEFT",
     "RIGHT", "FULL", "OUTER", "ON", "AS", "AND", "OR", "IS", "NULL", "NOT", "DESC", "ASC",
-    "WITH", "OVER", "PARTITION", "LIMIT", "IN",
+    "WITH", "OVER", "PARTITION", "LIMIT", "IN", "DISTINCT", "UNION", "ALL", "CASE", "WHEN", "THEN", "ELSE", "END", "EXISTS", "LIKE", "BETWEEN", "INSERT", "INTO", "VALUES", "UPDATE", "SET", "DELETE", "CREATE", "TABLE",
 }
 FUNCS = {"COUNT", "SUM", "AVG", "MIN", "MAX", "ROW_NUMBER", "RANK", "DENSE_RANK"}
 TOKEN_RE = re.compile(r"('[^']*'|\d+|[A-Za-z_çğıöşüÇĞİÖŞÜ][\wçğıöşüÇĞİÖŞÜ]*|\s+|.)")
