@@ -91,16 +91,12 @@ def build(seconds):
             if b in (1, 3):
                 add(snare(0.09), bt)
             for sub in (0, 0.5):
-                add(hat(0.035 if sub else 0.05), bt + sub * BEAT + rng.uniform(0, 0.012))
+                add(hat(0.018 if sub else 0.026), bt + sub * BEAT + rng.uniform(0, 0.012))
         t += bar
         k += 1
 
-    mix = lowpass(mix, 3200)  # sıcak, boğuk lo-fi tını
-    # plak cızırtısı
-    crackle = np.zeros(total)
-    idx = rng.integers(0, total, int(seconds * 18))
-    crackle[idx] = rng.uniform(-0.15, 0.15, len(idx))
-    mix += lowpass(crackle, 2500) + 0.002 * lowpass(rng.standard_normal(total), 800)
+    mix = lowpass(mix, 2800)  # sıcak, boğuk lo-fi tını
+    # Not: plak cızırtısı ve arka plan hışırtısı bilerek YOK (hesap sahibi cızırtı istemedi).
 
     mix = mix[: int(seconds * SR)]
     # giriş/çıkış
