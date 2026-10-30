@@ -126,3 +126,42 @@ def story_card(path, tag, title, lines, footer=None, tag_col=GREEN):
     assert y <= 1580, ("story taşıyor", y)
     img.save(path)
     return path
+
+
+def story_greeting(path, kind, fact_title, fact, footer):
+    """kind: 'gunaydin' (09:00) ya da 'iyigeceler' (23:00). Teknolojik bilgi kartlı selam story'si."""
+    img, d = canvas(1080, 1920)
+    morning = kind == "gunaydin"
+    col = YELLOW if morning else BLUE
+    # gökyüzü simgesi: güneş ya da hilal (emoji yok, çizim)
+    cx, cy = 880, 420
+    if morning:
+        for i in range(12):
+            import math
+            a = i * math.pi / 6
+            d.line([(cx + 95 * math.cos(a), cy + 95 * math.sin(a)), (cx + 130 * math.cos(a), cy + 130 * math.sin(a))],
+                   fill=YELLOW, width=10)
+        d.ellipse([cx - 70, cy - 70, cx + 70, cy + 70], fill=YELLOW)
+    else:
+        d.ellipse([cx - 90, cy - 90, cx + 90, cy + 90], fill=(220, 228, 255))
+        d.ellipse([cx - 45, cy - 115, cx + 135, cy + 65], fill=BG)
+        for sx, sy, r in [(700, 330, 7), (760, 520, 5), (980, 560, 6), (640, 450, 4)]:
+            d.ellipse([sx - r, sy - r, sx + r, sy + r], fill=TEXT)
+    d.text((70, 250), HANDLE, font=font("Bold", 34), fill=MUTED)
+    pill(d, (70, 330), "GÜNAYDIN" if morning else "İYİ GECELER", fill=col, size=36)
+    y = text_block(d, (70, 440), "Günaydın!" if morning else "İyi geceler.", font("Black", 120), max_w=760, fill=TEXT)
+    y += 50
+    d.rounded_rectangle([60, y, 1020, y + 90], radius=24, fill=CARD2)
+    d.text((100, y + 22), "Biliyor muydun?", font=font("ExtraBold", 44), fill=col)
+    y += 110
+    lines = wrap(d, fact, font("SemiBold", 44), 860)
+    tl = wrap(d, fact_title, font("ExtraBold", 54), 860)
+    h = len(tl) * 66 + len(lines) * 56 + 100
+    d.rounded_rectangle([60, y, 1020, y + h], radius=28, fill=CARD, outline=col, width=3)
+    yy = text_block(d, (100, y + 40), fact_title, font("ExtraBold", 54), max_w=860, fill=TEXT)
+    text_block(d, (100, yy + 16), fact, font("SemiBold", 44), max_w=860, fill=TEXT)
+    y += h
+    y = text_block(d, (70, y + 40), footer, font("SemiBold", 40), fill=MUTED, max_w=940)
+    assert y <= 1580, ("story taşıyor", y)
+    img.save(path)
+    return path
