@@ -29,7 +29,7 @@ KUYRUK = os.path.join(ROOT, "kuyruk")
 DURUM = os.path.join(KUYRUK, "durum")
 PENCERE_DK = 80        # bu çalışmanın üstlendiği ileri pencere
 GEC_KALMA_DK = 60      # bundan daha geç kalmış gönderi yayınlanmaz, "kaçırıldı" yazılır
-HAZIRLIK_DK = {"REEL": 7, "STORY": 2}   # konteyner hedef saatten bu kadar önce hazırlanır
+HAZIRLIK_DK = {"REEL": 7, "STORY": 2, "CAROUSEL": 5}   # konteyner hedef saatten bu kadar önce hazırlanır
 
 
 def token():
@@ -136,6 +136,16 @@ def konteyner(uid, o):
         p = {"media_type": "REELS", "video_url": o["medya"], "caption": o.get("aciklama", ""), "share_to_feed": "true"}
         if o.get("kapak"):
             p["cover_url"] = o["kapak"]
+    elif o["tur"] == "CAROUSEL":
+        cocuklar = []
+        for m in o["medya"]:
+            q = {"is_carousel_item": "true"}
+            if m.endswith(".mp4"):
+                q.update(media_type="VIDEO", video_url=m)
+            else:
+                q["image_url"] = m
+            cocuklar.append(istek("POST", f"{uid}/media", **q)["id"])
+        p = {"media_type": "CAROUSEL", "children": ",".join(cocuklar), "caption": o.get("aciklama", "")}
     else:
         raise ValueError("bilinmeyen tür " + o["tur"])
     cid = istek("POST", f"{uid}/media", **p)["id"]
@@ -185,6 +195,12 @@ def kontrol():
         sonuc["hesap"] = istek("GET", uid, fields="username,media_count")
         sonuc["kota"] = istek("GET", f"{uid}/content_publishing_limit", fields="quota_usage,config")
         sonuc["durum"] = "ok"
+        for u in sys.argv[2:]:  # medya adreslerinin içerik türünü kontrol et
+            try:
+                with urllib.request.urlopen(urllib.request.Request(u, method="HEAD"), timeout=30) as r:
+                    sonuc.setdefault("medya", {})[u] = r.headers.get("Content-Type")
+            except Exception as e2:
+                sonuc.setdefault("medya", {})[u] = "HATA " + str(e2)[:100]
     except Exception as e:
         sonuc["durum"] = "hata"
         sonuc["hata"] = str(e)[:800]

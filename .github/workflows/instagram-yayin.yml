@@ -13,6 +13,9 @@ on:
         default: kontrol
         type: choice
         options: [kontrol, yayin]
+      ek:
+        description: "kontrol için isteğe bağlı medya adresleri (boşlukla)"
+        default: ""
 
 permissions:
   contents: write
@@ -34,4 +37,4 @@ jobs:
       - name: Yayınla
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
-        run: python3 araclar/ig_yayin.py "${{ github.event.inputs.mod || 'yayin' }}"
+        run: python3 araclar/ig_yayin.py "${{ github.event.inputs.mod || 'yayin' }}" ${{ github.event.inputs.ek }}
