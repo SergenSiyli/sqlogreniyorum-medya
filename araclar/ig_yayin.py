@@ -163,10 +163,25 @@ def yayin():
 
 
 def kontrol():
-    me = istek("GET", "me", fields="user_id,username,account_type,media_count")
-    print(json.dumps(me, ensure_ascii=False))
-    lim = istek("GET", f"{me['user_id']}/content_publishing_limit", fields="quota_usage,config")
-    print(json.dumps(lim, ensure_ascii=False))
+    """Sonucu kuyruk/kontrol.json'a yazar ve depoya gönderir (Actions loglarına erişilemeyen ortamlar için)."""
+    sonuc = {"zaman": simdi().isoformat(timespec="seconds")}
+    try:
+        me = istek("GET", "me", fields="user_id,username,account_type,media_count")
+        sonuc["hesap"] = me
+        sonuc["kota"] = istek("GET", f"{me['user_id']}/content_publishing_limit", fields="quota_usage,config")
+        sonuc["durum"] = "ok"
+    except Exception as e:
+        sonuc["durum"] = "hata"
+        sonuc["hata"] = str(e)[:800]
+    yol = os.path.join(KUYRUK, "kontrol.json")
+    with open(yol, "w") as f:
+        json.dump(sonuc, f, ensure_ascii=False, indent=1)
+    print(json.dumps(sonuc, ensure_ascii=False))
+    subprocess.run(["git", "add", yol], cwd=ROOT, check=True)
+    subprocess.run(["git", "commit", "-qm", "API bağlantı kontrolü: " + sonuc["durum"]], cwd=ROOT)
+    subprocess.run(["git", "push", "-q"], cwd=ROOT)
+    if sonuc["durum"] != "ok":
+        sys.exit(1)
 
 
 if __name__ == "__main__":
