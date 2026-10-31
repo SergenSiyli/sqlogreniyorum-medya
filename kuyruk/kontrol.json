@@ -1,5 +1,5 @@
 {
- "zaman": "2026-10-31T23:47:20+03:00",
+ "zaman": "2026-10-31T23:48:55+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 264,
  "hesap": {
@@ -18,5 +18,9 @@
    }
   ]
  },
- "durum": "ok"
+ "durum": "ok",
+ "medya": {
+  "https://raw.githubusercontent.com/SergenSiyli/sqlogreniyorum-medya/60ea09c7905966418f3a949f6e895bb1bbfa28bf/hafta/2026-11-02/reel_where_vs_having.mp4": "application/octet-stream",
+  "https://static.metricool.com/planner/202610/7731743-file-2374464643925108557.mp4": "video/mp4"
+ }
 }
