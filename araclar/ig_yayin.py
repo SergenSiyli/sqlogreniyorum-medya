@@ -22,7 +22,7 @@ import urllib.parse
 import urllib.request
 from zoneinfo import ZoneInfo
 
-API = "https://graph.instagram.com/v23.0"
+IG_ID = "17841460768999553"  # @sqlogreniyorum Instagram hesap kimliği (Meta panelinden)
 TZ = ZoneInfo("Europe/Istanbul")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 KUYRUK = os.path.join(ROOT, "kuyruk")
@@ -39,8 +39,20 @@ def token():
     return t
 
 
+def api():
+    # IGAA... = Instagram girişi anahtarı; EAA... = Facebook/birleşik giriş anahtarı
+    return "https://graph.facebook.com/v23.0" if token().startswith("EAA") else "https://graph.instagram.com/v23.0"
+
+
+def hesap_id():
+    if token().startswith("EAA"):
+        return IG_ID
+    return istek("GET", "me", fields="user_id")["user_id"]
+
+
 def istek(method, path, **params):
     params["access_token"] = token()
+    API = api()
     data = urllib.parse.urlencode(params).encode()
     url = f"{API}/{path}"
     if method == "GET":
@@ -140,7 +152,7 @@ def konteyner(uid, o):
 
 
 def yayin():
-    uid = istek("GET", "me", fields="user_id,username")["user_id"]
+    uid = hesap_id()
     hatalar = 0
     for o in adaylar():
         hazirlik = o["_h"] - dt.timedelta(minutes=HAZIRLIK_DK.get(o["tur"], 3))
@@ -166,9 +178,12 @@ def kontrol():
     """Sonucu kuyruk/kontrol.json'a yazar ve depoya gönderir (Actions loglarına erişilemeyen ortamlar için)."""
     sonuc = {"zaman": simdi().isoformat(timespec="seconds")}
     try:
-        me = istek("GET", "me", fields="user_id,username,account_type,media_count")
-        sonuc["hesap"] = me
-        sonuc["kota"] = istek("GET", f"{me['user_id']}/content_publishing_limit", fields="quota_usage,config")
+        t = token()
+        sonuc["anahtar_turu"] = "facebook" if t.startswith("EAA") else ("instagram" if t.startswith("IG") else "bilinmiyor:" + t[:3])
+        sonuc["anahtar_uzunlugu"] = len(t)
+        uid = hesap_id()
+        sonuc["hesap"] = istek("GET", uid, fields="username,media_count")
+        sonuc["kota"] = istek("GET", f"{uid}/content_publishing_limit", fields="quota_usage,config")
         sonuc["durum"] = "ok"
     except Exception as e:
         sonuc["durum"] = "hata"
