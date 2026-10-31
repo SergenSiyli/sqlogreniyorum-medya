@@ -1,5 +1,22 @@
 {
- "zaman": "2026-10-31T23:46:13+03:00",
- "durum": "hata",
- "hata": "API 400: {\"error\":{\"message\":\"Invalid OAuth access token - Cannot parse access token\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"ARZHxdfNXef-Xl2nbV-eHOe\"}}"
+ "zaman": "2026-10-31T23:47:20+03:00",
+ "anahtar_turu": "facebook",
+ "anahtar_uzunlugu": 264,
+ "hesap": {
+  "id": "17841460768999553",
+  "media_count": 63,
+  "username": "sqlogreniyorum"
+ },
+ "kota": {
+  "data": [
+   {
+    "quota_usage": 8,
+    "config": {
+     "quota_total": 100,
+     "quota_duration": 86400
+    }
+   }
+  ]
+ },
+ "durum": "ok"
 }
