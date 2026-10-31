@@ -1,0 +1,18 @@
+[
+ {
+  "id": "2026-11-03_1230_carousel_join",
+  "hedef": "2026-11-03T12:30",
+  "tur": "CAROUSEL",
+  "medya": [
+   "https://static.metricool.com/planner/202610/7731743-file-18189384231134472104.png",
+   "https://static.metricool.com/planner/202610/7731743-file-2859433002459088788.png",
+   "https://static.metricool.com/planner/202610/7731743-file-15000288488901765029.png",
+   "https://static.metricool.com/planner/202610/7731743-file-3265612747697252997.png",
+   "https://static.metricool.com/planner/202610/7731743-file-10495589010771355022.png",
+   "https://static.metricool.com/planner/202610/7731743-file-594767979878594770.png",
+   "https://static.metricool.com/planner/202610/7731743-file-4653794446484737475.png",
+   "https://static.metricool.com/planner/202610/7731743-file-8716570567619473715.png"
+  ],
+  "aciklama": "SQL JOIN türlerini tek örnek tabloyla öğren: INNER, LEFT, RIGHT ve FULL OUTER JOIN.\n\nSonda bonus: hiç eşleşmesi olmayan kayıtları bulan \"anti join\" kalıbı. Mülakatlarda çok çıkar.\n\nKaydet, sorgu yazarken açıp bak. Sen en çok hangisini kullanıyorsun? Yorumlara yaz.\n\n#sql #sqljoin #sqlöğren #verianalizi #yazılımöğren"
+ }
+]

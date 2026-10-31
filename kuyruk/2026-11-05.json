@@ -1,0 +1,16 @@
+[
+ {
+  "id": "2026-11-05_0900_story_cevap",
+  "hedef": "2026-11-05T09:00",
+  "tur": "STORY",
+  "medya": "https://static.metricool.com/planner/202610/7731743-file-6124537266690008612.png"
+ },
+ {
+  "id": "2026-11-05_1100_reel_where_having",
+  "hedef": "2026-11-05T11:00",
+  "tur": "REEL",
+  "medya": "https://static.metricool.com/planner/202610/7731743-file-2374464643925108557.mp4",
+  "kapak": "https://static.metricool.com/planner/202610/7731743-file-11579281865165689101.png",
+  "aciklama": "SQL'de WHERE mi HAVING mi? Farkı 25 saniyede öğren.\n\nWHERE gruplamadan önce tek tek satırları filtreler. HAVING gruplamadan sonra grupları filtreler.\nKural: COUNT, SUM, AVG gibi bir toplama sonucuna göre filtreliyorsan HAVING.\n\nKaydet, bir arkadaşına gönder. Sen hangisini daha çok karıştırıyordun? Yorumlara yaz.\n\n#sql #sqlöğren #veritabanı #verianalizi #yazılım"
+ }
+]

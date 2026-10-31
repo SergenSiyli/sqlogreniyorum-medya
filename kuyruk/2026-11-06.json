@@ -1,0 +1,17 @@
+[
+ {
+  "id": "2026-11-06_1230_carousel_rank",
+  "hedef": "2026-11-06T12:30",
+  "tur": "CAROUSEL",
+  "medya": [
+   "https://static.metricool.com/planner/202610/7731743-file-8258486708296732300.png",
+   "https://static.metricool.com/planner/202610/7731743-file-10565534739397664706.png",
+   "https://static.metricool.com/planner/202610/7731743-file-13899144610312775189.png",
+   "https://static.metricool.com/planner/202610/7731743-file-11144080348462545437.png",
+   "https://static.metricool.com/planner/202610/7731743-file-12403582331958151667.png",
+   "https://static.metricool.com/planner/202610/7731743-file-15535124420835650184.png",
+   "https://static.metricool.com/planner/202610/7731743-file-5201698443848771591.png"
+  ],
+  "aciklama": "SQL mülakat sorusu: ROW_NUMBER, RANK ve DENSE_RANK arasındaki fark ne?\n\nEşit değerlerde üçü farklı numara verir. 7 slaytta örnekli anlatım + gerçek hayattan \"her kategoride en çok satan 2 ürün\" sorgusu.\n\nMülakatta karşılaştığın SQL sorusunu yorumlara yaz, çözümünü videoyla anlatalım.\n\n#sql #sqlmülakat #windowfunctions #veribilimi #sqlöğren"
+ }
+]
