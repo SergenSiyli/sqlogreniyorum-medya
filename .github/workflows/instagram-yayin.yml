@@ -1,0 +1,37 @@
+name: Instagram yayın
+
+# Kuyruktaki (kuyruk/*.json) gönderileri resmi Instagram API ile tam hedef saatinde yayınlar.
+# Her çalışma önümüzdeki 80 dakikayı üstlenir, hedef saate kadar bekler. 07:17–22:47 (İstanbul) arası.
+on:
+  schedule:
+    - cron: "17 4-19 * * *"
+    - cron: "47 4-19 * * *"
+  workflow_dispatch:
+    inputs:
+      mod:
+        description: "kontrol = anahtarı test et, yayin = kuyruğu işle"
+        default: kontrol
+        type: choice
+        options: [kontrol, yayin]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-yayin
+  cancel-in-progress: false
+
+jobs:
+  yayin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - name: Git kimliği
+        run: |
+          git config user.name "sqlogreniyorum-ekip"
+          git config user.email "actions@users.noreply.github.com"
+      - name: Yayınla
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python3 araclar/ig_yayin.py "${{ github.event.inputs.mod || 'yayin' }}"
