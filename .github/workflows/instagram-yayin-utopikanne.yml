@@ -5,7 +5,7 @@ name: Instagram yayın (utopikanne)
 # ≤25 dk bekleyip sonraki çalışmayı kendisi başlatır (zincir). Cron (07:07–22:57 İstanbul, 10 dk) yalnızca yedek.
 on:
   schedule:
-    - cron: "7,17,27,37,47,57 4-19 * * *"
+    - cron: "7,17,27,37,47,57 4-20 * * *"
   workflow_dispatch:
     inputs:
       mod:
