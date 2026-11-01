@@ -1,0 +1,185 @@
+{
+ "2026-11-02": [
+  {
+   "saat": "08:30",
+   "sablon": "gunaydin",
+   "baslik": "Günaydın",
+   "bilgi": "Yenidoğan en net 20–30 cm uzağı görür; bu, kucağınızdaki bebeğin yüzünüze olan mesafesi kadardır.",
+   "kaynak": "AAP (HealthyChildren.org)"
+  },
+  {
+   "saat": "10:30",
+   "sablon": "tarif",
+   "seri": "Ek gıda tarifi #1",
+   "ay": "6+ ay",
+   "baslik": "Havuç püresi",
+   "malzemeler": [
+    "1 orta boy havuç",
+    "Biraz su (pişirme suyu)"
+   ],
+   "adimlar": [
+    "Havucu yıkayıp soyun, ince doğrayın.",
+    "Buharda ya da az suda iyice yumuşatın.",
+    "Çatalla ezin ya da blenderdan geçirin.",
+    "Kıvamı pişirme suyu, anne sütü ya da mamayla açın."
+   ],
+   "saklama": "Soğutup kapalı kapta buzdolabında 2 güne kadar.",
+   "dikkat": "Tuz ve şeker eklemeyin. Yeni gıdaları birer birer deneyin.",
+   "kaynak": "NHS Start for Life"
+  },
+  {
+   "saat": "12:30",
+   "sablon": "hamilelik",
+   "seri": "Hafta hafta hamilelik #1",
+   "hafta": 4,
+   "boy": "Haşhaş tohumu kadar",
+   "bilgi": "Embriyo rahim duvarına yerleşti ve gelişmeye başladı. Testin pozitif çıktığı ilk günler genelde bu haftadır.",
+   "ipucu": "Hamilelikte alkolün güvenli bir miktarı yoktur; tamamen uzak durmak en güvenlisi.",
+   "kaynak": "NHS"
+  },
+  {
+   "saat": "14:30",
+   "sablon": "efsane",
+   "efsane": "6 aydan küçük bebeğe sıcak havada ayrıca su verilmeli.",
+   "gercek": "Yalnızca anne sütüyle beslenen bebeğin ilk 6 ayda ayrıca suya ihtiyacı yoktur; sıcak havada bile anne sütü yeterlidir.",
+   "kaynak": "DSÖ, UNICEF"
+  },
+  {
+   "saat": "16:30",
+   "sablon": "liste",
+   "etiket": "EK GIDAYA HAZIR MI?",
+   "baslik": "Bebeğin ek gıdaya hazır olduğunu gösteren 3 işaret",
+   "maddeler": [
+    "Desteklenerek dik oturabiliyor, başını sabit tutabiliyor.",
+    "Göz, el ve ağzını koordine edip yiyeceği tutup ağzına götürebiliyor.",
+    "Yiyeceği diliyle dışarı itmek yerine yutabiliyor."
+   ],
+   "not": "Bu işaretler genellikle 6. ay civarında birlikte görülür. Başlamadan önce doktorunuza danışın.",
+   "kaynak": "NHS Start for Life"
+  },
+  {
+   "saat": "18:30",
+   "sablon": "kontrol",
+   "etiket": "KONTROL LİSTESİ",
+   "baslik": "Güvenli uyku",
+   "maddeler": [
+    "Her uykuda sırtüstü yatırın.",
+    "Düz ve sert bir yatak kullanın.",
+    "Yatakta yastık, yorgan, oyuncak olmasın.",
+    "İlk 6 ay aynı odada, kendi yatağında uyusun.",
+    "Ortam dumansız olsun, bebek fazla ısınmasın."
+   ],
+   "kaynak": "AAP, NHS"
+  },
+  {
+   "saat": "20:30",
+   "sablon": "dm",
+   "soru": "Ek gıdaya başlarken sizi en çok ne düşündürüyor?",
+   "secenekler": [
+    "Alerji",
+    "Kıvam",
+    "Miktar",
+    "Tarif"
+   ],
+   "cagri": "Cevabını DM'den yaz. Sorularınız yeni hikâyelere ilham olsun."
+  },
+  {
+   "saat": "22:30",
+   "sablon": "iyi_geceler",
+   "baslik": "Uyku rutini işe yarar",
+   "bilgi": "Her akşam aynı sırayla tekrarlanan bir rutin (kitap, sonra yatak gibi) uykuya geçişi kolaylaştırır.",
+   "kaynak": "AAP (HealthyChildren.org)"
+  }
+ ],
+ "2026-11-03": [
+  {
+   "saat": "08:30",
+   "sablon": "gunaydin",
+   "baslik": "Günaydın",
+   "bilgi": "Bebeklerin ilk “sosyal gülümsemesi” genellikle 2. ayın sonuna doğru gelir: size bakıp karşılık olarak gülümserler.",
+   "kaynak": "AAP (HealthyChildren.org)"
+  },
+  {
+   "saat": "10:30",
+   "sablon": "tarif",
+   "seri": "Ek gıda tarifi #2",
+   "ay": "6+ ay",
+   "baslik": "Balkabağı püresi",
+   "malzemeler": [
+    "1 dilim balkabağı (yaklaşık 150 g)",
+    "Biraz su"
+   ],
+   "adimlar": [
+    "Kabuğunu ve çekirdeklerini ayıklayıp küp doğrayın.",
+    "Buharda ya da az suda çatal batana kadar pişirin.",
+    "Pürüzsüz olana kadar ezin.",
+    "Gerekirse pişirme suyuyla kıvamı açın."
+   ],
+   "saklama": "Soğutup kapalı kapta buzdolabında 2 güne kadar.",
+   "dikkat": "Tuz ve şeker eklemeyin. Aynı anda birden fazla yeni gıda denemeyin.",
+   "kaynak": "NHS Start for Life",
+   "cizim": "balkabagi"
+  },
+  {
+   "saat": "12:30",
+   "sablon": "hamilelik",
+   "seri": "Hafta hafta hamilelik #2",
+   "hafta": 5,
+   "boy": "Susam tanesi kadar",
+   "bilgi": "Minik kalp oluşmaya başlıyor. Sinir sistemi gelişiyor; beyin ve omurilik şekilleniyor.",
+   "ipucu": "Çiğ ya da az pişmiş et ve yumurtadan uzak durun; iyice pişirin.",
+   "kaynak": "NHS"
+  },
+  {
+   "saat": "14:30",
+   "sablon": "efsane",
+   "efsane": "Bir kaşık bal 1 yaşından küçük bebeğe zarar vermez.",
+   "gercek": "1 yaşından küçük bebeklere bal verilmez. Bal, bebeklerde botulizme yol açabilen bakteri sporları içerebilir.",
+   "kaynak": "NHS, AAP"
+  },
+  {
+   "saat": "16:30",
+   "sablon": "liste",
+   "etiket": "KIVAM YOLCULUĞU",
+   "baslik": "Ek gıdada kıvam adım adım ilerler",
+   "maddeler": [
+    "Başta: pürüzsüz püreler ve yumuşak, eli tutacak boyda parmak yiyecekler.",
+    "Sonra: ezilmiş, hafif pütürlü kıvamlar.",
+    "Zamanla: küçük, yumuşak doğranmış parçalar ve aile yemeklerinin tuzsuz hali."
+   ],
+   "not": "Her bebeğin hızı farklıdır. Yemek sırasında bebeği yalnız bırakmayın.",
+   "kaynak": "NHS Start for Life"
+  },
+  {
+   "saat": "18:30",
+   "sablon": "kontrol",
+   "etiket": "KONTROL LİSTESİ",
+   "baslik": "Boğulma riskine karşı",
+   "maddeler": [
+    "Üzüm ve kiraz domatesi dörde bölün.",
+    "5 yaşından önce bütün fındık, fıstık, ceviz vermeyin.",
+    "Sert çiğ sebzeleri (havuç, elma) yumuşatın.",
+    "Bebek daima dik otursun.",
+    "Yemek yerken yanından ayrılmayın."
+   ],
+   "kaynak": "NHS"
+  },
+  {
+   "saat": "20:30",
+   "sablon": "dm",
+   "soru": "Sizce hangisi daha zor?",
+   "secenekler": [
+    "İlk ayların uykusuzluğu",
+    "Ek gıda dönemi"
+   ],
+   "cagri": "Cevabını DM'den yaz, merakla bekliyoruz."
+  },
+  {
+   "saat": "22:30",
+   "sablon": "iyi_geceler",
+   "baslik": "Odanın ısısı önemli",
+   "bilgi": "Bebeğin uyuduğu oda için yaklaşık 16–20°C ideal kabul edilir. Fazla ısınmamasına dikkat edin.",
+   "kaynak": "NHS"
+  }
+ ]
+}
