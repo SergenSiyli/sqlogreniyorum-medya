@@ -23,3 +23,10 @@ Kanca: her Reels ilk karede tam görünen soru/hata/etki cümlesiyle açılıyor
 - Karar: SQL Reels kancası artık ilk karede YANLIŞ SONUCU da gösteriyor ("Sonuç: 90000. Yanlış!"). Soyut "fark ne?" kancası kullanılmayacak.
 - Haber seçimi: Türkiye'de herkesin kullandığı uygulamalara (WhatsApp, Instagram, Gemini/ChatGPT) dokunan haberler öncelikli.
 - 2 Kasım: SQL Mülakat Sorusu #2 (ikinci en yüksek maaş). Sıradaki #3: LEFT JOIN + WHERE tuzağı.
+
+## Durum (1 Kasım 2026 gece turu)
+- Takipçi: 1.497 (Metricool, 30 Ekim; sonrası henüz gelmedi). 25-30 Ekim: +9 / -8 → net +1. Hedef hızın (14 günde +40-70) çok gerisinde.
+- Son 7 gün Reels 3 sn izlenme: NULL tuzağı %41,2 (en iyi; erişim 959, 1.244 izlenme, "HİÇ satır" kancası + ilk karede yanlış sonuç), SQL çalışma sırası %35,1, Apple Numbers %34,0, Gemini 4 Carbon %31,9, Genie 4 %18,9, DISTINCT/GROUP BY %12,3 (en kötü). Ort. %28,9 (hedef ≥%35). (Kaydetme+paylaşım)/erişim: 59/2.197 = %2,7 (hedef ≥%5).
+- Karar: "kaybolan/yanlış satır" kancası (NULL'un kazanan açısı) SQL Mülakat Sorusu #3'te kullanıldı (LEFT JOIN + WHERE, 3 Kasım 18:00). Kural: SQL kancası = somut bir veri kaybı/yanlış sonuç + sayı ("4 müşteri vardı, 2 satır geldi").
+- Haber: 31 Ekim-1 Kasım'da yaygın uygulamalara dokunan iki kaynaklı haber çıkmadı; 3 Kasım'da DeepSeek Super-Agent (kod ajanı) işlendi. Kitle verisi (kaydetme) teknik haberlerde düşükse 4 Kasım'dan itibaren haber seçiminde "kullanıcı uygulaması" önceliği sürer.
+- Sıradaki seri: #4 CTE ya da tekrar eden kayıtları temizleme (ROW_NUMBER) — Trend Avcısı önerisi pencere fonksiyonları.
