@@ -1,5 +1,25 @@
 [
  {
+  "id": "2026-11-03_0900_story_gunaydin",
+  "hedef": "2026-11-03T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/story_gunaydin.png"
+ },
+ {
+  "id": "2026-11-03_1000_story_soru",
+  "hedef": "2026-11-03T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/story_1000_soru.png"
+ },
+ {
+  "id": "2026-11-03_1100_reel_deepseek_superagent",
+  "hedef": "2026-11-03T11:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/reel_deepseek_superagent.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/reel_deepseek_superagent_kapak.png",
+  "aciklama": "Sen sormadan kod sorununa çözüm öneren yapay zekâ ajanı geldi. Çinli yapay zekâ şirketi DeepSeek'in Harness ekibi, 31 Ekim'de WeChat'te Super-Agent adlı açık kaynak bir prototip duyurdu.\n\nHaberlere göre ajan, geliştiricilerin grup sohbetlerini takip ediyor, kodlama sorunlarını yakalıyor ve komut beklemeden çözüm öneriyor. Şirketin açıklamasına göre sistemde yönlendiriciler sohbet ve e-postadan bilgi topluyor, çalışan ajanlar kod incelemesi gibi işleri paralel yürütüyor. Amaç: insanın ayırması gereken dikkati azaltmak.\n\nBunu bilmesi gereken birine gönder, kaydet. Kodunu yapay zekâya izletir miydin? Evet mi hayır mı, yorumlara yaz.\n\nKaynak: Investing.com, Seoul Economic Daily (1 Kasım 2026)\n\n#yapayzeka #yapayzekahaberleri #teknolojihaberleri #deepseek"
+ },
+ {
   "id": "2026-11-03_1230_carousel_join",
   "hedef": "2026-11-03T12:30",
   "tur": "CAROUSEL",
@@ -14,5 +34,37 @@
    "https://static.metricool.com/planner/202610/7731743-file-8716570567619473715.png"
   ],
   "aciklama": "SQL JOIN türlerini tek örnek tabloyla öğren: INNER, LEFT, RIGHT ve FULL OUTER JOIN.\n\nSonda bonus: hiç eşleşmesi olmayan kayıtları bulan \"anti join\" kalıbı. Mülakatlarda çok çıkar.\n\nKaydet, sorgu yazarken açıp bak. Sen en çok hangisini kullanıyorsun? Yorumlara yaz.\n\n#sql #sqljoin #sqlöğren #verianalizi #yazılımöğren"
+ },
+ {
+  "id": "2026-11-03_1400_story_deepseek_kart",
+  "hedef": "2026-11-03T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/story_1400_deepseek_kart.png"
+ },
+ {
+  "id": "2026-11-03_1700_story_duyuru",
+  "hedef": "2026-11-03T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/story_1700_duyuru.png"
+ },
+ {
+  "id": "2026-11-03_1800_reel_left_join_where",
+  "hedef": "2026-11-03T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/reel_left_join_where.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/reel_left_join_where_kapak.png",
+  "aciklama": "SQL mülakat sorusu #3: LEFT JOIN yazdım, müşterilerin yarısı kayboldu. Neden?\n\nLEFT JOIN önce sol tablodaki tüm müşterileri getirir; eşleşmeyenlerin sağ tablo sütunları NULL olur. Sonra WHERE s.durum = 'teslim' çalışır: 'iptal' ve NULL satırlar elenir. LEFT JOIN sessizce INNER JOIN'e döner.\n\nDoğrusu: koşulu ON içine taşı → LEFT JOIN siparisler s ON s.musteri_id = m.id AND s.durum = 'teslim'. 4 müşterinin 4'ü de gelir.\nKural: sağ tablonun filtresi ON'a, sol tablonun filtresi WHERE'e.\n\nSQL öğrenen bir arkadaşına gönder, kaydet. Bu tuzağa sen de düştün mü? Evet mi hayır mı, yorumlara yaz.\n\n#sql #sqlöğren #sqlmülakat #veribilimi #leftjoin"
+ },
+ {
+  "id": "2026-11-03_2130_story_ozet",
+  "hedef": "2026-11-03T21:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/story_2130_ozet.png"
+ },
+ {
+  "id": "2026-11-03_2300_story_iyigeceler",
+  "hedef": "2026-11-03T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/story_iyigeceler.png"
  }
 ]
