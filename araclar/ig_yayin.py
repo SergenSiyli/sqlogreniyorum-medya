@@ -30,6 +30,8 @@ DURUM = os.path.join(KUYRUK, "durum")
 PENCERE_DK = 80        # bu çalışmanın üstlendiği ileri pencere
 GEC_KALMA_DK = 60      # bundan daha geç kalmış gönderi yayınlanmaz, "kaçırıldı" yazılır
 HAZIRLIK_DK = {"REEL": 7, "STORY": 2, "CAROUSEL": 5}   # konteyner hedef saatten bu kadar önce hazırlanır
+ZINCIR_UYKU_DK = 25    # zincir: en fazla bu kadar bekleyip bir sonraki çalışmayı kendisi başlatır
+ZINCIR_UFUK_SA = 14    # bu kadar saat içinde bekleyen gönderi varsa zincir sürer
 
 
 def token():
@@ -180,8 +182,44 @@ def yayin():
             hatalar += 1
             print(f"  HATA: {e}", flush=True)
             kaydet(o, {"durum": "hata", "hata": str(e)[:500], "zaman": simdi().isoformat(timespec="seconds")})
+    try:
+        zincir()
+    except Exception as e:  # zincir hatası yayını etkilemez; cron yedek olarak sürer
+        print(f"zincir hatası: {e}", flush=True)
     if hatalar:
         sys.exit(f"{hatalar} gönderi yayınlanamadı")
+
+
+def zincir():
+    """GitHub cron'u saatlerce gecikebiliyor/atlanabiliyor (1 Kasım 2026). Bu yüzden her yayın çalışması,
+    bekleyen gönderi varsa en fazla ZINCIR_UYKU_DK bekleyip bir sonraki çalışmayı workflow_dispatch ile
+    kendisi başlatır. Cron yalnızca zincir koparsa yedektir. Concurrency grubu aynı anda tek çalışma sağlar."""
+    tok, repo = os.environ.get("GITHUB_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
+    if not tok or not repo:
+        return
+    subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
+    n = simdi()
+    bekleyen = []
+    for g in (n.date(), n.date() + dt.timedelta(days=1)):
+        yol = os.path.join(KUYRUK, f"{g.isoformat()}.json")
+        if os.path.exists(yol):
+            with open(yol) as f:
+                for o in json.load(f):
+                    h = dt.datetime.fromisoformat(o["hedef"]).replace(tzinfo=TZ)
+                    if not yapildi(o["id"]) and h > n - dt.timedelta(minutes=GEC_KALMA_DK):
+                        bekleyen.append(h)
+    if not bekleyen or min(bekleyen) - n > dt.timedelta(hours=ZINCIR_UFUK_SA):
+        print("zincir: yakında bekleyen gönderi yok, cron'a bırakıldı", flush=True)
+        return
+    uyan = min(n + dt.timedelta(minutes=ZINCIR_UYKU_DK), min(bekleyen) - dt.timedelta(minutes=PENCERE_DK - 10))
+    print(f"zincir: sonraki gönderi {min(bekleyen):%d.%m %H:%M}, {uyan:%H:%M}'de yeni çalışma başlatılacak", flush=True)
+    bekle(uyan)
+    req = urllib.request.Request(
+        f"https://api.github.com/repos/{repo}/actions/workflows/instagram-yayin.yml/dispatches",
+        data=json.dumps({"ref": "main", "inputs": {"mod": "yayin"}}).encode(), method="POST",
+        headers={"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        print(f"zincir: yeni çalışma başlatıldı ({r.status})", flush=True)
 
 
 def kontrol():
