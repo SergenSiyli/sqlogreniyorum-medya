@@ -1,10 +1,10 @@
 {
- "zaman": "2026-11-01T07:33:12+03:00",
+ "zaman": "2026-11-01T22:01:23+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 264,
  "hesap": {
   "id": "17841460768999553",
-  "media_count": 63,
+  "media_count": 65,
   "username": "sqlogreniyorum"
  },
  "kota": {
@@ -20,6 +20,15 @@
  },
  "durum": "ok",
  "medya": {
-  "https://static.metricool.com/planner/202610/7731743-file-2062633325038864914.png": "image/png"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/story_gunaydin.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/story_1000_soru.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/reel_deepseek_superagent.mp4": "video/mp4",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/reel_deepseek_superagent_kapak.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/story_1400_deepseek_kart.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/story_1700_duyuru.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/reel_left_join_where.mp4": "video/mp4",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/reel_left_join_where_kapak.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/story_2130_ozet.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0d4e994548eae6366627add067a837b7410f88e6/gun/2026-11-03/story_iyigeceler.png": "image/png"
  }
 }
