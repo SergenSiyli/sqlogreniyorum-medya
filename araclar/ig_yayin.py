@@ -22,10 +22,19 @@ import urllib.parse
 import urllib.request
 from zoneinfo import ZoneInfo
 
-IG_ID = "17841460768999553"  # @sqlogreniyorum Instagram hesap kimliği (Meta panelinden)
 TZ = ZoneInfo("Europe/Istanbul")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-KUYRUK = os.path.join(ROOT, "kuyruk")
+# Çoklu hesap: HESAP ortam değişkeni. Varsayılan sqlogreniyorum (kuyruk/ klasörü, IG_TOKEN sırrı).
+# Diğer hesaplar: hesaplar/<hesap>/kuyruk/, hesaplar/<hesap>/hesap.json {"ig_id": ...}, sır IG_TOKEN_<HESAP>.
+HESAP = os.environ.get("HESAP", "sqlogreniyorum").strip() or "sqlogreniyorum"
+VARSAYILAN = HESAP == "sqlogreniyorum"
+IG_ID = "17841460768999553"  # @sqlogreniyorum Instagram hesap kimliği (Meta panelinden)
+if not VARSAYILAN:
+    with open(os.path.join(ROOT, "hesaplar", HESAP, "hesap.json")) as _f:
+        IG_ID = str(json.load(_f).get("ig_id", ""))
+KUYRUK = os.path.join(ROOT, "kuyruk") if VARSAYILAN else os.path.join(ROOT, "hesaplar", HESAP, "kuyruk")
+TOKEN_ADI = "IG_TOKEN" if VARSAYILAN else "IG_TOKEN_" + HESAP.upper()
+WORKFLOW = os.environ.get("WORKFLOW_DOSYA", "instagram-yayin.yml")
 DURUM = os.path.join(KUYRUK, "durum")
 PENCERE_DK = 80        # bu çalışmanın üstlendiği ileri pencere
 GEC_KALMA_DK = 60      # bundan daha geç kalmış gönderi yayınlanmaz, "kaçırıldı" yazılır
@@ -35,9 +44,9 @@ ZINCIR_UFUK_SA = 14    # bu kadar saat içinde bekleyen gönderi varsa zincir s�
 
 
 def token():
-    t = os.environ.get("IG_TOKEN", "").strip()
+    t = os.environ.get(TOKEN_ADI, "").strip()
     if not t:
-        sys.exit("IG_TOKEN depo sırrı tanımlı değil (Settings > Secrets and variables > Actions).")
+        sys.exit(f"{TOKEN_ADI} depo sırrı tanımlı değil (Settings > Secrets and variables > Actions).")
     return t
 
 
@@ -48,6 +57,8 @@ def api():
 
 def hesap_id():
     if token().startswith("EAA"):
+        if not IG_ID:
+            raise RuntimeError(f"hesaplar/{HESAP}/hesap.json içinde ig_id yok")
         return IG_ID
     return istek("GET", "me", fields="user_id")["user_id"]
 
@@ -97,7 +108,7 @@ def kaydet(oge, sonuc):
         json.dump({"id": oge["id"], "hedef": oge["hedef"], "tur": oge["tur"], **sonuc}, f, ensure_ascii=False, indent=1)
     for deneme in range(5):
         subprocess.run(["git", "add", yol], cwd=ROOT, check=True)
-        subprocess.run(["git", "commit", "-qm", f"yayın durumu: {oge['id']} ({sonuc['durum']})"], cwd=ROOT)
+        subprocess.run(["git", "commit", "-qm", f"[{HESAP}] yayın durumu: {oge['id']} ({sonuc['durum']})"], cwd=ROOT)
         subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
         if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
             return
@@ -215,7 +226,7 @@ def zincir():
     print(f"zincir: sonraki gönderi {min(bekleyen):%d.%m %H:%M}, {uyan:%H:%M}'de yeni çalışma başlatılacak", flush=True)
     bekle(uyan)
     req = urllib.request.Request(
-        f"https://api.github.com/repos/{repo}/actions/workflows/instagram-yayin.yml/dispatches",
+        f"https://api.github.com/repos/{repo}/actions/workflows/{WORKFLOW}/dispatches",
         data=json.dumps({"ref": "main", "inputs": {"mod": "yayin"}}).encode(), method="POST",
         headers={"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"})
     with urllib.request.urlopen(req, timeout=30) as r:
@@ -247,11 +258,59 @@ def kontrol():
         json.dump(sonuc, f, ensure_ascii=False, indent=1)
     print(json.dumps(sonuc, ensure_ascii=False))
     subprocess.run(["git", "add", yol], cwd=ROOT, check=True)
-    subprocess.run(["git", "commit", "-qm", "API bağlantı kontrolü: " + sonuc["durum"]], cwd=ROOT)
+    subprocess.run(["git", "commit", "-qm", f"[{HESAP}] API bağlantı kontrolü: " + sonuc["durum"]], cwd=ROOT)
     subprocess.run(["git", "push", "-q"], cwd=ROOT)
     if sonuc["durum"] != "ok":
         sys.exit(1)
 
 
+def analiz():
+    """Hesap analizi için ham veri: profil + son 200 gönderi (+ erişilebilirse içgörüler) -> <kuyruk>/../analiz/."""
+    uid = hesap_id()
+    out = {"zaman": simdi().isoformat(timespec="seconds"), "hesap": HESAP}
+    try:
+        out["profil"] = istek("GET", uid, fields="username,name,biography,followers_count,follows_count,media_count,website")
+    except Exception as e:
+        out["profil_hata"] = str(e)[:300]
+    medya, sonraki, sayfa = [], None, 0
+    alanlar = "id,caption,media_type,media_product_type,timestamp,like_count,comments_count,permalink"
+    while sayfa < 8:
+        p = {"fields": alanlar, "limit": 25}
+        if sonraki:
+            p["after"] = sonraki
+        r = istek("GET", f"{uid}/media", **p)
+        medya += r.get("data", [])
+        sonraki = r.get("paging", {}).get("cursors", {}).get("after")
+        sayfa += 1
+        if not r.get("paging", {}).get("next"):
+            break
+    for m in medya[:60]:
+        metr = "reach,saved,shares,total_interactions" + (",views" if m.get("media_product_type") == "REELS" else "")
+        try:
+            m["icgoru"] = {d["name"]: d["values"][0]["value"] for d in istek("GET", f"{m['id']}/insights", metric=metr)["data"]}
+        except Exception as e:
+            m["icgoru_hata"] = str(e)[:160]
+    out["medya"] = medya
+    try:
+        out["hesap_icgoru"] = istek("GET", f"{uid}/insights", metric="reach,follower_count", period="day")
+    except Exception as e:
+        out["hesap_icgoru_hata"] = str(e)[:300]
+    try:
+        out["kitle"] = istek("GET", f"{uid}/insights", metric="follower_demographics", period="lifetime",
+                             metric_type="total_value", breakdown="age,gender")
+    except Exception as e:
+        out["kitle_hata"] = str(e)[:300]
+    d = os.path.join(os.path.dirname(KUYRUK), "analiz")
+    os.makedirs(d, exist_ok=True)
+    yol = os.path.join(d, f"veri_{simdi():%Y-%m-%d}.json")
+    with open(yol, "w") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1)
+    subprocess.run(["git", "add", yol], cwd=ROOT, check=True)
+    subprocess.run(["git", "commit", "-qm", f"[{HESAP}] analiz verisi ({len(medya)} gönderi)"], cwd=ROOT)
+    subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
+    subprocess.run(["git", "push", "-q"], cwd=ROOT)
+    print(f"analiz: {len(medya)} gönderi yazıldı -> {yol}", flush=True)
+
+
 if __name__ == "__main__":
-    {"kontrol": kontrol, "yayin": yayin}[sys.argv[1] if len(sys.argv) > 1 else "yayin"]()
+    {"kontrol": kontrol, "yayin": yayin, "analiz": analiz}[sys.argv[1] if len(sys.argv) > 1 else "yayin"]()

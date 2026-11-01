@@ -1,0 +1,44 @@
+name: Instagram yayın (utopikanne)
+
+# utopikanne hesabı: hesaplar/utopikanne/kuyruk/*.json. Kuyruktaki gönderileri resmi Instagram API ile tam hedef saatinde yayınlar.
+# Her çalışma önümüzdeki 80 dakikayı üstlenir, hedef saate kadar bekler; sonra bekleyen gönderi varsa
+# ≤25 dk bekleyip sonraki çalışmayı kendisi başlatır (zincir). Cron (07:07–22:57 İstanbul, 10 dk) yalnızca yedek.
+on:
+  schedule:
+    - cron: "7,17,27,37,47,57 4-19 * * *"
+  workflow_dispatch:
+    inputs:
+      mod:
+        description: "kontrol = anahtarı test et, yayin = kuyruğu işle"
+        default: kontrol
+        type: choice
+        options: [kontrol, yayin, analiz]
+      ek:
+        description: "kontrol için isteğe bağlı medya adresleri (boşlukla)"
+        default: ""
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: instagram-yayin-utopikanne
+  cancel-in-progress: false
+
+jobs:
+  yayin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - name: Git kimliği
+        run: |
+          git config user.name "utopikanne-ekip"
+          git config user.email "actions@users.noreply.github.com"
+      - name: Yayınla
+        env:
+          IG_TOKEN_UTOPIKANNE: ${{ secrets.IG_TOKEN_UTOPIKANNE }}
+          HESAP: utopikanne
+          WORKFLOW_DOSYA: instagram-yayin-utopikanne.yml
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 araclar/ig_yayin.py "${{ github.event.inputs.mod || 'yayin' }}" ${{ github.event.inputs.ek }}
