@@ -22,7 +22,7 @@ permissions:
   actions: write
 
 concurrency:
-  group: instagram-yayin-utopikanne
+  group: instagram-yayin-utopikanne-${{ github.event.inputs.mod || 'yayin' }}
   cancel-in-progress: false
 
 jobs:

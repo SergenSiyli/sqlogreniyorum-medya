@@ -22,7 +22,7 @@ permissions:
   actions: write
 
 concurrency:
-  group: instagram-yayin
+  group: instagram-yayin-${{ github.event.inputs.mod || 'yayin' }}
   cancel-in-progress: false
 
 jobs:
