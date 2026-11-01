@@ -259,7 +259,11 @@ def kontrol():
     print(json.dumps(sonuc, ensure_ascii=False))
     subprocess.run(["git", "add", yol], cwd=ROOT, check=True)
     subprocess.run(["git", "commit", "-qm", f"[{HESAP}] API bağlantı kontrolü: " + sonuc["durum"]], cwd=ROOT)
-    subprocess.run(["git", "push", "-q"], cwd=ROOT)
+    for _ in range(5):
+        subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
+        if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
+            break
+        time.sleep(3)
     if sonuc["durum"] != "ok":
         sys.exit(1)
 
