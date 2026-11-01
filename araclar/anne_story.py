@@ -105,7 +105,12 @@ def zemin(ust=KREM, alt=(246, 232, 220)):
     return img, d
 
 
+def tr_buyuk(t):
+    return t.replace("i", "İ").replace("ı", "I").upper()
+
+
 def etiket(d, x, y, text, bg=SEFTALI, fg=BEYAZ, s=30, center=False):
+    text = tr_buyuk(text)
     f = font("ExtraBold", s)
     w = d.textlength(text, font=f) + 48
     if center:
@@ -150,7 +155,7 @@ def kase(d, cx, cy, w=300, renk=ADACAYI, ici=TURUNCU):
     d.rectangle([cx - w / 2, cy + 13, cx + w / 2, cy + 19], fill=(130, 158, 128))
     d.rounded_rectangle([cx - 60, cy + 140, cx + 60, cy + 160], radius=10, fill=renk)
     # kaşık
-    d.line([(cx + 40, cy - 30), (cx + 210, cy - 190)], fill=KAHVE, width=16)
+    d.line([(cx + 40, cy - 30), (cx + 125, cy - 105)], fill=KAHVE, width=16)
     d.ellipse([cx + 15, cy - 60, cx + 75, cy - 5], fill=KAHVE)
 
 
@@ -164,7 +169,7 @@ def havuc(d, cx, cy, s=1.0):
 
 def balkabagi(d, cx, cy, s=1.0):
     for dx, ww in ((-55, 90), (55, 90), (0, 100)):
-        d.ellipse([cx + dx * s - ww * s, cy - 80 * s, cx + dx * s + ww * s, cy + 80 * s], fill=TURUNCU)
+        d.ellipse([cx + dx * s - ww * s, cy - 80 * s, cx + dx * s + ww * s, cy + 80 * s], fill=SARI)
     for dx in (-45, 45):
         d.arc([cx + dx * s - 40 * s, cy - 78 * s, cx + dx * s + 40 * s, cy + 78 * s], 100, 260 if dx < 0 else 440,
               fill=(205, 105, 50), width=int(5 * s))
@@ -230,13 +235,16 @@ def gunaydin(path, bilgi, kaynak, baslik="Günaydın"):
 
 def tarif_karti(path, seri, ay, baslik, malzemeler, adimlar, saklama, dikkat, kaynak, cizim="havuc"):
     img, d = zemin(KREM, (247, 230, 216))
-    etiket(d, 90, 250, seri.upper(), bg=ADACAYI)
+    etiket(d, 90, 250, seri, bg=ADACAYI)
     f = font("ExtraBold", 30)
     aw = d.textlength(ay, font=f) + 48
     etiket(d, 990 - aw, 250, ay, bg=SEFTALI)
     y = yaz(d, (90, 340), baslik, font("Black", 92), KAHVE, max_w=560, sp=1.1)
-    kase(d, 840, 430, w=260)
-    (havuc if cizim == "havuc" else balkabagi)(d, 690, 400, 0.55)
+    kase(d, 840, 455, w=260)
+    if cizim == "havuc":
+        havuc(d, 680, 430, 0.55)
+    else:
+        balkabagi(d, 650, 545, 0.42)
     y = max(y, 600) + 10
     # malzemeler
     d.text((90, y), "Malzemeler", font=font("ExtraBold", 44), fill=TURUNCU)
@@ -265,7 +273,7 @@ def tarif_karti(path, seri, ay, baslik, malzemeler, adimlar, saklama, dikkat, ka
 
 def hamilelik_haftasi(path, seri, hafta, boy, bilgi, ipucu, kaynak):
     img, d = zemin((248, 238, 232), (240, 222, 214))
-    etiket(d, 0, 250, seri.upper(), bg=ADACAYI, center=True)
+    etiket(d, 0, 250, seri, bg=ADACAYI, center=True)
     takvim(d, 540, 520, hafta, w=280)
     y = yaz(d, (0, 720), f"Hamileliğin {hafta}. haftası", font("Black", 74), KAHVE, center=True)
     y += 20
@@ -290,7 +298,7 @@ def hamilelik_haftasi(path, seri, hafta, boy, bilgi, ipucu, kaynak):
 
 def efsane_gercek(path, efsane, gercek, kaynak, seri=None):
     img, d = zemin(KREM, (244, 232, 222))
-    y = etiket(d, 0, 250, (seri or "EFSANE Mİ, GERÇEK Mİ?").upper(), bg=KAHVE, center=True)
+    y = etiket(d, 0, 250, (seri or "Efsane mi, gerçek mi?"), bg=KAHVE, center=True)
     y = yaz(d, (0, y + 40), "Efsane mi,\ngerçek mi?", font("Black", 96), KAHVE, center=True, sp=1.1) + 30
     # efsane kartı
     el = wrap(d, efsane, font("SemiBold", 44), 780)
@@ -317,7 +325,7 @@ def efsane_gercek(path, efsane, gercek, kaynak, seri=None):
 
 def kontrol_listesi(path, etiket_metni, baslik, maddeler, kaynak, numarali=False, not_metni=None):
     img, d = zemin(KREM, (238, 236, 222))
-    etiket(d, 0, 250, etiket_metni.upper(), bg=ADACAYI if not numarali else SEFTALI, center=True)
+    etiket(d, 0, 250, etiket_metni, bg=ADACAYI if not numarali else SEFTALI, center=True)
     y = yaz(d, (0, 345), baslik, font("Black", 78), KAHVE, center=True, max_w=900, sp=1.12) + 40
     for i, m in enumerate(maddeler, 1):
         lines = wrap(d, m, font("SemiBold", 42), 740)
