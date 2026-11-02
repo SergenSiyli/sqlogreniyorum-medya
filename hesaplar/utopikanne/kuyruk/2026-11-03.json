@@ -21,18 +21,18 @@
   "not": "renkli stil (2 Kasım)"
  },
  {
-  "id": "2026-11-03_1430_story_efsane",
+  "id": "2026-11-03_1430_story_lohusa",
   "hedef": "2026-11-03T14:30",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@be2b68c4399e48372074d4cfea8b7b5c4cf9a8df/hesaplar/utopikanne/gun/2026-11-03/story_1430_efsane.png",
-  "not": "renkli stil (2 Kasım)"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a5749580b01e4d79de6f9b350fc059bf3929a48e/hesaplar/utopikanne/gun/2026-11-03/story_1430_lohusa.png",
+  "not": "konu çeşitliliği düzeltmesi (2 Kasım gece)"
  },
  {
-  "id": "2026-11-03_1630_story_liste",
+  "id": "2026-11-03_1630_story_efsane",
   "hedef": "2026-11-03T16:30",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@be2b68c4399e48372074d4cfea8b7b5c4cf9a8df/hesaplar/utopikanne/gun/2026-11-03/story_1630_liste.png",
-  "not": "renkli stil (2 Kasım)"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a5749580b01e4d79de6f9b350fc059bf3929a48e/hesaplar/utopikanne/gun/2026-11-03/story_1630_efsane.png",
+  "not": "konu çeşitliliği düzeltmesi (2 Kasım gece)"
  },
  {
   "id": "2026-11-03_1830_story_kontrol",
