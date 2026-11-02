@@ -30,3 +30,12 @@ Kanca: her Reels ilk karede tam görünen soru/hata/etki cümlesiyle açılıyor
 - Karar: "kaybolan/yanlış satır" kancası (NULL'un kazanan açısı) SQL Mülakat Sorusu #3'te kullanıldı (LEFT JOIN + WHERE, 3 Kasım 18:00). Kural: SQL kancası = somut bir veri kaybı/yanlış sonuç + sayı ("4 müşteri vardı, 2 satır geldi").
 - Haber: 31 Ekim-1 Kasım'da yaygın uygulamalara dokunan iki kaynaklı haber çıkmadı; 3 Kasım'da DeepSeek Super-Agent (kod ajanı) işlendi. Kitle verisi (kaydetme) teknik haberlerde düşükse 4 Kasım'dan itibaren haber seçiminde "kullanıcı uygulaması" önceliği sürer.
 - Sıradaki seri: #4 CTE ya da tekrar eden kayıtları temizleme (ROW_NUMBER) — Trend Avcısı önerisi pencere fonksiyonları.
+
+## Haftalık plan (2 Kasım 2026 Pazartesi turu)
+- Takipçi: 1.507 (Metricool, 31 Ekim; 1-2 Kasım verisi henüz yok). 26-31 Ekim: +17 / -6 → net +11. Hedef (14 günde +40-70) gerisinde.
+- Bu hafta hedefi: 1.540 (net +30/hafta). Sıradaki ara hedef: 2.000.
+- Son 7 gün Reels 3 sn izlenme: LIKE #1 %39,7 (erişim 1.228, 17 kaydetme; en iyi), NULL %35,3 (1.328), çalışma sırası %34,8, Apple Numbers %34,0, Gemini 4 Carbon %29,1, Genie 4 %18,7, Gemini dosya düzenleme %19,2 (erişim 146; en kötü). SQL Reels erişimi haberin 3-8 katı.
+- Hipotez (bu hafta test): "Mülakat Sorusu #N + ilk karede yanlış sonuç" kancası SQL'de %38+ 3 sn verir; haberde en yaygın uygulama (ChatGPT/WhatsApp) + "artık/yakında sen X" kancası %30 altına düşmez. Ölçüm 6 Kasım akşamı.
+- Devam: SQL Mülakat serisi (#3 3 Kasım, #4 4 Kasım tekrar eden kayıtlar/ROW_NUMBER). Sıradaki #5: CTE ya da IN/EXISTS.
+- Durdur: Teknik/kurumsal haber (model puanları, kurumsal araçlar). Haber yalnızca kitlenin kullandığı uygulamadan.
+- 6 Kasım akşamı: veri iki hafta üst üste SQL lehine çıkarsa öneri günde 2 SQL'e yakın (haber 1/2 güne).
