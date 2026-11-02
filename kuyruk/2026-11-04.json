@@ -1,8 +1,60 @@
 [
  {
+  "id": "2026-11-04_0900_story_gunaydin",
+  "hedef": "2026-11-04T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb619d4f261ca5ab6b8159ee06a6c3bea815be39/gun/2026-11-04/story_gunaydin.png"
+ },
+ {
+  "id": "2026-11-04_1000_story_soru",
+  "hedef": "2026-11-04T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb619d4f261ca5ab6b8159ee06a6c3bea815be39/gun/2026-11-04/story_1000_soru.png"
+ },
+ {
+  "id": "2026-11-04_1100_reel_chatgpt_chat_work",
+  "hedef": "2026-11-04T11:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb619d4f261ca5ab6b8159ee06a6c3bea815be39/gun/2026-11-04/reel_chatgpt_chat_work.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb619d4f261ca5ab6b8159ee06a6c3bea815be39/gun/2026-11-04/reel_chatgpt_chat_work_kapak.png",
+  "aciklama": "Sohbet ettiğin yapay zekâ yakında işi de bitirecek: ChatGPT masaüstü uygulamasında Chat ve Work sekmeleri birleşiyor.\n\nOpenAI'ın kullanıcılara gönderdiği e-postaya göre dosyalarını ve eklentilerini sohbete getirip ChatGPT'ye web sitesi, sunum hazırlatabilecek ya da web'de iş yaptırabileceksin. Codex ayrı bölüm olarak kalıyor. Şirketin açıklamasına göre ChatGPT ve Codex aynı kullanım hakkını paylaşacak; OpenAI'a göre çoğu kullanıcı bunu fark etmeyecek, ama bazıları limitin sıfırlanmasını daha sık bekleyebilir. Özellik önce seçili kullanıcılara açılıyor; tarih verilmedi, web ve mobile gelip gelmeyeceği de belli değil.\n\nBunu bilmesi gereken birine gönder, kaydet. ChatGPT'yi en çok ne için kullanıyorsun: sohbet mi, ödev mi, kod mu? Yorumlara tek kelimeyle yaz.\n\nKaynak: TechCrunch, tbreak (2 Kasım 2026)\n\n#yapayzeka #yapayzekahaberleri #teknolojihaberleri #chatgpt"
+ },
+ {
+  "id": "2026-11-04_1400_story_chatgpt_kart",
+  "hedef": "2026-11-04T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb619d4f261ca5ab6b8159ee06a6c3bea815be39/gun/2026-11-04/story_1400_chatgpt_kart.png"
+ },
+ {
+  "id": "2026-11-04_1700_story_duyuru",
+  "hedef": "2026-11-04T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb619d4f261ca5ab6b8159ee06a6c3bea815be39/gun/2026-11-04/story_1700_duyuru.png"
+ },
+ {
+  "id": "2026-11-04_1800_reel_tekrar_kayit",
+  "hedef": "2026-11-04T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb619d4f261ca5ab6b8159ee06a6c3bea815be39/gun/2026-11-04/reel_tekrar_kayit.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb619d4f261ca5ab6b8159ee06a6c3bea815be39/gun/2026-11-04/reel_tekrar_kayit_kapak.png",
+  "aciklama": "SQL mülakat sorusu #4: Tekrar eden kayıtları nasıl silersin? DISTINCT yazdım, 6 satır yine 6 satır geldi.\n\nNeden? DISTINCT satırın tüm sütunlarına bakar. Aynı kişinin kayıtlarında id farklı olduğu için (1, 3, 6) satırlar \"farklı\" sayılır. Tekrarı belirleyen sütunu sen seçmelisin.\n\nDoğrusu: ROW_NUMBER() OVER (PARTITION BY email ORDER BY id) ile her kişinin kayıtlarını numarala. rn = 1 kalır, rn > 1 kopyadır ve silinir. Sonuç: 6 kayıttan 3 tekil kayıt.\n\nSQL öğrenen bir arkadaşına gönder, kaydet. Sen kopyaları hangi sütuna göre ayırırdın: email mi, telefon mu? Yorumlara tek kelimeyle yaz.\n\n#sql #sqlöğren #sqlmülakat #veribilimi #rownumber"
+ },
+ {
   "id": "2026-11-04_2000_story_quiz",
   "hedef": "2026-11-04T20:00",
   "tur": "STORY",
   "medya": "https://static.metricool.com/planner/202610/7731743-file-2431702698998827026.png"
+ },
+ {
+  "id": "2026-11-04_2130_story_ozet",
+  "hedef": "2026-11-04T21:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb619d4f261ca5ab6b8159ee06a6c3bea815be39/gun/2026-11-04/story_2130_ozet.png"
+ },
+ {
+  "id": "2026-11-04_2300_story_iyigeceler",
+  "hedef": "2026-11-04T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb619d4f261ca5ab6b8159ee06a6c3bea815be39/gun/2026-11-04/story_iyigeceler.png"
  }
 ]
