@@ -3,8 +3,13 @@
 ## Hedef ve ara hedefler
 4.046 → 10 bin → 50 bin → 100 bin → 500 bin → 1 milyon. İlk ara hedef 10 bin: 90 günde (~66 net takipçi/gün) — bu hız ancak Melike'nin haftada en az 4 Reels'iyle mümkün; hikâyeler takipçi kazanmaz, tutar ve dönüştürür.
 
-## Günlük 8 hikâye (ilk hafta)
-08:30 Günaydın + tek doğrulanmış bilgi · 10:30 Ek gıda tarifi #N · 12:30 Hafta hafta hamilelik #N · 14:30 Efsane mi, gerçek mi? · 16:30 Ek gıda listesi (hazırlık işaretleri, kıvam, bu ay ne başlanır) · 18:30 Kontrol listesi · 20:30 "Size soruyoruz" (DM'den cevap) · 22:30 İyi geceler + bilgi.
+## Günlük 8 hikâye (v2 — 4 Kasım'dan itibaren)
+08:30 Günaydın + doğrulanmış hap bilgi · 10:30 Ek gıda tarifi #N · 12:30 Hamilelik hafta #N / doğum / lohusalık (dönüşümlü) · 14:30 Emzirme & mama #N / doğum sonrası (dönüşümlü) · 16:30 Hap bilgi #N / efsane mi gerçek mi / güncel anne haberi (dönüşümlü) · 18:30 Temizlik tüyosu #N / kontrol listesi · 20:30 "Size soruyoruz" (DM'den cevap) · 22:30 İyi geceler + bilgi.
+Aynı gün aynı konudan en fazla 2 hikâye. Seri numaraları sürer (tarif, hafta, emzirme, hap, temizlik).
+
+## Konu havuzu (1 Kasım hesap sahibi listesi + araştırma)
+- Ek gıda tarifleri (tek bileşenli püreler → karışımlar → parmak yiyecekler) · Hamilelik hafta hafta · Doğum (normal/sezaryen tarafsız, "doktorunuzla konuşun") · Lohusalık, baby blues / doğum sonrası depresyon farkı (resmi kaynak, uzmana başvurma çağrısı, acilde 112) · Doğum sonrası kilo (yalnızca sağlıklı, genel, kaynaklı; kalori/kilo hedefi, detoks, öncesi-sonrası YOK) · Emzirme ve mama (yargısız; DSÖ/UNICEF ilk 6 ay yalnızca anne sütü önerisi doğru aktarılır; mama hazırlama hijyeni; marka yok) · Bebek beslenmesi · Temizlik (biberon/emzik, oyuncak, mama sandalyesi, bebek odası, leke; kimyasal karıştırma YOK, marka yok) · Güncel anne haberleri (son 7 gün, ≥2 güvenilir kaynak, siyasi yorum yok) · Hap bilgiler (diş çıkarma, gelişim, uyku).
+- Sıradaki adaylar: aşı takvimi (Sağlık Bakanlığı), kış: oda ısısı/giydirme, hastane çantası, emzik temizliği, mama sandalyesi temizliği, demir içeren ilk gıdalar, emzirmede doğru tutuş, mama hazırlama hijyeni, lohusalıkta dinlenme ve destek.
 
 ## 30 günlük plan
 - Hafta 1 (2–8 Kas): Seriler başlar: Tarif #1–7 (tek bileşenli sebze/meyve püreleri), Hamilelik hafta 4–10, güvenli uyku & boğulma önlemleri.
@@ -21,8 +26,12 @@ Resmi kaynak (Sağlık Bakanlığı, DSÖ, UNICEF, AAP, ACOG, NHS, NSF, TPD/TJOD
 
 ## Hashtag rehberi (Melike'nin gönderi/Reels açıklamaları için)
 - Hikâyelerde hashtag kullanmıyoruz: API ile tıklanabilir hashtag çıkartması eklenemiyor, görsele yazılan # tıklanmıyor.
-- Instagram gönderi başına en fazla 5 hashtag'e izin veriyor. 3–5 adet: 1 geniş (#annelik), 2 Türkçe niş (#ekgıda, #ekgıdatarifleri, #hamilelik, #bebekbeslenmesi), 1 içeriğe özel (#6ayektarif gibi).
+- Instagram gönderi başına en fazla 5 hashtag'e izin veriyor. 3–5 adet: 1 geniş (#annelik), 2 Türkçe niş (#ekgıda, #ekgıdatarifleri, #hamilelik, #bebekbeslenmesi, #lohusalık, #emzirme), 1 içeriğe özel (#6ayektarif gibi).
 - #keşfet, #takip ve alakasız popüler etiket yok. Açıklamanın ilk cümlesine aranan anahtar kelimeyi yazın ("6 aylık bebek için havuç püresi tarifi...").
+
+## Görsel kimlik (v2 — 2 Kasım)
+Renkli şablonlar: araclar/anne_renkli.py. İmza renkleri: tarif mercan/şeftali, hamilelik lila, lohusa pudra pembe, emzirme/mama gök mavisi, temizlik nane, haber limon, efsane pembe/nane, hap mercan+limon. İyi geceler eski gece şablonu (korunuyor).
 
 ## Bu tur değiştirdiğimiz
 - v1: başlangıç planı.
+- 2 Kasım: Renkli görsel kimliğe geçildi (2 Kas 12:30 sonrası ve 3 Kas yeniden üretildi; 2 Kas 10:30 yayın çalışmasına çoktan yüklendiği için eski stilde kaldı). Günlük plan v2: emzirme/mama, temizlik ve hap bilgi serileri eklendi; 4 Kasım ilk uygulama.

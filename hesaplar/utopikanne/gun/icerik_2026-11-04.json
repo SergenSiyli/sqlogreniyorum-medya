@@ -1,0 +1,97 @@
+{
+ "2026-11-04": [
+  {
+   "saat": "08:30",
+   "sablon": "gunaydin",
+   "bilgi": "Bebekler insan sesini diğer seslere tercih eder. 1 aylık olunca bebeğiniz, başka odada olsanız bile sizi sesinizden tanıyabilir.",
+   "kaynak": "AAP (HealthyChildren.org)"
+  },
+  {
+   "saat": "10:30",
+   "sablon": "tarif",
+   "seri": "Ek gıda tarifi #3",
+   "ay": "6+ ay",
+   "baslik": "Brokoli püresi",
+   "malzemeler": [
+    "1 orta boy brokoli (yaklaşık 200 g)",
+    "Su (haşlamak için)"
+   ],
+   "adimlar": [
+    "Sapları ayırın, çiçekleri yıkayıp bölün.",
+    "Kaynar suda 8 dakika kadar yumuşatın.",
+    "Süzüp çatalla ezin ya da blenderdan geçirin.",
+    "Gerekirse anne sütü ya da mamayla açıp soğutun."
+   ],
+   "saklama": "Kalanı soğutup küçük kaplarda ya da buz kalıbında dondurun.",
+   "dikkat": "Tuz ve şeker eklemeyin, haşlama suyuna da. Yerken bebeğin yanından ayrılmayın.",
+   "kaynak": "NHS Start for Life",
+   "cizim": "brokoli"
+  },
+  {
+   "saat": "12:30",
+   "sablon": "hamilelik",
+   "seri": "Hafta hafta hamilelik #3",
+   "hafta": 6,
+   "boy": "Bezelye tanesi kadar",
+   "bilgi": "Embriyo yaklaşık 6 mm. Kollar, bacaklar ve kulaklar oluşmaya başlıyor; karaciğer ve beyin de gelişiyor.",
+   "ipucu": "Çay, kahve ve kafeinli içecekleri azaltın; sigara ve alkolden uzak durun.",
+   "kaynak": "NHS"
+  },
+  {
+   "saat": "14:30",
+   "sablon": "emzirme",
+   "seri": "Emzirme & mama #1",
+   "baslik": "Yeterince süt alıyor mu?",
+   "bilgi": "Emzirmenin iyi gittiğini gösteren işaretler:",
+   "maddeler": [
+    "5. günden itibaren günde en az 6 ağır, ıslak bez",
+    "4. günden, ilk haftalarda günde en az 2 sarı, yumuşak kaka",
+    "3-4. günden sonra düzenli kilo alımı",
+    "Uyanıkken canlı ve sağlıklı görünmesi"
+   ],
+   "not": "Endişeniz olursa erkenden doktorunuza danışın.",
+   "kaynak": "NHS"
+  },
+  {
+   "saat": "16:30",
+   "sablon": "hap",
+   "seri": "Hap bilgi #1",
+   "baslik": "6. ay civarı",
+   "bilgi": "Çoğu bebekte diş çıkarma 6. ay civarında başlar; ilk çıkanlar genelde ön dişlerdir. Süt dişleri çoğunlukla 2-3 yaşında tamamlanır.",
+   "kaynak": "NHS"
+  },
+  {
+   "saat": "18:30",
+   "sablon": "temizlik",
+   "seri": "Temizlik tüyosu #1",
+   "baslik": "Biberon temizliği",
+   "maddeler": [
+    "Beslenmeden sonra en kısa sürede sıcak, sabunlu suyla yıkayın.",
+    "Sterilize etmeden önce soğuk akan suyla durulayın.",
+    "Kaynatırken tamamen suya batırın, en az 10 dakika.",
+    "Bulaşık makinesi temizler ama sterilize etmez."
+   ],
+   "uyari": "En az 12 aylık olana dek sterilize edin. Biberon ucunu tuzla temizlemeyin.",
+   "kaynak": "NHS"
+  },
+  {
+   "saat": "20:30",
+   "sablon": "dm",
+   "soru": "Bebeğinizin ilk dişi kaç aylıkken çıktı?",
+   "secenekler": [
+    "4 aydan önce",
+    "4-6 ay",
+    "7-12 ay",
+    "Henüz yok"
+   ],
+   "cagri": "Cevabınızı DM'den yazın. Sorularınız yeni hikâyelere ilham olsun."
+  },
+  {
+   "saat": "22:30",
+   "sablon": "iyi_geceler",
+   "baslik": "Uykulu ama uyanık",
+   "bilgi": "4 aylıktan itibaren bebeğinizi uykulu ama uyanıkken yatırın; kendi kendine uykuya dalmayı öğrenir.",
+   "kaynak": "AAP"
+  }
+ ]
+}
