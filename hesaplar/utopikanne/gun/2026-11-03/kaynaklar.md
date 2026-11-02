@@ -63,3 +63,24 @@ Doğrulayıcı: bağımsız sağlık doğrulaması (taslak: `../icerik_taslak_02
 ## 22:30 · İyi geceler — Oda sıcaklığı — **ONAY**
 - NHS: "keep the room at a temperature between about 16 to 20C"; "Overheating can increase the risk of SIDS." ✓
 - URL: https://www.nhs.uk/baby/caring-for-a-newborn/reduce-the-risk-of-sudden-infant-death-syndrome/
+
+---
+
+## 3 Kasım güncelleme (14:30 lohusalık, 16:30 emzirme efsanesi)
+Doğrulama tarihi: 2026-11-02.
+
+### 14:30 · Baby blues mu, depresyon mu? — **ONAY**
+- Hüzün, kaygı, sinirlilik çok yaygın; 2 haftada geçer: NHS "Feeling down, anxious or irritable for a few days after your baby is born is very common... usually goes away within 2 weeks of the birth" ✓
+- Yardım işaretleri (sürerse / kötüleşirse / başa çıkamıyorsanız): NHS "if it continues, gets worse or you're struggling to cope, it's important to get help" ✓
+- Doktor/ebe: NHS "Speak to your GP, midwife or health visitor" ✓
+- 112: NHS sayfasında yok; Türkiye acil numarası olarak yerelleştirme, uygun.
+- İsteğe bağlı: "Belirtilerin yalnızca bazıları olsa bile yardım isteyin." (NHS "even if you only have some of the signs")
+- URL: https://www.nhs.uk/mental-health/conditions/postnatal-depression/
+
+### 16:30 · Efsane — Küçük göğüs az süt yapar — **ONAY**
+- Göğüs büyüklüğü belirlemez: UNICEF "Breast size does not determine milk production; milk supply is based on demand and the baby's needs." ✓
+- Arz-talep, sık emzirme = daha çok süt: NHS "Generally, the more your baby feeds, the more breast milk you'll produce"; "supply and demand system" ✓ (NHS sayfası göğüs büyüklüğünden söz etmiyor; o iddia UNICEF'e dayanıyor)
+- URL'ler:
+  - https://www.unicef.org/india/stories/mothers-milk-nectar-child
+  - https://www.nhs.uk/best-start-in-life/baby/feeding-your-baby/breastfeeding/breastfeeding-challenges/milk-supply/
+  - https://www.unicef.org/eca/stories/breastfeeding-science-milk-production

@@ -132,23 +132,24 @@
   },
   {
    "saat": "14:30",
-   "sablon": "efsane",
-   "efsane": "Bir kaşık bal 1 yaşından küçük bebeğe zarar vermez.",
-   "gercek": "1 yaşından küçük bebeklere bal verilmez. Bal, bebeklerde botulizme yol açabilen bakteri sporları içerebilir.",
-   "kaynak": "NHS, AAP"
+   "sablon": "lohusa",
+   "seri": "Doğum sonrası #1",
+   "baslik": "Baby blues mu, depresyon mu?",
+   "bilgi": "Doğumdan sonraki günlerde hüzün, kaygı ve sinirlilik çok yaygındır. Buna baby blues denir; genellikle 2 hafta içinde geçer.",
+   "maddeler": [
+    "2 haftadan uzun sürüyorsa",
+    "Giderek kötüleşiyorsa",
+    "Başa çıkmakta zorlanıyorsanız"
+   ],
+   "not": "Yardım isteyin: doktorunuza ya da ebenize başvurun. Acil durumda 112.",
+   "kaynak": "NHS"
   },
   {
    "saat": "16:30",
-   "sablon": "liste",
-   "etiket": "KIVAM YOLCULUĞU",
-   "baslik": "Ek gıdada kıvam adım adım ilerler",
-   "maddeler": [
-    "Başta: pürüzsüz püreler ve yumuşak, eli tutacak boyda parmak yiyecekler.",
-    "Sonra: ezilmiş, hafif pütürlü kıvamlar.",
-    "Zamanla: küçük, yumuşak doğranmış parçalar ve aile yemeklerinin tuzsuz hali."
-   ],
-   "not": "Her bebeğin hızı farklıdır. Yemek sırasında bebeği yalnız bırakmayın.",
-   "kaynak": "NHS Start for Life"
+   "sablon": "efsane",
+   "efsane": "Küçük göğüsler daha az süt yapar.",
+   "gercek": "Göğüs büyüklüğü süt miktarını belirlemez. Süt arz-talep ile oluşur: bebek ne kadar sık emerse o kadar çok süt üretilir.",
+   "kaynak": "UNICEF, NHS"
   },
   {
    "saat": "18:30",
