@@ -1,0 +1,98 @@
+{
+ "2026-11-05": [
+  {
+   "saat": "08:30",
+   "sablon": "gunaydin",
+   "bilgi": "4 ay civarında bebekler \"ooo\", \"aaa\" diye agular; siz konuşunca sesle karşılık verir. Bugün bolca sohbet edin.",
+   "kaynak": "CDC"
+  },
+  {
+   "saat": "10:30",
+   "sablon": "tarif",
+   "seri": "Ek gıda tarifi #4",
+   "ay": "6+ ay",
+   "baslik": "Karnabahar püresi",
+   "malzemeler": [
+    "Birkaç karnabahar çiçeği (yaklaşık 150 g)",
+    "Su (haşlamak için)"
+   ],
+   "adimlar": [
+    "Çiçekleri ayırıp iyice yıkayın.",
+    "Buharda ya da az suda yumuşatın.",
+    "Çatalla ezin ya da blenderdan geçirin.",
+    "Gerekirse anne sütü ya da mamayla açın."
+   ],
+   "saklama": "Kalanı soğutup küçük kaplarda ya da buz kalıbında dondurun.",
+   "dikkat": "Tuz ve şeker eklemeyin, haşlama suyuna da. Yerken bebeğin yanından ayrılmayın.",
+   "kaynak": "NHS Start for Life",
+   "cizim": "karnabahar"
+  },
+  {
+   "saat": "12:30",
+   "sablon": "hamilelik",
+   "seri": "Hafta hafta hamilelik #4",
+   "hafta": 7,
+   "boy": "Üzüm tanesi kadar",
+   "bilgi": "Embriyo yaklaşık 10 mm. Beyin vücuttan hızlı büyüyor; göz kapakları oluşuyor, burun ve kulakların yeri belirginleşiyor.",
+   "ipucu": "Gün boyu düzenli sıvı için. İki kişilik yemenize gerek yok.",
+   "kaynak": "NHS"
+  },
+  {
+   "saat": "14:30",
+   "sablon": "lohusa",
+   "seri": "Doğum sonrası #2",
+   "baslik": "Yorgunlukla baş etmek",
+   "bilgi": "Doğumdan sonraki haftalarda yorgunluk çok yaygındır. Küçük adımlar fark yaratır:",
+   "maddeler": [
+    "Bebek uyurken siz de dinlenin.",
+    "Gece işlerini eşinizle ya da bir yakınınızla paylaşın.",
+    "Yakınlarınızdan yardım isteyin.",
+    "Bebekle kısa yürüyüşlere çıkın."
+   ],
+   "not": "Bebek uyurken bile uyuyamıyorsanız ya da sürekli bitkinseniz doktorunuza danışın.",
+   "kaynak": "NHS"
+  },
+  {
+   "saat": "16:30",
+   "sablon": "haber",
+   "baslik": "Annelik Yolculuğu 5 yaşa kadar genişliyor",
+   "ozet": "Sağlık Bakanlığı'nın ücretsiz uygulaması hamilelikten 2 yaşa kadar takip sunuyordu. 20 Kasım'daki güncellemeyle gelişim, beslenme ve aşı içerikleri 5 yaşa kadar genişleyecek; e-Nabız hatırlatmaları gelecek.",
+   "tarih": "30 Ekim 2026",
+   "kaynak": "AA, Medimagazin"
+  },
+  {
+   "saat": "18:30",
+   "sablon": "kontrol",
+   "etiket": "KONTROL LİSTESİ",
+   "baslik": "Hastane çantası",
+   "maddeler": [
+    "Doğum planı ve hastane belgeleri",
+    "Önden açılan gecelik ve terlik",
+    "Göğüs pedi ve lohusa pedi",
+    "Kullandığınız ilaçlar",
+    "Bebeğe zıbın, şapka, bez, çıkış kıyafeti"
+   ],
+   "not": "Termin tarihinden en az 3 hafta önce hazırlayın.",
+   "kaynak": "NHS"
+  },
+  {
+   "saat": "20:30",
+   "sablon": "dm",
+   "soru": "Hastane çantasına mutlaka ne koyarsınız?",
+   "secenekler": [
+    "Kendi yastığım",
+    "Uzun şarj kablosu",
+    "Atıştırmalık",
+    "Terlik"
+   ],
+   "cagri": "Cevabınızı DM'den yazın. Sorularınız yeni hikâyelere ilham olsun."
+  },
+  {
+   "saat": "22:30",
+   "sablon": "iyi_geceler",
+   "baslik": "Ayaklar ayak ucuna",
+   "bilgi": "Bebeği sırtüstü, ayakları beşiğin alt ucuna değecek şekilde yatırın; örtü altına kaymasını önler.",
+   "kaynak": "NHS"
+  }
+ ]
+}

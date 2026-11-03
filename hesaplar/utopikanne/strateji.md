@@ -35,3 +35,4 @@ Renkli şablonlar: araclar/anne_renkli.py. İmza renkleri: tarif mercan/şeftali
 ## Bu tur değiştirdiğimiz
 - v1: başlangıç planı.
 - 2 Kasım: Renkli görsel kimliğe geçildi (2 Kas 12:30 sonrası ve 3 Kas yeniden üretildi; 2 Kas 10:30 yayın çalışmasına çoktan yüklendiği için eski stilde kaldı). Günlük plan v2: emzirme/mama, temizlik ve hap bilgi serileri eklendi; 4 Kasım ilk uygulama.
+- 3 Kasım gece: 5 Kasım ilk "Güncel" haber hikâyesi (16:30) ve hastane çantası listesi; karnabahar çizimi eklendi. Ek gıda kotası günde 1 (tarif) tutuldu; bal efsanesi yedekte.

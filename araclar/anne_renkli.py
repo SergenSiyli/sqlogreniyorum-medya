@@ -246,7 +246,7 @@ def gunes(d, cx, cy, r=105):
 
 PURE = {"havuc": (255, 150, 60), "balkabagi": (255, 176, 60), "brokoli": (120, 190, 90), "elma": (250, 220, 150),
         "armut": (228, 226, 140), "avokado": (170, 210, 110), "kabak": (190, 220, 130), "patates": (240, 214, 150),
-        "muz": (255, 228, 140)}
+        "muz": (255, 228, 140), "karnabahar": (240, 226, 186)}
 
 
 def kase(d, cx, cy, w=270, renk=NANE, ici=(255, 150, 60), koyu=K_NANE):
@@ -282,6 +282,15 @@ def sebze(d, ad, cx, cy, s=1.0):
             d.ellipse([cx + (dx - r) * s, cy + (dy - r) * s, cx + (dx + r) * s, cy + (dy + r) * s], fill=(84, 160, 80))
         for dx, dy in ((-40, -30), (20, -70), (45, -5), (-5, -20)):
             d.ellipse([cx + (dx - 8) * s, cy + (dy - 8) * s, cx + (dx + 8) * s, cy + (dy + 8) * s], fill=(120, 190, 100))
+    elif ad == "karnabahar":
+        for dx, dy, a in ((-80, 40, -35), (80, 40, 35), (0, 70, 0)):
+            d.ellipse([cx + (dx - 40) * s, cy + (dy - 22) * s, cx + (dx + 40) * s, cy + (dy + 22) * s],
+                      fill=(110, 180, 100))
+        for dx, dy, r in ((-55, -5, 50), (55, -5, 50), (0, -50, 58), (-28, 25, 42), (28, 25, 42)):
+            d.ellipse([cx + (dx - r) * s, cy + (dy - r) * s, cx + (dx + r) * s, cy + (dy + r) * s],
+                      fill=(250, 240, 214), outline=(214, 196, 150), width=max(2, int(4 * s)))
+        for dx, dy in ((-40, -25), (20, -65), (45, 0), (-5, -15), (0, 30)):
+            d.ellipse([cx + (dx - 9) * s, cy + (dy - 9) * s, cx + (dx + 9) * s, cy + (dy + 9) * s], fill=(236, 222, 186))
     elif ad == "elma":
         d.ellipse([cx - 95 * s, cy - 70 * s, cx + 5 * s, cy + 90 * s], fill=(236, 80, 90))
         d.ellipse([cx - 5 * s, cy - 70 * s, cx + 95 * s, cy + 90 * s], fill=(236, 80, 90))
