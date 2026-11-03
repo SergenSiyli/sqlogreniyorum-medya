@@ -39,3 +39,9 @@ Kanca: her Reels ilk karede tam görünen soru/hata/etki cümlesiyle açılıyor
 - Devam: SQL Mülakat serisi (#3 3 Kasım, #4 4 Kasım tekrar eden kayıtlar/ROW_NUMBER). Sıradaki #5: CTE ya da IN/EXISTS.
 - Durdur: Teknik/kurumsal haber (model puanları, kurumsal araçlar). Haber yalnızca kitlenin kullandığı uygulamadan.
 - 6 Kasım akşamı: veri iki hafta üst üste SQL lehine çıkarsa öneri günde 2 SQL'e yakın (haber 1/2 güne).
+
+## Durum (3 Kasım 2026 gece turu)
+- Takipçi: 1.516 (Metricool, 1 Kasım; 2-3 Kasım verisi henüz yok). 27 Ekim-1 Kasım: +29 / -6 → net +23. Haftalık hedef 1.540 yolunda; ara hedef 2.000.
+- Son 7 gün Reels 3 sn: LIKE #1 %40,2 (en iyi, erişim 1.294), İkinci en yüksek maaş #2 %37,5, NULL %35,7; Gemini dosya %21,2 (en kötü, erişim 194), WhatsApp kapak %27,0. Ort. ~%30 (hedef ≥%35). (Kaydetme+paylaşım)/erişim ≈ %1,8 (hedef ≥%5) — asıl darboğaz.
+- Karar: haber Reels'inde video içi paylaşım çağrısı hedef kişiye özel ("Ne izleyeceğini seçemeyen birine gönder"); bilgi kartı story'sinde "ekran görüntüsünü al" kaydetme çağrısı. 6 Kasım akşamı ölçülecek.
+- 5 Kasım: 11:00 SQL (WHERE/HAVING, eski kalıp, kuyrukta), 18:00 haber (Netflix AI Discover). Sıradaki SQL Mülakat #5: LAG/LEAD (Trend Avcısı önerisi) ya da CTE.
