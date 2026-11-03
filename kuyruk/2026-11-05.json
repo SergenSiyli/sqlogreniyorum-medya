@@ -1,9 +1,21 @@
 [
  {
+  "id": "2026-11-05_0845_story_gunaydin",
+  "hedef": "2026-11-05T08:45",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@09cfd580e8a1075a5d9c27db133e21e34731a9ed/gun/2026-11-05/story_gunaydin.png"
+ },
+ {
   "id": "2026-11-05_0900_story_cevap",
   "hedef": "2026-11-05T09:00",
   "tur": "STORY",
   "medya": "https://static.metricool.com/planner/202610/7731743-file-6124537266690008612.png"
+ },
+ {
+  "id": "2026-11-05_1000_story_soru",
+  "hedef": "2026-11-05T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@09cfd580e8a1075a5d9c27db133e21e34731a9ed/gun/2026-11-05/story_1000_soru.png"
  },
  {
   "id": "2026-11-05_1100_reel_where_having",
@@ -12,5 +24,37 @@
   "medya": "https://static.metricool.com/planner/202610/7731743-file-2374464643925108557.mp4",
   "kapak": "https://static.metricool.com/planner/202610/7731743-file-11579281865165689101.png",
   "aciklama": "SQL'de WHERE mi HAVING mi? Farkı 25 saniyede öğren.\n\nWHERE gruplamadan önce tek tek satırları filtreler. HAVING gruplamadan sonra grupları filtreler.\nKural: COUNT, SUM, AVG gibi bir toplama sonucuna göre filtreliyorsan HAVING.\n\nKaydet, bir arkadaşına gönder. Sen hangisini daha çok karıştırıyordun? Yorumlara yaz.\n\n#sql #sqlöğren #veritabanı #verianalizi #yazılım"
+ },
+ {
+  "id": "2026-11-05_1400_story_where_having_kart",
+  "hedef": "2026-11-05T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@09cfd580e8a1075a5d9c27db133e21e34731a9ed/gun/2026-11-05/story_1400_where_having_kart.png"
+ },
+ {
+  "id": "2026-11-05_1700_story_duyuru",
+  "hedef": "2026-11-05T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@09cfd580e8a1075a5d9c27db133e21e34731a9ed/gun/2026-11-05/story_1700_duyuru.png"
+ },
+ {
+  "id": "2026-11-05_1800_reel_netflix_ai_discover",
+  "hedef": "2026-11-05T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@09cfd580e8a1075a5d9c27db133e21e34731a9ed/gun/2026-11-05/reel_netflix_ai_discover.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@09cfd580e8a1075a5d9c27db133e21e34731a9ed/gun/2026-11-05/reel_netflix_ai_discover_kapak.png",
+  "aciklama": "Ne izleyeceğini artık yapay zekâ seçiyor: Netflix, TV uygulamasında AI Discover sekmesini test etmeye başladı.\n\nWhat's on Netflix ve TheWrap'in 3 Kasım 2026 haberlerine göre sekme \"Scare Me\", \"Quick Watches\" gibi temalarla öneri listeleri sunuyor; her temada kısa bir klip önizlemesi var. \"Something Different\" ile yepyeni bir liste isteyebiliyor, beğenmediğin öneriyi işaretleyebiliyorsun. Şimdilik yalnızca ABD'de, Netflix'i İngilizce kullanan küçük bir grupta ve desteklenen TV'lerde. Şirket bunu bir test olarak tanımlıyor; özellikler geri bildirime göre korunabilir ya da geliştirilebilir. Türkiye için tarih açıklanmadı.\n\nBunu bilmesi gereken birine gönder, kaydet. Ne izleyeceğini yapay zekâya bırakır mısın? Evet mi hayır mı, yorumlara tek kelimeyle yaz.\n\nKaynak: What's on Netflix, TheWrap (3 Kasım 2026)\n\n#yapayzeka #yapayzekahaberleri #teknolojihaberleri #netflix"
+ },
+ {
+  "id": "2026-11-05_2130_story_ozet",
+  "hedef": "2026-11-05T21:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@09cfd580e8a1075a5d9c27db133e21e34731a9ed/gun/2026-11-05/story_2130_ozet.png"
+ },
+ {
+  "id": "2026-11-05_2300_story_iyigeceler",
+  "hedef": "2026-11-05T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@09cfd580e8a1075a5d9c27db133e21e34731a9ed/gun/2026-11-05/story_iyigeceler.png"
  }
 ]
