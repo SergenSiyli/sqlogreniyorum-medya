@@ -1,5 +1,25 @@
 [
  {
+  "id": "2026-11-06_0900_story_gunaydin",
+  "hedef": "2026-11-06T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-06/story_gunaydin.png"
+ },
+ {
+  "id": "2026-11-06_1000_story_soru",
+  "hedef": "2026-11-06T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-06/story_1000_soru.png"
+ },
+ {
+  "id": "2026-11-06_1100_reel_google_okul_arama",
+  "hedef": "2026-11-06T11:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-06/reel_google_okul_arama.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-06/reel_google_okul_arama_kapak.png",
+  "aciklama": "Okulun yapay zekâyı kapatırsa Google Arama da kapanabilir: Google, ABD'deki okul öğrenci hesaplarında (K-12) yapay zekâ araçları ve Arama için yeni kurallar getiriyor.\n\n9to5Google, Forbes, CBS News ve TechCrunch'ın 3-4 Kasım 2026 haberlerine göre okul hesaplarında Gemini ve Google Arama varsayılan olarak kapalı geliyor; açmak için okul yöneticisinin onay vermesi gerekiyor. Google'ın eğitimden sorumlu başkan yardımcısı Chris Phillips'in New York Times'a sözlerine göre yapay zekâyı açmayan okullardaki öğrenciler Arama'ya erişemeyecek. TechCrunch'ın aktardığı açıklamada ise Google, Gemini ve Arama'nın ayrı ayrı açılabileceğini ve amacın \"daha az değil, daha fazla seçenek\" olduğunu söylüyor. Değişiklik 2027'de devreye girecek. Türkiye için bir açıklama yok.\n\nBunu bilmesi gereken birine gönder, kaydet. Sence okulda yapay zekâ ile Arama'nın aynı ayara bağlanması mantıklı mı? Yorumlara yaz.\n\nKaynak: 9to5Google, Forbes, CBS News, TechCrunch (3-4 Kasım 2026)\n\n#yapayzeka #yapayzekahaberleri #teknolojihaberleri #google"
+ },
+ {
   "id": "2026-11-06_1230_carousel_rank",
   "hedef": "2026-11-06T12:30",
   "tur": "CAROUSEL",
@@ -13,5 +33,49 @@
    "https://static.metricool.com/planner/202610/7731743-file-5201698443848771591.png"
   ],
   "aciklama": "SQL mülakat sorusu: ROW_NUMBER, RANK ve DENSE_RANK arasındaki fark ne?\n\nEşit değerlerde üçü farklı numara verir. 7 slaytta örnekli anlatım + gerçek hayattan \"her kategoride en çok satan 2 ürün\" sorgusu.\n\nMülakatta karşılaştığın SQL sorusunu yorumlara yaz, çözümünü videoyla anlatalım.\n\n#sql #sqlmülakat #windowfunctions #veribilimi #sqlöğren"
+ },
+ {
+  "id": "2026-11-06_1330_story_ilham_15dk",
+  "hedef": "2026-11-06T13:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-06/story_1330_ilham_15dk.png"
+ },
+ {
+  "id": "2026-11-06_1400_story_google_kart",
+  "hedef": "2026-11-06T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-06/story_1400_google_kart.png"
+ },
+ {
+  "id": "2026-11-06_1600_story_hap_fotograflar",
+  "hedef": "2026-11-06T16:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-06/story_1600_hap_fotograflar.png"
+ },
+ {
+  "id": "2026-11-06_1700_story_duyuru",
+  "hedef": "2026-11-06T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-06/story_1700_duyuru.png"
+ },
+ {
+  "id": "2026-11-06_1800_trialreel_lag_fark",
+  "hedef": "2026-11-06T18:00",
+  "tur": "TRIAL_REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-06/reel_lag_fark.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-06/reel_lag_fark_kapak.png",
+  "aciklama": "SQL mülakat sorusu #5: Her gün bir önceki güne göre satış ne kadar değişti?\n\n5 günlük satış tablosunda fark sorgusunu \"bir gün önceki tarihle\" JOIN ederek yazarsan sonuç 3 satır gelir. Çünkü 4 Kasım'da kayıt yok: 5 Kasım eşleşecek satırı bulamaz ve düşer. 1 Kasım'ın da öncesi yok. Çözüm: LAG(adet) OVER (ORDER BY gun). LAG takvimdeki dünü değil, sıradaki önceki satırı getirir; 5 satırın hepsi gelir, ilk satırın farkı NULL olur. LEAD ise sonraki satırı getirir.\n\nSQL öğrenen bir arkadaşına gönder, mülakattan önce bakmak için kaydet. Soru: LEAD(adet) OVER (ORDER BY gun) ilk satırda kaç döndürür? Yorumlara yaz.\n\n#sql #sqlöğren #teknikmülakat #veribilimi"
+ },
+ {
+  "id": "2026-11-06_2130_story_ozet",
+  "hedef": "2026-11-06T21:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-06/story_2130_ozet.png"
+ },
+ {
+  "id": "2026-11-06_2300_story_iyigeceler",
+  "hedef": "2026-11-06T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-06/story_iyigeceler.png"
  }
 ]

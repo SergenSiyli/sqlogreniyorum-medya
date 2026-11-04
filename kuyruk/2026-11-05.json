@@ -1,13 +1,13 @@
 [
  {
   "id": "2026-11-05_0845_story_gunaydin",
-  "hedef": "2026-11-05T08:45",
+  "hedef": "2026-11-05T09:00",
   "tur": "STORY",
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@09cfd580e8a1075a5d9c27db133e21e34731a9ed/gun/2026-11-05/story_gunaydin.png"
  },
  {
   "id": "2026-11-05_0900_story_cevap",
-  "hedef": "2026-11-05T09:00",
+  "hedef": "2026-11-05T09:30",
   "tur": "STORY",
   "medya": "https://static.metricool.com/planner/202610/7731743-file-6124537266690008612.png"
  },
@@ -56,5 +56,17 @@
   "hedef": "2026-11-05T23:00",
   "tur": "STORY",
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@09cfd580e8a1075a5d9c27db133e21e34731a9ed/gun/2026-11-05/story_iyigeceler.png"
+ },
+ {
+  "id": "2026-11-05_1330_story_mulakat_taktik",
+  "hedef": "2026-11-05T13:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-05/story_1330_mulakat_taktik.png"
+ },
+ {
+  "id": "2026-11-05_1600_story_hap_whatsapp",
+  "hedef": "2026-11-05T16:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@7da9961a5d32fa627a3749a411a4ae5b43a09ab3/gun/2026-11-05/story_1600_hap_whatsapp.png"
  }
 ]
