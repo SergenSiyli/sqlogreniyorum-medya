@@ -56,5 +56,12 @@
   "hedef": "2026-11-04T23:00",
   "tur": "STORY",
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb619d4f261ca5ab6b8159ee06a6c3bea815be39/gun/2026-11-04/story_iyigeceler.png"
+ },
+ {
+  "id": "2026-11-04_1645_story_chatgpt_kart_tekrar",
+  "hedef": "2026-11-04T16:45",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb619d4f261ca5ab6b8159ee06a6c3bea815be39/gun/2026-11-04/story_1400_chatgpt_kart.png",
+  "not": "14:00 kaçırıldı, yeniden"
  }
 ]

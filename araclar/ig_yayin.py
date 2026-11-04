@@ -228,8 +228,7 @@ def konteyner(uid, o):
     return bekle_hazir(istek("POST", f"{uid}/media", **p)["id"])
 
 
-def yayin():
-    uid = hesap_id()
+def yayin_turu(uid):
     hatalar = 0
     for o in adaylar():
         hazirlik = o["_h"] - dt.timedelta(minutes=HAZIRLIK_DK.get(o["tur"], 3))
@@ -247,22 +246,11 @@ def yayin():
             hatalar += 1
             print(f"  HATA: {e}", flush=True)
             kaydet(o, {"durum": "hata", "hata": str(e)[:500], "zaman": simdi().isoformat(timespec="seconds")})
-    try:
-        zincir()
-    except Exception as e:  # zincir hatası yayını etkilemez; cron yedek olarak sürer
-        print(f"zincir hatası: {e}", flush=True)
-    if hatalar:
-        sys.exit(f"{hatalar} gönderi yayınlanamadı")
+    return hatalar
 
 
-def zincir():
-    """GitHub cron'u saatlerce gecikebiliyor/atlanabiliyor (1 Kasım 2026). Bu yüzden her yayın çalışması,
-    bekleyen gönderi varsa en fazla ZINCIR_UYKU_DK bekleyip bir sonraki çalışmayı workflow_dispatch ile
-    kendisi başlatır. Cron yalnızca zincir koparsa yedektir. Concurrency grubu aynı anda tek çalışma sağlar."""
-    tok, repo = os.environ.get("GITHUB_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
-    if not tok or not repo:
-        return
-    subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
+def siradaki():
+    """Bugün/yarın bekleyen en yakın gönderinin hedef zamanı (yoksa None)."""
     n = simdi()
     bekleyen = []
     for g in (n.date(), n.date() + dt.timedelta(days=1)):
@@ -273,18 +261,67 @@ def zincir():
                     h = dt.datetime.fromisoformat(o["hedef"]).replace(tzinfo=TZ)
                     if not yapildi(o["id"]) and h > n - dt.timedelta(minutes=GEC_KALMA_DK):
                         bekleyen.append(h)
-    if not bekleyen or min(bekleyen) - n > dt.timedelta(hours=ZINCIR_UFUK_SA):
-        print("zincir: yakında bekleyen gönderi yok, cron'a bırakıldı", flush=True)
-        return
-    uyan = min(n + dt.timedelta(minutes=ZINCIR_UYKU_DK), min(bekleyen) - dt.timedelta(minutes=PENCERE_DK - 10))
-    print(f"zincir: sonraki gönderi {min(bekleyen):%d.%m %H:%M}, {uyan:%H:%M}'de yeni çalışma başlatılacak", flush=True)
-    bekle(uyan)
-    req = urllib.request.Request(
-        f"https://api.github.com/repos/{repo}/actions/workflows/{WORKFLOW}/dispatches",
-        data=json.dumps({"ref": "main", "inputs": {"mod": "yayin"}}).encode(), method="POST",
-        headers={"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        print(f"zincir: yeni çalışma başlatıldı ({r.status})", flush=True)
+    return min(bekleyen) if bekleyen else None
+
+
+CALISMA_DK = 110   # bir çalışma en fazla bu kadar döngü kurar, sonra halefini başlatır (iş zaman aşımı 240 dk)
+
+
+def yayin():
+    """4 Kasım: zincir bir kez koptu (09:40Z'de halef başlamadı, cron da 2 saat gelmedi → 14:00 story kaçtı).
+    Artık her çalışma ~110 dk boyunca kendi içinde döner (her turda git pull ile yeni kuyruğu okur),
+    sonra halefini yeniden denemeli ve doğrulamalı başlatır; başlatamazsa kendisi dönmeye devam eder."""
+    uid = hesap_id()
+    basla = time.time()
+    hatalar = 0
+    while True:
+        subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
+        hatalar += yayin_turu(uid)
+        subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
+        s = siradaki()
+        if not s or s - simdi() > dt.timedelta(hours=ZINCIR_UFUK_SA):
+            print("yakında bekleyen gönderi yok; cron'a bırakıldı", flush=True)
+            break
+        if time.time() - basla > CALISMA_DK * 60:
+            if halef_baslat():
+                break
+            if time.time() - basla > 200 * 60:  # iş zaman aşımına yaklaşıldı; cron yedek
+                break
+        uyan = min(simdi() + dt.timedelta(minutes=ZINCIR_UYKU_DK), s - dt.timedelta(minutes=PENCERE_DK - 10))
+        print(f"sıradaki gönderi {s:%d.%m %H:%M}; {uyan:%H:%M}'de yeniden bakılacak", flush=True)
+        bekle(uyan)
+    if hatalar:
+        sys.exit(f"{hatalar} gönderi yayınlanamadı")
+
+
+def halef_baslat():
+    """Sonraki çalışmayı workflow_dispatch ile başlatır; 5 deneme, oluştuğunu runs listesinden doğrular."""
+    tok, repo = os.environ.get("GITHUB_TOKEN"), os.environ.get("GITHUB_REPOSITORY")
+    if not tok or not repo:
+        return False
+    h = {"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"}
+    for deneme in range(5):
+        oncesi = dt.datetime.now(dt.timezone.utc) - dt.timedelta(seconds=5)
+        try:
+            req = urllib.request.Request(
+                f"https://api.github.com/repos/{repo}/actions/workflows/{WORKFLOW}/dispatches",
+                data=json.dumps({"ref": "main", "inputs": {"mod": "yayin"}}).encode(), method="POST", headers=h)
+            urllib.request.urlopen(req, timeout=30).close()
+            time.sleep(15)
+            with urllib.request.urlopen(urllib.request.Request(
+                    f"https://api.github.com/repos/{repo}/actions/workflows/{WORKFLOW}/runs?event=workflow_dispatch&per_page=5",
+                    headers=h), timeout=30) as r:
+                runs = json.load(r)["workflow_runs"]
+            mevcut = os.environ.get("GITHUB_RUN_ID")
+            if any(str(x["id"]) != mevcut and dt.datetime.fromisoformat(x["created_at"].replace("Z", "+00:00")) >= oncesi
+                   for x in runs):
+                print("halef çalışma başlatıldı ve doğrulandı", flush=True)
+                return True
+            print(f"halef doğrulanamadı (deneme {deneme + 1})", flush=True)
+        except Exception as e:
+            print(f"halef başlatma hatası (deneme {deneme + 1}): {e}", flush=True)
+        time.sleep(20 * (deneme + 1))
+    return False
 
 
 def kontrol():
