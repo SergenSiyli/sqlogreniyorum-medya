@@ -13,6 +13,7 @@ Kullanım:
 """
 import datetime as dt
 import json
+import re
 import os
 import subprocess
 import sys
@@ -141,6 +142,60 @@ def adaylar():
     return sorted(sec, key=lambda o: o["_h"])
 
 
+JSDELIVR_RE = re.compile(r"cdn\.jsdelivr\.net/gh/SergenSiyli/sqlogreniyorum-medya@[0-9a-f]{7,40}/(.+)$")
+
+
+def yerel_dosya(url):
+    """Kendi depomuzdaki medyanın Actions çalışma kopyasındaki yolu (yoksa None).
+    Videolar jsDelivr yerine buradan doğrudan Instagram'a yüklenir (jsDelivr kuralları toplu video barındırmayı yasaklıyor)."""
+    m = JSDELIVR_RE.search(url or "")
+    if not m:
+        return None
+    yol = os.path.join(ROOT, urllib.parse.unquote(m.group(1)))
+    return yol if os.path.isfile(yol) else None
+
+
+def video_yukle(uid, p, yol):
+    """Resumable yükleme: konteyneri upload_type=resumable ile aç, dosyayı rupload'a gönder. Konteyner id döner."""
+    p = dict(p)
+    p.pop("video_url", None)
+    p["upload_type"] = "resumable"
+    r = istek("POST", f"{uid}/media", **p)
+    cid, uri = r["id"], r.get("uri")
+    if not uri:
+        raise RuntimeError("resumable yükleme adresi dönmedi")
+    with open(yol, "rb") as f:
+        veri = f.read()
+    for deneme in range(4):
+        req = urllib.request.Request(uri, data=veri, method="POST", headers={
+            "Authorization": "OAuth " + token(), "offset": "0", "file_size": str(len(veri))})
+        try:
+            with urllib.request.urlopen(req, timeout=300) as rr:
+                sonuc = json.load(rr)
+            if not sonuc.get("success", True):
+                raise RuntimeError(f"yükleme başarısız: {sonuc}")
+            return cid
+        except urllib.error.HTTPError as e:
+            govde = e.read().decode(errors="replace")
+            if e.code >= 500 and deneme < 3:
+                time.sleep(5 * (deneme + 1))
+                continue
+            raise RuntimeError(f"yükleme {e.code}: {govde[:300]}") from None
+
+
+def bekle_hazir(cid):
+    son = time.time() + 15 * 60
+    while True:
+        st = istek("GET", cid, fields="status_code,status").get("status_code")
+        if st == "FINISHED":
+            return cid
+        if st in ("ERROR", "EXPIRED"):
+            raise RuntimeError(f"konteyner {st}")
+        if time.time() > son:
+            raise RuntimeError("konteyner 15 dk içinde hazırlanmadı")
+        time.sleep(10)
+
+
 def konteyner(uid, o):
     if o["tur"] == "STORY":
         p = {"media_type": "STORIES"}
@@ -164,17 +219,13 @@ def konteyner(uid, o):
         p = {"media_type": "CAROUSEL", "children": ",".join(cocuklar), "caption": o.get("aciklama", "")}
     else:
         raise ValueError("bilinmeyen tür " + o["tur"])
-    cid = istek("POST", f"{uid}/media", **p)["id"]
-    son = time.time() + 15 * 60
-    while True:
-        st = istek("GET", cid, fields="status_code,status").get("status_code")
-        if st == "FINISHED":
-            return cid
-        if st in ("ERROR", "EXPIRED"):
-            raise RuntimeError(f"konteyner {st}")
-        if time.time() > son:
-            raise RuntimeError("konteyner 15 dk içinde hazırlanmadı")
-        time.sleep(10)
+    yol = yerel_dosya(p.get("video_url"))
+    if yol:
+        try:
+            return bekle_hazir(video_yukle(uid, p, yol))
+        except Exception as e:  # doğrudan yükleme olmazsa eski yol (URL) yedek
+            print(f"  doğrudan video yükleme başarısız, URL ile denenecek: {e}", flush=True)
+    return bekle_hazir(istek("POST", f"{uid}/media", **p)["id"])
 
 
 def yayin():
@@ -271,6 +322,30 @@ def kontrol():
         sys.exit(1)
 
 
+def videotest():
+    """Yayınlamadan doğrudan video yüklemeyi dener: konteyner FINISHED olursa başarı. Sonuç <kuyruk>/videotest.json."""
+    yol = os.path.join(ROOT, sys.argv[2])
+    sonuc = {"zaman": simdi().isoformat(timespec="seconds"), "dosya": sys.argv[2]}
+    try:
+        uid = hesap_id()
+        t0 = time.time()
+        cid = bekle_hazir(video_yukle(uid, {"media_type": "REELS", "caption": "test"}, yol))
+        sonuc.update(durum="ok", konteyner=cid, sure_sn=round(time.time() - t0), not_="yayınlanmadı (test)")
+    except Exception as e:
+        sonuc.update(durum="hata", hata=str(e)[:600])
+    out = os.path.join(KUYRUK, "videotest.json")
+    with open(out, "w") as f:
+        json.dump(sonuc, f, ensure_ascii=False, indent=1)
+    print(json.dumps(sonuc, ensure_ascii=False), flush=True)
+    subprocess.run(["git", "add", out], cwd=ROOT, check=True)
+    subprocess.run(["git", "commit", "-qm", f"[{HESAP}] video yükleme testi: {sonuc['durum']}"], cwd=ROOT)
+    for _ in range(5):
+        subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
+        if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
+            break
+        time.sleep(3)
+
+
 def analiz():
     """Hesap analizi için ham veri: profil + son 200 gönderi (+ erişilebilirse içgörüler) -> <kuyruk>/../analiz/."""
     uid = hesap_id()
@@ -320,4 +395,4 @@ def analiz():
 
 
 if __name__ == "__main__":
-    {"kontrol": kontrol, "yayin": yayin, "analiz": analiz}[sys.argv[1] if len(sys.argv) > 1 else "yayin"]()
+    {"kontrol": kontrol, "yayin": yayin, "analiz": analiz, "videotest": videotest}[sys.argv[1] if len(sys.argv) > 1 else "yayin"]()
