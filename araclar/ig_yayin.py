@@ -38,7 +38,7 @@ WORKFLOW = os.environ.get("WORKFLOW_DOSYA", "instagram-yayin.yml")
 DURUM = os.path.join(KUYRUK, "durum")
 PENCERE_DK = 80        # bu çalışmanın üstlendiği ileri pencere
 GEC_KALMA_DK = 60      # bundan daha geç kalmış gönderi yayınlanmaz, "kaçırıldı" yazılır
-HAZIRLIK_DK = {"REEL": 7, "STORY": 2, "CAROUSEL": 5}   # konteyner hedef saatten bu kadar önce hazırlanır
+HAZIRLIK_DK = {"REEL": 7, "TRIAL_REEL": 7, "STORY": 2, "CAROUSEL": 5}   # konteyner hedef saatten bu kadar önce hazırlanır
 ZINCIR_UYKU_DK = 25    # zincir: en fazla bu kadar bekleyip bir sonraki çalışmayı kendisi başlatır
 ZINCIR_UFUK_SA = 14    # bu kadar saat içinde bekleyen gönderi varsa zincir sürer
 
@@ -145,10 +145,13 @@ def konteyner(uid, o):
     if o["tur"] == "STORY":
         p = {"media_type": "STORIES"}
         p["video_url" if o["medya"].endswith(".mp4") else "image_url"] = o["medya"]
-    elif o["tur"] == "REEL":
+    elif o["tur"] in ("REEL", "TRIAL_REEL"):
         p = {"media_type": "REELS", "video_url": o["medya"], "caption": o.get("aciklama", ""), "share_to_feed": "true"}
         if o.get("kapak"):
             p["cover_url"] = o["kapak"]
+        if o["tur"] == "TRIAL_REEL":  # deneme Reels: önce yalnızca takip etmeyenlere gösterilir
+            p.pop("share_to_feed")
+            p["trial_params"] = json.dumps({"graduation_strategy": "SS_PERFORMANCE"})
     elif o["tur"] == "CAROUSEL":
         cocuklar = []
         for m in o["medya"]:
