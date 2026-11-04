@@ -45,3 +45,9 @@ Kanca: her Reels ilk karede tam görünen soru/hata/etki cümlesiyle açılıyor
 - Son 7 gün Reels 3 sn: LIKE #1 %40,2 (en iyi, erişim 1.294), İkinci en yüksek maaş #2 %37,5, NULL %35,7; Gemini dosya %21,2 (en kötü, erişim 194), WhatsApp kapak %27,0. Ort. ~%30 (hedef ≥%35). (Kaydetme+paylaşım)/erişim ≈ %1,8 (hedef ≥%5) — asıl darboğaz.
 - Karar: haber Reels'inde video içi paylaşım çağrısı hedef kişiye özel ("Ne izleyeceğini seçemeyen birine gönder"); bilgi kartı story'sinde "ekran görüntüsünü al" kaydetme çağrısı. 6 Kasım akşamı ölçülecek.
 - 5 Kasım: 11:00 SQL (WHERE/HAVING, eski kalıp, kuyrukta), 18:00 haber (Netflix AI Discover). Sıradaki SQL Mülakat #5: LAG/LEAD (Trend Avcısı önerisi) ya da CTE.
+
+## Durum (4 Kasım 2026 gece turu)
+- Takipçi: 1.522 (Metricool, 2 Kasım; 3-4 Kasım verisi henüz yok). 28 Ekim-2 Kasım: 1.490 → 1.522, net +32 (~6/gün). Bu hızla 50.000'e ~7.500 gün: hedefin çok gerisinde.
+- Son 7 gün Reels 3 sn: SQL ort. ~%35 (LEFT JOIN #3 %41,9; LIKE #1 %40,0; #2 %37,5), haber ort. ~%25 (Apple Numbers %33,8 en iyi; Genie 4 %19,3). Erişimin ~%75'i SQL Reels'ten. (Kaydetme+paylaşım)/erişim: 132/6.572 = %2,0 (hedef ≥%5).
+- Bu tur değiştirdiğimiz: (1) İlk DENEME Reels'i 6 Kasım 18:00 (SQL Mülakat #5, LAG; takip etmeyenlere gider → yeni takipçi kanalı). Hafta için 1 deneme daha (7-8 Kasım, SQL tuzağı). (2) Günde 8 story: 13:30 kariyer/ilham + 16:00 hap haber eklendi; "Teknik Mülakat Taktiği #1" serisi başladı. (3) Haber seçimi öğrenci gündemine yöneldi (Google okul hesapları).
+- Sıradaki SQL: CTE (#6), IN/EXISTS, SUM() OVER. 6 Kasım akşamı sütun oranı önerisi: veri SQL lehine, +1 SQL önerilecek.
