@@ -9,3 +9,6 @@ Medya adresleri: `https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@<
 (raw.githubusercontent.com mp4'ü application/octet-stream sunduğu için KULLANMA.)
 
 Yayınlanan/hatalı/kaçırılan her öğe `durum/<id>.json` dosyasına yazılır. `kontrol.json` son bağlantı testidir.
+
+**Videolar (4 Kasım):** Kuyruktaki mp4 adresi kendi depomuzu gösteriyorsa (jsDelivr URL'si), `ig_yayin.py` videoyu Actions'taki çalışma kopyasından doğrudan Instagram'a yükler (resumable upload); jsDelivr yalnızca yedektir. Bu yüzden yayınlanmamış videoları depodan SİLME. Görseller (PNG) hâlâ jsDelivr URL'siyle verilir.
+**Depo boyutu:** Her ayın 1'inde `gh api repos/SergenSiyli/sqlogreniyorum-medya --jq .size` (KB) kontrol et; 700 MB'ı geçerse hesap sahibine yeni depoya geçiş öner (geçmişi silmek onaysız yapılmaz).
