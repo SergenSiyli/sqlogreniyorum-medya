@@ -21,6 +21,7 @@ def uret(tarih, o, cikis=None):
     os.makedirs(klasor, exist_ok=True)
     p = os.path.join(klasor, dosya_adi(o))
     s = o["sablon"]
+    R.CTA = o.get("cta")
     if s == "gunaydin":
         R.gunaydin(p, o["bilgi"], o["kaynak"])
     elif s == "tarif":
@@ -43,6 +44,9 @@ def uret(tarih, o, cikis=None):
     elif s in ("kontrol", "liste"):
         R.kontrol_listesi(p, o["etiket"], o["baslik"], o["maddeler"], o["kaynak"], numarali=(s == "liste"),
                           not_metni=o.get("not"))
+    elif s == "kalori":
+        R.kalori(p, o.get("seri"), o["baslik"], o["formul"], o["ornek"], o["bilgi"], o["kaynak"],
+                 o.get("not", "Bilgilendirme amaçlıdır."))
     elif s == "dm":
         R.dm_cagrisi(p, o["soru"], o["secenekler"], o["cagri"])
     elif s == "iyi_geceler":

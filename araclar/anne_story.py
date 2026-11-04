@@ -69,7 +69,7 @@ def iyi_geceler(path, baslik, bilgi, kaynak, alt="Tatlı rüyalar, yarın sabah 
     d.rounded_rectangle([90, kart_y, 990, kart_y + h], radius=44, fill=(250, 243, 235))
     d.rounded_rectangle([130, kart_y + 40, 130 + d.textlength("BİLİYOR MUYDUN?", font=font("ExtraBold", 30)) + 44, kart_y + 92],
                         radius=26, fill=SEFTALI)
-    d.text((152, kart_y + 50), "BİLİYOR MUYDUN?", font=font("ExtraBold", 30), fill=(255, 255, 255))
+    d.text((152, kart_y + 50), "BİLİYOR MUYDUN?", font=font("ExtraBold", 30), fill=(74, 30, 42))
     yy = yaz(d, (130, kart_y + 125), baslik, font("ExtraBold", 54), KAHVE, max_w=820, sp=1.25)
     yy = yaz(d, (130, yy + 8), bilgi, font("SemiBold", 46), KAHVE, max_w=820, sp=1.3)
     d.text((130, kart_y + h - 60 - (38 if saglik else 0)), "Kaynak: " + kaynak, font=font("Medium", 28), fill=SOLUK)

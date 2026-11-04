@@ -46,6 +46,7 @@ TEMA = {
     "kontrol": ((228, 248, 238), (242, 234, 255), [NANE, LILA, GOK], K_NANE, (230, 246, 238)),
     "liste": ((242, 234, 255), (228, 248, 238), [LILA, NANE, PUDRA], K_LILA, (240, 232, 254)),
     "dm": ((255, 230, 240), (240, 232, 255), [PUDRA, LILA, MERCAN], K_PEMBE, (255, 234, 242)),
+    "kalori": ((255, 246, 196), (222, 248, 236), [LIMON, NANE, SEFTALI], K_NANE, (255, 248, 214)),
 }
 
 
@@ -189,6 +190,9 @@ def golge_rengi(tur):
     return tuple(int(c[k] * .55 + alt[k] * .45) for k in range(3))
 
 
+CTA = None  # anne_gun her hikâye için ayarlar (ör. "Kaydet, lazım olur")
+
+
 def alt_bilgi(d, kaynak=None, not_metni=SAGLIK_NOT):
     if kaynak:
         f = font("SemiBold", 28)
@@ -199,6 +203,15 @@ def alt_bilgi(d, kaynak=None, not_metni=SAGLIK_NOT):
     if not_metni:
         f = font("Medium", 26)
         d.text(((W - d.textlength(not_metni, font=f)) / 2, 1544), not_metni, font=f, fill=SOLUK)
+    if CTA:
+        f = font("ExtraBold", 28)
+        t = tr_buyuk(CTA)
+        w = d.textlength(t, font=f) + 56
+        d.rounded_rectangle([(W - w) / 2, 1588, (W + w) / 2, 1630], radius=21, fill=MURDUM)
+        d.text(((W - d.textlength(t, font=f)) / 2, 1594), t, font=f, fill=BEYAZ)
+        f = font("Bold", 30)
+        d.text(((W - d.textlength(HANDLE, font=f)) / 2, 1648), HANDLE, font=f, fill=MURDUM)
+        return
     f = font("Bold", 32)
     d.text(((W - d.textlength(HANDLE, font=f)) / 2, 1640), HANDLE, font=f, fill=MURDUM)
 
@@ -681,7 +694,7 @@ def kontrol_listesi(path, etiket_metni, baslik, maddeler, kaynak, numarali=False
 def dm_cagrisi(path, soru, secenekler, cagri):
     def ciz(k):
         img, d = zemin("dm")
-        rozet(d, 0, 250, "Size soruyoruz", K_LILA, center=True)
+        rozet(d, 0, 250, "Sıra sende", K_LILA, center=True)
         konusma(d, 540, 460)
         y = yaz(d, 0, 640, soru, F("Black", 82, min(1, k + .1)), MURDUM, 920, 1.12, center=True) + 40
         f = F("ExtraBold", 46, k)
@@ -706,5 +719,39 @@ def dm_cagrisi(path, soru, secenekler, cagri):
         kalp(d, 540, y + 22, 28, K_PEMBE)
         y = yaz(d, 0, y + 78, cagri, F("SemiBold", 42, k), MURDUM, 880, 1.3, center=True)
         alt_bilgi(d, None, None)
+        return img, y
+    return sigdir(ciz, path)
+
+
+def terazi(d, cx, cy):
+    """Kendi vektör çizimimiz: mutfak terazisi + elma."""
+    d.rounded_rectangle([cx - 150, cy + 10, cx + 150, cy + 120], radius=34, fill=BEYAZ, outline=K_NANE, width=7)
+    d.rounded_rectangle([cx - 80, cy + 40, cx + 80, cy + 90], radius=14, fill=NANE)
+    d.text((cx - 56, cy + 40), "120 g", font=font("ExtraBold", 38), fill=K_NANE)
+    d.rounded_rectangle([cx - 170, cy - 8, cx + 170, cy + 14], radius=11, fill=K_NANE)
+    d.ellipse([cx - 62, cy - 120, cx + 62, cy - 4], fill=MERCAN)
+    d.rectangle([cx - 4, cy - 150, cx + 4, cy - 112], fill=(120, 80, 40))
+    yaprak(d, cx + 26, cy - 134, 14, K_NANE, -20)
+
+
+def kalori(path, seri, baslik, formul, ornek, bilgi, kaynak, not_metni):
+    """Kalori / besin değeri hap bilgisi (yetişkin; limon + nane). Kilo/diyet hedefi yok."""
+    def ciz(k):
+        img, d = zemin("kalori")
+        rozet(d, 0, 250, seri_no(seri, "Kalori"), K_NANE, center=True)
+        terazi(d, 540, 470)
+        y = yaz(d, 0, 640, baslik, F("Black", 80, min(1, k + .1)), MURDUM, 920, 1.1, center=True) + 30
+        # formül kartı (limon)
+        f = F("ExtraBold", 46, k)
+        th = yukseklik(d, formul, f, 820, 1.28)
+        h = 104 + th + 30
+        kart(d, y, y + h, fill=LIMON, r=40)
+        rozet(d, 130, y + 34, "FORMÜL", K_LIMON, s=28)
+        yaz(d, 0, y + 104, formul, f, MURDUM, 820, 1.28, center=True)
+        y += h + 24
+        y = bilgi_karti(d, y, "ÖRNEK", ornek, k, "kalori", s=40, wgt="SemiBold") + 4
+        y = bilgi_karti(d, y, "BİLİYOR MUSUN?", bilgi, k, "kalori", fill=(214, 244, 230), s=40, wgt="SemiBold",
+                        etiket_bg=K_NANE)
+        alt_bilgi(d, kaynak, not_metni)
         return img, y
     return sigdir(ciz, path)

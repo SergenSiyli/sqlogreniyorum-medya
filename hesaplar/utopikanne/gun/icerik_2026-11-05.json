@@ -3,8 +3,9 @@
   {
    "saat": "08:30",
    "sablon": "gunaydin",
-   "bilgi": "4 ay civarında bebekler \"ooo\", \"aaa\" diye agular; siz konuşunca sesle karşılık verir. Bugün bolca sohbet edin.",
-   "kaynak": "CDC"
+   "bilgi": "4 ay civarında bebekler \"ooo\", \"aaa\" diye agular; sen konuşunca sesle karşılık verir. Bugün bolca sohbet et.",
+   "kaynak": "CDC",
+   "cta": null
   },
   {
    "saat": "10:30",
@@ -17,15 +18,16 @@
     "Su (haşlamak için)"
    ],
    "adimlar": [
-    "Çiçekleri ayırıp iyice yıkayın.",
-    "Buharda ya da az suda yumuşatın.",
-    "Çatalla ezin ya da blenderdan geçirin.",
-    "Gerekirse anne sütü ya da mamayla açın."
+    "Çiçekleri ayırıp iyice yıka.",
+    "Buharda ya da az suda yumuşat.",
+    "Çatalla ez ya da blenderdan geçir.",
+    "Gerekirse anne sütü ya da mamayla aç."
    ],
-   "saklama": "Kalanı soğutup küçük kaplarda ya da buz kalıbında dondurun.",
-   "dikkat": "Tuz ve şeker eklemeyin, haşlama suyuna da. Yerken bebeğin yanından ayrılmayın.",
+   "saklama": "Kalanı soğutup küçük kaplarda ya da buz kalıbında dondur.",
+   "dikkat": "Tuz ve şeker ekleme, haşlama suyuna da. Yerken bebeğin yanından ayrılma.",
    "kaynak": "NHS Start for Life",
-   "cizim": "karnabahar"
+   "cizim": "karnabahar",
+   "cta": "Kaydet, lazım olur"
   },
   {
    "saat": "12:30",
@@ -34,7 +36,7 @@
    "hafta": 7,
    "boy": "Üzüm tanesi kadar",
    "bilgi": "Embriyo yaklaşık 10 mm. Beyin vücuttan hızlı büyüyor; göz kapakları oluşuyor, burun ve kulakların yeri belirginleşiyor.",
-   "ipucu": "Gün boyu düzenli sıvı için. İki kişilik yemenize gerek yok.",
+   "ipucu": "Gün boyu düzenli sıvı iç. İki kişilik yemene gerek yok.",
    "kaynak": "NHS"
   },
   {
@@ -44,13 +46,14 @@
    "baslik": "Yorgunlukla baş etmek",
    "bilgi": "Doğumdan sonraki haftalarda yorgunluk çok yaygındır. Küçük adımlar fark yaratır:",
    "maddeler": [
-    "Bebek uyurken siz de dinlenin.",
-    "Gece işlerini eşinizle ya da bir yakınınızla paylaşın.",
-    "Yakınlarınızdan yardım isteyin.",
-    "Bebekle kısa yürüyüşlere çıkın."
+    "Bebek uyurken sen de dinlen.",
+    "Gece işlerini eşinle ya da bir yakınınla paylaş.",
+    "Yakınlarından yardım iste.",
+    "Bebekle kısa yürüyüşlere çık."
    ],
-   "not": "Bebek uyurken bile uyuyamıyorsanız ya da sürekli bitkinseniz doktorunuza danışın.",
-   "kaynak": "NHS"
+   "not": "Bebek uyurken bile uyuyamıyorsan ya da sürekli bitkinsen doktoruna danış.",
+   "kaynak": "NHS",
+   "cta": "Yeni bir anneye gönder"
   },
   {
    "saat": "16:30",
@@ -58,7 +61,8 @@
    "baslik": "Annelik Yolculuğu 5 yaşa kadar genişliyor",
    "ozet": "Sağlık Bakanlığı'nın ücretsiz uygulaması hamilelikten 2 yaşa kadar takip sunuyordu. 20 Kasım'daki güncellemeyle gelişim, beslenme ve aşı içerikleri 5 yaşa kadar genişleyecek; e-Nabız hatırlatmaları gelecek.",
    "tarih": "30 Ekim 2026",
-   "kaynak": "AA, Medimagazin"
+   "kaynak": "AA, Medimagazin",
+   "cta": "Bir anneye gönder"
   },
   {
    "saat": "18:30",
@@ -69,29 +73,30 @@
     "Doğum planı ve hastane belgeleri",
     "Önden açılan gecelik ve terlik",
     "Göğüs pedi ve lohusa pedi",
-    "Kullandığınız ilaçlar",
+    "Kullandığın ilaçlar",
     "Bebeğe zıbın, şapka, bez, çıkış kıyafeti"
    ],
-   "not": "Termin tarihinden en az 3 hafta önce hazırlayın.",
-   "kaynak": "NHS"
+   "not": "Termin tarihinden en az 3 hafta önce hazırla.",
+   "kaynak": "NHS",
+   "cta": "Kaydet, lazım olur"
   },
   {
    "saat": "20:30",
    "sablon": "dm",
-   "soru": "Hastane çantasına mutlaka ne koyarsınız?",
+   "soru": "Hastane çantasına mutlaka ne koyarsın?",
    "secenekler": [
     "Kendi yastığım",
     "Uzun şarj kablosu",
     "Atıştırmalık",
     "Terlik"
    ],
-   "cagri": "Cevabınızı DM'den yazın. Sorularınız yeni hikâyelere ilham olsun."
+   "cagri": "Cevabını DM'den yaz. Bir anne adayı arkadaşına da gönder."
   },
   {
    "saat": "22:30",
    "sablon": "iyi_geceler",
    "baslik": "Ayaklar ayak ucuna",
-   "bilgi": "Bebeği sırtüstü, ayakları beşiğin alt ucuna değecek şekilde yatırın; örtü altına kaymasını önler.",
+   "bilgi": "Bebeği sırtüstü, ayakları beşiğin alt ucuna değecek şekilde yatır; örtü altına kaymasını önler.",
    "kaynak": "NHS"
   }
  ]

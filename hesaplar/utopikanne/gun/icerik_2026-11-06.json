@@ -1,0 +1,104 @@
+{
+ "2026-11-06": [
+  {
+   "saat": "08:30",
+   "sablon": "gunaydin",
+   "bilgi": "6 ay civarında bebekler tanıdık yüzleri tanır, aynada kendine bakmaktan hoşlanır ve kahkaha atar. Bugün ayna oyunu dene.",
+   "kaynak": "CDC"
+  },
+  {
+   "saat": "10:30",
+   "sablon": "tarif",
+   "seri": "Ek gıda tarifi #5",
+   "ay": "6+ ay",
+   "baslik": "Armut püresi",
+   "malzemeler": [
+    "1 olgun armut",
+    "Su (buharda pişirmek için)"
+   ],
+   "adimlar": [
+    "Armudu yıka, kabuğunu ve çekirdeğini çıkar.",
+    "Küp doğra, buharda yumuşayana dek pişir.",
+    "Çatalla ez ya da blenderdan geçir.",
+    "Ilınınca ver; gerekirse biraz suyla aç."
+   ],
+   "saklama": "Kalanı 1-2 saat içinde soğut; buzdolabında 2 gün içinde kullan ya da dondur.",
+   "dikkat": "Şeker ya da tuz ekleme. Yerken bebeğin yanından ayrılma.",
+   "kaynak": "NHS Start for Life",
+   "cizim": "armut",
+   "cta": "Kaydet, lazım olur"
+  },
+  {
+   "saat": "12:30",
+   "sablon": "hamilelik",
+   "seri": "Hafta hafta hamilelik #5",
+   "hafta": 8,
+   "boy": "Ahududu kadar",
+   "bilgi": "Bebek yaklaşık 16 mm. Başı biraz düzleşmeye başladı; baş, gözler, kollar ve bacaklar artık seçilebiliyor.",
+   "ipucu": "Bulantı varsa az ve sık ye; sade, kuru atıştırmalıklar iyi gelebilir.",
+   "kaynak": "NHS",
+   "cta": "Hamile bir arkadaşına gönder"
+  },
+  {
+   "saat": "14:30",
+   "sablon": "emzirme",
+   "seri": "Emzirme & mama #2",
+   "baslik": "Mama hazırlarken\n4 adım",
+   "bilgi": null,
+   "maddeler": [
+    "Ellerini yıka, hazırlama yüzeyini temizle.",
+    "En az 1 litre taze su kaynat; önceden kaynamış suyu kullanma.",
+    "Kaynamış suyu 30 dakikadan fazla bekletme; en az 70°C olsun. Önce suyu, sonra ölçüyü koy.",
+    "Bileğinin içinde dene: sıcak değil, ılık olmalı."
+   ],
+   "not": "Mamayı her öğün için ayrı hazırla; biberonda kalanı dök. Miktar için paketteki talimata uy.",
+   "kaynak": "NHS",
+   "cta": "Kaydet, lazım olur"
+  },
+  {
+   "saat": "16:30",
+   "sablon": "kalori",
+   "seri": "Kalori #1",
+   "baslik": "Etiketten kalori hesapla",
+   "formul": "100 g'daki kalori × yediğin gram ÷ 100",
+   "ornek": "Etikette 100 g = 120 kcal yazıyor, sen 30 g yedin: 120 × 30 ÷ 100 = 36 kcal.",
+   "bilgi": "1 orta boy muz (yaklaşık 118 g) ≈ 105 kcal. 100 g muzda 89 kcal var.",
+   "kaynak": "USDA FoodData Central",
+   "not": "Bilgilendirme amaçlıdır. Emziriyorsan kendini kısıtlama, doktoruna danış.",
+   "cta": "Kaydet, market rafında lazım"
+  },
+  {
+   "saat": "18:30",
+   "sablon": "temizlik",
+   "seri": "Temizlik tüyosu #2",
+   "baslik": "Emzik temizliği",
+   "maddeler": [
+    "Önce sıcak sabunlu suyla yıka, iyice durula.",
+    "Düzenli olarak sterilize et: kaynatma ya da buhar.",
+    "Sterilize ederken üretici talimatına uy."
+   ],
+   "uyari": "Emziği şeker, reçel gibi tatlı bir şeye batırma.",
+   "kaynak": "NHS",
+   "cta": "Bir anneye gönder"
+  },
+  {
+   "saat": "20:30",
+   "sablon": "dm",
+   "soru": "Bebeğinin ilk püresi hangisiydi?",
+   "secenekler": [
+    "Havuç",
+    "Balkabağı",
+    "Brokoli",
+    "Başka"
+   ],
+   "cagri": "Cevabını DM'den yaz. Ek gıdaya başlayan bir anneye de gönder."
+  },
+  {
+   "saat": "22:30",
+   "sablon": "iyi_geceler",
+   "baslik": "İlk 6 ay aynı oda",
+   "bilgi": "İlk 6 ay bebeğin en güvenli uyku yeri, senin odandaki kendi beşiği.",
+   "kaynak": "NHS"
+  }
+ ]
+}
