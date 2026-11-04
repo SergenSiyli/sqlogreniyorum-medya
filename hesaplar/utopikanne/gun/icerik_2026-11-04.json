@@ -49,7 +49,7 @@
     "3-4. günden sonra düzenli kilo alımı",
     "Uyanıkken canlı ve sağlıklı görünmesi"
    ],
-   "not": "Endişeniz olursa erkenden doktorunuza danışın.",
+   "not": "Endişen olursa erkenden doktoruna danış.",
    "kaynak": "NHS"
   },
   {
@@ -66,31 +66,31 @@
    "seri": "Temizlik tüyosu #1",
    "baslik": "Biberon temizliği",
    "maddeler": [
-    "Beslenmeden sonra en kısa sürede sıcak, sabunlu suyla yıkayın.",
-    "Sterilize etmeden önce soğuk akan suyla durulayın.",
-    "Kaynatırken tamamen suya batırın, en az 10 dakika.",
+    "Beslenmeden sonra en kısa sürede sıcak, sabunlu suyla yıka.",
+    "Sterilize etmeden önce soğuk akan suyla durula.",
+    "Kaynatırken tamamen suya batır, en az 10 dakika.",
     "Bulaşık makinesi temizler ama sterilize etmez."
    ],
-   "uyari": "En az 12 aylık olana dek sterilize edin. Biberon ucunu tuzla temizlemeyin.",
+   "uyari": "En az 12 aylık olana dek sterilize et. Biberon ucunu tuzla temizleme.",
    "kaynak": "NHS"
   },
   {
    "saat": "20:30",
    "sablon": "dm",
-   "soru": "Bebeğinizin ilk dişi kaç aylıkken çıktı?",
+   "soru": "Bebeğinin ilk dişi kaç aylıkken çıktı?",
    "secenekler": [
     "4 aydan önce",
     "4-6 ay",
     "7-12 ay",
     "Henüz yok"
    ],
-   "cagri": "Cevabınızı DM'den yazın. Sorularınız yeni hikâyelere ilham olsun."
+   "cagri": "Cevabını DM'den yaz. Soruların yeni hikâyelere ilham olsun."
   },
   {
    "saat": "22:30",
    "sablon": "iyi_geceler",
    "baslik": "Uykulu ama uyanık",
-   "bilgi": "4 aylıktan itibaren bebeğinizi uykulu ama uyanıkken yatırın; kendi kendine uykuya dalmayı öğrenir.",
+   "bilgi": "4 aylıktan itibaren bebeğini uykulu ama uyanıkken yatır; kendi kendine uykuya dalmayı öğrenir.",
    "kaynak": "AAP"
   }
  ]

@@ -14,7 +14,7 @@ MURDUM = (74, 30, 64)
 SOLUK = (112, 74, 100)       # alt notlar; açık zeminde ~6:1 kontrast
 BEYAZ = (255, 255, 255)
 KREM = (255, 250, 246)
-SAGLIK_NOT = "Bilgilendirme amaçlıdır, doktorunuza danışın."
+SAGLIK_NOT = "Bilgilendirme amaçlıdır, doktoruna danış."
 
 # temel pastel tonlar
 PUDRA = (248, 196, 212)
@@ -450,7 +450,7 @@ def gunaydin(path, bilgi, kaynak, baslik="Günaydın"):
         img, d = zemin("gunaydin")
         gunes(d, 540, 470)
         y = yaz(d, 0, 680, baslik, F("Black", 132, 1), MURDUM, 960, center=True)
-        y = yaz(d, 0, y + 4, "güzel bir gün dileriz", F("SemiBold", 44, 1), K_MERCAN, 960, center=True) + 50
+        y = yaz(d, 0, y + 4, "güzel bir gün olsun", F("SemiBold", 44, 1), K_MERCAN, 960, center=True) + 50
         y = bilgi_karti(d, y, "GÜNÜN BİLGİSİ", bilgi, k, "gunaydin", s=50)
         alt_bilgi(d, kaynak)
         return img, y
@@ -602,7 +602,7 @@ def haber(path, baslik, ozet, tarih, kaynak):
         kart(d, y, y + th + 40, fill=LIMON, r=30)
         yaz(d, 130, y + 20, t, fk, MURDUM, 820, 1.3)
         y += th + 40
-        alt_bilgi(d, None, "Ayrıntılar için resmi duyuruyu inceleyin.")
+        alt_bilgi(d, None, "Ayrıntılar için resmi duyuruya göz at.")
         return img, y
     return sigdir(ciz, path)
 

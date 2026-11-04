@@ -74,7 +74,7 @@ def iyi_geceler(path, baslik, bilgi, kaynak, alt="Tatlı rüyalar, yarın sabah 
     yy = yaz(d, (130, yy + 8), bilgi, font("SemiBold", 46), KAHVE, max_w=820, sp=1.3)
     d.text((130, kart_y + h - 60 - (38 if saglik else 0)), "Kaynak: " + kaynak, font=font("Medium", 28), fill=SOLUK)
     if saglik:
-        d.text((130, kart_y + h - 60), "Bilgilendirme amaçlıdır, doktorunuza danışın.", font=font("Medium", 26), fill=SOLUK)
+        d.text((130, kart_y + h - 60), "Bilgilendirme amaçlıdır, doktoruna danış.", font=font("Medium", 26), fill=SOLUK)
     y = kart_y + h + 50
     y = yaz(d, (0, y), alt, font("Medium", 42), (225, 218, 236), center=True)
     assert y <= 1580, ("story taşıyor", y)
@@ -93,7 +93,7 @@ ADACAYI_ACIK = (220, 232, 215)
 TURUNCU = (232, 132, 72)
 YESIL = (110, 150, 100)
 SARI = (246, 196, 92)
-SAGLIK_NOT = "Bilgilendirme amaçlıdır, doktorunuza danışın."
+SAGLIK_NOT = "Bilgilendirme amaçlıdır, doktoruna danış."
 
 
 def zemin(ust=KREM, alt=(246, 232, 220)):
@@ -220,7 +220,7 @@ def gunaydin(path, bilgi, kaynak, baslik="Günaydın"):
     img, d = zemin(KREM, (250, 228, 205))
     gunes(d, 540, 470)
     y = yaz(d, (0, 690), baslik, font("Black", 124), KAHVE, center=True)
-    y = yaz(d, (0, y + 6), "güzel bir gün dileriz", font("Medium", 44), SOLUK, center=True)
+    y = yaz(d, (0, y + 6), "güzel bir gün olsun", font("Medium", 44), SOLUK, center=True)
     y += 60
     bl = wrap(d, bilgi, font("SemiBold", 48), 800)
     h = 150 + len(bl) * 64 + 30
