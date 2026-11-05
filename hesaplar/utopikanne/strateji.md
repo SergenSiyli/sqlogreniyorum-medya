@@ -47,3 +47,6 @@ Veri: 4.046 (1 Kas) → 4.033 (4 Kas), −13. Son 3 ay Reels beğeni medyanı 35
 5. İş birliği: benzer büyüklükte (5–30 bin) Türk anne/ek gıda hesaplarıyla ortak Reels (collab) — ekip haftada 2 aday profil türü önerir; kişileri hedefleyen profil dosyası çıkarma, yalnızca öneri.
 6. Mevsimsel kancalar: kış hastalıkları, yılbaşı, kar, Ramazan (2027 Şubat) — en büyük viral Ramazan/sahur mizahıydı; Ocak sonunda hatırlat.
 KPI: haftalık net takipçi (hedef: önce artıya dönmek, sonra ≥ +300/hafta), Reels medyan beğeni ≥ 50, viral (≥1.000 beğeni) Reels ayda ≥ 2.
+
+## v3 — 5 Kasım (hesap sahibinin onayıyla bugün başladı; "söylediğim an eski sisteme dön")
+Belge: https://claude.ai/artifact/WVXc3wvHnZDAfsMczRy9VV. Otomatik hikâye 4 (08:30, 10:30, 18:30, 22:30) + haftada 3 carousel (Salı/Perşembe/Pazar 21:30) + her tur Melike'ye 2 Reels fikri + Pazartesi haftalık rapor. 8 hikâyelik düzenin kuyrukları kuyruk/arsiv_8hikaye/ altında (geri dönüş için). İlk carousel 5 Kasım 21:30 (Temizlik tüyosu #1).
