@@ -383,6 +383,28 @@ def videotest():
         time.sleep(3)
 
 
+def mesajtest():
+    """DM erişimini dener. Depo HERKESE AÇIK: mesaj içeriği ya da kişi adı YAZILMAZ, yalnızca durum ve sayı."""
+    sonuc = {"zaman": simdi().isoformat(timespec="seconds")}
+    try:
+        uid = hesap_id()
+        r = istek("GET", f"{uid}/conversations", platform="instagram", fields="updated_time", limit=25)
+        sonuc.update(durum="ok", konusma_sayisi=len(r.get("data", [])))
+    except Exception as e:
+        sonuc.update(durum="hata", hata=str(e)[:300])
+    out = os.path.join(KUYRUK, "mesajtest.json")
+    with open(out, "w") as f:
+        json.dump(sonuc, f, ensure_ascii=False, indent=1)
+    print(json.dumps(sonuc, ensure_ascii=False), flush=True)
+    subprocess.run(["git", "add", out], cwd=ROOT, check=True)
+    subprocess.run(["git", "commit", "-qm", f"[{HESAP}] mesaj erişim testi: {sonuc['durum']}"], cwd=ROOT)
+    for _ in range(5):
+        subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
+        if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
+            break
+        time.sleep(3)
+
+
 def analiz():
     """Hesap analizi için ham veri: profil + son 200 gönderi (+ erişilebilirse içgörüler) -> <kuyruk>/../analiz/."""
     uid = hesap_id()
@@ -432,4 +454,4 @@ def analiz():
 
 
 if __name__ == "__main__":
-    {"kontrol": kontrol, "yayin": yayin, "analiz": analiz, "videotest": videotest}[sys.argv[1] if len(sys.argv) > 1 else "yayin"]()
+    {"kontrol": kontrol, "yayin": yayin, "analiz": analiz, "videotest": videotest, "mesajtest": mesajtest}[sys.argv[1] if len(sys.argv) > 1 else "yayin"]()

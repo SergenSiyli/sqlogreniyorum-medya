@@ -12,7 +12,7 @@ on:
         description: "kontrol = anahtarı test et, yayin = kuyruğu işle"
         default: kontrol
         type: choice
-        options: [kontrol, yayin, analiz, videotest]
+        options: [kontrol, yayin, analiz, videotest, mesajtest]
       ek:
         description: "kontrol için isteğe bağlı medya adresleri (boşlukla)"
         default: ""
