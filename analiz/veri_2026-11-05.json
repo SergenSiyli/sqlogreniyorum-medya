@@ -1,10 +1,10 @@
 {
- "zaman": "2026-11-05T12:05:25+03:00",
+ "zaman": "2026-11-05T12:35:37+03:00",
  "hesap": "sqlogreniyorum",
  "profil": {
   "id": "17841460768999553",
   "biography": "👨‍💻 Kıdemli Yazılım Mühendisi\n💡 SQL • Yapay Zeka • Teknoloji\n📚 Teknik konular, anlaşılır anlatımlar\n📩 sqlogreniyorumiletisim@gmail.com",
-  "followers_count": 1542,
+  "followers_count": 1543,
   "follows_count": 1,
   "media_count": 73,
   "name": "SQL Öğreniyorum",
@@ -20,7 +20,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfWijDbDMzj/",
    "timestamp": "2026-11-05T08:00:03+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Aim8ABVaPobEDBR32r0QON"
+   "icgoru": {
+    "reach": 167,
+    "saved": 1,
+    "shares": 0,
+    "total_interactions": 3,
+    "views": 212
+   }
   },
   {
    "id": "17882241606548150",
@@ -31,7 +37,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfUt0PkEUpf/",
    "timestamp": "2026-11-04T15:00:04+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A0o3guo5OXrWaK34F-o9X9"
+   "icgoru": {
+    "reach": 1178,
+    "saved": 11,
+    "shares": 1,
+    "total_interactions": 26,
+    "views": 1349
+   }
   },
   {
    "id": "18374723461213385",
@@ -42,7 +54,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfT90UYiMHg/",
    "timestamp": "2026-11-04T08:00:03+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ALTo9aBTl91Lx-3J0_4KA9"
+   "icgoru": {
+    "reach": 298,
+    "saved": 3,
+    "shares": 0,
+    "total_interactions": 11,
+    "views": 367
+   }
   },
   {
    "id": "18118031504043530",
@@ -53,7 +71,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfSJCO1CMiy/",
    "timestamp": "2026-11-03T15:00:05+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AHiesLbd7A2byMr-om_M98"
+   "icgoru": {
+    "reach": 1152,
+    "saved": 13,
+    "shares": 1,
+    "total_interactions": 33,
+    "views": 1370
+   }
   },
   {
    "id": "18136140820673983",
@@ -64,7 +88,12 @@
    "media_type": "CAROUSEL_ALBUM",
    "permalink": "https://www.instagram.com/p/DfRjiwjl6EC/",
    "timestamp": "2026-11-03T09:30:00+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AQ7G6UKnNpBGoGW7blPleg"
+   "icgoru": {
+    "reach": 106,
+    "saved": 7,
+    "shares": 0,
+    "total_interactions": 19
+   }
   },
   {
    "id": "17996460665843308",
@@ -75,7 +104,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfRY9b0Gw7N/",
    "timestamp": "2026-11-03T08:00:04+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AJoR4BhImwqUgaOrRetSxP"
+   "icgoru": {
+    "reach": 222,
+    "saved": 3,
+    "shares": 0,
+    "total_interactions": 12,
+    "views": 281
+   }
   },
   {
    "id": "17990349810084674",
@@ -86,7 +121,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfPkXEBCVNn/",
    "timestamp": "2026-11-02T14:55:17+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ak9ZBaIWrnL-gD6x0bDhs9"
+   "icgoru": {
+    "reach": 1133,
+    "saved": 14,
+    "shares": 1,
+    "total_interactions": 26,
+    "views": 1324
+   }
   },
   {
    "id": "18121512686069683",
@@ -97,7 +138,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfO0T3WiLzJ/",
    "timestamp": "2026-11-02T07:54:57+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AmCp1wCe48L7FhoMuraME2"
+   "icgoru": {
+    "reach": 375,
+    "saved": 6,
+    "shares": 5,
+    "total_interactions": 21,
+    "views": 487
+   }
   },
   {
    "id": "17927407191201362",
@@ -108,7 +155,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfNC6RdiXvd/",
    "timestamp": "2026-11-01T15:23:56+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AvqVu3xCTr3E77d0Bq1plK"
+   "icgoru": {
+    "reach": 1327,
+    "saved": 22,
+    "shares": 3,
+    "total_interactions": 45,
+    "views": 1513
+   }
   },
   {
    "id": "18110585882223199",
@@ -119,7 +172,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfMPgYLEQhN/",
    "timestamp": "2026-11-01T07:55:13+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AttkeH9Bl2FYH0hbu5x74l"
+   "icgoru": {
+    "reach": 215,
+    "saved": 3,
+    "shares": 2,
+    "total_interactions": 14,
+    "views": 279
+   }
   },
   {
    "id": "17914916079283541",
@@ -130,7 +189,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfKeHy7E037/",
    "timestamp": "2026-10-31T15:24:16+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ae6adG6qmsmY8yGkFyVz2m"
+   "icgoru": {
+    "reach": 1480,
+    "saved": 12,
+    "shares": 5,
+    "total_interactions": 24,
+    "views": 1724
+   }
   },
   {
    "id": "18099718340390840",
@@ -141,7 +206,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfJqmqUlFIG/",
    "timestamp": "2026-10-31T07:54:07+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AhmUx5oVDtGNbIECgJeRUh"
+   "icgoru": {
+    "reach": 154,
+    "saved": 4,
+    "shares": 2,
+    "total_interactions": 16,
+    "views": 221
+   }
   },
   {
    "id": "17937826254406384",
@@ -152,7 +223,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfIANImDGkX/",
    "timestamp": "2026-10-30T16:24:05+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AiQMZMfIH-Jna0CV8ydNjC"
+   "icgoru": {
+    "reach": 176,
+    "saved": 7,
+    "shares": 1,
+    "total_interactions": 19,
+    "views": 247
+   }
   },
   {
    "id": "18108878795205257",
@@ -163,7 +240,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfHQ-6qgUby/",
    "timestamp": "2026-10-30T09:31:29+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AsCUdubXud5Vi3eKyFnqAs"
+   "icgoru": {
+    "reach": 434,
+    "saved": 5,
+    "shares": 3,
+    "total_interactions": 18,
+    "views": 523
+   }
   },
   {
    "id": "18092322068214205",
@@ -174,7 +257,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfFjPYSguwR/",
    "timestamp": "2026-10-29T17:32:32+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"APKv8TK-lvxpeTTcXOg3Hx"
+   "icgoru": {
+    "reach": 263,
+    "saved": 7,
+    "shares": 2,
+    "total_interactions": 19,
+    "views": 349
+   }
   },
   {
    "id": "18102704264649849",
@@ -185,7 +274,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/DfE94uIDNA_/",
    "timestamp": "2026-10-29T12:06:08+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AS6KoeQbmvKA0seJjyc0fh"
+   "icgoru": {
+    "reach": 414,
+    "saved": 20,
+    "shares": 3,
+    "total_interactions": 43,
+    "views": 634
+   }
   },
   {
    "id": "18031441451146633",
@@ -196,7 +291,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C92xXuuO9ph/",
    "timestamp": "2024-07-25T18:31:40+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Aegv6BFOL3zEA0uwwOmnFr"
+   "icgoru": {
+    "reach": 690,
+    "saved": 21,
+    "shares": 2,
+    "total_interactions": 76,
+    "views": 2561
+   }
   },
   {
    "id": "18068077747552750",
@@ -207,7 +308,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C82Oy0LMtB2/",
    "timestamp": "2024-06-30T16:58:03+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Ar4c3qxD5O3yBUiepVJh-Q"
+   "icgoru": {
+    "reach": 605,
+    "saved": 29,
+    "shares": 0,
+    "total_interactions": 110,
+    "views": 3035
+   }
   },
   {
    "id": "17957472857783695",
@@ -218,7 +325,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C7b7A61I1SR/",
    "timestamp": "2024-05-26T15:13:37+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AwcRwMpJaqe1PcN7TxsBSc"
+   "icgoru": {
+    "reach": 290,
+    "saved": 25,
+    "shares": 0,
+    "total_interactions": 106,
+    "views": 2299
+   }
   },
   {
    "id": "18001581941544060",
@@ -229,7 +342,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C6jpyi7MDj9/",
    "timestamp": "2024-05-04T18:46:38+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AkbtaF3361nXXpIPc0G0qZ"
+   "icgoru": {
+    "reach": 192,
+    "saved": 24,
+    "shares": 0,
+    "total_interactions": 105,
+    "views": 2825
+   }
   },
   {
    "id": "18054163786608587",
@@ -240,7 +359,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C56U2JrMFbn/",
    "timestamp": "2024-04-18T17:34:12+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AzD0AzxxtqYPhyzIxu9YNB"
+   "icgoru": {
+    "reach": 137,
+    "saved": 21,
+    "shares": 0,
+    "total_interactions": 82,
+    "views": 2679
+   }
   },
   {
    "id": "18025168510880269",
@@ -251,7 +376,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C5l3b9xM6lv/",
    "timestamp": "2024-04-10T18:51:41+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AEBtTlElatwmzz_BFi6AbL"
+   "icgoru": {
+    "reach": 111,
+    "saved": 17,
+    "shares": 0,
+    "total_interactions": 78,
+    "views": 2542
+   }
   },
   {
    "id": "18180752245295090",
@@ -262,7 +393,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C48mg2ns1Jm/",
    "timestamp": "2024-03-25T18:14:41+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AIpOtu6xuI5f_EdOK--3zE"
+   "icgoru": {
+    "reach": 98,
+    "saved": 23,
+    "shares": 0,
+    "total_interactions": 94,
+    "views": 4646
+   }
   },
   {
    "id": "18121302769350855",
@@ -273,7 +410,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C4n3iu_Mhzg/",
    "timestamp": "2024-03-17T17:17:12+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A4GuJFA7JyCWilFO6Ihpe6"
+   "icgoru": {
+    "reach": 97,
+    "saved": 11,
+    "shares": 0,
+    "total_interactions": 70,
+    "views": 2784
+   }
   },
   {
    "id": "18092788909372766",
@@ -284,7 +427,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C4JFHZLsdla/",
    "timestamp": "2024-03-05T18:03:22+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AZbp7sGXiQMrZkmQ-m02Wg"
+   "icgoru": {
+    "reach": 61,
+    "saved": 15,
+    "shares": 0,
+    "total_interactions": 71,
+    "views": 2142
+   }
   },
   {
    "id": "18019092298934675",
@@ -295,7 +444,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C38HnaBMxKz/",
    "timestamp": "2024-02-29T17:14:36+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AOziTrz-vCYbdDvFbzfGIH"
+   "icgoru": {
+    "reach": 58,
+    "saved": 10,
+    "shares": 0,
+    "total_interactions": 65,
+    "views": 1845
+   }
   },
   {
    "id": "18040559581673306",
@@ -306,7 +461,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C30SYqeMcKB/",
    "timestamp": "2024-02-26T16:13:51+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Al9b2dmLlqSXK3qnGrIPmt"
+   "icgoru": {
+    "reach": 63,
+    "saved": 11,
+    "shares": 0,
+    "total_interactions": 63,
+    "views": 2335
+   }
   },
   {
    "id": "18027137323901473",
@@ -317,7 +478,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C3S250gswNh/",
    "timestamp": "2024-02-13T16:38:57+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A2sr9GwoN0bfTMdROMssN1"
+   "icgoru": {
+    "reach": 50,
+    "saved": 23,
+    "shares": 0,
+    "total_interactions": 92,
+    "views": 2786
+   }
   },
   {
    "id": "18020349382985980",
@@ -328,7 +495,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C2iOKAysNVV/",
    "timestamp": "2024-01-25T19:19:15+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AH07NZOGe-d9wrWLTNPNLY"
+   "icgoru": {
+    "reach": 40,
+    "saved": 17,
+    "shares": 0,
+    "total_interactions": 73,
+    "views": 1449
+   }
   },
   {
    "id": "18393894529067978",
@@ -339,7 +512,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C2aU1Fjs7cj/",
    "timestamp": "2024-01-22T17:43:41+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AZ7BNGL_N2-bFxtj_RmJP2"
+   "icgoru": {
+    "reach": 38,
+    "saved": 12,
+    "shares": 0,
+    "total_interactions": 76,
+    "views": 1679
+   }
   },
   {
    "id": "18040271896625807",
@@ -350,7 +529,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C1xGzy5MG6w/",
    "timestamp": "2024-01-06T17:33:56+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AQ0d9d4oysdad0j1XEqTBk"
+   "icgoru": {
+    "reach": 32,
+    "saved": 8,
+    "shares": 0,
+    "total_interactions": 54,
+    "views": 1214
+   }
   },
   {
    "id": "18011801189122573",
@@ -361,7 +546,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C1kNR8NsF-y/",
    "timestamp": "2024-01-01T17:19:27+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AZPHMoWZTmyzrkAG340RT_"
+   "icgoru": {
+    "reach": 23,
+    "saved": 13,
+    "shares": 0,
+    "total_interactions": 62,
+    "views": 2415
+   }
   },
   {
    "id": "17852647656082792",
@@ -372,7 +563,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C1M8InyMJ4T/",
    "timestamp": "2023-12-23T16:25:53+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AJL-pA3g-dBQJBYSWx16Cc"
+   "icgoru": {
+    "reach": 21,
+    "saved": 12,
+    "shares": 0,
+    "total_interactions": 56,
+    "views": 1116
+   }
   },
   {
    "id": "17933981063690985",
@@ -383,7 +580,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C091V6VM-kr/",
    "timestamp": "2023-12-17T19:39:42+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AGcYKC4UHqfV1naWfkEXI4"
+   "icgoru": {
+    "reach": 17,
+    "saved": 5,
+    "shares": 0,
+    "total_interactions": 53,
+    "views": 2302
+   }
   },
   {
    "id": "17991019595277189",
@@ -394,7 +597,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C0zMe79sZfW/",
    "timestamp": "2023-12-13T16:29:22+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AHzuhfru2PhoaLCgA0zNGD"
+   "icgoru": {
+    "reach": 21,
+    "saved": 8,
+    "shares": 0,
+    "total_interactions": 54,
+    "views": 2384
+   }
   },
   {
    "id": "18369304483074230",
@@ -405,7 +614,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C0eqn6MMD_v/",
    "timestamp": "2023-12-05T17:09:24+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AzR1vdQg4uNdwSJn2d1ZB9"
+   "icgoru": {
+    "reach": 26,
+    "saved": 13,
+    "shares": 0,
+    "total_interactions": 70,
+    "views": 1662
+   }
   },
   {
    "id": "18013159249996911",
@@ -416,7 +631,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C0R2e66Mqsu/",
    "timestamp": "2023-11-30T17:43:19+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A0o4oh_Kfs_AnsnvzldJWD"
+   "icgoru": {
+    "reach": 26,
+    "saved": 6,
+    "shares": 0,
+    "total_interactions": 49,
+    "views": 1950
+   }
   },
   {
    "id": "18242698450212453",
@@ -427,7 +648,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/C0PJGkKMb6o/",
    "timestamp": "2023-11-29T16:29:49+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ArhGSkultag7hYX4vI5slL"
+   "icgoru": {
+    "reach": 29,
+    "saved": 8,
+    "shares": 0,
+    "total_interactions": 63,
+    "views": 2396
+   }
   },
   {
    "id": "18017830192903903",
@@ -438,7 +665,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/Cz9PAI1MJ7j/",
    "timestamp": "2023-11-22T17:31:57+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AqZLqStug1SK9YwxGItIe0"
+   "icgoru": {
+    "reach": 33,
+    "saved": 31,
+    "shares": 0,
+    "total_interactions": 102,
+    "views": 2240
+   }
   },
   {
    "id": "17996059427464533",
@@ -449,7 +682,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/Czy3pRys_f2/",
    "timestamp": "2023-11-18T17:00:31+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AIQ9p38DAwZSeuALWIQ_dZ"
+   "icgoru": {
+    "reach": 29,
+    "saved": 12,
+    "shares": 0,
+    "total_interactions": 77,
+    "views": 2178
+   }
   },
   {
    "id": "17961723218668745",
@@ -460,7 +699,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/Czl-SGws-9e/",
    "timestamp": "2023-11-13T16:44:51+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"At8CI6UNYfV6TZEaDU6QH_"
+   "icgoru": {
+    "reach": 23,
+    "saved": 17,
+    "shares": 0,
+    "total_interactions": 84,
+    "views": 1609
+   }
   },
   {
    "id": "18012239308975918",
@@ -471,7 +716,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/Czg00wksj9H/",
    "timestamp": "2023-11-11T16:45:52+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A-8txXjBMxT0mtGmZwvuYH"
+   "icgoru": {
+    "reach": 20,
+    "saved": 13,
+    "shares": 0,
+    "total_interactions": 69,
+    "views": 2250
+   }
   },
   {
    "id": "17883212009900911",
@@ -482,7 +733,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CzT--hes05r/",
    "timestamp": "2023-11-06T17:03:15+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AolrWhmR6qT_qmTUa2T_Sz"
+   "icgoru": {
+    "reach": 15,
+    "saved": 14,
+    "shares": 0,
+    "total_interactions": 80,
+    "views": 2267
+   }
   },
   {
    "id": "18010124116988854",
@@ -493,7 +750,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CzOudntsCiv/",
    "timestamp": "2023-11-04T16:04:30+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AUobEDJCyuniSJapyDpVpJ"
+   "icgoru": {
+    "reach": 206,
+    "saved": 8,
+    "shares": 0,
+    "total_interactions": 59,
+    "views": 2307
+   }
   },
   {
    "id": "18054298657492261",
@@ -504,7 +767,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CzMSc3TsLeX/",
    "timestamp": "2023-11-03T17:22:10+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AhlT7AIEGEcsIXupfqIqKr"
+   "icgoru": {
+    "reach": 20,
+    "saved": 5,
+    "shares": 0,
+    "total_interactions": 63,
+    "views": 1955
+   }
   },
   {
    "id": "18023542360784110",
@@ -515,7 +784,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CzJnxC8s6lX/",
    "timestamp": "2023-11-02T16:30:08+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AryO0nSwFD7bVy70b_VAqY"
+   "icgoru": {
+    "reach": 16,
+    "saved": 5,
+    "shares": 0,
+    "total_interactions": 62,
+    "views": 2161
+   }
   },
   {
    "id": "18003000740144717",
@@ -526,7 +801,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CzHBosfsiWZ/",
    "timestamp": "2023-11-01T16:18:09+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AkZ-zTB9-lZG3zX4kkYgJA"
+   "icgoru": {
+    "reach": 19,
+    "saved": 10,
+    "shares": 0,
+    "total_interactions": 77,
+    "views": 1985
+   }
   },
   {
    "id": "17984380673306771",
@@ -537,7 +818,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CzB9iXesmNq/",
    "timestamp": "2023-10-30T17:09:13+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A-AxSoDdOpiPJAuR5xAplv"
+   "icgoru": {
+    "reach": 18,
+    "saved": 11,
+    "shares": 0,
+    "total_interactions": 66,
+    "views": 2056
+   }
   },
   {
    "id": "18016744882896662",
@@ -548,7 +835,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/Cy8zkefs6Ei/",
    "timestamp": "2023-10-28T17:00:28+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ArDrNVjAAVlEA42uFTnA19"
+   "icgoru": {
+    "reach": 16,
+    "saved": 15,
+    "shares": 0,
+    "total_interactions": 73,
+    "views": 1363
+   }
   },
   {
    "id": "18024055435692768",
@@ -559,7 +852,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/Cyv7KzlMku6/",
    "timestamp": "2023-10-23T16:59:48+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A65d1Tc8gMeFvTVjUE9I6w"
+   "icgoru": {
+    "reach": 35,
+    "saved": 7,
+    "shares": 0,
+    "total_interactions": 76,
+    "views": 2260
+   }
   },
   {
    "id": "18068595895430817",
@@ -570,7 +869,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CybbGiVskyI/",
    "timestamp": "2023-10-15T17:53:21+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A7CCARuogHBIYYvXAD-4dk"
+   "icgoru": {
+    "reach": 42,
+    "saved": 8,
+    "shares": 0,
+    "total_interactions": 109,
+    "views": 2191
+   }
   },
   {
    "id": "17974282928401037",
@@ -581,7 +886,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CyGjtCzs5gb/",
    "timestamp": "2023-10-07T15:25:38+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A4lH6jew_2DuzNc0xUxXoa"
+   "icgoru": {
+    "reach": 39,
+    "saved": 5,
+    "shares": 0,
+    "total_interactions": 135,
+    "views": 2510
+   }
   },
   {
    "id": "17973422870391727",
@@ -592,7 +903,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/Cx8ezAYsKdG/",
    "timestamp": "2023-10-03T17:31:51+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AgxFOOwiNQLX-7M9YHOwFy"
+   "icgoru": {
+    "reach": 39,
+    "saved": 7,
+    "shares": 0,
+    "total_interactions": 119,
+    "views": 2577
+   }
   },
   {
    "id": "18002735750312707",
@@ -603,7 +920,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/Cx3GlriMoBY/",
    "timestamp": "2023-10-01T15:26:07+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"As_8d0viwL6sBkEnT0pnrt"
+   "icgoru": {
+    "reach": 97,
+    "saved": 10,
+    "shares": 0,
+    "total_interactions": 556,
+    "views": 2997
+   }
   },
   {
    "id": "18251007031207259",
@@ -614,7 +937,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CxyGbu4MYf4/",
    "timestamp": "2023-09-29T16:48:46+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ALLn-2X-73MsrVRyhnAQvh"
+   "icgoru": {
+    "reach": 40,
+    "saved": 16,
+    "shares": 0,
+    "total_interactions": 348,
+    "views": 2951
+   }
   },
   {
    "id": "17880675050948834",
@@ -625,7 +954,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CxqaVfgMAHB/",
    "timestamp": "2023-09-26T17:02:43+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AQmT4cl5pkitAW0RSVFlAu"
+   "icgoru": {
+    "reach": 17,
+    "saved": 12,
+    "shares": 0,
+    "total_interactions": 93,
+    "views": 3650
+   }
   },
   {
    "id": "17983751615384463",
@@ -636,7 +971,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CxlQvYCMfLI/",
    "timestamp": "2023-09-24T17:02:59+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AnAcrooQ74Fpyge2ps9QzJ"
+   "icgoru": {
+    "reach": 172,
+    "saved": 11,
+    "shares": 3,
+    "total_interactions": 255,
+    "views": 2193
+   }
   },
   {
    "id": "18001479730922220",
@@ -647,7 +988,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CxiU3vZsbGw/",
    "timestamp": "2023-09-23T13:43:22+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"Aj8Qjh5C2oRT0nZBg7IeSu"
+   "icgoru": {
+    "reach": 24,
+    "saved": 7,
+    "shares": 0,
+    "total_interactions": 119,
+    "views": 29215
+   }
   },
   {
    "id": "18285386746177025",
@@ -658,7 +1005,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CxJCePuNA6v/",
    "timestamp": "2023-09-13T18:02:43+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ALA31BB-K3QMGQDmFuotXQ"
+   "icgoru": {
+    "reach": 28,
+    "saved": 6,
+    "shares": 0,
+    "total_interactions": 155,
+    "views": 2936
+   }
   },
   {
    "id": "18369090565069039",
@@ -669,7 +1022,13 @@
    "media_type": "VIDEO",
    "permalink": "https://www.instagram.com/reel/CxA7E60tM6c/",
    "timestamp": "2023-09-10T14:21:03+0000",
-   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"ANFRwKcDVZimZEi0of0O0e"
+   "icgoru": {
+    "reach": 28,
+    "saved": 8,
+    "shares": 1,
+    "total_interactions": 73,
+    "views": 5876
+   }
   },
   {
    "id": "18262358617093918",
@@ -812,6 +1171,202 @@
    "timestamp": "2023-08-07T15:00:27+0000"
   }
  ],
- "hesap_icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A7WIJgMdglwvy65RMutd45C\"}}",
- "kitle_hata": "API 400: {\"error\":{\"message\":\"(#10) Application does not have permission for this action\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"AH1OESTGQaem3irFN0zjnCR\"}}"
+ "hesap_icgoru": {
+  "data": [
+   {
+    "id": "17841460768999553/insights/reach/day",
+    "name": "reach",
+    "period": "day",
+    "values": [
+     {
+      "value": 1531,
+      "end_time": "2026-11-04T08:00:00+0000"
+     },
+     {
+      "value": 171,
+      "end_time": "2026-11-05T08:00:00+0000"
+     }
+    ],
+    "title": "Erişim",
+    "description": "İşletme Hesabının medya objelerinin tekil olarak toplam kaç kez görüntülendiği"
+   },
+   {
+    "id": "17841460768999553/insights/follower_count/day",
+    "name": "follower_count",
+    "period": "day",
+    "values": [
+     {
+      "value": 0,
+      "end_time": "2026-11-04T08:00:00+0000"
+     },
+     {
+      "value": 0,
+      "end_time": "2026-11-05T08:00:00+0000"
+     }
+    ],
+    "title": "Takipçi Sayısı",
+    "description": "Bu profili takip eden toplam tekil hesap sayısı"
+   }
+  ],
+  "paging": {
+   "previous": "https://graph.facebook.com/v26.0/17841460768999553/insights?metric=reach%2Cfollower_count&period=day&access_token=EAAVY3Pd4BTsBSZBJfIAcldfkc7XlmVz9DKYUvA7BWWzsuHd9Bh6VxxxaNhDXroMxBQKaAGZAyD7ppwVC2QEoWrkkbxd7TsVkUPzrT1RF8baaZAfXOmIQbWd4KfniMhaZB5ZCY6aBSQO771s1annHpTDUSaSYTPuTiiyG32ZA1k7W6tgqcFXwvmqEOqcabZBkytWG2gH9uIwcpI7bj03DqxR54GPJl2stzUqicOaYaOZBVRNtPuZA1OIpCjAZDZD&since=1793525795&until=1793698595",
+   "next": "https://graph.facebook.com/v26.0/17841460768999553/insights?metric=reach%2Cfollower_count&period=day&access_token=EAAVY3Pd4BTsBSZBJfIAcldfkc7XlmVz9DKYUvA7BWWzsuHd9Bh6VxxxaNhDXroMxBQKaAGZAyD7ppwVC2QEoWrkkbxd7TsVkUPzrT1RF8baaZAfXOmIQbWd4KfniMhaZB5ZCY6aBSQO771s1annHpTDUSaSYTPuTiiyG32ZA1k7W6tgqcFXwvmqEOqcabZBkytWG2gH9uIwcpI7bj03DqxR54GPJl2stzUqicOaYaOZBVRNtPuZA1OIpCjAZDZD&since=1793871397&until=1794044197"
+  }
+ },
+ "kitle": {
+  "data": [
+   {
+    "id": "17841460768999553/insights/follower_demographics/lifetime",
+    "name": "follower_demographics",
+    "period": "lifetime",
+    "title": "Takipçilerin demografik özellikleri",
+    "description": "Ülke, şehir ve cinsiyet dağılımı dahil olmak üzere takipçilerin demografik özellikleri.",
+    "total_value": {
+     "breakdowns": [
+      {
+       "dimension_keys": [
+        "age",
+        "gender"
+       ],
+       "results": [
+        {
+         "dimension_values": [
+          "13-17",
+          "F"
+         ],
+         "value": 1
+        },
+        {
+         "dimension_values": [
+          "18-24",
+          "F"
+         ],
+         "value": 41
+        },
+        {
+         "dimension_values": [
+          "25-34",
+          "F"
+         ],
+         "value": 167
+        },
+        {
+         "dimension_values": [
+          "35-44",
+          "F"
+         ],
+         "value": 126
+        },
+        {
+         "dimension_values": [
+          "45-54",
+          "F"
+         ],
+         "value": 40
+        },
+        {
+         "dimension_values": [
+          "55-64",
+          "F"
+         ],
+         "value": 10
+        },
+        {
+         "dimension_values": [
+          "65+",
+          "F"
+         ],
+         "value": 1
+        },
+        {
+         "dimension_values": [
+          "18-24",
+          "M"
+         ],
+         "value": 54
+        },
+        {
+         "dimension_values": [
+          "25-34",
+          "M"
+         ],
+         "value": 260
+        },
+        {
+         "dimension_values": [
+          "35-44",
+          "M"
+         ],
+         "value": 230
+        },
+        {
+         "dimension_values": [
+          "45-54",
+          "M"
+         ],
+         "value": 60
+        },
+        {
+         "dimension_values": [
+          "55-64",
+          "M"
+         ],
+         "value": 5
+        },
+        {
+         "dimension_values": [
+          "65+",
+          "M"
+         ],
+         "value": 6
+        },
+        {
+         "dimension_values": [
+          "13-17",
+          "U"
+         ],
+         "value": 1
+        },
+        {
+         "dimension_values": [
+          "18-24",
+          "U"
+         ],
+         "value": 72
+        },
+        {
+         "dimension_values": [
+          "25-34",
+          "U"
+         ],
+         "value": 263
+        },
+        {
+         "dimension_values": [
+          "35-44",
+          "U"
+         ],
+         "value": 135
+        },
+        {
+         "dimension_values": [
+          "45-54",
+          "U"
+         ],
+         "value": 46
+        },
+        {
+         "dimension_values": [
+          "55-64",
+          "U"
+         ],
+         "value": 11
+        }
+       ]
+      }
+     ]
+    }
+   }
+  ]
+ }
 }
