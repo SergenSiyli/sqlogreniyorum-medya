@@ -13,3 +13,5 @@
 2026-11-05 iyi geceler: ilk tweet "just setting up my twttr" (21 Mart 2006, Jack Dorsey) — kaynak: Computer History Museum, Guinness
 2026-11-06 günaydın: Linux 'sadece bir hobi' duyurusu (1991, Linus Torvalds, comp.os.minix) — kaynak: historyofinformation.com, Tom's Hardware
 2026-11-06 iyi geceler: Shigetaka Kurita'nın 176 emojisi (1999, NTT DoCoMo, 12x12; 2016 MoMA) — kaynak: Designboom, Domus
+2026-11-07 günaydın: Python adı Monty Python's Flying Circus'tan (Guido van Rossum) — kaynak: docs.python.org General Python FAQ
+2026-11-07 iyi geceler: eBay/AuctionWeb ilk satış bozuk lazer işaretçisi 14,83 $ (1995, Pierre Omidyar) — kaynak: TIME
