@@ -49,7 +49,7 @@ def uret(tarih, o, cikis=None):
                           not_metni=o.get("not"))
     elif s == "kalori":
         R.kalori(p, o.get("seri"), o["baslik"], o["formul"], o["ornek"], o["bilgi"], o["kaynak"],
-                 o.get("not", "Bilgilendirme amaçlıdır."))
+                 o.get("not", "Bilgilendirme amaçlıdır."), o.get("terazi", "120 g"), o.get("nesne", "elma"))
     elif s == "dm":
         R.dm_cagrisi(p, o["soru"], o["secenekler"], o["cagri"])
     elif s == "iyi_geceler":

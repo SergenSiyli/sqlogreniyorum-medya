@@ -723,23 +723,28 @@ def dm_cagrisi(path, soru, secenekler, cagri):
     return sigdir(ciz, path)
 
 
-def terazi(d, cx, cy):
-    """Kendi vektör çizimimiz: mutfak terazisi + elma."""
+def terazi(d, cx, cy, yazi="120 g", nesne="elma"):
+    """Kendi vektör çizimimiz: mutfak terazisi + elma ya da haşlanmış yumurta."""
     d.rounded_rectangle([cx - 150, cy + 10, cx + 150, cy + 120], radius=34, fill=BEYAZ, outline=K_NANE, width=7)
     d.rounded_rectangle([cx - 80, cy + 40, cx + 80, cy + 90], radius=14, fill=NANE)
-    d.text((cx - 56, cy + 40), "120 g", font=font("ExtraBold", 38), fill=K_NANE)
+    ft = font("ExtraBold", 38)
+    d.text((cx - d.textlength(yazi, font=ft) / 2, cy + 40), yazi, font=ft, fill=K_NANE)
     d.rounded_rectangle([cx - 170, cy - 8, cx + 170, cy + 14], radius=11, fill=K_NANE)
+    if nesne == "yumurta":
+        d.ellipse([cx - 54, cy - 150, cx + 54, cy - 6], fill=(255, 252, 244), outline=(214, 196, 170), width=4)
+        d.ellipse([cx - 26, cy - 92, cx + 26, cy - 40], fill=(255, 196, 70))
+        return
     d.ellipse([cx - 62, cy - 120, cx + 62, cy - 4], fill=MERCAN)
     d.rectangle([cx - 4, cy - 150, cx + 4, cy - 112], fill=(120, 80, 40))
     yaprak(d, cx + 26, cy - 134, 14, K_NANE, -20)
 
 
-def kalori(path, seri, baslik, formul, ornek, bilgi, kaynak, not_metni):
+def kalori(path, seri, baslik, formul, ornek, bilgi, kaynak, not_metni, terazi_yazi="120 g", nesne="elma"):
     """Kalori / besin değeri hap bilgisi (yetişkin; limon + nane). Kilo/diyet hedefi yok."""
     def ciz(k):
         img, d = zemin("kalori")
         rozet(d, 0, 250, seri_no(seri, "Kalori"), K_NANE, center=True)
-        terazi(d, 540, 470)
+        terazi(d, 540, 470, terazi_yazi, nesne)
         y = yaz(d, 0, 640, baslik, F("Black", 80, min(1, k + .1)), MURDUM, 920, 1.1, center=True) + 30
         # formül kartı (limon)
         f = F("ExtraBold", 46, k)
@@ -787,7 +792,7 @@ def c_zemin(tur, seed_ek=0):
     return img, d
 
 
-def c_alt(d, sayfa, toplam, tur, kaynak=None):
+def c_alt(d, sayfa, toplam, tur, kaynak=None, handle=True):
     """Alt bant (y≥1230): sayfa noktaları + @utopikanne; kaynak 1190 civarı."""
     koyu = TEMA[tur][3]
     if kaynak:
@@ -798,8 +803,9 @@ def c_alt(d, sayfa, toplam, tur, kaynak=None):
     for i in range(toplam):
         r = 8 if i + 1 == sayfa else 5
         d.ellipse([x0 + i * 26 - r, 1252 - r, x0 + i * 26 + r, 1252 + r], fill=koyu if i + 1 == sayfa else SOLUK)
-    f = font("Bold", 28)
-    d.text(((W - d.textlength(HANDLE, font=f)) / 2, 1278), HANDLE, font=f, fill=MURDUM)
+    if handle:
+        f = font("Bold", 28)
+        d.text(((W - d.textlength(HANDLE, font=f)) / 2, 1278), HANDLE, font=f, fill=MURDUM)
 
 
 def c_kaydet(img, path):
@@ -843,7 +849,7 @@ def carousel_kapak(path, tur, seri, kanca, alt, sayfa, toplam):
             yaz(d, 0, y + 24, alt, fa, koyu, 800, 1.25, center=True)
             y += th + 52 + 34
         f = font("ExtraBold", 30)
-        t = tr_buyuk("Kaydır, adım adım")
+        t = tr_buyuk("Kaydır")
         w = d.textlength(t, font=f) + 110
         d.rounded_rectangle([(W - w) / 2, y, (W + w) / 2, y + 62], radius=31, fill=MURDUM)
         d.text(((W - w) / 2 + 34, y + 14), t, font=f, fill=BEYAZ)
@@ -914,7 +920,7 @@ def carousel_son(path, tur, soru, sayfa, toplam, kaynak=None, not_metni=None):
         fh = font("Black", 64)
         d.text(((W - d.textlength(HANDLE, font=fh)) / 2, y + 24), HANDLE, font=fh, fill=koyu)
         y += 24 + 70
-        c_alt(d, sayfa, toplam, tur, kaynak)
+        c_alt(d, sayfa, toplam, tur, kaynak, handle=False)
         return img, y
     return c_sigdir(ciz, path)
 
