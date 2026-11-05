@@ -448,8 +448,11 @@ def analiz():
         json.dump(out, f, ensure_ascii=False, indent=1)
     subprocess.run(["git", "add", yol], cwd=ROOT, check=True)
     subprocess.run(["git", "commit", "-qm", f"[{HESAP}] analiz verisi ({len(medya)} gönderi)"], cwd=ROOT)
-    subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
-    subprocess.run(["git", "push", "-q"], cwd=ROOT)
+    for _ in range(5):
+        subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
+        if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
+            break
+        time.sleep(3)
     print(f"analiz: {len(medya)} gönderi yazıldı -> {yol}", flush=True)
 
 
