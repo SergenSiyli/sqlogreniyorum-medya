@@ -432,6 +432,20 @@ def analiz():
         except Exception as e:
             m["icgoru_hata"] = str(e)[:160]
     out["medya"] = medya
+    try:  # son 24 saatin hikâyeleri ve içgörüleri (erişim, yanıt, ileri/geri/çıkış)
+        hik = istek("GET", f"{uid}/stories", fields="id,timestamp,media_type").get("data", [])
+        for h in hik:
+            try:
+                h["icgoru"] = {x["name"]: x.get("values", [{}])[0].get("value", x.get("total_value", {}).get("value"))
+                               for x in istek("GET", f"{h['id']}/insights", metric="reach,views,replies,shares,total_interactions")["data"]}
+                nav = istek("GET", f"{h['id']}/insights", metric="navigation", breakdown="story_navigation_action_type")["data"]
+                h["gezinme"] = {b["dimension_values"][0]: b["value"] for b in
+                                nav[0].get("total_value", {}).get("breakdowns", [{}])[0].get("results", [])}
+            except Exception as e:
+                h["icgoru_hata"] = str(e)[:160]
+        out["hikayeler"] = hik
+    except Exception as e:
+        out["hikaye_hata"] = str(e)[:300]
     try:
         out["hesap_icgoru"] = istek("GET", f"{uid}/insights", metric="reach,follower_count", period="day")
     except Exception as e:
