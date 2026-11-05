@@ -23,3 +23,26 @@ Bağımsız sağlık doğrulaması: 2026-11-03. Tüm URL'ler WebSearch sonuçlar
 Bal/inek sütü içecek yok; tuz/şeker yok (tarifte açıkça yasak); boğulma uyarısı var (10:30); doz/ilaç/takviye/tedavi önerisi yok; uydurma kişisel deneyim yok; çeviride anlam kayması yok; yargılayıcı dil yok.
 
 - Son düzeltme: 22:30 metni doğrulayıcı önerisiyle "sırtüstü" eklendi; 14:30 "eşinizle ya da bir yakınınızla" kapsayıcı dil; 16:30 kaynak "AA, Medimagazin" (Medimagazin de AA kaynaklı).
+
+## 21:30 Carousel — Temizlik tüyosu #1 (biberon)
+
+Doğrulama: 2026-11-05. URL'ler WebSearch sonuçlarından alınıp WebFetch ile okundu. Karar: DÜZELTİLDİ.
+
+| Slayt | İddia | Kaynak | Karar |
+|---|---|---|---|
+| 2 | Parçaları ayır; akan suyla durula | CDC: "Separate all bottle parts (for example, bottles, nipples, caps, rings, valves)"; "Clean baby bottles after every feeding"; akan su altında durula, lavaboya koyma | ONAY |
+| 3 | Sıcak sabunlu su + biberon fırçası; emzik deliğinden su geçir; bulaşık makinesi sterilize etmez | NHS: "Clean bottles, teats ... in hot, soapy water as soon as possible after feeds"; "Putting feeding equipment through the dishwasher will clean it but it does not sterilise it." CDC: fırça, "squeeze water through nipple holes" | ONAY |
+| 4 | Temiz akan suyla durula; havluyla silme, kendi kendine kurusun | NHS: "Rinse all your equipment in clean, cold running water before sterilising." CDC: "Do not use a dish towel to rub or pat items dry" ; temiz kâğıt havlu/bez üstünde havada kurut | DÜZELTİLDİ ("temiz bir yüzey" → "temiz bir bez ya da kâğıt havlu üstünde", CDC ifadesi) |
+| 5 | Kaynatma en az 10 dk; buhar: üretici talimatı; soğuk su: 24 saatte bir yenile | NHS: "at least 10 minutes"; "follow the manufacturer's instructions"; "Change the sterilising solution every 24 hours"; en az 30 dakika beklet | DÜZELTİLDİ ("en az 30 dakika beklet" eklendi). Not: CDC kaynatma için 5 dk diyor; NHS'nin daha temkinli 10 dk değeri kullanıldı. |
+| 6 | 12 aya kadar sterilize et | NHS: "until they're at least 12 months old" | ONAY (Not: CDC sağlıklı büyük bebekte günlük sanitizasyonu zorunlu görmüyor; NHS kuralı kullanıldı) |
+| 6 | "Steril parçaları temiz, kapalı bir yerde sakla" | NHS: "It's best to leave bottles and teats in the steriliser or pan until you need them"; steril ekipmana dokunmadan önce elleri yıka ve kurula | DÜZELTİLDİ (NHS saklama kuralına uyarlandı) |
+| 6 | Temizlik ürünlerini karıştırma | CDC: "Never mix bleach with ammonia or any other cleaner." | ONAY |
+| Kaynak satırı | NHS, CDC | — | ONAY |
+
+URL'ler:
+- https://www.nhs.uk/baby/breastfeeding-and-bottle-feeding/bottle-feeding/sterilising-baby-bottles/
+- https://111.wales.nhs.uk/livewell/pregnancy/bottlefsterilising/ (NHS Wales; 30 dk ve 24 saat kuralı)
+- https://www.cdc.gov/hygiene/about/clean-sanitize-store-infant-feeding-items.html
+- https://www.cdc.gov/natural-disasters/safety/how-to-safely-clean-and-sanitize-with-bleach.html
+
+Kesin kurallar: marka yok; kimyasal karıştırma önerisi yok (tersine uyarı var); doz/ilaç yok.

@@ -22,6 +22,9 @@ def uret(tarih, o, cikis=None):
     p = os.path.join(klasor, dosya_adi(o))
     s = o["sablon"]
     R.CTA = o.get("cta")
+    if s == "carousel":  # feed carousel: 1080x1350 JPEG slaytlar, yolların listesi döner
+        return R.carousel(klasor, f"carousel_{o['saat'].replace(':', '')}_{o['konu']}", o["tur"], o["seri"],
+                          o["kanca"], o.get("alt"), o["slaytlar"], o["soru"], o["kaynak"], o.get("not"))
     if s == "gunaydin":
         R.gunaydin(p, o["bilgi"], o["kaynak"])
     elif s == "tarif":
@@ -70,4 +73,5 @@ if __name__ == "__main__":
         for o in liste:
             if a.saat_sonra and o["saat"] < a.saat_sonra:
                 continue
-            print(uret(tarih, o, a.cikis))
+            r = uret(tarih, o, a.cikis)
+            print("\n".join(r) if isinstance(r, list) else r)

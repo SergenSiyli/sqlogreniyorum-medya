@@ -755,3 +755,179 @@ def kalori(path, seri, baslik, formul, ornek, bilgi, kaynak, not_metni):
         alt_bilgi(d, kaynak, not_metni)
         return img, y
     return sigdir(ciz, path)
+
+
+# ---------------- CAROUSEL (feed, 1080x1350 4:5, JPEG) — 5 Kasım 2026, strateji v3 ----------------
+CH = 1350
+C_SERI_ONEK = {"temizlik": "Temizlik tüyosu", "tarif": "Ek gıda rehberi", "kontrol": "Kontrol listesi",
+               "kalori": "Kalori", "hamilelik": "Hamilelik", "lohusa": "Doğum sonrası", "emzirme": "Emzirme & mama"}
+C_CIZIM = {"temizlik": baloncuklar, "emzirme": biberon, "lohusa": kalp_cicek, "hamilelik": kalp_cicek,
+           "kalori": None, "tarif": None, "kontrol": None}
+
+
+def c_zemin(tur, seed_ek=0):
+    ust, alt, renkler, koyu, _ = TEMA[tur]
+    img = Image.new("RGB", (W, CH), ust)
+    d = ImageDraw.Draw(img)
+    for i in range(CH):
+        t = i / CH
+        d.line([(0, i), (W, i)], fill=tuple(int(ust[k] * (1 - t) + alt[k] * t) for k in range(3)))
+    kat = Image.new("RGBA", (W, CH), (0, 0, 0, 0))
+    kd = ImageDraw.Draw(kat)
+    seed = sum(map(ord, tur)) + seed_ek * 7
+    for i, (x, y, r) in enumerate([(-70, 90, 280), (1130, 560, 300), (-50, 1290, 260), (1000, 1380, 220)]):
+        kd.polygon(blob_poligon(x, y, r, seed + i), fill=renkler[i % len(renkler)] + (120,))
+    img = Image.alpha_composite(img.convert("RGBA"), kat).convert("RGB")
+    d = ImageDraw.Draw(img)
+    koyu_a = tuple(min(255, int(v * .6 + 255 * .4)) for v in koyu)
+    yildiz(d, 930, 46, 10, koyu_a)   # dekor yalnızca y<72 ve y>1290: metne girmez
+    kalp(d, 1010, 50, 14, renkler[0])
+    for x, y, r in [(700, 40, 6), (840, 56, 5), (180, 1310, 6), (900, 1316, 7)]:
+        d.ellipse([x - r, y - r, x + r, y + r], fill=koyu_a)
+    return img, d
+
+
+def c_alt(d, sayfa, toplam, tur, kaynak=None):
+    """Alt bant (y≥1230): sayfa noktaları + @utopikanne; kaynak 1190 civarı."""
+    koyu = TEMA[tur][3]
+    if kaynak:
+        f = font("SemiBold", 26)
+        t = "Kaynak: " + kaynak
+        d.text(((W - d.textlength(t, font=f)) / 2, 1196), t, font=f, fill=SOLUK)
+    x0 = W / 2 - (toplam - 1) * 13
+    for i in range(toplam):
+        r = 8 if i + 1 == sayfa else 5
+        d.ellipse([x0 + i * 26 - r, 1252 - r, x0 + i * 26 + r, 1252 + r], fill=koyu if i + 1 == sayfa else SOLUK)
+    f = font("Bold", 28)
+    d.text(((W - d.textlength(HANDLE, font=f)) / 2, 1278), HANDLE, font=f, fill=MURDUM)
+
+
+def c_kaydet(img, path):
+    img.convert("RGB").save(path, "JPEG", quality=92, optimize=True, progressive=False)
+    return path
+
+
+def c_sigdir(cizici, path, sinir=1170, ust=100):
+    """En büyük sığan ölçeği seçer, sonra içeriği ust..sinir arasında dikey ortalar."""
+    son = None
+    for k in (1.4, 1.3, 1.2, 1.12, 1.05, 1.0, .94, .88, .82, .76, .7):
+        try:
+            img, y = cizici(k, 0)
+            if y <= sinir:
+                kay = int((sinir - y) / 2)
+                img, y = cizici(k, kay)
+                return c_kaydet(img, path)
+            son = y
+        except Tasma as e:
+            son = str(e)
+    raise AssertionError(("carousel slaytı taşıyor", path, son))
+
+
+def carousel_kapak(path, tur, seri, kanca, alt, sayfa, toplam):
+    """Kapak: seri rozeti + büyük kanca + alt satır + 'kaydırmaya devam' bandı."""
+    koyu = TEMA[tur][3]
+
+    def ciz(k, oy):
+        img, d = c_zemin(tur)
+        rozet(d, 0, 110 + oy, seri_no(seri, C_SERI_ONEK.get(tur, "Rehber")), koyu, s=32, center=True)
+        cz = C_CIZIM.get(tur)
+        y = 230 + oy
+        if cz:
+            cz(d, 540, 380 + oy, 1.1)
+            y = 570 + oy
+        y = yaz(d, 0, y, kanca, F("Black", 112, k), MURDUM, 940, 1.06, center=True) + 26
+        if alt:
+            fa = F("Bold", 50, k)
+            th = yukseklik(d, alt, fa, 800, 1.25)
+            kart(d, y, y + th + 52, fill=BEYAZ, x1=120, x2=960, r=40, golge=golge_rengi(tur))
+            yaz(d, 0, y + 24, alt, fa, koyu, 800, 1.25, center=True)
+            y += th + 52 + 34
+        f = font("ExtraBold", 30)
+        t = tr_buyuk("Kaydır, adım adım")
+        w = d.textlength(t, font=f) + 110
+        d.rounded_rectangle([(W - w) / 2, y, (W + w) / 2, y + 62], radius=31, fill=MURDUM)
+        d.text(((W - w) / 2 + 34, y + 14), t, font=f, fill=BEYAZ)
+        ax = (W + w) / 2 - 52
+        d.polygon([(ax, y + 18), (ax + 22, y + 31), (ax, y + 44)], fill=LIMON)
+        y += 62
+        c_alt(d, sayfa, toplam, tur)
+        return img, y
+    return c_sigdir(ciz, path)
+
+
+def carousel_adim(path, tur, no, baslik, maddeler, sayfa, toplam, kaynak=None, uyari=None):
+    """Ara slayt: büyük adım numarası + başlık + madde kartları (+ isteğe bağlı DİKKAT kartı)."""
+    koyu = TEMA[tur][3]
+
+    def ciz(k, oy):
+        img, d = c_zemin(tur, sayfa)
+        y = 110 + oy
+        if no is not None:
+            numara(d, 80, y, no, r=46, renk=koyu)
+            yaz(d, 200, y + 10, baslik, F("Black", 70, min(k, 1.08)), MURDUM, 800, 1.08)
+            y = max(y + 92, y + 10 + yukseklik(d, baslik, F("Black", 70, min(k, 1.08)), 800, 1.08)) + 36
+        else:
+            y = yaz(d, 80, y, baslik, F("Black", 70, min(k, 1.08)), MURDUM, 920, 1.08) + 36
+        f = F("SemiBold", 44, k)
+        for m in maddeler:
+            th = yukseklik(d, m, f, 760, 1.3)
+            h = max(th + 56, 116)
+            kart(d, y, y + h, fill=BEYAZ, r=36, golge=golge_rengi(tur))
+            tik(d, 116, y + h / 2 - 30, r=30, renk=koyu)
+            yaz(d, 200, y + (h - th) / 2 + 4, m, f, MURDUM, 760, 1.3)
+            y += h + 22
+        if uyari:
+            fd = F("SemiBold", 40, k)
+            th = yukseklik(d, uyari, fd, 820, 1.3)
+            h = 80 + th + 28
+            kart(d, y, y + h, fill=(255, 226, 232), r=34)
+            d.text((125, y + 26), "DİKKAT", font=font("ExtraBold", 30), fill=K_PEMBE)
+            yaz(d, 125, y + 72, uyari, fd, MURDUM, 820, 1.3)
+            y += h
+        c_alt(d, sayfa, toplam, tur, kaynak)
+        return img, y
+    return c_sigdir(ciz, path)
+
+
+def carousel_son(path, tur, soru, sayfa, toplam, kaynak=None, not_metni=None):
+    """Son slayt: 'Kaydet, bir anneye gönder' + soru + @utopikanne."""
+    koyu = TEMA[tur][3]
+
+    def ciz(k, oy):
+        img, d = c_zemin(tur, 99)
+        # kaydet simgesi (yer imi) — kendi vektörümüz
+        cx, cy = 540, 250 + oy
+        d.rounded_rectangle([cx - 130, cy - 130, cx + 130, cy + 130], radius=70, fill=BEYAZ)
+        d.polygon([(cx - 55, cy - 80), (cx + 55, cy - 80), (cx + 55, cy + 85), (cx, cy + 40), (cx - 55, cy + 85)],
+                  fill=koyu)
+        kalp(d, cx, cy - 22, 24, PUDRA)
+        y = yaz(d, 0, 430 + oy, "Kaydet,\nbir anneye gönder", F("Black", 96, k), MURDUM, 940, 1.08, center=True) + 30
+        f = F("SemiBold", 46, k)
+        th = yukseklik(d, soru, f, 800, 1.3)
+        kart(d, y, y + th + 120, fill=BEYAZ, x1=100, x2=980, r=40, golge=golge_rengi(tur))
+        rozet(d, 0, y + 30, "Sıra sende", koyu, s=28, center=True)
+        yaz(d, 0, y + 100, soru, f, MURDUM, 800, 1.3, center=True)
+        y += th + 120 + 30
+        if not_metni:
+            fn = font("Medium", 28)
+            y = yaz(d, 0, y, not_metni, fn, SOLUK, 900, 1.3, center=True)
+        fh = font("Black", 64)
+        d.text(((W - d.textlength(HANDLE, font=fh)) / 2, y + 24), HANDLE, font=fh, fill=koyu)
+        y += 24 + 70
+        c_alt(d, sayfa, toplam, tur, kaynak)
+        return img, y
+    return c_sigdir(ciz, path)
+
+
+def carousel(klasor, ad, tur, seri, kanca, alt, slaytlar, soru, kaynak, not_metni=None):
+    """slaytlar: [{"baslik":..., "maddeler":[...], "uyari": opsiyonel, "no": opsiyonel}]. JPEG yollarını döndürür."""
+    import os
+    os.makedirs(klasor, exist_ok=True)
+    toplam = len(slaytlar) + 2
+    yollar = [carousel_kapak(os.path.join(klasor, f"{ad}_01.jpg"), tur, seri, kanca, alt, 1, toplam)]
+    for i, s in enumerate(slaytlar, 2):
+        yollar.append(carousel_adim(os.path.join(klasor, f"{ad}_{i:02d}.jpg"), tur, s.get("no", i - 1), s["baslik"],
+                                    s["maddeler"], i, toplam, kaynak=kaynak, uyari=s.get("uyari")))
+    yollar.append(carousel_son(os.path.join(klasor, f"{ad}_{toplam:02d}.jpg"), tur, soru, toplam, toplam,
+                               kaynak=kaynak, not_metni=not_metni))
+    return yollar
