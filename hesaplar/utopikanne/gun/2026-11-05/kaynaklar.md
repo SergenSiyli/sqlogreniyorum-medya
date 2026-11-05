@@ -26,6 +26,8 @@ Bal/inek sütü içecek yok; tuz/şeker yok (tarifte açıkça yasak); boğulma 
 
 ## 21:30 Carousel — Temizlik tüyosu #1 (biberon)
 
+(yedeğe alındı, yayınlanmadı)
+
 Doğrulama: 2026-11-05. URL'ler WebSearch sonuçlarından alınıp WebFetch ile okundu. Karar: DÜZELTİLDİ.
 
 | Slayt | İddia | Kaynak | Karar |
@@ -46,3 +48,38 @@ URL'ler:
 - https://www.cdc.gov/natural-disasters/safety/how-to-safely-clean-and-sanitize-with-bleach.html
 
 Kesin kurallar: marka yok; kimyasal karıştırma önerisi yok (tersine uyarı var); doz/ilaç yok.
+
+## 21:30 Carousel (DEĞİŞTİ) — Temizlik tüyosu #1 (mama sandalyesi)
+
+Doğrulama: 2026-11-05. URL'ler WebSearch sonuçlarından alınıp WebFetch ile okundu. Karar: DÜZELTİLDİ.
+
+| Slayt | Taslak iddia | Kaynak | Karar |
+|---|---|---|---|
+| 2 | Tablayı sıcak sabunlu suyla temizle | CDC (ECE): "Clean highchair trays, plates, and countertops with hot, soapy water." | ONAY |
+| 2 | Her öğünden sonra; durula | CDC (ECE): "Wash, rinse, and sanitize highchair trays just before and right after they are used for eating." | DÜZELTİLDİ ("öncesi ve sonrası" eklendi; sanitize/kimyasal adımı bilinçli olarak alınmadı) |
+| 2 | "Tablayı çıkar", "oturağı sil", "kurula" | Kaynaklarda açıkça yok (CDC yalnızca tablayı anıyor) | ÇIKARILDI |
+| 3 | Kırıntı biriken köşe/ara yerleri sil | Resmi kaynakta bulunamadı | ÇIKARILDI |
+| 3 | Kumaş kılıf/kayışlar için üretici talimatı | CDC (ev): "Launder items (if possible) according to the manufacturer's instructions."; "following instructions on the product label" | ONAY (ifade kaynağa uyarlandı) |
+| 4 | Kemer her seferinde, bacak arası dahil | AAP: "Whenever your child sits in the chair, use the safety straps, including the crotch strap." | ONAY |
+| 4 | Yalnız bırakma | AAP: "Never leave a young child alone in a high chair." | ONAY |
+| 4 | Masa ve duvardan uzak, düz zemin | AAP: "Do not place the high chair near a counter or table" (itip devirebilir). "Duvar" ve "düz zemin" kaynakta yok | DÜZELTİLDİ ("masa ve tezgâh") |
+| 4 | (ek) Katlanırsa kilitle | AAP: "If the chair folds, be sure it is locked each time you set it up." | Kaynaklı ama eklenmedi (slaytta 3 madde sınırı); isteğe bağlı |
+| 5 | Ürünleri karıştırma | CDC (ev): "Do not mix products or chemicals with each other." | ONAY |
+| 5 | Çocukların ulaşamayacağı yerde sakla | CDC (ev): "Store and use chemicals out of the reach of children and pets." | ONAY |
+| Kaynak satırı | CDC, AAP (HealthyChildren.org) | — | ONAY |
+
+URL'ler:
+- https://www.healthychildren.org/English/safety-prevention/at-home/Pages/High-Chair-Safety-Tips.aspx
+- https://www.cdc.gov/hygiene/about/how-to-clean-and-disinfect-early-care-and-education-settings.html
+- https://www.cdc.gov/hygiene/about/when-and-how-to-clean-and-disinfect-your-home.html
+
+Onaylı metin:
+1. Mama sandalyesi nasıl temizlenir? — alt: Her öğünden sonra, hızlıca
+2. Her öğünden sonra: Tablayı sıcak sabunlu suyla ov. / Sonra temiz suyla durula. / Yemekten hemen önce de tablayı temizle.
+3. Kılıf ve kayışlar: Kumaş kılıf ve kayışları üretici talimatına göre yıka. / Temizlik ürününü etiketindeki talimata göre kullan.
+4. Her oturuşta güvenlik: Kemeri her seferinde tak, bacak arası kayışı dahil. / Bebeği mama sandalyesinde asla yalnız bırakma. / Sandalyeyi masa ve tezgâhtan uzak tut; bebek itip devirebilir.
+5. Dikkat: Temizlik ürünlerini asla birbirine karıştırma. / Temizlik ürünlerini çocukların ulaşamayacağı yerde sakla.
+6. Kaydet, bir anneye gönder — Senin mama sandalyesi temizliğinde en zor kısım ne?
+Kaynak: CDC, AAP (HealthyChildren.org)
+
+Kesin kurallar: marka yok; kimyasal karıştırma/sanitize önerisi yok (tersine uyarı var); doz/ilaç yok; "sen" dili.

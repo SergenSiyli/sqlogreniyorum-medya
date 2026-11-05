@@ -1,12 +1,48 @@
-{"2026-11-05": [
- {"saat": "21:30", "sablon": "carousel", "konu": "biberon", "tur": "temizlik", "seri": "Temizlik tüyosu #1",
-  "kanca": "Biberon nasıl temizlenir?", "alt": "Adım adım, sterilizasyon dahil",
-  "slaytlar": [
-   {"baslik": "Her beslenmeden sonra", "maddeler": ["Biberonu, emziğini, halkasını ve kapağını ayır.", "Süt kalıntısını akan suyla durula."]},
-   {"baslik": "Yıka", "maddeler": ["Sıcak, sabunlu suda biberon fırçasıyla iç ve dışını fırçala.", "Emziğin deliğinden de sabunlu su geçir."], "uyari": "Bulaşık makinesi temizler ama sterilize etmez."},
-   {"baslik": "Durula ve kurut", "maddeler": ["Temiz akan suyla iyice durula.", "Havluyla silme; temiz bir bez ya da kâğıt havlu üstünde kendi kendine kurusun."]},
-   {"baslik": "Sterilize et: 3 yol", "maddeler": ["Kaynatma: tencerede suyun altında en az 10 dakika kaynat.", "Buharlı sterilizatör: üretici talimatına uy.", "Soğuk su: en az 30 dk beklet, solüsyonu 24 saatte bir yenile; talimata uy."]},
-   {"baslik": "Ne zamana kadar, nasıl saklarım?", "maddeler": ["Bebek en az 12 aylık olana dek sterilize et.", "Kullanana dek sterilizatörde ya da tencerede bırak.", "Steril parçalara dokunmadan önce ellerini yıka ve kurula."], "uyari": "Temizlik ürünlerini asla birbirine karıştırma."}
-  ],
-  "soru": "Sen biberonları hangi yöntemle sterilize ediyorsun?", "kaynak": "NHS, CDC", "not": "Bilgilendirme amaçlıdır."}
-]}
+{
+ "2026-11-05": [
+  {
+   "saat": "21:30",
+   "sablon": "carousel",
+   "konu": "mama_sandalyesi",
+   "tur": "temizlik",
+   "seri": "Temizlik tüyosu #1",
+   "kanca": "Mama sandalyesi nasıl temizlenir?",
+   "alt": "Her öğünden sonra, hızlıca",
+   "slaytlar": [
+    {
+     "baslik": "Her öğünden sonra",
+     "maddeler": [
+      "Tablayı sıcak sabunlu suyla ov.",
+      "Sonra temiz suyla durula.",
+      "Yemekten hemen önce de tablayı temizle."
+     ]
+    },
+    {
+     "baslik": "Kılıf ve kayışlar",
+     "maddeler": [
+      "Kumaş kılıf ve kayışları üretici talimatına göre yıka.",
+      "Temizlik ürününü etiketindeki talimata göre kullan."
+     ]
+    },
+    {
+     "baslik": "Her oturuşta güvenlik",
+     "maddeler": [
+      "Kemeri her seferinde tak, bacak arası kayışı dahil.",
+      "Bebeği mama sandalyesinde asla yalnız bırakma.",
+      "Sandalyeyi masa ve tezgâhtan uzak tut; bebek itip devirebilir."
+     ]
+    },
+    {
+     "baslik": "Temizlik ürünleri",
+     "maddeler": [
+      "Temizlik ürünlerini çocukların ulaşamayacağı yerde sakla."
+     ],
+     "uyari": "Temizlik ürünlerini asla birbirine karıştırma."
+    }
+   ],
+   "soru": "Senin mama sandalyesi temizliğinde en zor kısım ne?",
+   "kaynak": "CDC, AAP",
+   "not": "Bilgilendirme amaçlıdır."
+  }
+ ]
+}

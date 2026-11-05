@@ -51,4 +51,4 @@ KPI: haftalık net takipçi (hedef: önce artıya dönmek, sonra ≥ +300/hafta)
 ## v3 — 5 Kasım (hesap sahibinin onayıyla bugün başladı; "söylediğim an eski sisteme dön")
 Belge: https://claude.ai/artifact/WVXc3wvHnZDAfsMczRy9VV. Otomatik hikâye 4 (08:30, 10:30, 18:30, 22:30) + haftada 3 carousel (Salı/Perşembe/Pazar 21:30) + her tur Melike'ye 2 Reels fikri + Pazartesi haftalık rapor. 8 hikâyelik düzenin kuyrukları kuyruk/arsiv_8hikaye/ altında (geri dönüş için). İlk carousel 5 Kasım 21:30 (Temizlik tüyosu #1).
 
-- 5 Kasım öğlen turu (v3 ilk uygulama): İlk carousel 5 Kas 21:30 "Temizlik tüyosu #1: Biberon nasıl temizlenir?" (7 slayt, nane). 7 Kas 4 hikâye (Tarif #6 kabak, Kalori #2 yumurta). Hikâye başına erişim 16–48 (ort. ~36); carousel'in kaydetme/paylaşımı Pazartesi raporunda izlenecek.
+- 5 Kasım öğlen turu (v3 ilk uygulama): İlk carousel 5 Kas 21:30 "Temizlik tüyosu #1: Mama sandalyesi nasıl temizlenir?" (6 slayt, nane; biberon 4 Kas hikâyesini tekrarladığı için hesap sahibinin isteğiyle değiştirildi). 7 Kas 4 hikâye (Tarif #6 kabak, Kalori #2 yumurta). Hikâye başına erişim 16–48 (ort. ~36); carousel'in kaydetme/paylaşımı Pazartesi raporunda izlenecek.
