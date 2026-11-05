@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-05T12:31:34+03:00",
+ "zaman": "2026-11-05T12:49:49+03:00",
  "hesap": "utopikanne",
  "profil": {
   "id": "17841478247923387",
@@ -21,11 +21,11 @@
    "permalink": "https://www.instagram.com/reel/DfU4iSYMl3t/",
    "timestamp": "2026-11-04T16:29:59+0000",
    "icgoru": {
-    "reach": 3058,
+    "reach": 3099,
     "saved": 12,
     "shares": 9,
     "total_interactions": 58,
-    "views": 3958
+    "views": 3975
    }
   },
   {
@@ -144,7 +144,7 @@
     "saved": 11,
     "shares": 10,
     "total_interactions": 58,
-    "views": 1801
+    "views": 1802
    }
   },
   {
@@ -858,7 +858,7 @@
     "saved": 21,
     "shares": 8,
     "total_interactions": 206,
-    "views": 23121
+    "views": 23123
    }
   },
   {
@@ -908,7 +908,7 @@
     "saved": 255,
     "shares": 148,
     "total_interactions": 711,
-    "views": 92332
+    "views": 92333
    }
   },
   {
@@ -2071,6 +2071,176 @@
    "timestamp": "2025-11-28T15:46:10+0000"
   }
  ],
+ "hikayeler": [
+  {
+   "id": "17988200313106440",
+   "media_type": "IMAGE",
+   "timestamp": "2026-11-05T09:30:01+0000",
+   "icgoru_hata": "API 400: {\"error\":{\"message\":\"(#10) Not enough viewers for the media to show insights\",\"code\":10,\"type\":\"OAuthException\",\"fbtrace_id\":\"A6uweONTI8u9buYjCw-7bS3\"}"
+  },
+  {
+   "id": "18128712643662767",
+   "media_type": "IMAGE",
+   "timestamp": "2026-11-05T07:30:01+0000",
+   "icgoru": {
+    "reach": 16,
+    "views": 21,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "gezinme": {
+    "tap_back": 1,
+    "swipe_forward": 2,
+    "tap_forward": 12,
+    "tap_exit": 4
+   }
+  },
+  {
+   "id": "17957285532272164",
+   "media_type": "IMAGE",
+   "timestamp": "2026-11-05T05:30:01+0000",
+   "icgoru": {
+    "reach": 26,
+    "views": 33,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "gezinme": {
+    "tap_forward": 21,
+    "tap_back": 1,
+    "tap_exit": 6,
+    "swipe_forward": 2
+   }
+  },
+  {
+   "id": "18113961724891521",
+   "media_type": "VIDEO",
+   "timestamp": "2026-11-05T04:05:29+0000",
+   "icgoru": {
+    "reach": 29,
+    "views": 35,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "gezinme": {
+    "swipe_forward": 2,
+    "tap_back": 1,
+    "tap_forward": 23,
+    "tap_exit": 4
+   }
+  },
+  {
+   "id": "18019117820951424",
+   "media_type": "IMAGE",
+   "timestamp": "2026-11-04T19:30:01+0000",
+   "icgoru": {
+    "reach": 34,
+    "views": 44,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "gezinme": {
+    "swipe_forward": 3,
+    "tap_forward": 28,
+    "tap_exit": 2,
+    "tap_back": 2
+   }
+  },
+  {
+   "id": "17936133729145235",
+   "media_type": "IMAGE",
+   "timestamp": "2026-11-04T17:30:01+0000",
+   "icgoru": {
+    "reach": 37,
+    "views": 54,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "gezinme": {
+    "swipe_forward": 3,
+    "tap_back": 7,
+    "tap_forward": 31,
+    "tap_exit": 8
+   }
+  },
+  {
+   "id": "18090246917284919",
+   "media_type": "IMAGE",
+   "timestamp": "2026-11-04T15:30:01+0000",
+   "icgoru": {
+    "reach": 43,
+    "views": 64,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "gezinme": {
+    "swipe_forward": 2,
+    "tap_back": 7,
+    "tap_forward": 37,
+    "tap_exit": 5
+   }
+  },
+  {
+   "id": "18102222665184394",
+   "media_type": "IMAGE",
+   "timestamp": "2026-11-04T13:30:01+0000",
+   "icgoru": {
+    "reach": 44,
+    "views": 58,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "gezinme": {
+    "tap_back": 3,
+    "swipe_forward": 1,
+    "tap_exit": 5,
+    "tap_forward": 42
+   }
+  },
+  {
+   "id": "17984857448906299",
+   "media_type": "IMAGE",
+   "timestamp": "2026-11-04T11:30:01+0000",
+   "icgoru": {
+    "reach": 46,
+    "views": 56,
+    "replies": 0,
+    "shares": 0,
+    "total_interactions": 0
+   },
+   "gezinme": {
+    "swipe_forward": 4,
+    "tap_exit": 5,
+    "tap_forward": 38,
+    "tap_back": 3
+   }
+  },
+  {
+   "id": "18123189356516644",
+   "media_type": "VIDEO",
+   "timestamp": "2026-11-04T10:07:44+0000",
+   "icgoru": {
+    "reach": 48,
+    "views": 63,
+    "replies": 1,
+    "shares": 0,
+    "total_interactions": 1
+   },
+   "gezinme": {
+    "tap_forward": 46,
+    "tap_exit": 5,
+    "swipe_forward": 4,
+    "tap_back": 4
+   }
+  }
+ ],
  "hesap_icgoru": {
   "data": [
    {
@@ -2079,11 +2249,11 @@
     "period": "day",
     "values": [
      {
-      "value": 3370,
+      "value": 3376,
       "end_time": "2026-11-04T08:00:00+0000"
      },
      {
-      "value": 109,
+      "value": 151,
       "end_time": "2026-11-05T08:00:00+0000"
      }
     ],
@@ -2109,8 +2279,8 @@
    }
   ],
   "paging": {
-   "previous": "https://graph.facebook.com/v26.0/17841478247923387/insights?metric=reach%2Cfollower_count&period=day&access_token=EAAVY3Pd4BTsBS38qNBbVctpb6D0fbKGZCIhF4NJlnYv3AJGjb902jDhSzwFx1jZCze3JxLbJx299B7mZB9zsN3DXTrUrjd25yIp8r4iAezmPkBB4NcE0xorrqI4FqDdo6e7jvJQALQ2dILpU28qrcH86S7qJEzHLwGWiHqWlR04UresF7wqRZBb1sZA30UW5U1ZAQx8IVo8TR7mmZBLfLloeZB5PhnwA2dgZCPwzZCUyYbB3ySmznFT8HyVwZDZD&since=1793525554&until=1793698354",
-   "next": "https://graph.facebook.com/v26.0/17841478247923387/insights?metric=reach%2Cfollower_count&period=day&access_token=EAAVY3Pd4BTsBS38qNBbVctpb6D0fbKGZCIhF4NJlnYv3AJGjb902jDhSzwFx1jZCze3JxLbJx299B7mZB9zsN3DXTrUrjd25yIp8r4iAezmPkBB4NcE0xorrqI4FqDdo6e7jvJQALQ2dILpU28qrcH86S7qJEzHLwGWiHqWlR04UresF7wqRZBb1sZA30UW5U1ZAQx8IVo8TR7mmZBLfLloeZB5PhnwA2dgZCPwzZCUyYbB3ySmznFT8HyVwZDZD&since=1793871156&until=1794043956"
+   "previous": "https://graph.facebook.com/v26.0/17841478247923387/insights?metric=reach%2Cfollower_count&period=day&access_token=EAAVY3Pd4BTsBS38qNBbVctpb6D0fbKGZCIhF4NJlnYv3AJGjb902jDhSzwFx1jZCze3JxLbJx299B7mZB9zsN3DXTrUrjd25yIp8r4iAezmPkBB4NcE0xorrqI4FqDdo6e7jvJQALQ2dILpU28qrcH86S7qJEzHLwGWiHqWlR04UresF7wqRZBb1sZA30UW5U1ZAQx8IVo8TR7mmZBLfLloeZB5PhnwA2dgZCPwzZCUyYbB3ySmznFT8HyVwZDZD&since=1793526676&until=1793699476",
+   "next": "https://graph.facebook.com/v26.0/17841478247923387/insights?metric=reach%2Cfollower_count&period=day&access_token=EAAVY3Pd4BTsBS38qNBbVctpb6D0fbKGZCIhF4NJlnYv3AJGjb902jDhSzwFx1jZCze3JxLbJx299B7mZB9zsN3DXTrUrjd25yIp8r4iAezmPkBB4NcE0xorrqI4FqDdo6e7jvJQALQ2dILpU28qrcH86S7qJEzHLwGWiHqWlR04UresF7wqRZBb1sZA30UW5U1ZAQx8IVo8TR7mmZBLfLloeZB5PhnwA2dgZCPwzZCUyYbB3ySmznFT8HyVwZDZD&since=1793872278&until=1794045078"
   }
  },
  "kitle": {
