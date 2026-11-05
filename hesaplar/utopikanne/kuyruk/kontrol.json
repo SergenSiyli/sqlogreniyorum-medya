@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-05T14:23:34+03:00",
+ "zaman": "2026-11-05T14:38:00+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 257,
  "hesap": {
@@ -10,7 +10,7 @@
  "kota": {
   "data": [
    {
-    "quota_usage": 8,
+    "quota_usage": 7,
     "config": {
      "quota_total": 100,
      "quota_duration": 86400
@@ -20,13 +20,11 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6495f8418be34c82fea55ed777c386ca05e98eab/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_biberon_01.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6495f8418be34c82fea55ed777c386ca05e98eab/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_biberon_02.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6495f8418be34c82fea55ed777c386ca05e98eab/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_biberon_03.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6495f8418be34c82fea55ed777c386ca05e98eab/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_biberon_04.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6495f8418be34c82fea55ed777c386ca05e98eab/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_biberon_05.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6495f8418be34c82fea55ed777c386ca05e98eab/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_biberon_06.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6495f8418be34c82fea55ed777c386ca05e98eab/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_biberon_07.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6495f8418be34c82fea55ed777c386ca05e98eab/hesaplar/utopikanne/gun/2026-11-07/story_1830_kalori.png": "image/png"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a767de01968d21c3aadfc34c3eba4056a170ccac/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_mama_sandalyesi_01.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a767de01968d21c3aadfc34c3eba4056a170ccac/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_mama_sandalyesi_02.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a767de01968d21c3aadfc34c3eba4056a170ccac/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_mama_sandalyesi_03.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a767de01968d21c3aadfc34c3eba4056a170ccac/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_mama_sandalyesi_04.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a767de01968d21c3aadfc34c3eba4056a170ccac/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_mama_sandalyesi_05.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a767de01968d21c3aadfc34c3eba4056a170ccac/hesaplar/utopikanne/gun/2026-11-05/carousel_2130_mama_sandalyesi_06.jpg": "image/jpeg"
  }
 }
