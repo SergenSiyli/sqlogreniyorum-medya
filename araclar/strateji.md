@@ -51,3 +51,11 @@ Kanca: her Reels ilk karede tam görünen soru/hata/etki cümlesiyle açılıyor
 - Son 7 gün Reels 3 sn: SQL ort. ~%35 (LEFT JOIN #3 %41,9; LIKE #1 %40,0; #2 %37,5), haber ort. ~%25 (Apple Numbers %33,8 en iyi; Genie 4 %19,3). Erişimin ~%75'i SQL Reels'ten. (Kaydetme+paylaşım)/erişim: 132/6.572 = %2,0 (hedef ≥%5).
 - Bu tur değiştirdiğimiz: (1) İlk DENEME Reels'i 6 Kasım 18:00 (SQL Mülakat #5, LAG; takip etmeyenlere gider → yeni takipçi kanalı). Hafta için 1 deneme daha (7-8 Kasım, SQL tuzağı). (2) Günde 8 story: 13:30 kariyer/ilham + 16:00 hap haber eklendi; "Teknik Mülakat Taktiği #1" serisi başladı. (3) Haber seçimi öğrenci gündemine yöneldi (Google okul hesapları).
 - Sıradaki SQL: CTE (#6), IN/EXISTS, SUM() OVER. 6 Kasım akşamı sütun oranı önerisi: veri SQL lehine, +1 SQL önerilecek.
+
+## Durum (5 Kasım 2026 gece turu)
+- Takipçi: 1.538 (Metricool, 3 Kasım; 4-5 Kasım verisi henüz yok). 29 Ekim-3 Kasım: 1.490 → 1.538, net +48 (~9,6/gün; önceki ölçümde ~6/gün). Bu hızla 50.000'e ~5.000 gün.
+- Son 7 gün (14 Reels) 3 sn ort. %30,4; (kaydetme+paylaşım)/erişim 150/8.663 = %1,7. 18:00 SQL Reels: %35,8-40,1, erişim 1.116-1.480. 11:00 haber Reels: %22,7-29,0, erişim 153-372 (SQL'in ~1/5'i).
+- Uyarı: içerik ve saat tamamen iç içe (haber hep 11:00, SQL hep 18:00) → A/B testi saat etkisini ölçemez. Karar: 8 Kasım'dan itibaren A/B günlerinde içerik slotu dönüşümlü (bir gün SQL öğlen, bir gün akşam). 8 Kasım Pazar: SQL 13:00, haber 21:00 (haber ≤72 sa kuralına dikkat).
+- 7 Kasım: 13:00 haber (ChatGPT Images 2.6 GIF), 21:00 DENEME Reels SQL Mülakat #6 (NOT IN + NULL → 0 satır; "HİÇ satır" kazanan kancası). Haftanın 2. denemesi. Teknik Mülakat Taktiği #2 (NULL'ı sor) 14:00.
+- Sıradaki SQL: CTE (#7), SUM() OVER, CASE WHEN, UNION/UNION ALL.
+- 6 Kasım akşam önerisi (veri): SQL 6→7, haber 5→4.
