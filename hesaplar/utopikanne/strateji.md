@@ -37,3 +37,13 @@ Renkli şablonlar: araclar/anne_renkli.py. İmza renkleri: tarif mercan/şeftali
 - 2 Kasım: Renkli görsel kimliğe geçildi (2 Kas 12:30 sonrası ve 3 Kas yeniden üretildi; 2 Kas 10:30 yayın çalışmasına çoktan yüklendiği için eski stilde kaldı). Günlük plan v2: emzirme/mama, temizlik ve hap bilgi serileri eklendi; 4 Kasım ilk uygulama.
 - 3 Kasım gece: 5 Kasım ilk "Güncel" haber hikâyesi (16:30) ve hastane çantası listesi; karnabahar çizimi eklendi. Ek gıda kotası günde 1 (tarif) tutuldu; bal efsanesi yedekte.
 - 4 Kasım gece: Takipçi 4.046 → 4.033 (1–4 Kas, −13). Gündüz hikâyelerine "KAYDET, LAZIM OLUR / BİR ANNEYE GÖNDER" çağrı bandı eklendi (DM paylaşımı = tek organik yayılma yolu). Kalori serisi başladı (6 Kas 16:30, Kalori #1, limon+nane şablonu). Tüm metinler sen diline geçti. En çok yorum alan Reels'ler mizah+temizlik → Melike'ye temizlik temalı Reels önerisi.
+
+## 50 BİN STRATEJİSİ (5 Kasım, hesap sahibinin talebi — bu bölüm önceliklidir)
+Veri: 4.046 (1 Kas) → 4.033 (4 Kas), −13. Son 3 ay Reels beğeni medyanı 35 → 27 (Eki). Viral 10 gönderinin 8'i hamilelik/annelik mizahı, 22:00–23:00, Çarşamba ağırlıklı.
+1. Büyüme motoru Melike'nin Reels'i: haftada 4–5 Reels, 21:30–22:30, mizah + gerçek an ("Sizce hangisi daha zor?" kalıbı), trend sesler (uygulamadan paylaştığı için kullanabiliyor). Ekip her turda özetin sonunda 2 Reels fikri verir: kanca cümlesi + 3 sahne + açıklama ilk cümlesi + 3-5 hashtag.
+2. "Aren'in ek gıda günlüğü" serisi (Melike çeker; gerçek deneyim, uydurma yok): ekip aynı günün tarif kartını o Reels'le eşler.
+3. Hikâye sayısı testi: 8 otomatik hikâye sonrası takipçi hafif düşüyor; neden kesin değil (içgörü izni yok). 7 gün izle: 11 Kasım'a kadar net takipçi negatifse hesap sahibine "otomatik hikâyeyi 5'e indir + Melike'nin 2-3 kişisel hikâyesi" önerisini veriyle sun (karar onun).
+4. Kaydetme/DM paylaşımı: tarif ve temizlik kartlarında "Kaydet / bir anneye gönder" bandı sürer; öne çıkan hikâye kapakları önerisi (Ek Gıda, Temizlik, Kalori, Hamilelik).
+5. İş birliği: benzer büyüklükte (5–30 bin) Türk anne/ek gıda hesaplarıyla ortak Reels (collab) — ekip haftada 2 aday profil türü önerir; kişileri hedefleyen profil dosyası çıkarma, yalnızca öneri.
+6. Mevsimsel kancalar: kış hastalıkları, yılbaşı, kar, Ramazan (2027 Şubat) — en büyük viral Ramazan/sahur mizahıydı; Ocak sonunda hatırlat.
+KPI: haftalık net takipçi (hedef: önce artıya dönmek, sonra ≥ +300/hafta), Reels medyan beğeni ≥ 50, viral (≥1.000 beğeni) Reels ayda ≥ 2.
