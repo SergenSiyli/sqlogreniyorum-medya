@@ -15,3 +15,6 @@
 2026-11-06 iyi geceler: Shigetaka Kurita'nın 176 emojisi (1999, NTT DoCoMo, 12x12; 2016 MoMA) — kaynak: Designboom, Domus
 2026-11-07 günaydın: Python adı Monty Python's Flying Circus'tan (Guido van Rossum) — kaynak: docs.python.org General Python FAQ
 2026-11-07 iyi geceler: eBay/AuctionWeb ilk satış bozuk lazer işaretçisi 14,83 $ (1995, Pierre Omidyar) — kaynak: TIME
+2026-11-08 günaydın: Bluetooth adı Harald "Blåtand" Gormsson'dan, 1996 geçici kod adı (Jim Kardach, Intel) — kaynak: bluetooth.com/about-us/bluetooth-origin, Gizmodo
+2026-11-08 iyi geceler: Google adı "googol" yazım hatası (1997, Stanford; google.com 15 Eylül 1997) — kaynak: graphics.stanford.edu/~dk/google_name_origin.html, ASME
+2026-11-08 ilham kartı (Teknoloji Tarihinden #1): Edgar F. Codd, 1970 ilişkisel model, 1981 Turing — kaynak: IBM, Britannica
