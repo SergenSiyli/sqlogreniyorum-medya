@@ -1,0 +1,66 @@
+[
+ {
+  "id": "2026-11-08_0900_story_gunaydin",
+  "hedef": "2026-11-08T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/story_gunaydin.png"
+ },
+ {
+  "id": "2026-11-08_1000_story_soru",
+  "hedef": "2026-11-08T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/story_1000_soru.png"
+ },
+ {
+  "id": "2026-11-08_1300_reel_union_all",
+  "hedef": "2026-11-08T13:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/reel_union_all.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/reel_union_all_kapak.png",
+  "aciklama": "SQL mülakat sorusu #7: UNION ile iki ayın satışını birleştirdim, ciro 1000 TL yerine 750 TL çıktı. 250 TL nereye gitti?\n\nUNION tekrar eden satırları siler. Ali (100 TL) ve Can (150 TL) iki ay da aynı tutarı ödediği için (Ali, 100) ve (Can, 150) satırları bire indi: 6 satır yerine 4 satır kaldı.\n\nDoğrusu: UNION ALL. Tüm satırları olduğu gibi tutar, toplam 1000 TL olur.\nKural: tekrarlar gerçek kayıtsa (satış, ciro) UNION ALL; tekil liste istiyorsan UNION. UNION ALL tekrar aramadığı için genelde daha hızlıdır.\n\nSQL öğrenen bir arkadaşına gönder, kaydet. Sen bugüne kadar hangisini daha çok kullandın: UNION mı, UNION ALL mı? Yorumlara yaz.\n\n#sql #sqlöğren #sqlmülakat #veribilimi #union"
+ },
+ {
+  "id": "2026-11-08_1400_story_ilham_codd",
+  "hedef": "2026-11-08T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/story_1400_ilham.png"
+ },
+ {
+  "id": "2026-11-08_1500_story_union_kart",
+  "hedef": "2026-11-08T15:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/story_1500_union_kart.png"
+ },
+ {
+  "id": "2026-11-08_1700_story_hap_findhub",
+  "hedef": "2026-11-08T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/story_1700_hap_findhub.png"
+ },
+ {
+  "id": "2026-11-08_2000_story_duyuru",
+  "hedef": "2026-11-08T20:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/story_2000_duyuru.png"
+ },
+ {
+  "id": "2026-11-08_2100_reel_siri_turkce",
+  "hedef": "2026-11-08T21:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/reel_siri_turkce.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/reel_siri_turkce_kapak.png",
+  "aciklama": "Akıllı Siri Türkçe öğreniyor: Apple, Siri AI'a Türkçe desteğinin iOS 27.3 ile geleceğini duyurdu.\n\nTürkçe, eklenecek 4 yeni dilden biri. iOS 27.3'ün herkese açık betası 5 Kasım'da çıktı; kararlı sürümün Aralık'ta gelmesi bekleniyor, ama tarih resmî değil. Türkçenin betada açılıp açılmadığı konusunda kaynaklar net değil. Beta sürüm hata içerebilir; denemek istersen önce yedek al.\n\nBunu bilmesi gereken birine gönder, kaydet. Siri'yi Türkçe kullanır mısın? Evet mi hayır mı, yorumlara tek kelimeyle yaz.\n\nKaynak: 9to5Mac, iCulture, ShiftDelete (26 Ekim-5 Kasım 2026)\n\n#yapayzeka #yapayzekahaberleri #teknolojihaberleri #siri"
+ },
+ {
+  "id": "2026-11-08_2200_story_ozet",
+  "hedef": "2026-11-08T22:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/story_2200_ozet.png"
+ },
+ {
+  "id": "2026-11-08_2300_story_iyigeceler",
+  "hedef": "2026-11-08T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/story_iyigeceler.png"
+ }
+]
