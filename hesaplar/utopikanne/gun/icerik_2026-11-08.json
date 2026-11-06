@@ -1,0 +1,15 @@
+{"2026-11-08": [
+ {"saat": "08:30", "sablon": "gunaydin", "bilgi": "1 yaş civarında bebekler 'bay bay' diye el sallar ve el çırpma gibi oyunları seninle oynar. Bugün birlikte el çırpın.", "kaynak": "CDC"},
+ {"saat": "10:30", "sablon": "tarif", "seri": "Ek gıda tarifi #7", "ay": "6+ ay", "baslik": "Elma püresi", "malzemeler": ["1 elma", "Su (haşlamak için)"], "adimlar": ["Elmayı yıka, soy, çekirdeğini çıkar.", "Küçük küpler hâlinde doğra.", "Az suda yumuşayana dek pişir (~10 dk).", "Çatalla ez ya da blenderdan geçir.", "Tamamen soğuyunca ver."], "saklama": "Kalanı 1-2 saat içinde soğut; buzdolabında 2 gün içinde kullan ya da dondur.", "dikkat": "Şeker ekleme. Yerken bebeğin yanından ayrılma.", "kaynak": "NHS Start for Life", "cizim": "elma", "cta": "Kaydet, lazım olur"},
+ {"saat": "18:30", "sablon": "temizlik", "seri": "Temizlik tüyosu #3", "baslik": "Ek gıda mutfak hijyeni", "maddeler": ["Hazırlamadan önce ellerini yıka.", "Yedirmeden önce bebeğin elleri temiz olsun.", "Tezgâhı, kesme tahtasını ve kaşıkları temiz tut.", "Sebze ve meyveyi akan suda iyice yıka."], "uyari": "Temizlik ürünlerini asla birbirine karıştırma.", "kaynak": "NHS, CDC", "cta": "Kaydet, bir anneye gönder"},
+ {"saat": "21:30", "sablon": "carousel", "konu": "bebek_banyosu", "tur": "kontrol", "seri": "Kontrol listesi #1", "kanca": "Bebek banyosu kontrol listesi", "alt": "Banyodan önce, sırasında, sonrasında",
+  "slaytlar": [
+   {"baslik": "Başlamadan önce", "maddeler": ["Havlu, temiz bez ve kıyafeti önceden hazırla.", "Odanın sıcak olduğundan emin ol.", "Küvete önce soğuk, sonra sıcak su koy."]},
+   {"baslik": "Suyun sıcaklığı", "maddeler": ["Suyu dirseğinle kontrol et.", "Ilık olsun; vücut sıcaklığı gibi hissettirmeli.", "Bebeği koymadan önce suyu karıştır, sıcak nokta kalmasın."]},
+   {"baslik": "Güvenli banyo", "maddeler": ["Küveti yaklaşık 8–10 cm doldur.", "Bebeğin başını sudan uzak tut."], "uyari": "Bebeği banyoda bir saniye bile yalnız bırakma."},
+   {"baslik": "Banyo sırasında", "maddeler": ["Bir elinle başını ve omuzlarını destekle.", "İlk ay sade ılık su yeterli; sabun gerekmez."]},
+   {"baslik": "Banyodan sonra", "maddeler": ["Bebeği çıkarınca nazikçe tamponlayarak kurula.", "Deri kıvrımlarını iyice kurula."]}
+  ],
+  "soru": "Banyo saatinde seni en çok ne zorluyor?", "kaynak": "NHS", "not": "Bilgilendirme amaçlıdır."},
+ {"saat": "22:30", "sablon": "iyi_geceler", "baslik": "Başı açık uyusun", "bilgi": "Eve girince bebeğin şapkasını çıkar; uyurken başının çevresinde yumuşak eşya olmasın.", "kaynak": "NHS"}
+]}
