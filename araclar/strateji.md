@@ -59,3 +59,11 @@ Kanca: her Reels ilk karede tam görünen soru/hata/etki cümlesiyle açılıyor
 - 7 Kasım: 13:00 haber (ChatGPT Images 2.6 GIF), 21:00 DENEME Reels SQL Mülakat #6 (NOT IN + NULL → 0 satır; "HİÇ satır" kazanan kancası). Haftanın 2. denemesi. Teknik Mülakat Taktiği #2 (NULL'ı sor) 14:00.
 - Sıradaki SQL: CTE (#7), SUM() OVER, CASE WHEN, UNION/UNION ALL.
 - 6 Kasım akşam önerisi (veri): SQL 6→7, haber 5→4.
+
+## Durum (6 Kasım 2026 akşam turu) — sütun oranı kararı
+- Takipçi: 1.547 (Metricool, 4 Kasım; 5-6 Kasım verisi henüz yok). 28 Ekim-4 Kasım: 1.490 → 1.547, net +57 (~8,1/gün). Bu hızla 50.000'e ~6.000 gün.
+- Son 7 gün (31 Ekim-5 Kasım, 12 Reels) sütunlara göre: SQL 6 Reels, erişim 6.968 (ort. 1.161), 3 sn ort. %34,4, (kaydetme+paylaşım)/erişim %1,3. AI+teknoloji haberi 6 Reels, erişim 1.412 (ort. 235), 3 sn ort. %26,0, oran %2,2. Kariyer/ilham Reels: henüz yok. Deneme Reels: ilki 6 Kasım (veri yok).
+- En iyi: NULL tuzağı (erişim 1.480, %35,8) ve LIKE #1 (1.331, %40,2, 25 kaydetme+paylaşım). En kötü: Netflix AI Discover (132, %22,7) ve eski kalıp WHERE/HAVING (649, %18,8; kancada yanlış sonuç yoktu).
+- KARAR (9 Kasım haftasından): SQL 6→7, haber 5→4, kariyer 2, ilham 1. SQL'in erişimi haberin ~5 katı. Haber yüzde olarak daha çok kaydediliyor; o yüzden haber sıfırlanmıyor, yalnızca en güçlü 4 haber.
+- Asıl darboğaz: (kaydetme+paylaşım)/erişim %1,5 (hedef ≥%5). Bu tur: 15:00 bilgi kartı "EKRAN GÖRÜNTÜSÜNÜ AL" kaydetme çağrısıyla. Ayrıca "Teknoloji Tarihinden #1" (Codd) ilham story serisi başladı.
+- 8 Kasım: 13:00 SQL Mülakat #7 (UNION → ciro 750/1000, "kaybolan para" kancası), 21:00 haber (Siri AI Türkçe, iOS 27.3). Sıradaki SQL: CTE, SUM() OVER, CASE WHEN, IN/EXISTS. Haftanın 3. denemesi açılmadı (6 ve 7 Kasım deneme; 9-15 Kasım için 2-3 deneme planlanacak).
