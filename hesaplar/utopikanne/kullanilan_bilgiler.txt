@@ -44,3 +44,8 @@
 2026-11-08 temizlik #3: ek gıda mutfak hijyeni (el, tezgâh/tahta/kaşık, sebze-meyve akan suda) — NHS, CDC
 2026-11-08 carousel kontrol listesi #1: bebek banyosu (önce soğuk su, dirsek, vücut ısısı, 8–10 cm, yalnız bırakma, ilk ay sade su, tamponla kurula) — NHS
 2026-11-08 iyi geceler: içeride şapkayı çıkar, başın çevresinde yumuşak eşya yok — NHS
+2026-11-09 günaydın: 15 ay bir şey istemek/yardım için parmakla gösterme, adını söyle — CDC
+2026-11-09 tarif #8: patates püresi (6+ ay, tuzsuz suda haşla, yarım bırakılanı at) — NHS Start for Life
+2026-11-09 carousel ev temizliği #1: buzdolabı kokusu (bozulanı at, raflar sıcak su+deterjan, iç sıcak su+karbonat, çözücü/aşındırıcı yok, açık kutu karbonat/kahve telvesi, 4°C, artık 3-4 gün, bebek yemeği 2 gün, çamaşır suyunu karıştırma) — USDA FSIS, NHS, CDC
+2026-11-09 temizlik #4: çiğ et sonrası tahta temizliği (ılık sabunlu su, çiğ tavuğu yıkama, çiğ et alt rafta kapalı) — FSA, NHS
+2026-11-09 iyi geceler: bebekle kanepe/koltukta uyuma, uykun gelirse beşiğine yatır — NHS, Lullaby Trust

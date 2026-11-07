@@ -68,3 +68,4 @@ Veri (7 Kas): ilk carousel (5 Kas mama sandalyesi) erişim 121, kaydetme 7, payl
 - Kalori yalnızca eğlenceli görsel kıyas: "1 simit ≈ 3 haşlanmış yumurta" gibi; hesap/formül/etiket okuma yok; diyet dili yok; ayda en fazla 4.
 - Cuma gönderisi "Pratik hayat & hap bilgi" oldu (kalori ayda en fazla 2 kez).
 - Ton: arkadaş sohbeti gibi, sıcak, kısa, hafif espri; kuru madde dili yok.
+- 7 Kas akşam turu — Bu tur değiştirdiğimiz: ilk hafta içi 11:30 carousel'i (Pzt Ev temizliği #1: buzdolabı kokusu) kuyruğa girdi; son slayt CTA'sı "Kaydet, lazım olur / Bir anneye gönder" oldu.
