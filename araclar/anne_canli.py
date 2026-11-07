@@ -2,7 +2,7 @@
 """utopikanne — renkli, 3D çizimli carousel + aynı içerikten animasyonlu Reels.
 
 Kullanım:
-  python3 araclar/anne_canli.py <icerik.json> <cikis_klasoru> [--reels] [--sadece-reels]
+  python3 araclar/anne_canli.py <icerik.json> <cikis_klasoru> [--reels] [--sadece-reels] [--story]
 
 Çıktı:
   <cikis>/<ad>_01.jpg ... (1080x1350, JPEG)  -> CAROUSEL
@@ -49,7 +49,7 @@ def img(ad, cls="", d=0.0, extra=""):
 
 def slayt_html(s, i, n, meta):
     tip = s["tip"]
-    rozet = f'<div class="rozet a" data-d="0">{html.escape(meta["seri"])} · #{meta["no"]}</div>'
+    rozet = f'<div class="rozet a" data-d="0">{html.escape(meta["seri"])}' + (f' · #{meta["no"]}' if meta.get("no") is not None else '') + '</div>'
     sayac = f'<div class="sayac">{i}/{n}</div>'
     el = '<div class="el">@utopikanne</div>'
     ic = ""
@@ -166,8 +166,9 @@ window.ciz=function(t){{
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    reels = "--reels" in sys.argv or "--sadece-reels" in sys.argv
-    post = "--sadece-reels" not in sys.argv
+    story = "--story" in sys.argv
+    reels = ("--reels" in sys.argv or "--sadece-reels" in sys.argv) and not story
+    post = "--sadece-reels" not in sys.argv and not story
     src, out = Path(args[0]), Path(args[1])
     out.mkdir(parents=True, exist_ok=True)
     icerik = json.loads(src.read_text(encoding="utf-8"))
@@ -182,6 +183,11 @@ def main():
                 pg.evaluate(f"goster({i})")
                 pg.screenshot(path=str(out / f"{ad}_{i+1:02d}.jpg"), type="jpeg", quality=92)
             print("carousel:", len(icerik["slaytlar"]), "slayt")
+        if story:  # tek kare hikâye (1080x1920 PNG), ilk slayt
+            pg = br.new_page(viewport={"width": 1080, "height": 1920})
+            pg.set_content(sayfa(icerik, 1080, 1920, True)); pg.wait_for_timeout(300)
+            pg.evaluate("goster(0)")
+            pg.screenshot(path=str(out / f"{ad}.png")); print("story:", out / f"{ad}.png")
         if reels:
             pg = br.new_page(viewport={"width": 1080, "height": 1920})
             pg.set_content(sayfa(icerik, 1080, 1920, True)); pg.wait_for_timeout(300)
