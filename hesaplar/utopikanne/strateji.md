@@ -117,3 +117,8 @@ Hatırlatmalarda: tarif hikâyesi → "Tarifler" (Ek Gıda DEĞİL; o ürünler 
 
 ## v4.8 — GÜNAYDIN yenilendi (8 Kasım, Melike: "daha cıvıl cıvıl, samimi, pozitif, güne güzel bir şeyle başla, enerjik")
 - 08:30 günaydın artık `anne_canli.py --story`, tema "gunes", seri "GÜNAYDIN ☀️", ikonlar sun_with_face + sunflower/hibiscus/rainbow/blossom + sparkles + hot_beverage (değiştir, her gün aynı olmasın). Üst satır sıcak selam ("Günaydın güzel anne! 💛", "Günaydın! Yeni hafta, yeni enerji ✨", "Kahveni al, gel bak ☕"), başlık bilgiden çıkan kısa, eğlenceli bir cümle (*vurgu*), alt satır 1–2 cümle bilgi + pozitif kapanış (emoji serbest), "kaynak" alanı. "Dileriz/siz" YOK. Örnek: icerik/2026-11-08_gunaydin.json.
+
+## v4.9 — Melike'nin Reels'i için "yüz göstermeden bebek" formatı (8 Kasım gece)
+- Melike Aren'in yüzünü göstermeden bebek/ek gıda Reels'i çekmek istiyor (örnek: "Bebekler yeni bir şey öğrenince uyku gerilemesi yaşarmış, uğruna 1 haftadır uykusuz kaldığımız o hareket" — 39,6 B beğeni, 9,5 B paylaşım). Ekip her turdaki 2 Reels fikrinden en az 1'ini bu formatta verir: el/ayak/sırt/yukarıdan tabak çekimi, ilk saniyede ekran yazısı (kanca), "Seninki de böyle mi?" türü yorum sorusu, "bir anneye gönder" paylaşım çağrısı.
+- Önerilen seri: "Aren'in ek gıda günlüğü · Gün N" (14 Kasım'dan, 6. ay). Ek gıda videolarında güvenli uygulama görünmeli (dik oturuyor, gözetim altında, yaşa uygun kıvam, tuz/şeker/bal yok).
+- Carousel fikri (Cuma BEBEK BAKIMI): "Uyku gerilemesi nedir? Yeni beceri dönemlerinde uyku neden bozulur?" — yalnızca resmi kaynakla (NHS/AAP), "her bebek farklı, endişede doktoruna danış".
