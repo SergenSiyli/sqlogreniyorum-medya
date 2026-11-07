@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-07T22:21:49+03:00",
+ "zaman": "2026-11-07T22:23:30+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 257,
  "hesap": {
@@ -20,16 +20,16 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5517082dede8ba901a1d8a097beb1ad8323e0157/hesaplar/utopikanne/gun/2026-11-09/story_0830_gunaydin.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5517082dede8ba901a1d8a097beb1ad8323e0157/hesaplar/utopikanne/gun/2026-11-09/story_1030_tarif.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5517082dede8ba901a1d8a097beb1ad8323e0157/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_01.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5517082dede8ba901a1d8a097beb1ad8323e0157/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_02.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5517082dede8ba901a1d8a097beb1ad8323e0157/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_03.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5517082dede8ba901a1d8a097beb1ad8323e0157/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_04.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5517082dede8ba901a1d8a097beb1ad8323e0157/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_05.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5517082dede8ba901a1d8a097beb1ad8323e0157/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_06.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5517082dede8ba901a1d8a097beb1ad8323e0157/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_07.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5517082dede8ba901a1d8a097beb1ad8323e0157/hesaplar/utopikanne/gun/2026-11-09/story_1830_temizlik.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5517082dede8ba901a1d8a097beb1ad8323e0157/hesaplar/utopikanne/gun/2026-11-09/story_2230_iyi_geceler.png": "image/png"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/story_0830_gunaydin.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/story_1030_tarif.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_01.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_02.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_03.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_04.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_05.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_06.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_07.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/story_1830_temizlik.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/story_2230_iyi_geceler.png": "image/png"
  }
 }
