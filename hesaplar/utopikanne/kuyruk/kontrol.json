@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-08T00:02:28+03:00",
+ "zaman": "2026-11-08T00:11:07+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 257,
  "hesap": {
@@ -20,6 +20,6 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@ca218e3b7f8213f1e4530d2498b27c8993ad07f2/hesaplar/utopikanne/gun/2026-11-08/v2/bakim01_bebek_banyosu_01.jpg": "image/jpeg"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@ec22202f6b2823019039386129519905b13d1a2b/hesaplar/utopikanne/gun/2026-11-08/story_2030_duyuru_bebek_banyosu.png": "image/png"
  }
 }
