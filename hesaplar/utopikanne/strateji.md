@@ -63,3 +63,8 @@ Veri (7 Kas): ilk carousel (5 Kas mama sandalyesi) erişim 121, kaydetme 7, payl
 - Hikâye: 4 otomatik kalır (08:30, 10:30, 18:30, 22:30). Öneri: Melike yeni gönderiyi kendi hikâyesinde paylaşsın (tıklanabilir gönderi çıkartması yalnızca uygulamada) + günde 2–4 kişisel hikâye.
 - Sun 8 Kas 21:30 carousel yerinde kalır; Salı/Perşembe/Pazar 21:30 carousel düzeni 9 Kasım'da sona erer (yerine hafta içi 11:30).
 - Ölçüm: 21 Kasım'da carousel erişim ortancası; ≥1.000 ise haftada 7'ye çıkmayı öner, <300 ise kapak stilini değiştir (Melike'nin kendi fotoğrafını kapak zemini olarak kullanma önerisi).
+
+## v4.1 — 7 Kasım akşam (Melike: "Biz diyet sayfası değiliz, robot gibi olma")
+- Kalori yalnızca eğlenceli görsel kıyas: "1 simit ≈ 3 haşlanmış yumurta" gibi; hesap/formül/etiket okuma yok; diyet dili yok; ayda en fazla 4.
+- Cuma gönderisi "Pratik hayat & hap bilgi" oldu (kalori ayda en fazla 2 kez).
+- Ton: arkadaş sohbeti gibi, sıcak, kısa, hafif espri; kuru madde dili yok.
