@@ -28,6 +28,7 @@ TEMA = {  # bg1, bg2, vurgu, mürekkep, fosfor
     "gok":     ("#EAF5FF", "#C6E2FF", "#2F7AE5", "#16304F", "#FFE27A"),
     "pembe":   ("#FFF0F5", "#FFCADD", "#E23D82", "#45172C", "#FFE08A"),
     "limon":   ("#FFFBE6", "#FFEB99", "#E08A00", "#3D2C00", "#B8F2C9"),
+    "gece":    ("#2C2A63", "#6A4BA8", "#FF8FB1", "#FFFFFF", "#8A5CF6"),
     "gunes":   ("#FFF4C2", "#FFC2A6", "#FF6A2B", "#4A2110", "#FFFFFF"),
 }
 
@@ -116,7 +117,7 @@ def sayfa(icerik, W, H, reels):
     return f'''<!doctype html><html><head><meta charset="utf-8"><style>
 *{{margin:0;padding:0;box-sizing:border-box}}
 html,body{{width:{W}px;height:{H}px;overflow:hidden;font-family:Inter,sans-serif;color:{ink}}}
-.sahne{{position:absolute;inset:0;background:radial-gradient(circle at 18% 12%,#ffffffcc 0,transparent 38%),linear-gradient(160deg,{b1},{b2});overflow:hidden}}
+.sahne{{position:absolute;inset:0;background:radial-gradient(circle at 18% 12%,{'#ffffff22' if icerik.get('tema')=='gece' else '#ffffffcc'} 0,transparent 38%),linear-gradient(160deg,{b1},{b2});overflow:hidden}}
 .sahne:before,.sahne:after{{content:"";position:absolute;border-radius:50%;background:{v};opacity:.10}}
 .sahne:before{{width:520px;height:520px;right:-180px;top:-160px}}
 .sahne:after{{width:380px;height:380px;left:-150px;bottom:-120px;opacity:.08}}
@@ -144,7 +145,7 @@ h2{{font-size:70px;line-height:1.08;font-weight:900;letter-spacing:-1px}}
 .ikonlar{{display:flex;gap:30px;justify-content:center}}
 .ikonlar .ik{{width:270px;height:270px}}
 .liste{{list-style:none;display:flex;flex-direction:column;gap:26px}}
-.liste li{{display:flex;align-items:center;gap:28px;background:#ffffffb8;border-radius:34px;padding:22px 30px;font-size:40px;font-weight:600;line-height:1.25;box-shadow:0 8px 20px rgba(0,0,0,.06)}}
+.liste li{{color:#2A1D4A;display:flex;align-items:center;gap:28px;background:#ffffffb8;border-radius:34px;padding:22px 30px;font-size:40px;font-weight:600;line-height:1.25;box-shadow:0 8px 20px rgba(0,0,0,.06)}}
 .mik{{width:110px;height:110px;flex:none;object-fit:contain}}
 .kiyas{{display:flex;align-items:center;justify-content:space-between;gap:20px;background:#ffffffb8;border-radius:44px;padding:40px 30px}}
 .taraf{{flex:1;text-align:center}}

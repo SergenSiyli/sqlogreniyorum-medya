@@ -1,0 +1,67 @@
+{
+ "ad": "bakim02_emekleme_uyku",
+ "seri": "BEBEK BAKIMI",
+ "no": 2,
+ "tema": "gok",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Biliyor muydun? 👀",
+   "baslik": "Emeklemeye başlayınca *uyku* neden bozulur?",
+   "alt": "Gece uyanmalarının şaşırtıcı sebebi",
+   "ikonlar": [
+    "baby",
+    "crescent_moon",
+    "sleeping_face",
+    "sparkles"
+   ]
+  },
+  {
+   "tip": "adim",
+   "no": 1,
+   "baslik": "Yeni beceri, *heyecanlı* bir beyin",
+   "metin": "Hayfa Üniversitesi'nin araştırmasında emeklemeye başlayan bebeklerin geceleri daha sık uyandığı görülmüş.",
+   "ikonlar": [
+    "baby",
+    "light_bulb"
+   ]
+  },
+  {
+   "tip": "adim",
+   "no": 2,
+   "baslik": "Gece uyanmaları *artabiliyor*",
+   "metin": "Araştırmada gece uyanması ortalama 1,5'ten 2'ye çıkmış. Yani yalnız değilsin 😅",
+   "ikonlar": [
+    "alarm_clock",
+    "crescent_moon"
+   ]
+  },
+  {
+   "tip": "adim",
+   "no": 3,
+   "baslik": "İyi haber: *geçici!*",
+   "metin": "Bebekler genellikle emeklemeye başladıktan sonraki birkaç ay içinde eski uyku düzenine dönmüş.",
+   "ikonlar": [
+    "sparkles",
+    "smiling_face_with_hearts"
+   ]
+  },
+  {
+   "tip": "not",
+   "ikon": "stethoscope",
+   "baslik": "İçin rahat etmezse *doktoruna danış*",
+   "metin": "Her bebek farklı. Uyku düzeni çok değişirse ya da başka bir şey dikkatini çekerse çocuk doktoruna danışmak en doğrusu."
+  },
+  {
+   "tip": "son",
+   "baslik": "Bebek bakımı serisi için *takip et*",
+   "metin": "Kaynak: Hayfa Üniversitesi araştırması (Cohen & Scher). Her gün bir pratik bilgi burada.",
+   "gonder": "Uykusuz bir anneye gönder 😴",
+   "ikonlar": [
+    "baby",
+    "crescent_moon",
+    "smiling_face_with_hearts"
+   ]
+  }
+ ]
+}

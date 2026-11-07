@@ -86,7 +86,7 @@ Veri: Melike'nin son 10 Reels'i 1.218–3.739 kişiye ulaşıyor ama net takipç
 |---|---|
 | EV HAP BİLGİ | 0 |
 | MUTFAK TÜYOSU | 2 (8 Kasım: #1 buzdolabı 9 Kasım, #2 mikrodalga reels 10 Kasım) |
-| BEBEK BAKIMI | 1 (bebek banyosu, 8 Kasım) |
+| BEBEK BAKIMI | 2 (#1 bebek banyosu 8 Kasım; #2 emekleme ve uyku, 13 Kasım carousel + deneme Reels — ana sohbet hazırladı) |
 | EK GIDA TARİFİ (carousel) | 0 |
 | HAMİLELİKTE BİLMEN GEREKENLER | 0 |
 | ÇAMAŞIR & BEBEK EŞYASI | 0 |
@@ -122,3 +122,7 @@ Hatırlatmalarda: tarif hikâyesi → "Tarifler" (Ek Gıda DEĞİL; o ürünler 
 - Melike Aren'in yüzünü göstermeden bebek/ek gıda Reels'i çekmek istiyor (örnek: "Bebekler yeni bir şey öğrenince uyku gerilemesi yaşarmış, uğruna 1 haftadır uykusuz kaldığımız o hareket" — 39,6 B beğeni, 9,5 B paylaşım). Ekip her turdaki 2 Reels fikrinden en az 1'ini bu formatta verir: el/ayak/sırt/yukarıdan tabak çekimi, ilk saniyede ekran yazısı (kanca), "Seninki de böyle mi?" türü yorum sorusu, "bir anneye gönder" paylaşım çağrısı.
 - Önerilen seri: "Aren'in ek gıda günlüğü · Gün N" (14 Kasım'dan, 6. ay). Ek gıda videolarında güvenli uygulama görünmeli (dik oturuyor, gözetim altında, yaşa uygun kıvam, tuz/şeker/bal yok).
 - Carousel fikri (Cuma BEBEK BAKIMI): "Uyku gerilemesi nedir? Yeni beceri dönemlerinde uyku neden bozulur?" — yalnızca resmi kaynakla (NHS/AAP), "her bebek farklı, endişede doktoruna danış".
+
+## v5.0 — İYİ GECELER yenilendi + hazır içerik (8 Kasım gece, Melike: "daha görsel, renkli, hareketli ol")
+- 22:30 iyi geceler artık `anne_canli.py --story`, tema "gece" (mor-lacivert, pembe rozet), seri "İYİ GECELER 🌙", ust "İyi geceler güzel anne 💜" (her gün farklı), baslik kısa uyku/bebek bilgisi (*vurgu*), alt 1–2 cümle + "Tatlı rüyalar ✨", kaynak; ikonlar crescent_moon, sleeping_face, glowing_star, teddy_bear, star. Örnek: icerik/2026-11-08_iyigeceler.json.
+- 13 Kasım Cuma HAZIR: 11:30 carousel "Bebek Bakımı #2: Emeklemeye başlayınca uyku neden bozulur?" + 13:00 aynı konudan deneme Reels (gun/2026-11-13/). Ekip 13 Kasım'a yalnızca 10:00 duyuru/test + 4 hikâye ekler.
