@@ -47,6 +47,17 @@ def img(ad, cls="", d=0.0, extra=""):
     return f'<img class="ik a pop {cls}" data-d="{d}" src="{ikon_uri(ad)}" {extra}>'
 
 
+def secenek_html(s):
+    """Tahmin/test sorusu: A/B/C seçenekleri (tıklanır buton gibi DEĞİL, düz yazı); cevap gönderide."""
+    sec = s.get("secenekler")
+    if not sec:
+        return ""
+    harf = "ABCD"
+    li = "".join(f'<li class="a" data-d="{0.35 + 0.15*j}"><b class="harf">{harf[j]}</b><span>{vurgula(x)}</span></li>' for j, x in enumerate(sec[:4]))
+    cevap = s.get("cevap_notu", "")
+    return f'<ul class="secenek">{li}</ul>' + (f'<div class="alt a" data-d="0.9">{vurgula(cevap)}</div>' if cevap else "")
+
+
 def slayt_html(s, i, n, meta):
     tip = s["tip"]
     rozet = f'<div class="rozet a" data-d="0">{html.escape(meta["seri"])}' + (f' · #{meta["no"]}' if meta.get("no") is not None else '') + '</div>'
@@ -59,7 +70,7 @@ def slayt_html(s, i, n, meta):
         ic = f'''<div class="ust a" data-d="0.05">{vurgula(s.get("ust",""))}</div>
         <h1 class="dev a" data-d="0.15">{vurgula(s["baslik"])}</h1>
         <div class="alt a" data-d="0.3">{vurgula(s.get("alt",""))}</div>
-        <div class="bulut">{bulut}</div>
+        {secenek_html(s)}<div class="bulut">{bulut}</div>
         <div class="kaydir a" data-d="0.9">Kaydır, öğren <b>→</b></div>'''
     elif tip == "adim":
         ik = "".join(img(a, "orta", 0.3 + 0.15 * j) for j, a in enumerate(s.get("ikonlar", [])[:3]))
@@ -122,6 +133,9 @@ h2{{font-size:70px;line-height:1.08;font-weight:900;letter-spacing:-1px}}
 .ik{{width:250px;height:250px;object-fit:contain;filter:drop-shadow(0 18px 22px rgba(0,0,0,.18))}}
 .bulut .ik{{position:absolute}}
 .k0{{left:0;top:30px;width:270px;height:270px}} .k1{{left:300px;top:0}} .k2{{left:590px;top:50px;width:230px;height:230px}} .k3{{left:760px;top:-10px;width:180px;height:180px}}
+.secenek{{list-style:none;display:flex;flex-direction:column;gap:18px}}
+.secenek li{{display:flex;align-items:center;gap:24px;font-size:44px;font-weight:700}}
+.harf{{width:78px;height:78px;flex:none;border-radius:50%;border:5px solid {v};color:{v};display:flex;align-items:center;justify-content:center;font-size:42px;font-weight:900}}
 .kaydir{{display:{'none' if reels else 'block'};font-size:38px;font-weight:800;color:{v}}}
 .no{{width:120px;height:120px;border-radius:50%;background:{v};color:#fff;font-size:68px;font-weight:900;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 26px {v}66}}
 .ikonlar{{display:flex;gap:30px;justify-content:center}}

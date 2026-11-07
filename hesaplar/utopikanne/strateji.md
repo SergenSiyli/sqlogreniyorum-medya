@@ -96,3 +96,9 @@ Veri: Melike'nin son 10 Reels'i 1.218–3.739 kişiye ulaşıyor ama net takipç
 ## v4.4 — 8 Kasım gece (Melike: "atacağımız şeyleri hikâyede haber verelim, iletişimli duralım, samimi sıcak, ben atıyorum gibi; renkli")
 - Her gönderi/deneme Reels öncesi DUYURU HİKÂYESİ (carousel günü 10:00; `anne_canli.py --story`), Melike'nin ağzından birinci tekil ("hazırladım, paylaşıyorum, bana yaz"); uydurma deneyim yok.
 - Seslendirme yok, Melike onayladı. Melike kendi Reels'lerine kendisi devam ediyor; ekip dokunmaz, yalnızca fikir ve analiz.
+
+## v4.5 — 8 Kasım gece
+- Duyurularda "bana yaz / DM at" YOK (Melike); yerine "gel bak, kaçırma".
+- Duyuruların bir kısmı TAHMİN ET / TEST sorusu: kapak slaytında "secenekler" (A/B/C, düz yazı, buton gibi değil) + "cevap_notu" ("Cevap 11:30'daki gönderide"). Doğru cevap gönderide net ve tek olmalı (Sağlık Doğrulayıcı onaylı). Haftada en az 2 duyuru test tarzı.
+- Gerçek tıklanır anket API ile eklenemez; Melike isterse kendi hikâyesine anket çıkartması ekler.
+- Aralık: ekip gönderileri 10:00–13:00; Melike'nin Reels'i akşam 20:30–22:30 en iyisi.
