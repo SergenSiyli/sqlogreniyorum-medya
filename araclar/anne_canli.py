@@ -28,6 +28,7 @@ TEMA = {  # bg1, bg2, vurgu, mürekkep, fosfor
     "gok":     ("#EAF5FF", "#C6E2FF", "#2F7AE5", "#16304F", "#FFE27A"),
     "pembe":   ("#FFF0F5", "#FFCADD", "#E23D82", "#45172C", "#FFE08A"),
     "limon":   ("#FFFBE6", "#FFEB99", "#E08A00", "#3D2C00", "#B8F2C9"),
+    "gunes":   ("#FFF4C2", "#FFC2A6", "#FF6A2B", "#4A2110", "#FFFFFF"),
 }
 
 
@@ -71,7 +72,8 @@ def slayt_html(s, i, n, meta):
         <h1 class="dev a" data-d="0.15">{vurgula(s["baslik"])}</h1>
         <div class="alt a" data-d="0.3">{vurgula(s.get("alt",""))}</div>
         {secenek_html(s)}<div class="bulut">{bulut}</div>
-        <div class="kaydir a" data-d="0.9">Kaydır, öğren <b>→</b></div>'''
+        <div class="kaydir a" data-d="0.9">Kaydır, öğren <b>→</b></div>
+        {f'<div class="kaynak a" data-d="1.0">Kaynak: {html.escape(s["kaynak"])} · Bilgilendirme amaçlıdır.</div>' if s.get("kaynak") else ""}'''
     elif tip == "adim":
         ik = "".join(img(a, "orta", 0.3 + 0.15 * j) for j, a in enumerate(s.get("ikonlar", [])[:3]))
         no = f'<div class="no a pop" data-d="0.05">{s["no"]}</div>' if "no" in s else ""
@@ -136,6 +138,7 @@ h2{{font-size:70px;line-height:1.08;font-weight:900;letter-spacing:-1px}}
 .secenek{{list-style:none;display:flex;flex-direction:column;gap:18px}}
 .secenek li{{display:flex;align-items:center;gap:24px;font-size:44px;font-weight:700}}
 .harf{{width:78px;height:78px;flex:none;border-radius:50%;border:5px solid {v};color:{v};display:flex;align-items:center;justify-content:center;font-size:42px;font-weight:900}}
+.kaynak{{font-size:26px;font-weight:600;opacity:.6}}
 .kaydir{{display:{'none' if reels else 'block'};font-size:38px;font-weight:800;color:{v}}}
 .no{{width:120px;height:120px;border-radius:50%;background:{v};color:#fff;font-size:68px;font-weight:900;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 26px {v}66}}
 .ikonlar{{display:flex;gap:30px;justify-content:center}}
