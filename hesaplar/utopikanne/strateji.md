@@ -126,3 +126,8 @@ Hatırlatmalarda: tarif hikâyesi → "Tarifler" (Ek Gıda DEĞİL; o ürünler 
 ## v5.0 — İYİ GECELER yenilendi + hazır içerik (8 Kasım gece, Melike: "daha görsel, renkli, hareketli ol")
 - 22:30 iyi geceler artık `anne_canli.py --story`, tema "gece" (mor-lacivert, pembe rozet), seri "İYİ GECELER 🌙", ust "İyi geceler güzel anne 💜" (her gün farklı), baslik kısa uyku/bebek bilgisi (*vurgu*), alt 1–2 cümle + "Tatlı rüyalar ✨", kaynak; ikonlar crescent_moon, sleeping_face, glowing_star, teddy_bear, star. Örnek: icerik/2026-11-08_iyigeceler.json.
 - 13 Kasım Cuma HAZIR: 11:30 carousel "Bebek Bakımı #2: Emeklemeye başlayınca uyku neden bozulur?" + 13:00 aynı konudan deneme Reels (gun/2026-11-13/). Ekip 13 Kasım'a yalnızca 10:00 duyuru/test + 4 hikâye ekler.
+
+## v5.1 — HAFTA HAFTA HAMİLELİK geri (8 Kasım gece, Melike: "hamilelik hikâyesi yok mu, bio'da yazıyor")
+- Her gün 15:00 5. otomatik hikâye: "Hafta hafta hamilelik #N" (anne_gun.py sablon "hamilelik"; alanlar seri, hafta, boy, bilgi, ipucu, kaynak, cta "Hamile bir arkadaşına gönder"). "boy" içinde ":" varsa olduğu gibi yazılır (ör. "Kalbi: dakikada ~180 atış"). PIL şablonlarında EMOJİ YOK (kutucuk çıkar). Sen dili.
+- Sıra: #6 = 9. hafta (9 Kasım), #7 = 10. hafta (10 Kasım) hazır; 11 Kasım #8 = 11. hafta, her gün +1 hafta; 40. haftadan sonra 4. haftadan yeniden başla. Kaynak NHS / HSE / ACOG; boy/sayı kaynakta yoksa yazma.
+- Hamilelik 🤰 öne çıkanına eklenir.
