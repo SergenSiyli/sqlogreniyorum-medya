@@ -1,0 +1,10 @@
+{"ad":"ev01_mikrodalga","seri":"EV HAP BİLGİ","no":1,"tema":"nane",
+"slaytlar":[
+{"tip":"kapak","ust":"Biliyor muydun?","baslik":"Mikrodalgan *5 dakikada* tertemiz olur","alt":"Tek ihtiyacın: 1 limon ve bir kâse su","ikonlar":["lemon","sparkles","sponge","bubbles"]},
+{"tip":"adim","no":1,"baslik":"Kâseye *su ve limon* koy","metin":"Mikrodalgaya uygun bir kâseye 1 su bardağı su doldur, içine yarım limonu dilimleyip at.","ikonlar":["potable_water","lemon"]},
+{"tip":"adim","no":2,"baslik":"Yüksek ısıda *3–5 dakika* çalıştır","metin":"Su kaynayıp camı buğulandırana kadar. Buhar, yapışmış kirleri yumuşatır.","ikonlar":["timer_clock","droplet"]},
+{"tip":"adim","no":3,"baslik":"Kapağı 5 dakika *açma*","metin":"Buhar içeride işini yapsın. Kâseyi bezle tutarak çıkar, çok sıcak olur.","ikonlar":["stopwatch","fire"]},
+{"tip":"adim","no":4,"baslik":"Süngerle *bir kez* sil","metin":"Kirler zahmetsizce çıkar, limon kokuyu da alır. Döner tabağı da aynı suyla silebilirsin.","ikonlar":["sponge","sparkles"]},
+{"tip":"liste","baslik":"Bunları mikrodalgaya *koyma*","maddeler":[{"ikon":"spoon","yazi":"Metal kaşık, folyo, yaldızlı tabak"},{"ikon":"egg","yazi":"Kabuğuyla yumurta: patlayabilir"},{"ikon":"warning","yazi":"Kapağı sıkıca kapalı kaplar"}]},
+{"tip":"son","baslik":"Serinin devamı için *takip et*","metin":"Her gün evini kolaylaştıran bir hap bilgi.","gonder":"Mikrodalgası kirli arkadaşına gönder 😄","ikonlar":["house","sparkles","smiling_face_with_hearts"]}
+]}
