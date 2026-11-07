@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-08T01:07:04+03:00",
+ "zaman": "2026-11-08T01:40:38+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 257,
  "hesap": {
@@ -20,6 +20,7 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5c818b8522ce75d87c98ad96ff97b7a380b092ce/hesaplar/utopikanne/gun/2026-11-08/story_0830_gunaydin_v2.png": "image/png"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@737cfd84e161899a5658eb98063afc0581e58e32/hesaplar/utopikanne/gun/2026-11-08/story_2230_iyi_geceler_v2.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@737cfd84e161899a5658eb98063afc0581e58e32/hesaplar/utopikanne/gun/2026-11-13/bakim02_emekleme_uyku_01.jpg": "image/jpeg"
  }
 }
