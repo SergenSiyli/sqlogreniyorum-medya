@@ -74,3 +74,21 @@ Veri (7 Kas): ilk carousel (5 Kas mama sandalyesi) erişim 121, kaydetme 7, payl
 Veri: Melike'nin son 10 Reels'i 1.218–3.739 kişiye ulaşıyor ama net takipçi düşüyor (4.046 → 4.027) → sorun erişim değil, izleyeni takipçiye çevirmek.
 - Ekip haftada 2 DENEME Reels (TRIAL_REEL, yalnızca takip etmeyenlere gider; takipçi akışını etkilemez): Salı ve Cuma 13:00. İçerik: o haftanın en güçlü carousel konusundan 15–25 sn animasyonlu, renkli, yazılı Reels (ilk karede kanca, 3–5 hızlı adım, son karede "Takip et, her gün böyle pratik bilgiler" + "Kaydet"). Seslendirme yok; sakin enstrümantal müzik (araclar/music.py, kendi üretimimiz). Melike'nin videoları yerine geçmez, test amaçlı.
 - Takipçiye çevirme: her Reels/carousel sonunda net "neden takip etmeli" çağrısı ("Her gün 1 temizlik tüyosu + ek gıda rehberi burada"). Melike'ye öneriler: profile en iyi 3 Reels'i sabitle (159 bin erişimli hazırlık rehberi dahil), biyografinin ilk satırı fayda vaadi ("Ek gıda · Temizlik tüyoları · Hamilelik rehberi"), Facebook'a otomatik paylaşım açıksa Facebook izleyicisinin Instagram'da takip edemeyeceğini bil (karar Melike'nin).
+
+## v4.3 — 8 Kasım (Melike: "renkli, bilgili, animasyon/çizim, kanca, merak; insanlar takip etmek istesin; seriler olsun; hamileleri de çek")
+- Yeni şablon: araclar/anne_canli.py (Fluent 3D çizimler, seri rozeti, fosforlu vurgu; aynı JSON'dan carousel + animasyonlu Reels).
+- Haftalık seri düzeni (11:30): Pzt EV HAP BİLGİ · Sal EK GIDA TARİFİ · Çar HAMİLELİKTE BİLMEN GEREKENLER · Per MUTFAK TÜYOSU / ÇAMAŞIR & BEBEK EŞYASI · Cum BEBEK BAKIMI / PRATİK HAYAT. Her ayın 14'ü: AREN X AYLIK (Aren 14 Mayıs 2026 doğumlu; 14 Kasım = 6 aylık).
+- Deneme Reels Salı/Cuma 13:00, anne_canli --reels. İlki 10 Kasım: Mutfak Tüyosu #2 (mikrodalga).
+- Görsel kuralı: Google/başka hesap görseli YOK (telif); gerçek fotoğraf yalnızca Melike'nin kendi gönderdikleri.
+
+### Seri sayaçları (son kullanılan numara)
+| Seri | Son # |
+|---|---|
+| EV HAP BİLGİ | 0 |
+| MUTFAK TÜYOSU | 2 (8 Kasım: #1 buzdolabı 9 Kasım, #2 mikrodalga reels 10 Kasım) |
+| BEBEK BAKIMI | 1 (bebek banyosu, 8 Kasım) |
+| EK GIDA TARİFİ (carousel) | 0 |
+| HAMİLELİKTE BİLMEN GEREKENLER | 0 |
+| ÇAMAŞIR & BEBEK EŞYASI | 0 |
+| PRATİK HAYAT | 0 |
+| AREN X AYLIK | 5 (ilk yayın 6 aylık, 14 Kasım) |
