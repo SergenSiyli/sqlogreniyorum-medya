@@ -102,3 +102,9 @@ Veri: Melike'nin son 10 Reels'i 1.218–3.739 kişiye ulaşıyor ama net takipç
 - Duyuruların bir kısmı TAHMİN ET / TEST sorusu: kapak slaytında "secenekler" (A/B/C, düz yazı, buton gibi değil) + "cevap_notu" ("Cevap 11:30'daki gönderide"). Doğru cevap gönderide net ve tek olmalı (Sağlık Doğrulayıcı onaylı). Haftada en az 2 duyuru test tarzı.
 - Gerçek tıklanır anket API ile eklenemez; Melike isterse kendi hikâyesine anket çıkartması ekler.
 - Aralık: ekip gönderileri 10:00–13:00; Melike'nin Reels'i akşam 20:30–22:30 en iyisi.
+
+## v4.6 — 8 Kasım gece (Melike: "test, soru, anket güzel; normal bilgiler, 'yüzyıl önce' gibi şeyler de dikkat çekiyor"; profil incelemesi)
+- Yeni seri ESKİDEN NASILDI? (tema "eski": limon zemin) — "100 yıl önce bebek bezi neydi?", "Anneannelerimizin çamaşır günü" türü; yalnızca güvenilir tarih kaynağı (müze, ansiklopedi, üniversite, resmi arşiv), kaynak satırı zorunlu, sağlık iddiası YOK (eski uygulamaları ÖNERME; gerekiyorsa "bugün önerilmiyor" notu). Cuma rotasyonuna 3. seçenek olarak girer (BEBEK BAKIMI / PRATİK HAYAT / ESKİDEN NASILDI?) ve günaydın hap bilgisinde haftada 1–2 kez.
+- Test/anket duyuruları haftada en az 2 (v4.5).
+- Profil (7 Kasım verisi): biyografi "🤍 Aren'in annesi / 🥣 Ek gıda, tarifler & günlük yaşam / 🛍️ Alışveriş & ürün önerileri / 💌 İş birliği"; ad "Melike Siyli | Annelik & Yaşam"; 4.027 takipçi; grid son 3 haftadır neredeyse tamamen Reels. En güçlü içerikler: 27 Nisan hazırlık Reels (159 bin erişim, 4.127 kaydetme), 5 Eylül masa mizahı (157 bin, 2.388 paylaşım), 15 Eylül Ege (113 bin), 9 Mayıs hastane çantası (60 bin).
+- Öne çıkan kapakları: hesaplar/utopikanne/marka/one_cikan/ (Ek Gıda, Temizlik, Hamilelik, Aren, Mutfak, Ürünlerim, Eskiden). Öne çıkanlar API ile okunamaz/değiştirilemez; Melike elle yapar. Ekip hikâyeleri ilgili öne çıkana eklenmesi için özetlerde hatırlatır (10:30 tarif → Ek Gıda, 18:30 tüyo → Temizlik/Mutfak).
