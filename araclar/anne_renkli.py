@@ -526,7 +526,7 @@ def hamilelik_haftasi(path, seri, hafta, boy, bilgi, ipucu, kaynak):
         y = yaz(d, 0, 680, f"Hamileliğin {hafta}. haftası", F("Black", 76, min(1, k + .1)), MURDUM, 940, 1.1,
                 center=True) + 14
         fb = F("ExtraBold", 40, k)
-        t = "Bebeğin boyu: " + boy
+        t = boy if ":" in boy else "Bebeğin boyu: " + boy
         tw = d.textlength(t, font=fb)
         if tw > 860:
             raise Tasma("boy")
