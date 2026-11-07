@@ -18,6 +18,12 @@
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5b5f59510875ed05ef0deb41770329d48cd8e254/hesaplar/utopikanne/gun/2026-11-08/story_1830_temizlik.png"
  },
  {
+  "id": "2026-11-08_2030_story_duyuru",
+  "hedef": "2026-11-08T20:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@ec22202f6b2823019039386129519905b13d1a2b/hesaplar/utopikanne/gun/2026-11-08/story_2030_duyuru_bebek_banyosu.png"
+ },
+ {
   "id": "2026-11-08_2130_carousel_bebek_banyosu",
   "hedef": "2026-11-08T21:30",
   "tur": "CAROUSEL",
