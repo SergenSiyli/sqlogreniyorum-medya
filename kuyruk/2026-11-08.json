@@ -38,24 +38,24 @@
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/story_1700_hap_findhub.png"
  },
  {
-  "id": "2026-11-08_2000_story_duyuru",
+  "id": "2026-11-08_2000_story_duyuru_v2",
   "hedef": "2026-11-08T20:00",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/story_2000_duyuru.png"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-08/story_2000_duyuru_v2.png"
  },
  {
-  "id": "2026-11-08_2100_reel_siri_turkce",
+  "id": "2026-11-08_2100_reel_whatsapp_numara",
   "hedef": "2026-11-08T21:00",
   "tur": "REEL",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/reel_siri_turkce.mp4",
-  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/reel_siri_turkce_kapak.png",
-  "aciklama": "Akıllı Siri Türkçe öğreniyor: Apple, Siri AI'a Türkçe desteğinin iOS 27.3 ile geleceğini duyurdu.\n\nTürkçe, eklenecek 4 yeni dilden biri. iOS 27.3'ün herkese açık betası 5 Kasım'da çıktı; kararlı sürümün Aralık'ta gelmesi bekleniyor, ama tarih resmî değil. Türkçenin betada açılıp açılmadığı konusunda kaynaklar net değil. Beta sürüm hata içerebilir; denemek istersen önce yedek al.\n\nBunu bilmesi gereken birine gönder, kaydet. Siri'yi Türkçe kullanır mısın? Evet mi hayır mı, yorumlara tek kelimeyle yaz.\n\nKaynak: 9to5Mac, iCulture, ShiftDelete (26 Ekim-5 Kasım 2026)\n\n#yapayzeka #yapayzekahaberleri #teknolojihaberleri #siri"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-08/reel_whatsapp_numara.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-08/reel_whatsapp_numara_kapak.png",
+  "aciklama": "WhatsApp numara gizliliği: numaranı kimin göreceğini seçebileceğin yeni bir ayar geliştiriliyor.\n\nWABetaInfo'ya dayanan haberlere göre seçenekler Herkes, Kişilerim, Kişilerim şunlar hariç ve Hiç kimse olacak. Kullanıcı adı olanlarda varsayılan Hiç kimse; numaranı rehberinde kayıtlı tutanlar onu görmeye devam edecek. Özellik henüz beta testine açık değil ve WhatsApp resmî bir çıkış tarihi açıklamadı.\n\nBunu bilmesi gereken birine gönder, kaydet. Numaranı gizleyip sadece kullanıcı adıyla yazışır mıydın? Evet mi hayır mı, yorumlara yaz.\n\nKaynak: PhoneWorld, ETV Bharat (7 Kasım 2026)\n\n#teknoloji #teknolojihaberleri #whatsapp #gizlilik"
  },
  {
-  "id": "2026-11-08_2200_story_ozet",
+  "id": "2026-11-08_2200_story_ozet_v2",
   "hedef": "2026-11-08T22:00",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/story_2200_ozet.png"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-08/story_2200_ozet_v2.png"
  },
  {
   "id": "2026-11-08_2300_story_iyigeceler",

@@ -1,0 +1,66 @@
+[
+ {
+  "id": "2026-11-09_0900_story_gunaydin",
+  "hedef": "2026-11-09T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-09/story_gunaydin.png"
+ },
+ {
+  "id": "2026-11-09_1000_story_soru",
+  "hedef": "2026-11-09T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-09/story_1000_soru.png"
+ },
+ {
+  "id": "2026-11-09_1230_reel_meta_ai_model",
+  "hedef": "2026-11-09T12:30",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-09/reel_meta_ai_model.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-09/reel_meta_ai_model_kapak.png",
+  "aciklama": "WhatsApp'taki Meta AI yenileniyor: Meta, 6 Kasım'da Meta AI ve Muse için yeni modelleri dağıtmaya başladığını açıkladı.\n\nMeta'nın açıklamasına göre yeni modeller sorunları adımlara bölüyor ve daha isabetli takip soruları soruyor. Ülke listesi verilmedi; performans iddiaları Meta'nın kendi testlerine dayanıyor, bağımsız doğrulama yok.\n\nBunu bilmesi gereken birine gönder, kaydet. Yapay zekânın seni hatırlaması: rahatlatıcı mı, ürkütücü mü? Yorumlara yaz.\n\nKaynak: Meta AI Research, RuntimeWire, ShiftDelete (6-7 Kasım 2026)\n\n#yapayzeka #yapayzekahaberleri #teknolojihaberleri #metaai"
+ },
+ {
+  "id": "2026-11-09_1400_story_kariyer_taktik3",
+  "hedef": "2026-11-09T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-09/story_1400_kariyer.png"
+ },
+ {
+  "id": "2026-11-09_1500_story_meta_kart",
+  "hedef": "2026-11-09T15:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-09/story_1500_meta_kart.png"
+ },
+ {
+  "id": "2026-11-09_1700_story_hap_xr",
+  "hedef": "2026-11-09T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-09/story_1700_hap_xr.png"
+ },
+ {
+  "id": "2026-11-09_1930_story_duyuru",
+  "hedef": "2026-11-09T19:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-09/story_1930_duyuru.png"
+ },
+ {
+  "id": "2026-11-09_2030_trialreel_case_when_sira",
+  "hedef": "2026-11-09T20:30",
+  "tur": "TRIAL_REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-09/reel_case_when_sira.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-09/reel_case_when_sira_kapak.png",
+  "aciklama": "SQL mülakat sorusu #8: CASE WHEN ile siparişleri etiketledim, 5000 TL'lik sipariş 'büyük' yerine 'orta' çıktı. Neden?\n\nCASE koşulları yukarıdan aşağı dener ve ilk doğru koşulda durur. 5000 > 1000 doğru olduğu için 'orta' yazıldı; > 4000 koşulu hiç denenmedi.\n\nDoğrusu: en dar koşulu en üste yaz. Önce tutar > 4000 THEN 'büyük', sonra tutar > 1000 THEN 'orta'.\nKural: aralıklarla etiketlerken büyükten küçüğe sırala.\n\nSQL öğrenen bir arkadaşına gönder, kaydet. Sen CASE WHEN ile en çok neyi etiketliyorsun? Yorumlara yaz.\n\n#sql #sqlöğren #sqlmülakat #veribilimi #casewhen"
+ },
+ {
+  "id": "2026-11-09_2200_story_ozet",
+  "hedef": "2026-11-09T22:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-09/story_2200_ozet.png"
+ },
+ {
+  "id": "2026-11-09_2300_story_iyigeceler",
+  "hedef": "2026-11-09T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-09/story_iyigeceler.png"
+ }
+]
