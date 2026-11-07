@@ -69,3 +69,8 @@ Veri (7 Kas): ilk carousel (5 Kas mama sandalyesi) erişim 121, kaydetme 7, payl
 - Cuma gönderisi "Pratik hayat & hap bilgi" oldu (kalori ayda en fazla 2 kez).
 - Ton: arkadaş sohbeti gibi, sıcak, kısa, hafif espri; kuru madde dili yok.
 - 7 Kas akşam turu — Bu tur değiştirdiğimiz: ilk hafta içi 11:30 carousel'i (Pzt Ev temizliği #1: buzdolabı kokusu) kuyruğa girdi; son slayt CTA'sı "Kaydet, lazım olur / Bir anneye gönder" oldu.
+
+## v4.2 — 7 Kasım gece (Melike: "Deneme Reels atsan, takipçi bana gelmiyor")
+Veri: Melike'nin son 10 Reels'i 1.218–3.739 kişiye ulaşıyor ama net takipçi düşüyor (4.046 → 4.027) → sorun erişim değil, izleyeni takipçiye çevirmek.
+- Ekip haftada 2 DENEME Reels (TRIAL_REEL, yalnızca takip etmeyenlere gider; takipçi akışını etkilemez): Salı ve Cuma 13:00. İçerik: o haftanın en güçlü carousel konusundan 15–25 sn animasyonlu, renkli, yazılı Reels (ilk karede kanca, 3–5 hızlı adım, son karede "Takip et, her gün böyle pratik bilgiler" + "Kaydet"). Seslendirme yok; sakin enstrümantal müzik (araclar/music.py, kendi üretimimiz). Melike'nin videoları yerine geçmez, test amaçlı.
+- Takipçiye çevirme: her Reels/carousel sonunda net "neden takip etmeli" çağrısı ("Her gün 1 temizlik tüyosu + ek gıda rehberi burada"). Melike'ye öneriler: profile en iyi 3 Reels'i sabitle (159 bin erişimli hazırlık rehberi dahil), biyografinin ilk satırı fayda vaadi ("Ek gıda · Temizlik tüyoları · Hamilelik rehberi"), Facebook'a otomatik paylaşım açıksa Facebook izleyicisinin Instagram'da takip edemeyeceğini bil (karar Melike'nin).
