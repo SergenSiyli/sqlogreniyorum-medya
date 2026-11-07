@@ -1,0 +1,41 @@
+[
+ {
+  "id": "2026-11-09_0830_story_gunaydin",
+  "hedef": "2026-11-09T08:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/story_0830_gunaydin.png"
+ },
+ {
+  "id": "2026-11-09_1030_story_tarif",
+  "hedef": "2026-11-09T10:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/story_1030_tarif.png"
+ },
+ {
+  "id": "2026-11-09_1130_carousel_buzdolabi_koku",
+  "hedef": "2026-11-09T11:30",
+  "tur": "CAROUSEL",
+  "medya": [
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_01.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_02.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_03.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_04.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_05.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_06.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/carousel_1130_buzdolabi_koku_07.jpg"
+  ],
+  "aciklama": "Buzdolabı kokusu nasıl gider? Kapağı açınca yüzüne o koku çarpıyorsa yalnız değilsin, bunu yaşamayan yok.\n\nİlk iş suçluyu bul: bozulmuş yiyeceği at, dökülenleri beklemeden sil. Sonra rafları ve çekmeceleri çıkar, sıcak su ve deterjanla yıka, durula. İçini de sıcak su ve karbonatla sil; çözücü ya da aşındırıcı temizleyiciye gerek yok.\n\nKoku hâlâ inat ediyorsa rafa ağzı açık bir kutu karbonat ya da sığ bir kapta kahve telvesi bırak. Bir daha olmasın diye dolabı 4°C ya da altında tut, pişmiş yemek artıklarını 3-4 gün içinde bitir; bebek yemeğini 2 gün içinde kullan.\n\nKüçük ama önemli: çamaşır suyunu başka hiçbir temizleyiciyle karıştırma, ürün etiketine uy.\n\nKaynak: USDA FSIS, NHS, CDC.\n\nSenin buzdolabında kokunun baş şüphelisi kim? Kaydet, lazım olur.\n\n#evhanımı #temizliktüyoları #evdüzeni #buzdolabıtemizliği"
+ },
+ {
+  "id": "2026-11-09_1830_story_temizlik",
+  "hedef": "2026-11-09T18:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/story_1830_temizlik.png"
+ },
+ {
+  "id": "2026-11-09_2230_story_iyi_geceler",
+  "hedef": "2026-11-09T22:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@d71744a2a2af3fbe632fe7e098d5229841475ee4/hesaplar/utopikanne/gun/2026-11-09/story_2230_iyi_geceler.png"
+ }
+]
