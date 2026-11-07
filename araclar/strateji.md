@@ -67,3 +67,9 @@ Kanca: her Reels ilk karede tam görünen soru/hata/etki cümlesiyle açılıyor
 - KARAR (9 Kasım haftasından): SQL 6→7, haber 5→4, kariyer 2, ilham 1. SQL'in erişimi haberin ~5 katı. Haber yüzde olarak daha çok kaydediliyor; o yüzden haber sıfırlanmıyor, yalnızca en güçlü 4 haber.
 - Asıl darboğaz: (kaydetme+paylaşım)/erişim %1,5 (hedef ≥%5). Bu tur: 15:00 bilgi kartı "EKRAN GÖRÜNTÜSÜNÜ AL" kaydetme çağrısıyla. Ayrıca "Teknoloji Tarihinden #1" (Codd) ilham story serisi başladı.
 - 8 Kasım: 13:00 SQL Mülakat #7 (UNION → ciro 750/1000, "kaybolan para" kancası), 21:00 haber (Siri AI Türkçe, iOS 27.3). Sıradaki SQL: CTE, SUM() OVER, CASE WHEN, IN/EXISTS. Haftanın 3. denemesi açılmadı (6 ve 7 Kasım deneme; 9-15 Kasım için 2-3 deneme planlanacak).
+
+## Durum (7 Kasım 2026 gece turu)
+- Takipçi: 1.549 (Metricool, 5 Kasım; 6-7 Kasım verisi gelmedi). 29 Ekim-5 Kasım net +59 (~8,4/gün). Bu hızla 50.000'e ~5.750 gün.
+- 18 Reels (28 Ekim-6 Kasım): SQL 8 Reels ort. erişim 974, 3 sn %32,8; AI haber 8 Reels ort. erişim 241, %25,8. Deneme #5 LAG (6 Kasım): 3 sn %40,7 (dönemin en yükseği), erişim 528 (<24 sa), kaydetme oranı %0,6. "X mi Y mi" kancaları %19 civarı: kullanılmayacak. Story verisi Metricool'da yok.
+- Karar: haber seçimi "Türkiye'deki kullanıcıya dokunan uygulama" (WhatsApp/Meta AI); ABD'ye özel haber yok (Google K-12 ve Netflix en kötü). 9 Kasım 20:30 SQL #8 CASE WHEN sırası DENEME Reels (haftanın 1. denemesi; 2. deneme 11-12 Kasım).
+- Sıradaki SQL: CTE, SUM() OVER, IN/EXISTS, Index, PK/FK.
