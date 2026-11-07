@@ -835,7 +835,7 @@ def carousel_kapak(path, tur, seri, kanca, alt, sayfa, toplam):
 
     def ciz(k, oy):
         img, d = c_zemin(tur)
-        rozet(d, 0, 110 + oy, seri_no(seri, C_SERI_ONEK.get(tur, "Rehber")), koyu, s=32, center=True)
+        rozet(d, 0, 110 + oy, seri if (seri and re.match(r"\s*[^#\s]", seri)) else seri_no(seri, C_SERI_ONEK.get(tur, "Rehber")), koyu, s=32, center=True)
         cz = C_CIZIM.get(tur)
         y = 230 + oy
         if cz:
@@ -907,7 +907,7 @@ def carousel_son(path, tur, soru, sayfa, toplam, kaynak=None, not_metni=None):
         d.polygon([(cx - 55, cy - 80), (cx + 55, cy - 80), (cx + 55, cy + 85), (cx, cy + 40), (cx - 55, cy + 85)],
                   fill=koyu)
         kalp(d, cx, cy - 22, 24, PUDRA)
-        y = yaz(d, 0, 430 + oy, "Kaydet,\nbir anneye gönder", F("Black", 96, k), MURDUM, 940, 1.08, center=True) + 30
+        y = yaz(d, 0, 430 + oy, "Kaydet, lazım olur\nBir anneye gönder", F("Black", 96, k), MURDUM, 940, 1.08, center=True) + 30
         f = F("SemiBold", 46, k)
         th = yukseklik(d, soru, f, 800, 1.3)
         kart(d, y, y + th + 120, fill=BEYAZ, x1=100, x2=980, r=40, golge=golge_rengi(tur))

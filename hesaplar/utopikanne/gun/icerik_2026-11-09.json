@@ -1,0 +1,15 @@
+{"2026-11-09": [
+ {"saat": "08:30", "sablon": "gunaydin", "bilgi": "15 aya kadar çoğu bebek bir şey istemek ya da yardım almak için parmağıyla gösterir. Gösterdiği şeyin adını söyle: 'Evet, bardak!'", "kaynak": "CDC"},
+ {"saat": "10:30", "sablon": "tarif", "seri": "Ek gıda tarifi #8", "ay": "6+ ay", "baslik": "Patates püresi", "malzemeler": ["1 patates", "Su (haşlamak için)"], "adimlar": ["Patatesi yıka, soy, küçük küpler yap.", "Tuzsuz suda yumuşayana dek haşla.", "Çatalla pürüzsüz olana dek ez.", "Tamamen soğuyunca ver."], "saklama": "Kalanı 1-2 saat içinde soğut; buzdolabında 2 gün içinde kullan ya da dondur. Yarım kalanı sakla, at.", "dikkat": "Tuz ve şeker ekleme. Yerken bebeğin yanından ayrılma.", "kaynak": "NHS Start for Life", "cizim": "patates", "cta": "Kaydet, lazım olur"},
+ {"saat": "11:30", "sablon": "carousel", "konu": "buzdolabi_koku", "tur": "temizlik", "seri": "Ev temizliği #1", "kanca": "Buzdolabındaki o koku nasıl gider?", "alt": "5 adımda ferah bir dolap",
+  "slaytlar": [
+   {"baslik": "Önce kaynağı bul", "maddeler": ["Bozulmuş yiyeceği at; koku çoğu zaman oradan gelir.", "Dökülenleri beklemeden hemen sil."]},
+   {"baslik": "Rafları çıkar", "maddeler": ["Raf ve çekmeceleri sıcak su ve deterjanla yıka.", "Sonra temiz suyla durula."]},
+   {"baslik": "İçini karbonatla sil", "maddeler": ["İç yüzeyleri sıcak su ve karbonatla sil.", "Çözücü ya da aşındırıcı temizleyici kullanma."], "uyari": "Çamaşır suyunu başka hiçbir temizleyiciyle karıştırma."},
+   {"baslik": "Koku hâlâ mı var?", "maddeler": ["Rafa ağzı açık bir kutu karbonat koy.", "Ya da sığ bir kapta kahve telvesi bırak."]},
+   {"baslik": "Bir daha olmasın", "maddeler": ["Buzdolabı 4°C ya da altında olsun.", "Pişmiş yemek artıklarını 3-4 gün içinde tüket.", "Bebek yemeği ise 2 gün içinde."]}
+  ],
+  "soru": "Senin buzdolabında kokunun baş şüphelisi kim?", "kaynak": "USDA FSIS, NHS, CDC", "not": "Ürün etiketindeki talimata uy."},
+ {"saat": "18:30", "sablon": "temizlik", "seri": "Temizlik tüyosu #4", "baslik": "Çiğ et sonrası tahta temizliği", "maddeler": ["Çiğ et kestiğin tahtayı başka yiyeceğe geçmeden temizle.", "Tahtayı ve bıçağı ılık sabunlu suyla yıka.", "Çiğ tavuğu yıkama; mikrop etrafa sıçrar.", "Çiğ eti buzdolabının en alt rafında, kapalı kapta sakla."], "uyari": "Temizlik ürünlerini asla birbirine karıştırma.", "kaynak": "FSA, NHS", "cta": "Kaydet, bir anneye gönder"},
+ {"saat": "22:30", "sablon": "iyi_geceler", "baslik": "Kanepede uyuya kalma", "bilgi": "Bebeğinle kanepe ya da koltukta uyuma. Uykun geliyorsa önce onu beşiğine yatır.", "kaynak": "NHS, Lullaby Trust"}
+]}
