@@ -1,0 +1,82 @@
+{
+ "ad": "bakim01_bebek_banyosu",
+ "seri": "BEBEK BAKIMI",
+ "no": 1,
+ "tema": "gok",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Banyodan önce kaydet",
+   "baslik": "Bebek banyosu *kontrol listesi*",
+   "alt": "Önce, sırası ve sonrası: hepsi tek yerde",
+   "ikonlar": [
+    "bathtub",
+    "baby",
+    "bubbles",
+    "sparkles"
+   ]
+  },
+  {
+   "tip": "liste",
+   "baslik": "Başlamadan *önce*",
+   "maddeler": [
+    {
+     "ikon": "t_shirt",
+     "yazi": "Havlu, temiz bez ve kıyafeti hazırla"
+    },
+    {
+     "ikon": "thermometer",
+     "yazi": "Odanın sıcak olduğundan emin ol"
+    },
+    {
+     "ikon": "droplet",
+     "yazi": "Küvete önce soğuk, sonra sıcak su koy"
+    }
+   ]
+  },
+  {
+   "tip": "adim",
+   "baslik": "Suyu *dirseğinle* kontrol et",
+   "metin": "Ilık olmalı, vücut sıcaklığı gibi. Bebeği koymadan önce suyu karıştır, sıcak nokta kalmasın.",
+   "ikonlar": [
+    "droplet",
+    "thermometer"
+   ]
+  },
+  {
+   "tip": "adim",
+   "baslik": "Su *8–10 cm* yeter",
+   "metin": "Bir elinle başını ve omuzlarını destekle. İlk ay sade ılık su yeterli, sabun gerekmez.",
+   "ikonlar": [
+    "bathtub",
+    "baby"
+   ]
+  },
+  {
+   "tip": "not",
+   "ikon": "stop_sign",
+   "baslik": "Bir saniye bile *yalnız bırakma*",
+   "metin": "Kapı çalsa, telefon çalsa bile. Bebeği havluya sar, yanına al, öyle git."
+  },
+  {
+   "tip": "adim",
+   "baslik": "Kıvrımları *iyice* kurula",
+   "metin": "Çıkarınca nazikçe tamponlayarak kurula. Boyun, koltuk altı ve bacak kıvrımlarını unutma.",
+   "ikonlar": [
+    "sparkles",
+    "heart_decoration"
+   ]
+  },
+  {
+   "tip": "son",
+   "baslik": "Bebek bakımı serisi için *takip et*",
+   "metin": "Kaynak: NHS. Aklına takılan bir şey olursa doktoruna danış.",
+   "gonder": "Yeni anne olan arkadaşına gönder",
+   "ikonlar": [
+    "baby",
+    "smiling_face_with_hearts",
+    "teddy_bear"
+   ]
+  }
+ ]
+}
