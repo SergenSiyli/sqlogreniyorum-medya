@@ -108,3 +108,7 @@ Veri: Melike'nin son 10 Reels'i 1.218–3.739 kişiye ulaşıyor ama net takipç
 - Test/anket duyuruları haftada en az 2 (v4.5).
 - Profil (7 Kasım verisi): biyografi "🤍 Aren'in annesi / 🥣 Ek gıda, tarifler & günlük yaşam / 🛍️ Alışveriş & ürün önerileri / 💌 İş birliği"; ad "Melike Siyli | Annelik & Yaşam"; 4.027 takipçi; grid son 3 haftadır neredeyse tamamen Reels. En güçlü içerikler: 27 Nisan hazırlık Reels (159 bin erişim, 4.127 kaydetme), 5 Eylül masa mizahı (157 bin, 2.388 paylaşım), 15 Eylül Ege (113 bin), 9 Mayıs hastane çantası (60 bin).
 - Öne çıkan kapakları: hesaplar/utopikanne/marka/one_cikan/ (Ek Gıda, Temizlik, Hamilelik, Aren, Mutfak, Ürünlerim, Eskiden). Öne çıkanlar API ile okunamaz/değiştirilemez; Melike elle yapar. Ekip hikâyeleri ilgili öne çıkana eklenmesi için özetlerde hatırlatır (10:30 tarif → Ek Gıda, 18:30 tüyo → Temizlik/Mutfak).
+
+## v4.7 — Öne çıkan adları (8 Kasım, Melike'nin mevcut öne çıkanları görüldükten sonra; v4.6'daki listenin YERİNE geçer)
+Melike'nin mevcut ürün öne çıkanları korunur: "Ek Gıda 🛍️" (ek gıda ürün/alışveriş, linkli), "Dolap 🧸" (Aren kıyafetleri, linktr.ee), "Öneriler 🤎" (diğer ürün önerileri). Yeni eklenenler: "Tarifler" (ekibin 10:30 ek gıda tarifi hikâyeleri), "Temizlik", "Hamilelik", "Mutfak", "Eskiden". Sıra: Tarifler · Temizlik · Ek Gıda 🛍️ · Dolap · Öneriler · Hamilelik · Mutfak · Eskiden. Kapaklar: marka/one_cikan/ (v2).
+Hatırlatmalarda: tarif hikâyesi → "Tarifler" (Ek Gıda DEĞİL; o ürünler için), tüyo → Temizlik/Mutfak, Eskiden → Eskiden. Ekip ürün hikâyesi üretmez.
