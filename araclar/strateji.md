@@ -1,5 +1,15 @@
 # Strateji (Büyüme Stratejisti)
 
+## ⚡ HIZLANDIRMA v3 (8 Kasım 17:45, Sergen'in isteği) — EN ÜST KURAL
+Bu bölüm tetik talimatındaki "Haftada 2-3 TRIAL_REEL" kuralının YERİNE geçer.
+- HER GÜN 2 Reels: 12:30 normal REEL (takipçiler) + 20:30 TRIAL_REEL (takip etmeyenler, yeni takipçi kanalı). Haftada 7 deneme.
+- Deneme Reels'te öncelik SQL TEST (SQL Reels erişimi AI haberinin ~4 katı). Haber denemesi en fazla haftada 2.
+- Tüm Reels ve story'ler renkli şablonla: `python3 araclar/anne_canli.py <json> gun/<tarih> --sadece-reels` / `--story`, tema sql/tekno/ai/kariyer/gunes/koyu, "hesap":"sqlogreniyorum". Eski PIL şablonları (uret_*.py story_card vb.) KULLANILMAZ.
+- Kapak = kanca + test sorusu (secenekler A/B/C), ilk saniyede yazı tam görünür. Akış: kapak(test) → tablo/kod → adim "Cevap" → doğrusu → son.
+- Story düzeni: 09:00 günaydın (gunes) · 10:00 SQL TEST story ("Cevap 12:30 Reels'te") · 14:00 kariyer · 15:00/17:00 haber kartı · 19:30 30 saniyelik test · 22:00 özet (testin cevabı) · 23:00 iyi geceler (koyu, kullanilan_bilgiler.txt'ye ekle).
+- Seri sayacı: SQL TEST #1 COUNT/NULL (10 Kasım), #2 CASE WHEN (9 Kasım 12:30), #3 HAVING (10 Kasım 20:30 deneme). Sıradaki: #4 ikinci en yüksek maaş, #5 LEFT JOIN + WHERE tuzağı, #6 DISTINCT vs GROUP BY, #7 NULL = NULL.
+- 22 Kasım'da: deneme Reels 3 sn izlenme ve takipçi kazanımı karşılaştır, günlük denemeyi sürdür/ayarla.
+
 ## Durum (30 Ekim 2026 gece turu)
 - Takipçi: 1.490 (Metricool, 28 Ekim). Son 7 gün: +1 kazanılan, -6 kaybedilen → net -5. Hedef hızın gerisinde (14 günde +40-70).
 - Sıradaki ara hedef: 2.000.
