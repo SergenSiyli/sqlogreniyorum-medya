@@ -12,5 +12,13 @@
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b5ed0836a9e38c376e9a514484f86cf56320d521/gun/2026-11-10/sql_test_count_null_reels.mp4",
   "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b5ed0836a9e38c376e9a514484f86cf56320d521/gun/2026-11-10/sql_test_count_null_reels_kapak.jpg",
   "aciklama": "COUNT(kupon) kaç döndürür? SQL mülakatlarında en çok takılınan sorulardan biri 👀\n\nTabloda 4 sipariş var, 2'sinin kuponu NULL. COUNT(sütun) NULL olan satırları saymaz, cevap 2. Tüm satırları saymak istiyorsan COUNT(*) kullan, o 4 döndürür.\n\nDoğru bildiysen yorumlara 🔥 bırak! Her gün 1 SQL testi için takip et, SQL öğrenen bir arkadaşına gönder.\n\n#sql #sqlöğren #veribilimi #teknikmülakat #count"
+ },
+ {
+  "id": "2026-11-10_2030_trialreel_sql_test_having",
+  "hedef": "2026-11-10T20:30",
+  "tur": "TRIAL_REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-10/sql_test_having_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-10/sql_test_having_reels_kapak.jpg",
+  "aciklama": "SQL TEST #3: Toplamı 1000 TL'yi geçen müşterileri hangisiyle süzersin? WHERE mi, HAVING mi, ORDER BY mı? 👀\n\nCevap: HAVING. WHERE satırları gruplamadan önce süzer, o anda SUM henüz yok; bu yüzden WHERE SUM(tutar) > 1000 hata verir. HAVING, GROUP BY'dan sonra çalışır ve grupları süzer.\n\nKural: satır koşulu WHERE, grup koşulu HAVING.\n\nDoğru bildiysen yorumlara 🔥 bırak, SQL öğrenen bir arkadaşına gönder.\n\n#sql #sqlöğren #sqlmülakat #veribilimi #veranalizi"
  }
 ]
