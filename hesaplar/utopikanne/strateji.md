@@ -1,5 +1,12 @@
 # @utopikanne büyüme stratejisi (v1 — 1 Kasım 2026)
 
+## ✨ GÖRSEL KURAL v5.3 (8 Kasım 22:40, Melike geri bildirimi) — EN ÜST KURAL
+Melike bebek banyosu postunu (emoji bulutlu) "karışık, az profesyonel" buldu.
+- Post (CAROUSEL) ve deneme Reels: JSON'a `"stil":"pro"` ekle. Sade dergi düzeni: krem zemin, büyük başlık, 01-02-03 numaralı adımlar, "İPUCU" kutusu, kapakta `icindekiler` listesi. 3D emoji bulutu YOK, yazılarda emoji YOK.
+- Her adımda bir `ipucu` ver (pratik, doğrulanmış). Güncel ürün TÜRLERİNİ an (banyo termometresi, banyo filesi, kova küvet vb.), marka adı verme.
+- Melike'nin kendi ürün/yemek fotoğrafları gelirse slayta `"foto":"hesaplar/utopikanne/foto/<dosya>.jpg"` ile koy (gerçek fotoğraf en profesyonel görünen).
+- Story'ler (günaydın, iyi geceler, test, duyuru) renkli kalabilir; Melike bunları beğeniyor.
+
 ## Hedef ve ara hedefler
 4.046 → 10 bin → 50 bin → 100 bin → 500 bin → 1 milyon. İlk ara hedef 10 bin: 90 günde (~66 net takipçi/gün) — bu hız ancak Melike'nin haftada en az 4 Reels'iyle mümkün; hikâyeler takipçi kazanmaz, tutar ve dönüştürür.
 
