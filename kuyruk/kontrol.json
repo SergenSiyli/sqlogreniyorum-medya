@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-08T14:31:40+03:00",
+ "zaman": "2026-11-08T17:37:07+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 256,
  "hesap": {
@@ -20,7 +20,27 @@
  },
  "durum": "ok",
  "medya": {
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a0cc4cd0b88128a36df2588c7c10ec83822b4bd0/gun/2026-11-08/story_2000_duyuru_v3.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a0cc4cd0b88128a36df2588c7c10ec83822b4bd0/gun/2026-11-08/reel_whatsapp_numara_v2_reels.mp4": "video/mp4",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a0cc4cd0b88128a36df2588c7c10ec83822b4bd0/gun/2026-11-08/reel_whatsapp_numara_v2_reels_kapak.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a0cc4cd0b88128a36df2588c7c10ec83822b4bd0/gun/2026-11-08/story_2200_ozet_v3.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a0cc4cd0b88128a36df2588c7c10ec83822b4bd0/gun/2026-11-08/story_2300_iyigeceler_v3.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-09/story_0900_gunaydin_v2.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-09/story_1000_sql_test2.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-09/sql_test_case_when_reels.mp4": "video/mp4",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-09/sql_test_case_when_reels_kapak.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-09/story_1400_kariyer_v2.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-09/story_1500_meta_v2.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-09/story_1700_xr_v2.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-09/story_1930_mini_test.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-09/reel_meta_ai_v2_reels.mp4": "HATA HTTP Error 403: Forbidden",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-09/reel_meta_ai_v2_reels_kapak.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-09/story_2200_ozet_v2.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-09/story_2300_iyigeceler_v2.png": "image/png",
   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b5ed0836a9e38c376e9a514484f86cf56320d521/gun/2026-11-10/story_1000_sql_test.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b5ed0836a9e38c376e9a514484f86cf56320d521/gun/2026-11-10/sql_test_count_null_reels_kapak.jpg": "image/jpeg"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b5ed0836a9e38c376e9a514484f86cf56320d521/gun/2026-11-10/sql_test_count_null_reels.mp4": "video/mp4",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b5ed0836a9e38c376e9a514484f86cf56320d521/gun/2026-11-10/sql_test_count_null_reels_kapak.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-10/sql_test_having_reels.mp4": "video/mp4",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-10/sql_test_having_reels_kapak.jpg": "image/jpeg"
  }
 }
