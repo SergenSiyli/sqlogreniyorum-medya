@@ -129,5 +129,5 @@ Hatırlatmalarda: tarif hikâyesi → "Tarifler" (Ek Gıda DEĞİL; o ürünler 
 
 ## v5.1 — HAFTA HAFTA HAMİLELİK geri (8 Kasım gece, Melike: "hamilelik hikâyesi yok mu, bio'da yazıyor")
 - Her gün 15:00 5. otomatik hikâye: "Hafta hafta hamilelik #N" (anne_gun.py sablon "hamilelik"; alanlar seri, hafta, boy, bilgi, ipucu, kaynak, cta "Hamile bir arkadaşına gönder"). "boy" içinde ":" varsa olduğu gibi yazılır (ör. "Kalbi: dakikada ~180 atış"). PIL şablonlarında EMOJİ YOK (kutucuk çıkar). Sen dili.
-- Sıra: #6 = 9. hafta (9 Kasım), #7 = 10. hafta (10 Kasım) hazır; 11 Kasım #8 = 11. hafta, her gün +1 hafta; 40. haftadan sonra 4. haftadan yeniden başla. Kaynak NHS / HSE / ACOG; boy/sayı kaynakta yoksa yazma.
+- Sıra (8 Kas sabah nöbetiyle bir gün öne alındı): #6 = 9. hafta (8 Kasım), #7 = 10. hafta (9 Kasım) kuyrukta; 10 Kasım #8 = 11. hafta EKSİK (gece turu üretir), 11 Kasım #9 = 12. hafta, her gün +1 hafta; 40. haftadan sonra 4. haftadan yeniden başla. Kaynak NHS / HSE / ACOG; boy/sayı kaynakta yoksa yazma.
 - Hamilelik 🤰 öne çıkanına eklenir.

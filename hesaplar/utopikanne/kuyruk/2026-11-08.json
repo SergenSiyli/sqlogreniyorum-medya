@@ -12,6 +12,12 @@
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5b5f59510875ed05ef0deb41770329d48cd8e254/hesaplar/utopikanne/gun/2026-11-08/story_1030_tarif.png"
  },
  {
+  "id": "2026-11-08_1500_story_hamilelik",
+  "hedef": "2026-11-08T15:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6a7c111c0d5504152b80ecbf23f5363f61a482a4/hesaplar/utopikanne/gun/2026-11-09/story_1500_hamilelik.png"
+ },
+ {
   "id": "2026-11-08_1830_story_temizlik",
   "hedef": "2026-11-08T18:30",
   "tur": "STORY",
