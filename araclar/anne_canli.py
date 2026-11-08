@@ -40,6 +40,15 @@ TEMA = {  # bg1, bg2, vurgu, mürekkep, fosfor
 }
 
 
+PRO = {"on": False}  # "stil":"pro" → sade, profesyonel dergi düzeni (ikon bulutu yok)
+
+
+def foto_uri(yol):
+    p = Path(yol) if Path(yol).is_absolute() else KOK / yol
+    t = "jpeg" if p.suffix.lower() in (".jpg", ".jpeg") else "png"
+    return f"data:image/{t};base64," + base64.b64encode(p.read_bytes()).decode()
+
+
 def ikon_uri(ad):
     p = next((k / f"{ad}.png" for k in IKON_KLASORLERI if (k / f"{ad}.png").exists()), IKON / f"{ad}.png")
     if not p.exists():
@@ -53,6 +62,8 @@ def vurgula(s):
 
 
 def img(ad, cls="", d=0.0, extra=""):
+    if PRO["on"]:
+        return ""
     return f'<img class="ik a pop {cls}" data-d="{d}" src="{ikon_uri(ad)}" {extra}>'
 
 
@@ -84,13 +95,13 @@ def slayt_html(s, i, n, meta):
         {f'<div class="kaynak a" data-d="1.0">Kaynak: {html.escape(s["kaynak"])} · Bilgilendirme amaçlıdır.</div>' if s.get("kaynak") else ""}'''
     elif tip == "adim":
         ik = "".join(img(a, "orta", 0.3 + 0.15 * j) for j, a in enumerate(s.get("ikonlar", [])[:3]))
-        no = f'<div class="no a pop" data-d="0.05">{s["no"]}</div>' if "no" in s else ""
+        no = (f'<div class="no a pop" data-d="0.05">{s["no"]}</div>' if not PRO["on"] else f'<div class="pnob a" data-d="0.05">{s["no"]:02d}</div>' if isinstance(s["no"], int) else f'<div class="pnob a" data-d="0.05">{s["no"]}</div>') if "no" in s else ""
         ic = f'''{no}<h2 class="a" data-d="0.12">{vurgula(s["baslik"])}</h2>
         <div class="ikonlar">{ik}</div>
         <p class="metin a" data-d="0.45">{vurgula(s.get("metin",""))}</p>'''
     elif tip == "liste":
         m = "".join(
-            f'<li class="a" data-d="{0.25 + 0.18*j}"><img class="mik" src="{ikon_uri(x["ikon"])}"><span>{vurgula(x["yazi"])}</span></li>'
+            (f'<li class="a" data-d="{0.25 + 0.18*j}"><b class="pno">{j+1:02d}</b><span>{vurgula(x["yazi"])}</span></li>' if PRO["on"] else f'<li class="a" data-d="{0.25 + 0.18*j}"><img class="mik" src="{ikon_uri(x["ikon"])}"><span>{vurgula(x["yazi"])}</span></li>')
             for j, x in enumerate(s["maddeler"]))
         ic = f'<h2 class="a" data-d="0.05">{vurgula(s["baslik"])}</h2><ul class="liste">{m}</ul>'
     elif tip == "kiyas":
@@ -120,17 +131,45 @@ def slayt_html(s, i, n, meta):
     elif tip == "son":
         ik = "".join(img(a, f"k{j}", 0.3 + 0.15 * j) for j, a in enumerate(s.get("ikonlar", ["smiling_face_with_hearts"])[:3]))
         g = s.get("gonder")
-        gonder = f'<div class="cta3 a" data-d="0.95">📩 {html.escape(g)}</div>' if g else ""
+        gonder = f'<div class="cta3 a" data-d="0.95">{"" if PRO["on"] else "📩 "}{html.escape(g)}</div>' if g else ""
         ic = f'''<div class="bulut kucuk">{ik}</div>
         <h1 class="dev a" data-d="0.1">{vurgula(s.get("baslik","Serinin devamı için *takip et*"))}</h1>
         <p class="metin a" data-d="0.35">{vurgula(s.get("metin","Her gün böyle pratik bilgiler burada."))}</p>
         <div class="cta a pop" data-d="0.6">+ Takip et</div>
-        <div class="cta2 a" data-d="0.8">🔖 Kaydet, lazım olunca bul</div>{gonder}'''
+        <div class="cta2 a" data-d="0.8">{"" if PRO["on"] else "🔖 "}Kaydet, lazım olunca bul</div>{gonder}'''
+    if s.get("foto"):
+        ic += f'<img class="foto a" data-d="0.2" src="{foto_uri(s["foto"])}">'
+    if PRO["on"] and tip == "kapak" and s.get("icindekiler"):
+        ic += '<ol class="icind a" data-d="0.4">' + "".join(f"<li><b>{j+1:02d}</b>{html.escape(x)}</li>" for j, x in enumerate(s["icindekiler"])) + '</ol>'
+    if PRO["on"] and tip == "adim" and s.get("ipucu"):
+        ic += f'<div class="ipucu a" data-d="0.6"><b>İPUCU</b>{vurgula(s["ipucu"])}</div>'
     return f'<section class="sahne t-{tip}" data-i="{i-1}">{rozet}{sayac}<div class="govde">{ic}</div>{el}</section>'
 
 
 def sayfa(icerik, W, H, reels):
     b1, b2, v, ink, fos = TEMA[icerik.get("tema", "seftali")]
+    PRO_CSS = f'''
+.sahne{{background:#FBF8F4}} .sahne:before{{width:100%;height:18px;left:0;top:0;right:auto;border-radius:0;opacity:1}} .sahne:after{{display:none}}
+.rozet{{background:none;color:{v};box-shadow:none;padding:0;font-size:28px;letter-spacing:4px;border-bottom:3px solid {v};border-radius:0;padding-bottom:8px}}
+.ust{{font-size:38px;font-weight:600;color:#7A6E66;letter-spacing:.2px}}
+.dev{{font-family:"Inter Display",Inter;color:#22201E;font-weight:800;letter-spacing:-2.5px}}
+h2{{font-family:"Inter Display",Inter;color:#22201E;font-weight:800;font-size:76px;letter-spacing:-1.5px}}
+.metin,.alt{{color:#4A4440;font-weight:400}} .metin{{font-size:44px;line-height:1.45}}
+.hl{{background:none;color:{v};padding:0}}
+.pnob{{font-family:"Inter Display",Inter;font-size:150px;font-weight:200;color:{v};line-height:.9;letter-spacing:-4px}}
+.liste li{{background:none;box-shadow:none;border-radius:0;border-bottom:2px solid #E7E0D8;padding:26px 0;color:#2E2A27;font-weight:500;font-size:44px}}
+.liste li:last-child{{border-bottom:none}}
+.pno{{font-family:"Inter Display",Inter;color:{v};font-weight:300;font-size:56px;width:92px;flex:none}}
+.icind{{list-style:none;border-top:2px solid #E7E0D8;margin-top:10px}}
+.icind li{{display:flex;gap:26px;font-size:38px;color:#4A4440;padding:18px 0;border-bottom:2px solid #E7E0D8}}
+.icind b{{color:{v};font-weight:600;width:56px}}
+.ipucu{{background:#fff;border-left:10px solid {v};border-radius:14px;padding:28px 34px;font-size:38px;line-height:1.4;color:#3A3532;box-shadow:0 6px 18px rgba(0,0,0,.05)}}
+.ipucu b{{display:block;color:{v};font-size:26px;letter-spacing:3px;margin-bottom:8px}}
+.notkutu{{background:#fff;border:none;border-left:10px solid {v};border-radius:18px;box-shadow:0 8px 22px rgba(0,0,0,.06)}}
+.cta{{border-radius:18px;box-shadow:none}} .cta2,.cta3{{background:none;padding:0;color:#4A4440;font-weight:500}}
+.kaydir{{font-weight:600;letter-spacing:1px;order:10}} .kaynak{{order:11}} .t-kapak{{background:linear-gradient(165deg,{b1},#FBF8F4 70%)}} .t-son{{background:linear-gradient(165deg,#FBF8F4 30%,{b1})}} .el{{opacity:.45;font-weight:600;letter-spacing:1px}}
+.secenek li{{font-weight:500}} .harf{{border-width:3px}}
+'''
     sl = icerik["slaytlar"]
     sahneler = "".join(slayt_html(s, i + 1, len(sl), icerik) for i, s in enumerate(sl))
     olcek = 1.0
@@ -184,6 +223,8 @@ h2{{font-size:70px;line-height:1.08;font-weight:900;letter-spacing:-1px}}
 .notik{{width:180px;height:180px}}
 .cta{{align-self:flex-start;background:{v};color:#fff;font-size:54px;font-weight:900;padding:24px 56px;border-radius:60px;box-shadow:0 14px 30px {v}66}}
 .cta2,.cta3{{font-size:40px;font-weight:700;background:#ffffffb8;border-radius:30px;padding:18px 30px;align-self:flex-start}}
+.foto{{width:100%;max-height:560px;object-fit:cover;border-radius:36px;box-shadow:0 14px 30px rgba(0,0,0,.12)}}
+{PRO_CSS if PRO["on"] else ""}
 </style></head><body>{sahneler}
 <script>
 const R={str(reels).lower()};
@@ -219,6 +260,7 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     icerik = json.loads(src.read_text(encoding="utf-8"))
     HESAP["ad"] = icerik.get("hesap", "utopikanne")
+    PRO["on"] = icerik.get("stil") == "pro"
     ad = icerik.get("ad", src.stem)
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:

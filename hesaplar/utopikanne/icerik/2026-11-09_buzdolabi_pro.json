@@ -1,0 +1,107 @@
+{
+ "ad": "mutfak01_buzdolabi_pro",
+ "seri": "MUTFAK TÜYOSU",
+ "no": 1,
+ "tema": "kariyer",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Kapağı açınca o koku mu geliyor?",
+   "baslik": "Buzdolabı kokusu *5 adımda* gider",
+   "alt": "Kalıcı çözüm için sırayla uygula.",
+   "ikonlar": [
+    "magnifying_glass_tilted_left",
+    "cheese_wedge",
+    "sparkles",
+    "lemon"
+   ],
+   "icindekiler": [
+    "Kaynağı bul",
+    "Rafları yıka",
+    "Karbonatlı suyla sil",
+    "Kokuyu emdir",
+    "Tekrarlamasın"
+   ]
+  },
+  {
+   "tip": "adim",
+   "no": 1,
+   "baslik": "Önce *suçluyu* bul",
+   "metin": "Bozulmuş yiyeceği at, koku çoğu zaman oradan gelir. Dökülenleri beklemeden sil.",
+   "ikonlar": [
+    "magnifying_glass_tilted_left",
+    "wastebasket"
+   ],
+   "ipucu": "Sebze çekmecesinin altını da kontrol et; sızıntı çoğu zaman orada birikir."
+  },
+  {
+   "tip": "adim",
+   "no": 2,
+   "baslik": "Rafları *çıkar, yıka*",
+   "metin": "Raf ve çekmeceleri sıcak su ve deterjanla yıka, temiz suyla durula.",
+   "ikonlar": [
+    "sponge",
+    "bubbles"
+   ],
+   "ipucu": "Cam rafları soğukken sıcak suya sokma, çatlayabilir. Oda sıcaklığına gelsin."
+  },
+  {
+   "tip": "adim",
+   "no": 3,
+   "baslik": "İçini *karbonatlı suyla* sil",
+   "metin": "Sıcak su ve karbonat yeter. Çözücü ya da aşındırıcı temizleyici kullanma.",
+   "ikonlar": [
+    "salt",
+    "droplet"
+   ],
+   "ipucu": "Fan ve kapak lastiklerini de sil; koku en çok bu kıvrımlarda kalır."
+  },
+  {
+   "tip": "adim",
+   "no": 4,
+   "baslik": "Koku hâlâ mı var? *Kahve telvesi*",
+   "metin": "Rafa ağzı açık bir kutu karbonat ya da sığ bir kapta kahve telvesi bırak.",
+   "ikonlar": [
+    "hot_beverage",
+    "sparkles"
+   ],
+   "ipucu": "Karbonatı ya da telveyi ayda bir yenile."
+  },
+  {
+   "tip": "liste",
+   "baslik": "Bir daha *olmasın*",
+   "maddeler": [
+    {
+     "ikon": "snowflake",
+     "yazi": "Dolap 4°C ya da altında olsun"
+    },
+    {
+     "ikon": "pot_of_food",
+     "yazi": "Pişmiş yemeği 3–4 günde tüket"
+    },
+    {
+     "ikon": "baby_bottle",
+     "yazi": "Bebek yemeği ise 2 gün içinde"
+    }
+   ]
+  },
+  {
+   "tip": "not",
+   "ikon": "warning",
+   "baslik": "Çamaşır suyunu *karıştırma*",
+   "metin": "Başka hiçbir temizleyiciyle. Ürün etiketindeki talimata uy."
+  },
+  {
+   "tip": "son",
+   "baslik": "Mutfak tüyoları için *takip et*",
+   "metin": "Kaynak: USDA FSIS, NHS. Her gün evini kolaylaştıran bir bilgi.",
+   "gonder": "Buzdolabı kokan arkadaşına gönder",
+   "ikonlar": [
+    "house",
+    "sparkles",
+    "smiling_face_with_hearts"
+   ]
+  }
+ ],
+ "stil": "pro"
+}
