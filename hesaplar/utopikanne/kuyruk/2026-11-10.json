@@ -1,10 +1,61 @@
 [
  {
+  "id": "2026-11-10_0830_story_gunaydin",
+  "hedef": "2026-11-10T08:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/story_0830_gunaydin.png"
+ },
+ {
+  "id": "2026-11-10_1000_story_duyuru",
+  "hedef": "2026-11-10T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/story_1000_duyuru_yumurta.png"
+ },
+ {
+  "id": "2026-11-10_1030_story_tarif",
+  "hedef": "2026-11-10T10:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/story_1030_tarif.png"
+ },
+ {
+  "id": "2026-11-10_1130_carousel_yumurta",
+  "hedef": "2026-11-10T11:30",
+  "tur": "CAROUSEL",
+  "medya": [
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_01.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_02.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_03.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_04.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_05.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_06.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_07.jpg"
+  ],
+  "aciklama": "Bebeğe yumurta ne zaman verilir? 🥚 Çoğumuz \"1 yaşını bekle\" diye duyduk ama güncel öneriler farklı.\n\nNHS'e göre bebekler yaklaşık 6. aydan itibaren, beyazı da sarısı da tamamen pişmiş yumurta yiyebilir. AAP de yumurta gibi alerjen gıdaları geciktirmenin alerjiyi önlemediğini söylüyor. Yeni gıdayı tek tek, az az tanıt ve bebeğini izle.\n\nBebeğinde egzama ya da ailede alerji varsa başlamadan önce doktorunla konuş. Nefes darlığı ya da dil/boğazda şişlik olursa hemen 112.\n\nKaynak: NHS, AAP. Bilgilendirme amaçlıdır, doktoruna danış.\n\nSen yumurtaya kaçıncı ayda başladın? Yorumlara yaz 👇\n\nEk gıda tarifi serisinin devamı için takip et · Kaydet · Ek gıdaya başlayan bir anneye gönder\n\n#annelik #ekgıda #bebekbeslenmesi #6ayekgida #yumurta"
+ },
+ {
   "id": "2026-11-10_1300_trial_bebek_banyosu",
   "hedef": "2026-11-10T13:00",
   "tur": "TRIAL_REEL",
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0c8090d0afa34f3977797ca9107e9181dd6151f0/hesaplar/utopikanne/gun/2026-11-10/bakim01_bebek_banyosu_reels.mp4",
   "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0c8090d0afa34f3977797ca9107e9181dd6151f0/hesaplar/utopikanne/gun/2026-11-10/bakim01_bebek_banyosu_reels_kapak.jpg",
   "aciklama": "Bebek banyosu kontrol listesi 🛁 Suyu dirseğinle kontrol et, 8–10 cm su yeter, bebeği bir saniye bile yalnız bırakma.\n\nBebek bakımı serisi için takip et 💙 Yeni anne olan arkadaşına gönder.\n\n#annelik #bebekbakımı #bebekbanyosu #yenidoğan"
+ },
+ {
+  "id": "2026-11-10_1500_story_hamilelik",
+  "hedef": "2026-11-10T15:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/story_1500_hamilelik.png"
+ },
+ {
+  "id": "2026-11-10_1830_story_temizlik",
+  "hedef": "2026-11-10T18:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/story_1830_temizlik.png"
+ },
+ {
+  "id": "2026-11-10_2230_story_iyi_geceler",
+  "hedef": "2026-11-10T22:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/story_2230_iyi_geceler.png"
  }
 ]
