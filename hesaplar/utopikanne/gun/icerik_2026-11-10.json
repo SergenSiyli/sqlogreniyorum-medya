@@ -1,0 +1,51 @@
+{
+ "2026-11-10": [
+  {
+   "saat": "10:30",
+   "sablon": "tarif",
+   "seri": "Ek gıda tarifi #9",
+   "ay": "6+ ay",
+   "baslik": "Avokado-muz ezmesi",
+   "malzemeler": [
+    "1 olgun muz",
+    "1 olgun avokado"
+   ],
+   "adimlar": [
+    "Muzu ve avokadoyu soyup kaseye koy.",
+    "Çatalla pürüzsüz olana dek ez.",
+    "Pişirmek yok, hemen hazır!"
+   ],
+   "saklama": "Muz ve avokado çabuk kararır; kalanın üstünü kapatıp buzdolabına koy, aynı gün tüket. Bebeğin yarım bıraktığı porsiyonu saklama, at.",
+   "dikkat": "Tuz ve şeker ekleme. Yerken bebeğin yanından ayrılma.",
+   "kaynak": "NHS Start for Life",
+   "cizim": "avokado",
+   "cta": "Kaydet, lazım olur"
+  },
+  {
+   "saat": "15:00",
+   "sablon": "hamilelik",
+   "seri": "Hafta hafta hamilelik #8",
+   "hafta": 11,
+   "boy": "İncir kadar, baş-popo ~41 mm",
+   "bilgi": "El ve ayak parmakları birbirinden ayrılıyor; minicik tırnakları ve kulakları var. Şimdiye dek onu besleyen yolk kesesinin görevini plasenta devralmak üzere.",
+   "ipucu": "Çok yorgun hissedebilirsin. Yürüyüş gibi hafif bir egzersiz iyi gelebilir.",
+   "kaynak": "NHS",
+   "cta": "Hamile bir arkadaşına gönder"
+  },
+  {
+   "saat": "18:30",
+   "sablon": "temizlik",
+   "seri": "Temizlik tüyosu #5",
+   "baslik": "Bulaşık süngeri nasıl temizlenir?",
+   "maddeler": [
+    "Islak süngeri mikrodalgada 1 dakika ısıt.",
+    "Ya da kurutmalı bulaşık makinesi programında yıka.",
+    "USDA araştırmasında iki yöntem de bakterinin neredeyse tamamını yok etti.",
+    "Süngerini yine de sık sık değiştir."
+   ],
+   "uyari": "Kuru sünger alev alabilir, metal telli sünger kıvılcım çıkarır; mikrodalgaya koyma. Çıkınca çok sıcaktır, elini yakma.",
+   "kaynak": "USDA ARS, NC State Üniversitesi",
+   "cta": "Kaydet, bir anneye gönder"
+  }
+ ]
+}

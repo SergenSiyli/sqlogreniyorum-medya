@@ -1,0 +1,93 @@
+{
+ "ad": "ekgida01_yumurta",
+ "seri": "EK GIDA TARİFİ",
+ "no": 1,
+ "tema": "seftali",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Biliyor muydun? 👀",
+   "baslik": "Bebeğe yumurta: *1 yaşı* beklemeli misin?",
+   "alt": "Ne zaman, nasıl? Adım adım anlattım",
+   "ikonlar": [
+    "egg",
+    "baby",
+    "bowl_with_spoon",
+    "sparkles"
+   ]
+  },
+  {
+   "tip": "adim",
+   "no": 1,
+   "baslik": "Cevap: *Yanlış!*",
+   "metin": "NHS'e göre bebekler yaklaşık 6. aydan itibaren yumurta yiyebilir. Ek gıdaya başladıysan yumurta da sıraya girebilir, doktorunla konuşarak 🥚",
+   "ikonlar": [
+    "egg",
+    "baby"
+   ]
+  },
+  {
+   "tip": "adim",
+   "no": 2,
+   "baslik": "Beklemek *korumuyor*",
+   "metin": "AAP'ye göre yumurta gibi alerjen gıdaları geciktirmek alerjiyi önlemiyor. NHS, yumurtayı 6-12 aydan sonraya ertelemenin alerji riskini artırabileceğini söylüyor.",
+   "ikonlar": [
+    "magnifying_glass_tilted_left",
+    "light_bulb"
+   ]
+  },
+  {
+   "tip": "liste",
+   "baslik": "Tarif: *yumurta parmakları*",
+   "maddeler": [
+    {
+     "ikon": "pot_of_food",
+     "yazi": "Yumurtayı kaynayan suda haşla"
+    },
+    {
+     "ikon": "egg",
+     "yazi": "Beyazı da sarısı da tamamen katılaşsın"
+    },
+    {
+     "ikon": "droplet",
+     "yazi": "Soğuk suda 2-3 dakika soğut, soy"
+    },
+    {
+     "ikon": "kitchen_knife",
+     "yazi": "Dörde böl, 2 parmak ver"
+    },
+    {
+     "ikon": "warning",
+     "yazi": "Çiğ ya da az pişmiş yumurta verme"
+    }
+   ]
+  },
+  {
+   "tip": "adim",
+   "no": 3,
+   "baslik": "Az az, *tek tek*",
+   "metin": "Yumurta gibi alerjen gıdaları tek tek ve çok az miktarla tanıt, sonra bebeğini izle. Sorun yoksa düzenli vermeye devam et.",
+   "ikonlar": [
+    "spoon",
+    "baby"
+   ]
+  },
+  {
+   "tip": "not",
+   "ikon": "warning",
+   "baslik": "Bunları görürsen *dikkat*",
+   "metin": "Kaşıntı, döküntü, dudakta şişlik, kusma ya da ishal olursa doktoruna danış. Nefes darlığı, hırıltı ya da dil/boğazda şişlik varsa hemen 112'yi ara. Bebeğinde egzama ya da ailede alerji varsa başlamadan önce doktorunla konuş."
+  },
+  {
+   "tip": "son",
+   "baslik": "Ek gıda tarifi serisi için *takip et*",
+   "metin": "Kaynak: NHS, AAP. Her gün pratik bir bilgi burada.",
+   "gonder": "Ek gıdaya başlayan bir anneye gönder 🥚",
+   "ikonlar": [
+    "egg",
+    "baby",
+    "smiling_face_with_hearts"
+   ]
+  }
+ ]
+}

@@ -87,7 +87,7 @@ Veri: Melike'nin son 10 Reels'i 1.218–3.739 kişiye ulaşıyor ama net takipç
 | EV HAP BİLGİ | 0 |
 | MUTFAK TÜYOSU | 2 (8 Kasım: #1 buzdolabı 9 Kasım, #2 mikrodalga reels 10 Kasım) |
 | BEBEK BAKIMI | 2 (#1 bebek banyosu 8 Kasım; #2 emekleme ve uyku, 13 Kasım carousel + deneme Reels — ana sohbet hazırladı) |
-| EK GIDA TARİFİ (carousel) | 0 |
+| EK GIDA TARİFİ (carousel) | 1 (#1 yumurta, 10 Kasım) |
 | HAMİLELİKTE BİLMEN GEREKENLER | 0 |
 | ÇAMAŞIR & BEBEK EŞYASI | 0 |
 | PRATİK HAYAT | 0 |
@@ -137,3 +137,4 @@ Hatırlatmalarda: tarif hikâyesi → "Tarifler" (Ek Gıda DEĞİL; o ürünler 
 - Deneme Reels HER GÜN 13:00 (genelde o günün carousel'inden `--reels`; aynı konuyu iki kez deneme yapma).
 - 8 Kasım: 17:30 deneme Reels (mikrodalga, Salı'dan alındı). 9 Kasım 13:00 buzdolabı, 10 Kasım 13:00 bebek banyosu, 13 Kasım 13:00 emekleme-uyku hazır.
 - 2 hafta sonra (22 Kasım) Analist: günlük denemenin takipçi/erişim etkisi; takipçi düşüşü ya da erişim/gönderi çöküşü varsa haftada 4'e indirmeyi öner.
+- 8 Kasım gece turu: 10 Kasım tamamlandı (günaydın, 10:00 TEST duyurusu, tarif #9, 11:30 EK GIDA TARİFİ #1 yumurta, hamilelik #8 = 11. hafta, temizlik #5, iyi geceler). Not: 9./10. hafta bir gün öne kaydırıldığı için hamilelik numarası 10 Kasım #8 = 11. hafta; 11 Kasım #9 = 12. hafta (prompttaki "11 Kasım #8" bir gün kaydı).

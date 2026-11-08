@@ -49,3 +49,9 @@
 2026-11-09 carousel ev temizliği #1: buzdolabı kokusu (bozulanı at, raflar sıcak su+deterjan, iç sıcak su+karbonat, çözücü/aşındırıcı yok, açık kutu karbonat/kahve telvesi, 4°C, artık 3-4 gün, bebek yemeği 2 gün, çamaşır suyunu karıştırma) — USDA FSIS, NHS, CDC
 2026-11-09 temizlik #4: çiğ et sonrası tahta temizliği (ılık sabunlu su, çiğ tavuğu yıkama, çiğ et alt rafta kapalı) — FSA, NHS
 2026-11-09 iyi geceler: bebekle kanepe/koltukta uyuma, uykun gelirse beşiğine yatır — NHS, Lullaby Trust
+2026-11-10 günaydın: çoğu 2 aylık bebek konuşunca/gülümseyince gülümser — CDC
+2026-11-10 tarif #9: avokado-muz ezmesi (6+ ay, aynı gün tüket, yarım bırakılan porsiyonu at) — NHS Start for Life
+2026-11-10 carousel EK GIDA TARİFİ #1: yumurta ~6. aydan, beyazı+sarısı katı, yumurta parmakları, alerjen tek tek az az, düzenli ver, erteleme riski, alerji/acil belirtiler, egzama/aile öyküsünde doktor — NHS, AAP (10:00 test: "1 yaşından önce verilmez" → Yanlış)
+2026-11-10 hamilelik #8: 11. hafta, incir, baş-popo ~41 mm, tırnak/kulak, plasenta devralıyor, yorgunlukta yürüyüş — NHS
+2026-11-10 temizlik #5: bulaşık süngeri (ıslak mikrodalga 1 dk ya da kurutmalı bulaşık makinesi, sık değiştir, kuru/metal telli koyma) — USDA ARS, NC State
+2026-11-10 iyi geceler: gece loş/sessiz, gündüz aydınlık/oyun — NHS
