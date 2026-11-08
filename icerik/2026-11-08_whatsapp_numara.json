@@ -1,0 +1,6 @@
+{"ad":"reel_whatsapp_numara_v2","hesap":"sqlogreniyorum","seri":"TEKNOLOJİ HABERİ","tema":"tekno","slaytlar":[
+{"tip":"kapak","ust":"WhatsApp'ta yeni ayar geliyor 👀","baslik":"Numaranı *kim görecek?* Sence varsayılan ne?","secenekler":["Herkes","Kişilerim","Hiç kimse"],"cevap_notu":"Tahminini aklında tut, cevap geliyor 👉","ikonlar":["mobile_phone","eyes","locked"]},
+{"tip":"liste","baslik":"Geliştirilen *4 seçenek*","maddeler":[{"ikon":"globe_showing_europe_africa","yazi":"Herkes"},{"ikon":"handshake","yazi":"Kişilerim"},{"ikon":"shield","yazi":"Kişilerim, şunlar hariç"},{"ikon":"locked","yazi":"Hiç kimse"}]},
+{"tip":"adim","no":"C","baslik":"Cevap: *Hiç kimse* 🔒","metin":"Haberlere göre kullanıcı adı olanlarda varsayılan Hiç kimse olacak. Numaranı rehberine kaydetmiş olanlar görmeye devam edecek.","ikonlar":["check_mark_button","key"]},
+{"tip":"not","ikon":"warning","baslik":"Henüz *beta'da bile değil*","metin":"Haber WABetaInfo kaynaklı. WhatsApp resmî bir çıkış tarihi açıklamadı."},
+{"tip":"son","baslik":"Teknoloji haberleri için *takip et*","metin":"Numaranı gizleyip sadece kullanıcı adıyla yazışır mıydın? Yorumlara yaz 👇","gonder":"Bunu bilmesi gereken birine gönder","ikonlar":["mobile_phone","satellite","sparkles"]}]}
