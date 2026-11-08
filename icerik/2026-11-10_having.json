@@ -1,0 +1,6 @@
+{"ad":"sql_test_having","hesap":"sqlogreniyorum","seri":"SQL TEST","no":3,"tema":"sql","slaytlar":[
+{"tip":"kapak","ust":"Mülakatta en çok karıştırılan 👀","baslik":"Toplamı 1000'i geçenleri *hangisiyle* süzersin?","secenekler":["WHERE","HAVING","ORDER BY"],"cevap_notu":"3 saniye düşün, cevap geliyor 👉","ikonlar":["laptop","thinking_face","card_file_box"]},
+{"tip":"kod","baslik":"Bu sorgu *hata* verir ❌","kod":"SELECT musteri, SUM(tutar)\nFROM siparis\nWHERE SUM(tutar) > 1000\nGROUP BY musteri;","metin":"WHERE satırları gruplamadan önce süzer; o anda SUM yok."},
+{"tip":"adim","no":"B","baslik":"Cevap: *HAVING* 🎯","metin":"HAVING, GROUP BY'dan sonra çalışır ve grupları süzer. Toplam, ortalama gibi koşullar buraya yazılır.","ikonlar":["check_mark_button","bar_chart"]},
+{"tip":"kod","baslik":"Doğrusu","kod":"SELECT musteri, SUM(tutar)\nFROM siparis\nGROUP BY musteri\nHAVING SUM(tutar) > 1000;","metin":"Kural: satır koşulu WHERE, grup koşulu HAVING."},
+{"tip":"son","baslik":"Her gün 1 SQL testi için *takip et*","metin":"Doğru bildiysen yorumlara 🔥 bırak!","gonder":"SQL öğrenen bir arkadaşına gönder","ikonlar":["trophy","rocket","sparkles"]}]}

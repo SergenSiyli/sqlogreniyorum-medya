@@ -41,26 +41,26 @@
   "id": "2026-11-08_2000_story_duyuru_v2",
   "hedef": "2026-11-08T20:00",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-08/story_2000_duyuru_v2.png"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a0cc4cd0b88128a36df2588c7c10ec83822b4bd0/gun/2026-11-08/story_2000_duyuru_v3.png"
  },
  {
   "id": "2026-11-08_2100_reel_whatsapp_numara",
   "hedef": "2026-11-08T21:00",
   "tur": "REEL",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-08/reel_whatsapp_numara.mp4",
-  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-08/reel_whatsapp_numara_kapak.png",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a0cc4cd0b88128a36df2588c7c10ec83822b4bd0/gun/2026-11-08/reel_whatsapp_numara_v2_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a0cc4cd0b88128a36df2588c7c10ec83822b4bd0/gun/2026-11-08/reel_whatsapp_numara_v2_reels_kapak.jpg",
   "aciklama": "WhatsApp numara gizliliği: numaranı kimin göreceğini seçebileceğin yeni bir ayar geliştiriliyor.\n\nWABetaInfo'ya dayanan haberlere göre seçenekler Herkes, Kişilerim, Kişilerim şunlar hariç ve Hiç kimse olacak. Kullanıcı adı olanlarda varsayılan Hiç kimse; numaranı rehberinde kayıtlı tutanlar onu görmeye devam edecek. Özellik henüz beta testine açık değil ve WhatsApp resmî bir çıkış tarihi açıklamadı.\n\nBunu bilmesi gereken birine gönder, kaydet. Numaranı gizleyip sadece kullanıcı adıyla yazışır mıydın? Evet mi hayır mı, yorumlara yaz.\n\nKaynak: PhoneWorld, ETV Bharat (7 Kasım 2026)\n\n#teknoloji #teknolojihaberleri #whatsapp #gizlilik"
  },
  {
   "id": "2026-11-08_2200_story_ozet_v2",
   "hedef": "2026-11-08T22:00",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e47fc7c4062381b717860bf175a302f64a603fd6/gun/2026-11-08/story_2200_ozet_v2.png"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a0cc4cd0b88128a36df2588c7c10ec83822b4bd0/gun/2026-11-08/story_2200_ozet_v3.png"
  },
  {
   "id": "2026-11-08_2300_story_iyigeceler",
   "hedef": "2026-11-08T23:00",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6eee7c36acb1b4d797496b2ff6be2b65e64ba3a5/gun/2026-11-08/story_iyigeceler.png"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a0cc4cd0b88128a36df2588c7c10ec83822b4bd0/gun/2026-11-08/story_2300_iyigeceler_v3.png"
  }
 ]
