@@ -83,3 +83,8 @@ Kanca: her Reels ilk karede tam görünen soru/hata/etki cümlesiyle açılıyor
 - 18 Reels (28 Ekim-6 Kasım): SQL 8 Reels ort. erişim 974, 3 sn %32,8; AI haber 8 Reels ort. erişim 241, %25,8. Deneme #5 LAG (6 Kasım): 3 sn %40,7 (dönemin en yükseği), erişim 528 (<24 sa), kaydetme oranı %0,6. "X mi Y mi" kancaları %19 civarı: kullanılmayacak. Story verisi Metricool'da yok.
 - Karar: haber seçimi "Türkiye'deki kullanıcıya dokunan uygulama" (WhatsApp/Meta AI); ABD'ye özel haber yok (Google K-12 ve Netflix en kötü). 9 Kasım 20:30 SQL #8 CASE WHEN sırası DENEME Reels (haftanın 1. denemesi; 2. deneme 11-12 Kasım).
 - Sıradaki SQL: CTE, SUM() OVER, IN/EXISTS, Index, PK/FK.
+
+## Durum (8 Kasım 2026 gece turu)
+- Takipçi: 1.551 (Metricool, 6 Kasım; 7-8 Kasım verisi gelmedi). 30 Ekim-6 Kasım net +54 (~7,7/gün). Bu hızla 50.000'e ~6.300 gün.
+- 1-7 Kasım (14 Reels): SQL 7 Reels 3 sn ort. %34,2 (LIKE #1 %40,3 en iyi; WHERE/HAVING %19,5 en kötü), haber 7 Reels %25,7 (ChatGPT birleşme %28,5 en iyi; Netflix %23,0). (Kaydetme+paylaşım)/erişim 116/8.976 = %1,3. Deneme #6 NOT IN: %38,6, erişim 471. v2 stilin verisi henüz yok (ilk v2 içerikler 8 Kasım akşamı).
+- Bu tur değiştirdiğimiz: deneme Reels'i olan akşamlarda duyuru story'si yerine "30 saniyelik test" (takipçi deneme Reels'i görmüyor); 9 Kasım 23:00 tekrar eden bilgi değiştirildi. "Teknoloji Tarihinden #2" (Hamilton) 10 Kasım 14:00.
