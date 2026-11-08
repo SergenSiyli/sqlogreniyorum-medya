@@ -131,3 +131,9 @@ Hatırlatmalarda: tarif hikâyesi → "Tarifler" (Ek Gıda DEĞİL; o ürünler 
 - Her gün 15:00 5. otomatik hikâye: "Hafta hafta hamilelik #N" (anne_gun.py sablon "hamilelik"; alanlar seri, hafta, boy, bilgi, ipucu, kaynak, cta "Hamile bir arkadaşına gönder"). "boy" içinde ":" varsa olduğu gibi yazılır (ör. "Kalbi: dakikada ~180 atış"). PIL şablonlarında EMOJİ YOK (kutucuk çıkar). Sen dili.
 - Sıra (8 Kas sabah nöbetiyle bir gün öne alındı): #6 = 9. hafta (8 Kasım), #7 = 10. hafta (9 Kasım) kuyrukta; 10 Kasım #8 = 11. hafta EKSİK (gece turu üretir), 11 Kasım #9 = 12. hafta, her gün +1 hafta; 40. haftadan sonra 4. haftadan yeniden başla. Kaynak NHS / HSE / ACOG; boy/sayı kaynakta yoksa yazma.
 - Hamilelik 🤰 öne çıkanına eklenir.
+
+## v5.2 — AGRESİF MOD (8 Kasım 16:30, Melike: "post atmadım, deneme de atmadım, agresif hızlı büyüme yap, acil")
+- Gönderi (carousel) HER GÜN 11:30 (hafta sonu dahil). Cumartesi: ESKİDEN NASILDI? / PRATİK HAYAT dönüşümlü; Pazar: BEBEK BAKIMI / HAMİLELİKTE BİLMEN GEREKENLER dönüşümlü.
+- Deneme Reels HER GÜN 13:00 (genelde o günün carousel'inden `--reels`; aynı konuyu iki kez deneme yapma).
+- 8 Kasım: 17:30 deneme Reels (mikrodalga, Salı'dan alındı). 9 Kasım 13:00 buzdolabı, 10 Kasım 13:00 bebek banyosu, 13 Kasım 13:00 emekleme-uyku hazır.
+- 2 hafta sonra (22 Kasım) Analist: günlük denemenin takipçi/erişim etkisi; takipçi düşüşü ya da erişim/gönderi çöküşü varsa haftada 4'e indirmeyi öner.
