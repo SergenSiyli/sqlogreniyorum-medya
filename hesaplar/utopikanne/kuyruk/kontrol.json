@@ -1,16 +1,16 @@
 {
- "zaman": "2026-11-08T16:33:27+03:00",
+ "zaman": "2026-11-08T22:23:48+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 257,
  "hesap": {
   "id": "17841478247923387",
-  "media_count": 167,
+  "media_count": 169,
   "username": "utopikanne"
  },
  "kota": {
   "data": [
    {
-    "quota_usage": 5,
+    "quota_usage": 8,
     "config": {
      "quota_total": 100,
      "quota_duration": 86400
@@ -20,6 +20,18 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@0c8090d0afa34f3977797ca9107e9181dd6151f0/hesaplar/utopikanne/gun/2026-11-09/mutfak01_buzdolabi_reels_kapak.jpg": "image/jpeg"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/story_0830_gunaydin.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/story_1000_duyuru_yumurta.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/story_1030_tarif.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_01.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_02.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_03.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_04.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_05.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_06.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/ekgida01_yumurta_07.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/story_1500_hamilelik.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/story_1830_temizlik.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6c13e46c5cf7b92283b21f28cdb9e0da0607eaf1/hesaplar/utopikanne/gun/2026-11-10/story_2230_iyi_geceler.png": "image/png"
  }
 }
