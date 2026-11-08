@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-08T01:47:35+03:00",
+ "zaman": "2026-11-08T07:33:21+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 257,
  "hesap": {
@@ -20,6 +20,17 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6a7c111c0d5504152b80ecbf23f5363f61a482a4/hesaplar/utopikanne/gun/2026-11-09/story_1500_hamilelik.png": "image/png"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5c818b8522ce75d87c98ad96ff97b7a380b092ce/hesaplar/utopikanne/gun/2026-11-08/story_0830_gunaydin_v2.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5b5f59510875ed05ef0deb41770329d48cd8e254/hesaplar/utopikanne/gun/2026-11-08/story_1030_tarif.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@5b5f59510875ed05ef0deb41770329d48cd8e254/hesaplar/utopikanne/gun/2026-11-08/story_1830_temizlik.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@ec22202f6b2823019039386129519905b13d1a2b/hesaplar/utopikanne/gun/2026-11-08/story_2030_duyuru_bebek_banyosu.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@ca218e3b7f8213f1e4530d2498b27c8993ad07f2/hesaplar/utopikanne/gun/2026-11-08/v2/bakim01_bebek_banyosu_01.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@ca218e3b7f8213f1e4530d2498b27c8993ad07f2/hesaplar/utopikanne/gun/2026-11-08/v2/bakim01_bebek_banyosu_02.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@ca218e3b7f8213f1e4530d2498b27c8993ad07f2/hesaplar/utopikanne/gun/2026-11-08/v2/bakim01_bebek_banyosu_03.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@ca218e3b7f8213f1e4530d2498b27c8993ad07f2/hesaplar/utopikanne/gun/2026-11-08/v2/bakim01_bebek_banyosu_04.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@ca218e3b7f8213f1e4530d2498b27c8993ad07f2/hesaplar/utopikanne/gun/2026-11-08/v2/bakim01_bebek_banyosu_05.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@ca218e3b7f8213f1e4530d2498b27c8993ad07f2/hesaplar/utopikanne/gun/2026-11-08/v2/bakim01_bebek_banyosu_06.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@ca218e3b7f8213f1e4530d2498b27c8993ad07f2/hesaplar/utopikanne/gun/2026-11-08/v2/bakim01_bebek_banyosu_07.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@737cfd84e161899a5658eb98063afc0581e58e32/hesaplar/utopikanne/gun/2026-11-08/story_2230_iyi_geceler_v2.png": "image/png"
  }
 }
