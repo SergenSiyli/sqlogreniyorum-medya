@@ -1,0 +1,85 @@
+{
+ "ad": "sql_test_count_null",
+ "hesap": "sqlogreniyorum",
+ "seri": "SQL TEST",
+ "no": 1,
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Mülakatta soruluyor: kupon sütununda 2 NULL var 👀",
+   "baslik": "*COUNT(kupon)* kaç döndürür?",
+   "secenekler": [
+    "4",
+    "2",
+    "0"
+   ],
+   "cevap_notu": "3 saniye düşün, cevap geliyor 👉",
+   "ikonlar": [
+    "laptop",
+    "thinking_face",
+    "card_file_box"
+   ]
+  },
+  {
+   "tip": "tablo",
+   "baslik": "Elimizde *siparis* tablosu",
+   "sutunlar": [
+    "id",
+    "kupon"
+   ],
+   "satirlar": [
+    [
+     1,
+     "INDIRIM10"
+    ],
+    [
+     2,
+     null
+    ],
+    [
+     3,
+     "KARGO"
+    ],
+    [
+     4,
+     null
+    ]
+   ],
+   "metin": "4 sipariş var ama 2'sinde kupon yok."
+  },
+  {
+   "tip": "kod",
+   "baslik": "Soru: Bu sorgu *ne* döndürür?",
+   "kod": "SELECT COUNT(kupon)\nFROM siparis;",
+   "metin": "A) 4 · B) 2 · C) 0"
+  },
+  {
+   "tip": "adim",
+   "no": "B",
+   "baslik": "Cevap: *2* 🎯",
+   "metin": "COUNT(sütun) NULL olan satırları saymaz. Sadece kuponu dolu olan 2 sipariş sayılır.",
+   "ikonlar": [
+    "check_mark_button",
+    "bar_chart"
+   ]
+  },
+  {
+   "tip": "kod",
+   "baslik": "Hepsini saymak için *yıldızlı* COUNT",
+   "kod": "SELECT COUNT(*)\nFROM siparis;   -- 4",
+   "metin": "COUNT(*) NULL'a bakmaz, her satırı sayar."
+  },
+  {
+   "tip": "son",
+   "baslik": "Her gün 1 SQL testi için *takip et*",
+   "metin": "Doğru bildiysen yorumlara 🔥 bırak!",
+   "gonder": "SQL öğrenen bir arkadaşına gönder",
+   "ikonlar": [
+    "trophy",
+    "rocket",
+    "sparkles"
+   ]
+  }
+ ]
+}

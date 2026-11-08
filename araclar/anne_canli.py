@@ -20,6 +20,8 @@ from pathlib import Path
 
 KOK = Path(__file__).resolve().parent.parent
 IKON = KOK / "hesaplar/utopikanne/marka/ikon"
+IKON_KLASORLERI = [IKON, KOK / "marka/ikon"]  # sqlogreniyorum teknoloji çizimleri: marka/ikon
+HESAP = {"ad": "utopikanne"}
 
 TEMA = {  # bg1, bg2, vurgu, mürekkep, fosfor
     "seftali": ("#FFF1E6", "#FFD3BD", "#FF6B4A", "#3A2418", "#FFD166"),
@@ -28,13 +30,18 @@ TEMA = {  # bg1, bg2, vurgu, mürekkep, fosfor
     "gok":     ("#EAF5FF", "#C6E2FF", "#2F7AE5", "#16304F", "#FFE27A"),
     "pembe":   ("#FFF0F5", "#FFCADD", "#E23D82", "#45172C", "#FFE08A"),
     "limon":   ("#FFFBE6", "#FFEB99", "#E08A00", "#3D2C00", "#B8F2C9"),
+    "sql":     ("#EAF1FF", "#C3D6FF", "#3451D1", "#0F1E4A", "#FFD43B"),
+    "ai":      ("#F3ECFF", "#D5C2FF", "#7A3FE4", "#26124D", "#7CF2D0"),
+    "tekno":   ("#E3FBFC", "#AEEFF0", "#0B8A9A", "#06343B", "#FFD43B"),
+    "kariyer": ("#FFF3E3", "#FFD5A8", "#E8590C", "#3B1D06", "#B2F2BB"),
+    "koyu":    ("#0F172A", "#1E3A8A", "#22D3EE", "#FFFFFF", "#7C3AED"),
     "gece":    ("#2C2A63", "#6A4BA8", "#FF8FB1", "#FFFFFF", "#8A5CF6"),
     "gunes":   ("#FFF4C2", "#FFC2A6", "#FF6A2B", "#4A2110", "#FFFFFF"),
 }
 
 
 def ikon_uri(ad):
-    p = IKON / f"{ad}.png"
+    p = next((k / f"{ad}.png" for k in IKON_KLASORLERI if (k / f"{ad}.png").exists()), IKON / f"{ad}.png")
     if not p.exists():
         raise SystemExit(f"ikon yok: {ad}  (bkz. {IKON})")
     return "data:image/png;base64," + base64.b64encode(p.read_bytes()).decode()
@@ -64,7 +71,7 @@ def slayt_html(s, i, n, meta):
     tip = s["tip"]
     rozet = f'<div class="rozet a" data-d="0">{html.escape(meta["seri"])}' + (f' · #{meta["no"]}' if meta.get("no") is not None else '') + '</div>'
     sayac = f'<div class="sayac">{i}/{n}</div>'
-    el = '<div class="el">@utopikanne</div>'
+    el = f'<div class="el">@{HESAP["ad"]}</div>'
     ic = ""
     if tip == "kapak":
         ik = s.get("ikonlar", [])
@@ -73,7 +80,7 @@ def slayt_html(s, i, n, meta):
         <h1 class="dev a" data-d="0.15">{vurgula(s["baslik"])}</h1>
         <div class="alt a" data-d="0.3">{vurgula(s.get("alt",""))}</div>
         {secenek_html(s)}<div class="bulut">{bulut}</div>
-        <div class="kaydir a" data-d="0.9">Kaydır, öğren <b>→</b></div>
+        {'' if s.get("secenekler") else '<div class="kaydir a" data-d="0.9">Kaydır, öğren <b>→</b></div>'}
         {f'<div class="kaynak a" data-d="1.0">Kaynak: {html.escape(s["kaynak"])} · Bilgilendirme amaçlıdır.</div>' if s.get("kaynak") else ""}'''
     elif tip == "adim":
         ik = "".join(img(a, "orta", 0.3 + 0.15 * j) for j, a in enumerate(s.get("ikonlar", [])[:3]))
@@ -93,6 +100,20 @@ def slayt_html(s, i, n, meta):
         ic = f'''<h2 class="a" data-d="0.05">{vurgula(s["baslik"])}</h2>
         <div class="kiyas">{taraf(s["sol"],0.25)}<div class="esit a pop" data-d="0.6">{html.escape(s.get("isaret","≈"))}</div>{taraf(s["sag"],0.75)}</div>
         <p class="metin a" data-d="1.2">{vurgula(s.get("metin",""))}</p>'''
+    elif tip == "kod":
+        kod = html.escape(s["kod"])
+        kod = re.sub(r"\b(SELECT|FROM|WHERE|AND|OR|NOT|NULL|IS|IN|JOIN|LEFT|RIGHT|INNER|ON|GROUP BY|ORDER BY|HAVING|COUNT|SUM|AVG|MIN|MAX|AS|DISTINCT|LIMIT|CASE|WHEN|THEN|ELSE|END|UNION|ALL|WITH|OVER|PARTITION BY|DESC|ASC|INSERT|INTO|VALUES|UPDATE|SET|DELETE|CREATE|TABLE)\b", r'<b class="kw">\1</b>', kod)
+        kod = re.sub(r"(&#x27;[^&]*?&#x27;)", r'<i class="st">\1</i>', kod)
+        ik = img(s["ikon"], "kodik", 0.3) if s.get("ikon") else ""
+        ic = f'''<h2 class="a" data-d="0.05">{vurgula(s.get("baslik",""))}</h2>
+        <pre class="kod a" data-d="0.25">{kod}</pre>{ik}
+        <p class="metin a" data-d="0.6">{vurgula(s.get("metin",""))}</p>'''
+    elif tip == "tablo":
+        bas = "".join(f"<th>{html.escape(str(h))}</th>" for h in s["sutunlar"])
+        sat = "".join("<tr class='a' data-d='%.2f'>" % (0.25 + 0.12*j) + "".join(f"<td>{'<span class=nul>NULL</span>' if v is None else html.escape(str(v))}</td>" for v in r) + "</tr>" for j, r in enumerate(s["satirlar"]))
+        ic = f'''<h2 class="a" data-d="0.05">{vurgula(s.get("baslik",""))}</h2>
+        <table class="tablo a" data-d="0.15"><tr>{bas}</tr>{sat}</table>
+        <p class="metin a" data-d="0.8">{vurgula(s.get("metin",""))}</p>'''
     elif tip == "not":
         ic = f'''<div class="notkutu a" data-d="0.1">{img(s.get("ikon","stethoscope"),"notik",0.25)}
         <h2>{vurgula(s["baslik"])}</h2><p class="metin">{vurgula(s.get("metin",""))}</p></div>'''
@@ -139,6 +160,12 @@ h2{{font-size:70px;line-height:1.08;font-weight:900;letter-spacing:-1px}}
 .secenek{{list-style:none;display:flex;flex-direction:column;gap:18px}}
 .secenek li{{display:flex;align-items:center;gap:24px;font-size:44px;font-weight:700}}
 .harf{{width:78px;height:78px;flex:none;border-radius:50%;border:5px solid {v};color:{v};display:flex;align-items:center;justify-content:center;font-size:42px;font-weight:900}}
+.kod{{background:#0F172A;color:#E2E8F0;font-family:"DejaVu Sans Mono",monospace;font-size:38px;line-height:1.5;padding:36px 40px;border-radius:32px;white-space:pre-wrap;box-shadow:0 14px 34px rgba(15,23,42,.28)}}
+.kod .kw{{color:#7DD3FC;font-weight:700}} .kod .st{{color:#FDE68A;font-style:normal}}
+.kodik{{position:absolute;right:40px;width:170px;height:170px}}
+.tablo{{border-collapse:separate;border-spacing:0;background:#fff;border-radius:28px;overflow:hidden;font-size:40px;box-shadow:0 10px 26px rgba(0,0,0,.08);color:#0F1E4A}}
+.tablo th{{background:{v};color:#fff;padding:18px 30px;text-align:left}} .tablo td{{padding:16px 30px;border-top:2px solid #EEF2FF}}
+.nul{{color:#C92A2A;font-weight:800;font-family:"DejaVu Sans Mono",monospace}}
 .kaynak{{font-size:26px;font-weight:600;opacity:.6}}
 .kaydir{{display:{'none' if reels else 'block'};font-size:38px;font-weight:800;color:{v}}}
 .no{{width:120px;height:120px;border-radius:50%;background:{v};color:#fff;font-size:68px;font-weight:900;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 26px {v}66}}
@@ -161,7 +188,7 @@ h2{{font-size:70px;line-height:1.08;font-weight:900;letter-spacing:-1px}}
 <script>
 const R={str(reels).lower()};
 const S=[...document.querySelectorAll('.sahne')];
-const DUR={json.dumps([s.get("sure", 3.6 if s["tip"] in ("kapak","son") else (3.2 + 0.25*len(s.get("maddeler",[])) if s["tip"]=="liste" else 3.3)) for s in sl])};
+const DUR={json.dumps([s.get("sure", 3.6 if s["tip"] in ("kapak","son") else (3.2 + 0.25*len(s.get("maddeler",[])) if s["tip"]=="liste" else (4.6 if s["tip"] in ("kod","tablo") else 3.3))) for s in sl])};
 const BAS=[];let a=0;for(const d of DUR){{BAS.push(a);a+=d;}}
 window.TOPLAM=a;
 function e(x){{x=Math.min(1,Math.max(0,x));return 1-Math.pow(1-x,3)}}
@@ -177,6 +204,7 @@ window.ciz=function(t){{
   s.querySelectorAll('.a').forEach((x,j)=>{{const d=parseFloat(x.dataset.d||0);const p=(lt-d)/0.5;
    if(x.classList.contains('pop')){{const q=pop(p);const f=Math.sin((t+j)*2.2)*8;
      x.style.opacity=e(p*1.6);x.style.transform=`translateY(${{(1-e(p))*40+(p>1?f:0)}}px) scale(${{0.4+0.6*q}})`}}
+   else if(k==0){{x.style.opacity=1;x.style.transform='none'}}
    else{{x.style.opacity=e(p);x.style.transform=`translateY(${{(1-e(p))*50}}px)`}}}})
  }})}};
 </script></body></html>'''
@@ -190,6 +218,7 @@ def main():
     src, out = Path(args[0]), Path(args[1])
     out.mkdir(parents=True, exist_ok=True)
     icerik = json.loads(src.read_text(encoding="utf-8"))
+    HESAP["ad"] = icerik.get("hesap", "utopikanne")
     ad = icerik.get("ad", src.stem)
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
