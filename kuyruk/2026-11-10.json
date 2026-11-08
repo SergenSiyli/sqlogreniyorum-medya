@@ -1,0 +1,16 @@
+[
+ {
+  "id": "2026-11-10_1000_story_sql_test",
+  "hedef": "2026-11-10T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b5ed0836a9e38c376e9a514484f86cf56320d521/gun/2026-11-10/story_1000_sql_test.png"
+ },
+ {
+  "id": "2026-11-10_1230_reel_sql_test_count_null",
+  "hedef": "2026-11-10T12:30",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b5ed0836a9e38c376e9a514484f86cf56320d521/gun/2026-11-10/sql_test_count_null_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b5ed0836a9e38c376e9a514484f86cf56320d521/gun/2026-11-10/sql_test_count_null_reels_kapak.jpg",
+  "aciklama": "COUNT(kupon) kaç döndürür? SQL mülakatlarında en çok takılınan sorulardan biri 👀\n\nTabloda 4 sipariş var, 2'sinin kuponu NULL. COUNT(sütun) NULL olan satırları saymaz, cevap 2. Tüm satırları saymak istiyorsan COUNT(*) kullan, o 4 döndürür.\n\nDoğru bildiysen yorumlara 🔥 bırak! Her gün 1 SQL testi için takip et, SQL öğrenen bir arkadaşına gönder.\n\n#sql #sqlöğren #veribilimi #teknikmülakat #count"
+ }
+]
