@@ -1,5 +1,11 @@
 [
  {
+  "id": "2026-11-10_0900_story_gunaydin",
+  "hedef": "2026-11-10T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@29a2bce80df05f5147b843de229e80b727db3c78/gun/2026-11-10/story_0900_gunaydin.png"
+ },
+ {
   "id": "2026-11-10_1000_story_sql_test",
   "hedef": "2026-11-10T10:00",
   "tur": "STORY",
@@ -14,11 +20,47 @@
   "aciklama": "COUNT(kupon) kaç döndürür? SQL mülakatlarında en çok takılınan sorulardan biri 👀\n\nTabloda 4 sipariş var, 2'sinin kuponu NULL. COUNT(sütun) NULL olan satırları saymaz, cevap 2. Tüm satırları saymak istiyorsan COUNT(*) kullan, o 4 döndürür.\n\nDoğru bildiysen yorumlara 🔥 bırak! Her gün 1 SQL testi için takip et, SQL öğrenen bir arkadaşına gönder.\n\n#sql #sqlöğren #veribilimi #teknikmülakat #count"
  },
  {
+  "id": "2026-11-10_1400_story_ilham_hamilton",
+  "hedef": "2026-11-10T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@29a2bce80df05f5147b843de229e80b727db3c78/gun/2026-11-10/story_1400_ilham_hamilton.png"
+ },
+ {
+  "id": "2026-11-10_1500_story_count_kart",
+  "hedef": "2026-11-10T15:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@29a2bce80df05f5147b843de229e80b727db3c78/gun/2026-11-10/story_1500_count_kart.png"
+ },
+ {
+  "id": "2026-11-10_1700_story_hap_whatsapp",
+  "hedef": "2026-11-10T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@29a2bce80df05f5147b843de229e80b727db3c78/gun/2026-11-10/story_1700_hap_whatsapp.png"
+ },
+ {
+  "id": "2026-11-10_1930_story_mini_test",
+  "hedef": "2026-11-10T19:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@29a2bce80df05f5147b843de229e80b727db3c78/gun/2026-11-10/story_1930_mini_test.png"
+ },
+ {
   "id": "2026-11-10_2030_trialreel_sql_test_having",
   "hedef": "2026-11-10T20:30",
   "tur": "TRIAL_REEL",
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-10/sql_test_having_reels.mp4",
   "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@e295f65955a29a8fb298d70fa00c472a3e8c21cc/gun/2026-11-10/sql_test_having_reels_kapak.jpg",
   "aciklama": "SQL TEST #3: Toplamı 1000 TL'yi geçen müşterileri hangisiyle süzersin? WHERE mi, HAVING mi, ORDER BY mı? 👀\n\nCevap: HAVING. WHERE satırları gruplamadan önce süzer, o anda SUM henüz yok; bu yüzden WHERE SUM(tutar) > 1000 hata verir. HAVING, GROUP BY'dan sonra çalışır ve grupları süzer.\n\nKural: satır koşulu WHERE, grup koşulu HAVING.\n\nDoğru bildiysen yorumlara 🔥 bırak, SQL öğrenen bir arkadaşına gönder.\n\n#sql #sqlöğren #sqlmülakat #veribilimi #veranalizi"
+ },
+ {
+  "id": "2026-11-10_2200_story_ozet",
+  "hedef": "2026-11-10T22:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@29a2bce80df05f5147b843de229e80b727db3c78/gun/2026-11-10/story_2200_ozet.png"
+ },
+ {
+  "id": "2026-11-10_2300_story_iyigeceler",
+  "hedef": "2026-11-10T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@29a2bce80df05f5147b843de229e80b727db3c78/gun/2026-11-10/story_2300_iyigeceler.png"
  }
 ]

@@ -19,3 +19,8 @@
 2026-11-08 iyi geceler: Google adı "googol" yazım hatası (1997, Stanford; google.com 15 Eylül 1997) — kaynak: graphics.stanford.edu/~dk/google_name_origin.html, ASME
 2026-11-08 ilham kartı (Teknoloji Tarihinden #1): Edgar F. Codd, 1970 ilişkisel model, 1981 Turing — kaynak: IBM, Britannica
 QWERTY Sholes 1870ler (2026-11-08)
+2026-11-09 günaydın: Wi-Fi ve CSIRO kara delik araştırması (1970'ler) — kaynak: CSIRO
+2026-11-09 iyi geceler (düzeltildi): JavaScript ilk prototip Mayıs 1995, ~10 gün, Brendan Eich, Netscape, ilk adı Mocha — kaynak: I Programmer, The History of the Web
+2026-11-10 günaydın: QR kod 1994, Denso mühendisi Masahiro Hara, Go oyunundan ilham — kaynak: JPO, IEEE Spectrum
+2026-11-10 ilham (Teknoloji Tarihinden #2): Margaret Hamilton, MIT Apollo uçuş yazılımı ekibi lideri, "yazılım mühendisliği" terimi, 2016 Özgürlük Madalyası — kaynak: CHM, AP
+2026-11-10 iyi geceler: ilk cep telefonu görüşmesi 3 Nisan 1973, Martin Cooper (Motorola) → Joel Engel (Bell Labs) — kaynak: CBS, ABC
