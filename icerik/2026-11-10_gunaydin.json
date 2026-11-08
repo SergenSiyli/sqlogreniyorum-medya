@@ -1,0 +1,20 @@
+{
+ "ad": "story_0900_gunaydin",
+ "hesap": "sqlogreniyorum",
+ "seri": "GÜNAYDIN ☀️",
+ "tema": "gunes",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Günaydın! Kahveni al, bir bilgi geliyor ☕",
+   "baslik": "QR kodun ilham kaynağı: *Go oyunu*",
+   "alt": "QR kodu 1994'te Japonya'da Denso mühendisi Masahiro Hara geliştirdi. Go taşlarının tahtadaki dizilişinden ilham aldı. Bugün 12:30'da yeni SQL testi var!",
+   "kaynak": "Japonya Patent Ofisi, IEEE Spectrum",
+   "ikonlar": [
+    "sun_with_face",
+    "mobile_phone",
+    "puzzle_piece"
+   ]
+  }
+ ]
+}

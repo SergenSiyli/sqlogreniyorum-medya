@@ -1,0 +1,20 @@
+{
+ "ad": "story_2300_iyigeceler_js",
+ "hesap": "sqlogreniyorum",
+ "seri": "İYİ GECELER 🌙",
+ "tema": "koyu",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Yatmadan bir bilgi 🌙",
+   "baslik": "JavaScript'in ilk adı: *Mocha*",
+   "alt": "Brendan Eich, Netscape'te JavaScript'in ilk prototipini Mayıs 1995'te yaklaşık 10 günde yazdı. Önce Mocha, sonra LiveScript dendi. Yarın yeni bir SQL testi var 😉",
+   "kaynak": "I Programmer, The History of the Web",
+   "ikonlar": [
+    "crescent_moon",
+    "hot_beverage",
+    "laptop"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "ad": "story_1500_count_kart",
+ "hesap": "sqlogreniyorum",
+ "seri": "EKRAN GÖRÜNTÜSÜNÜ AL 📸",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "5 sipariş: 2 kupon NULL, KARGO 2 kez",
+   "baslik": "3 farklı *COUNT*",
+   "secenekler": [
+    "COUNT(*) → 5 · tüm satırlar",
+    "COUNT(kupon) → 3 · NULL sayılmaz",
+    "COUNT(DISTINCT kupon) → 2 · farklı değer"
+   ],
+   "cevap_notu": "Kaydet, mülakatta lazım olacak 📌",
+   "ikonlar": [
+    "card_file_box",
+    "bar_chart",
+    "pushpin"
+   ]
+  }
+ ]
+}

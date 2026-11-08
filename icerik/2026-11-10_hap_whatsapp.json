@@ -1,0 +1,25 @@
+{
+ "ad": "story_1700_hap_whatsapp",
+ "hesap": "sqlogreniyorum",
+ "seri": "HAP HABER",
+ "tema": "tekno",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Sohbetteki numaraya tek dokunuşla ulaş 👀",
+   "baslik": "WhatsApp'ta *altı çizili* yazılar",
+   "secenekler": [
+    "Numara, tarih, adres, e-postayı algılıyor",
+    "Dokun: ara, rehbere ekle, takvime kaydet",
+    "WABetaInfo'ya göre dağıtılmaya başladı"
+   ],
+   "cevap_notu": "Sende de çıktı mı? 👀",
+   "kaynak": "WABetaInfo, AndroidPure (8 Kasım 2026)",
+   "ikonlar": [
+    "mobile_phone",
+    "speech_balloon",
+    "calendar"
+   ]
+  }
+ ]
+}
