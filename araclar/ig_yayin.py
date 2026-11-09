@@ -421,6 +421,12 @@ def trialtest():
             except Exception as e:
                 sonuc[f"{surum}_resumable_{ad}"] = {"kabul": False, "hata": str(e)[:300]}
     api = eski
+    for mid in sys.argv[3:]:
+        for alan in ("is_shared_to_feed", "media_product_type", "shortcode", "boost_eligibility_info"):
+            try:
+                sonuc[f"{mid}_{alan}"] = istek("GET", mid, fields=alan).get(alan)
+            except Exception as e:
+                sonuc[f"{mid}_{alan}"] = "HATA " + str(e)[:120]
     print(json.dumps(sonuc, ensure_ascii=False), flush=True)
 
 
