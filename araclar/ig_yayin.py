@@ -412,14 +412,14 @@ def trialtest():
     sonuc = {}
     global api
     eski = api
-    for surum in ("v23.0", "v24.0", "v25.0"):
+    for surum in ("v23.0",):
         api = (lambda s=surum: f"https://graph.facebook.com/{s}" if token().startswith("EAA") else f"https://graph.instagram.com/{s}")
         for ad, deger in (("gecersiz", {"graduation_strategy": "YANLIS_DEGER"}),):
             try:
-                r = istek("POST", f"{uid}/media", media_type="REELS", video_url=url, trial_params=json.dumps(deger))
-                sonuc[f"{surum}_{ad}"] = {"kabul": True, "yanit": r}
+                r = istek("POST", f"{uid}/media", media_type="REELS", upload_type="resumable", trial_params=json.dumps(deger))
+                sonuc[f"{surum}_resumable_{ad}"] = {"kabul": True, "yanit": {k: v for k, v in r.items() if k != "uri"}}
             except Exception as e:
-                sonuc[f"{surum}_{ad}"] = {"kabul": False, "hata": str(e)[:300]}
+                sonuc[f"{surum}_resumable_{ad}"] = {"kabul": False, "hata": str(e)[:300]}
     api = eski
     print(json.dumps(sonuc, ensure_ascii=False), flush=True)
 
