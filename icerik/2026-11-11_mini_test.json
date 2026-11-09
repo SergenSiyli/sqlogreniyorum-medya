@@ -1,0 +1,24 @@
+{
+ "ad": "story_1930_mini_test",
+ "seri": "30 SANİYELİK TEST ⏱️",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Adlar: Ali, Ay, A, Aslı 👀",
+   "baslik": "LIKE 'A_' hangisini bulur?",
+   "secenekler": [
+    "Ali",
+    "Ay",
+    "Aslı"
+   ],
+   "cevap_notu": "Cevap 22:00 özette 😉",
+   "ikonlar": [
+    "stopwatch",
+    "thinking_face",
+    "magnifying_glass_tilted_left"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

@@ -1,0 +1,90 @@
+{
+ "ad": "sql_test_between",
+ "seri": "SQL TEST",
+ "no": 6,
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Kasım satışlarını çektim: 4 sipariş vardı",
+   "baslik": "Bu sorgu *kaç* satır döndürür?",
+   "secenekler": [
+    "4",
+    "3",
+    "2"
+   ],
+   "cevap_notu": "3 saniye düşün, cevap geliyor 👉",
+   "ikonlar": [
+    "calendar",
+    "thinking_face",
+    "bar_chart"
+   ]
+  },
+  {
+   "tip": "tablo",
+   "baslik": "Elimizde *siparis* tablosu",
+   "sutunlar": [
+    "id",
+    "tarih",
+    "tutar"
+   ],
+   "satirlar": [
+    [
+     1,
+     "2026-11-03 09:15",
+     250
+    ],
+    [
+     2,
+     "2026-11-17 18:40",
+     400
+    ],
+    [
+     3,
+     "2026-11-29 12:05",
+     150
+    ],
+    [
+     4,
+     "2026-11-30 14:20",
+     300
+    ]
+   ],
+   "metin": "4 siparişin hepsi Kasım ayında."
+  },
+  {
+   "tip": "kod",
+   "baslik": "Soru: Kasım siparişleri",
+   "kod": "SELECT id, tarih\nFROM siparis\nWHERE tarih BETWEEN '2026-11-01'\n  AND '2026-11-30';",
+   "metin": "A) 4 · B) 3 · C) 2"
+  },
+  {
+   "tip": "adim",
+   "no": "B",
+   "baslik": "Cevap: *3* satır 😮",
+   "metin": "'2026-11-30' gece yarısı demek. 30 Kasım 14:20'deki sipariş üst sınırı geçti, sonuçta yok.",
+   "ikonlar": [
+    "check_mark_button",
+    "warning"
+   ]
+  },
+  {
+   "tip": "kod",
+   "baslik": "Doğrusu: *küçüktür* kullan",
+   "kod": "SELECT id, tarih\nFROM siparis\nWHERE tarih >= '2026-11-01'\n  AND tarih < '2026-12-01';  -- 4",
+   "metin": "Ayın son gününün tamamı dahil olur."
+  },
+  {
+   "tip": "son",
+   "baslik": "Her gün 1 SQL testi için *takip et*",
+   "metin": "Doğru bildiysen yorumlara 🔥 bırak!",
+   "gonder": "SQL öğrenen bir arkadaşına gönder",
+   "ikonlar": [
+    "trophy",
+    "rocket",
+    "sparkles"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

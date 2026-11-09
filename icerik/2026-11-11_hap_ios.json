@@ -1,0 +1,25 @@
+{
+ "ad": "story_1700_hap_ios",
+ "seri": "HAP HABER",
+ "tema": "tekno",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "iPhone kullanıyorsan bunu atlama 👀",
+   "baslik": "iOS 27.2.1 *güvenlik* güncellemesi",
+   "secenekler": [
+    "Apple 9 Kasım'da yayınladı",
+    "Hata ve güvenlik düzeltmeleri içeriyor",
+    "Ayarlar > Genel > Yazılım Güncelleme"
+   ],
+   "cevap_notu": "Doğru mu yanlış mı: yeni özellik getiriyor? Cevap: Yanlış 😉",
+   "kaynak": "MacRumors, 9to5Mac (9 Kasım 2026)",
+   "ikonlar": [
+    "mobile_phone",
+    "shield",
+    "check_mark_button"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

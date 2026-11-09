@@ -1,0 +1,20 @@
+{
+ "ad": "story_2300_iyigeceler",
+ "seri": "İYİ GECELER 🌙",
+ "tema": "koyu",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Yatmadan bir bilgi 🌙",
+   "baslik": "Spacewar!'ın yıldızları *gerçekti*",
+   "alt": "1962'de MIT'de PDP-1 bilgisayarında yazılan Spacewar! oyununda arka plandaki yıldızlar gerçek takımyıldızları gösteriyordu; ortadaki güneşin yer çekimi vardı. Yarın yeni bir SQL testi var 😉",
+   "kaynak": "Computer History Museum, MIT Technology Review",
+   "ikonlar": [
+    "crescent_moon",
+    "video_game",
+    "rocket"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

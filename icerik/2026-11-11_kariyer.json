@@ -1,0 +1,25 @@
+{
+ "ad": "story_1400_kariyer",
+ "seri": "MÜLAKAT TAKTİĞİ #4",
+ "tema": "kariyer",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Veri analisti mülakatında soru belirsiz mi? 🤔",
+   "baslik": "Önce *netleştirici* soru sor",
+   "secenekler": [
+    "Tarih aralığı hangi saat dilimine göre?",
+    "NULL değerler sayılacak mı?",
+    "Tekrar eden kayıtlar olabilir mi?",
+    "Sonuç hangi düzeyde gruplanmalı?"
+   ],
+   "cevap_notu": "Teknoloji alanında iş arayan bir arkadaşına gönder 👀",
+   "ikonlar": [
+    "briefcase",
+    "red_question_mark",
+    "woman_technologist"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

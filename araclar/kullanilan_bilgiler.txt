@@ -24,3 +24,5 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-10 günaydın: QR kod 1994, Denso mühendisi Masahiro Hara, Go oyunundan ilham — kaynak: JPO, IEEE Spectrum
 2026-11-10 ilham (Teknoloji Tarihinden #2): Margaret Hamilton, MIT Apollo uçuş yazılımı ekibi lideri, "yazılım mühendisliği" terimi, 2016 Özgürlük Madalyası — kaynak: CHM, AP
 2026-11-10 iyi geceler: ilk cep telefonu görüşmesi 3 Nisan 1973, Martin Cooper (Motorola) → Joel Engel (Bell Labs) — kaynak: CBS, ABC
+2026-11-11 günaydın: ENIAC'ı programlayan altı kadın (Haziran 1945 işe alım, kılavuz yok, 1946 tanıtımında adları anılmadı) — kaynak: army.mil, Penn Today
+2026-11-11 iyi geceler: Spacewar! (1962, MIT PDP-1) arka planda gerçek takımyıldızlar (Peter Samson), güneşin yer çekimi (Dan Edwards) — kaynak: Computer History Museum, MIT Technology Review

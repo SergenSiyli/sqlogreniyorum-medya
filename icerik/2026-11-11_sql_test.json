@@ -1,0 +1,24 @@
+{
+ "ad": "story_1000_sql_test",
+ "seri": "SQL TEST · CEVAP 12:30 REELS'TE",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "WHERE tarih BETWEEN '2026-11-01' AND '2026-11-30'",
+   "baslik": "4 Kasım siparişinden *kaç* tanesi gelir?",
+   "secenekler": [
+    "4",
+    "3",
+    "2"
+   ],
+   "cevap_notu": "Cevabı öğlen 12:30 Reels'te 👀 Tahminini aklında tut!",
+   "ikonlar": [
+    "calendar",
+    "thinking_face",
+    "card_file_box"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}
