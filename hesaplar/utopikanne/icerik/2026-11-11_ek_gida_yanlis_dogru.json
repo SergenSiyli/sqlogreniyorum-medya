@@ -1,0 +1,8 @@
+{"ad":"ekgida02_yanlis_dogru","hesap":"utopikanne","seri":"EK GIDA","no":2,"tema":"nane","stil":"pro","slaytlar":[
+{"tip":"kapak","ust":"Ek gıdaya başlarken çok yapılıyor","baslik":"Ek gıdada *5 yanlış*, 5 doğru","alt":"Kaydet, mutfakta lazım olur.","icindekiler":["Tuz","Bal","Tekrar ısıtmak","Tezgâhta bekletmek","İnek sütü"]},
+{"tip":"ikili","sol":{"baslik":"Yanlış","ikon":"salt","yazi":"Mamasına *tuz* eklemek"},"sag":{"baslik":"Doğru","ikon":"herb","yazi":"Tuz yok; lezzeti *sebze ve otlardan* gelsin"}},
+{"tip":"ikili","sol":{"baslik":"Yanlış","ikon":"honey_pot","yazi":"1 yaşından önce *bal* vermek"},"sag":{"baslik":"Doğru","ikon":"banana","yazi":"Tatlılık için *ezilmiş meyve* yeter"}},
+{"tip":"ikili","sol":{"baslik":"Yanlış","ikon":"pot_of_food","yazi":"Artan yemeği *tekrar tekrar* ısıtmak"},"sag":{"baslik":"Doğru","ikon":"bowl_with_spoon","yazi":"Yalnızca *bir kez* ısıt, içi iyice ısınsın"}},
+{"tip":"ikili","sol":{"baslik":"Yanlış","ikon":"timer_clock","yazi":"Pişen yemeği tezgâhta *saatlerce* bekletmek"},"sag":{"baslik":"Doğru","ikon":"snowflake","yazi":"*1-2 saat* içinde soğut, buzdolabına koy"}},
+{"tip":"ikili","sol":{"baslik":"Yanlış","ikon":"glass_of_milk","yazi":"1 yaşından önce *inek sütünü* içecek yapmak"},"sag":{"baslik":"Doğru","ikon":"potable_water","yazi":"İçecek: anne sütü ya da mama, yanında *su*"}},
+{"tip":"son","baslik":"Ek gıda serisi için *takip et*","metin":"Kaynak: NHS. Bilgilendirme amaçlıdır; bebeğine özel bir durum varsa doktoruna danış.","gonder":"Ek gıdaya başlayan arkadaşına gönder"}]}
