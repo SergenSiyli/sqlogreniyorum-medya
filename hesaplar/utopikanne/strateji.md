@@ -5,10 +5,11 @@
 - Sayfa profesyonel, marjinal, güven veren görünsün; "Ütopik Anne" denince güvenle takip edilsin. Emojiler az ve anlamlı.
 - Post ve Reels ASLA aynı konu olmaz (deneme dahil).
 - Story'ler sıkıcı olmasın, her gün aynı şablon tekrar etmesin:
-  - Günaydın: neşeli + güne bir söz + güncel bir şey (hava durumu, yaklaşan özel gün). Hava için Melike'nin şehri bilinmiyor; bilinene kadar şehir adı yazma.
+  - Günaydın: neşeli + güne bir söz + güncel bir şey (hava durumu, yaklaşan özel gün). Şehir: Yalova (hava/güncel için kullanılabilir, her gün şart değil).
   - İyi geceler: SADECE "iyi geceler" + güzel bir söz. Bebek bilgisi YOK.
   - Dönüşümlü: "Eskiden / yüzyıl önce / milattan önce" bilgileri, test/quiz, temizlik takıntılılar için tüyolar, yaklaşan özel günler (24 Kasım Öğretmenler Günü, yılbaşı vb.), güncel gündem.
   - Hamilelik: hafta bilgisi kalabilir ama hamileliği çeşitlendir (hazırlık, doğum çantası, eş/aile, duygular), her gün hafta kartı değil.
+- (15:57 ek) HER GÜN en az 1 test/soru story'si ("Sizce yemeğe hangisi eklenir?", "Temizlikte hangisi işe yarar?", "Biliyor muydunuz?"). Merak uyandıran, "girip bakayım" dedirten güncel kadın/anne gündemi. Mod/söz paylaşımı olur. Burç YOK. Eski bilgiler devam ama dengeli, tekrar yok.
 - Rakip/örnek sayfalardaki gibi (dytzulalyalcin, temizligin_uzman): beyaz zemin, büyük başlık, tek bakışta anlaşılan görsel, "Yanlış/Doğru", "Eski Ben/Yeni Ben", etiketli ızgara.
 - Melike'nin kullanım limitini harcama: gereksiz sınama, uzun araştırma, tekrar çizim yok. Gece ekibi az ve öz çalışsın.
 
