@@ -1,0 +1,10 @@
+[
+ {
+  "id": "2026-11-12_2030_trialreel_sql_test_left_join",
+  "hedef": "2026-11-12T20:30",
+  "tur": "TRIAL_REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@50472f17451555a7c3c5807bf751aab8b6b1411c/gun/2026-11-12/sql_test_left_join_where_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@50472f17451555a7c3c5807bf751aab8b6b1411c/gun/2026-11-12/sql_test_left_join_where_reels_kapak.jpg",
+  "aciklama": "SQL TEST #5: LEFT JOIN yazdım, müşteriler kayboldu. 3 müşteri var; WHERE s.yil = 2026 ekleyince kaç satır gelir? 👀\n\nCevap: 1. WHERE, JOIN'den sonra çalışır; yılı 2025 olan ve hiç siparişi olmayan (NULL) müşteriler elenir. LEFT JOIN, INNER JOIN gibi davranır.\n\nDoğrusu: koşulu ON'a taşı: ON s.musteri_id = m.id AND s.yil = 2026 → 3 satır, siparişi olmayanlarda yil NULL.\n\nDoğru bildiysen yorumlara 🔥 bırak, SQL öğrenen bir arkadaşına gönder.\n\n#sql #sqlöğren #sqlmülakat #veribilimi #veranalizi"
+ }
+]

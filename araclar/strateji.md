@@ -7,7 +7,9 @@ Bu bölüm tetik talimatındaki "Haftada 2-3 TRIAL_REEL" kuralının YERİNE ge�
 - Tüm Reels ve story'ler renkli şablonla: `python3 araclar/anne_canli.py <json> gun/<tarih> --sadece-reels` / `--story`, tema sql/tekno/ai/kariyer/gunes/koyu, "hesap":"sqlogreniyorum". Eski PIL şablonları (uret_*.py story_card vb.) KULLANILMAZ.
 - Kapak = kanca + test sorusu (secenekler A/B/C), ilk saniyede yazı tam görünür. Akış: kapak(test) → tablo/kod → adim "Cevap" → doğrusu → son.
 - Story düzeni: 09:00 günaydın (gunes) · 10:00 SQL TEST story ("Cevap 12:30 Reels'te") · 14:00 kariyer · 15:00/17:00 haber kartı · 19:30 30 saniyelik test · 22:00 özet (testin cevabı) · 23:00 iyi geceler (koyu, kullanilan_bilgiler.txt'ye ekle).
-- Seri sayacı: SQL TEST #1 COUNT/NULL (10 Kasım), #2 CASE WHEN (9 Kasım 12:30), #3 HAVING (10 Kasım 20:30 deneme). Sıradaki: #4 ikinci en yüksek maaş, #5 LEFT JOIN + WHERE tuzağı, #6 DISTINCT vs GROUP BY, #7 NULL = NULL.
+- Seri sayacı: #1 COUNT/NULL (10 Kasım 12:30), #2 CASE WHEN (9 Kasım 12:30), #3 HAVING (10 Kasım 20:30 deneme), #4 ikinci en yüksek maaş/OFFSET (11 Kasım 20:30 deneme, HAZIR), #5 LEFT JOIN+WHERE (12 Kasım 20:30 deneme, HAZIR). Sıradaki: #6 DISTINCT vs GROUP BY, #7 NULL = NULL, #8 BETWEEN tarih tuzağı, #9 AVG ve NULL.
+- 11 ve 12 Kasım kuyruk dosyalarında 20:30 deneme Reels zaten var: dosyayı EZME, diğer öğeleri EKLE. 13 Kasım'dan itibaren her gün 20:30 denemeyi sen üret.
+- Konu kuralı (9 Kasım, Sergen onayıyla her gün deneme): aynı gün 12:30 Reels ile 20:30 deneme aynı konu OLAMAZ.
 - 22 Kasım'da: deneme Reels 3 sn izlenme ve takipçi kazanımı karşılaştır, günlük denemeyi sürdür/ayarla.
 
 ## Durum (30 Ekim 2026 gece turu)
