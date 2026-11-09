@@ -7,7 +7,7 @@ Bu bölüm tetik talimatındaki "Haftada 2-3 TRIAL_REEL" kuralının YERİNE ge�
 - Tüm Reels ve story'ler renkli şablonla: `python3 araclar/anne_canli.py <json> gun/<tarih> --sadece-reels` / `--story`, tema sql/tekno/ai/kariyer/gunes/koyu, "hesap":"sqlogreniyorum". Eski PIL şablonları (uret_*.py story_card vb.) KULLANILMAZ.
 - Kapak = kanca + test sorusu (secenekler A/B/C), ilk saniyede yazı tam görünür. Akış: kapak(test) → tablo/kod → adim "Cevap" → doğrusu → son.
 - Story düzeni: 09:00 günaydın (gunes) · 10:00 SQL TEST story ("Cevap 12:30 Reels'te") · 14:00 kariyer · 15:00/17:00 haber kartı · 19:30 30 saniyelik test · 22:00 özet (testin cevabı) · 23:00 iyi geceler (koyu, kullanilan_bilgiler.txt'ye ekle).
-- Seri sayacı: #1 COUNT/NULL (10 Kasım 12:30), #2 CASE WHEN (9 Kasım 12:30), #3 HAVING (10 Kasım 20:30 deneme), #4 ikinci en yüksek maaş/OFFSET (11 Kasım 20:30 deneme, HAZIR), #5 LEFT JOIN+WHERE (12 Kasım 20:30 deneme, HAZIR). Sıradaki: #6 DISTINCT vs GROUP BY, #7 NULL = NULL, #8 BETWEEN tarih tuzağı, #9 AVG ve NULL.
+- Seri sayacı: #1 COUNT/NULL (10 Kasım 12:30), #2 CASE WHEN (9 Kasım 12:30), #3 HAVING (10 Kasım 20:30 deneme), #4 ikinci en yüksek maaş/OFFSET (11 Kasım 20:30 deneme, HAZIR), #5 LEFT JOIN+WHERE (12 Kasım 20:30 deneme, HAZIR). #6 BETWEEN tarih tuzağı (11 Kasım 12:30, HAZIR). Sıradaki: #7 NULL = NULL, #8 AVG ve NULL, #9 GROUP BY + HAVING COUNT, #10 IN/EXISTS. (DISTINCT vs GROUP BY "X mi Y mi" kancası düşük performanslı; atlandı.)
 - 11 ve 12 Kasım kuyruk dosyalarında 20:30 deneme Reels zaten var: dosyayı EZME, diğer öğeleri EKLE. 13 Kasım'dan itibaren her gün 20:30 denemeyi sen üret.
 - Konu kuralı (9 Kasım, Sergen onayıyla her gün deneme): aynı gün 12:30 Reels ile 20:30 deneme aynı konu OLAMAZ.
 - 22 Kasım'da: deneme Reels 3 sn izlenme ve takipçi kazanımı karşılaştır, günlük denemeyi sürdür/ayarla.
@@ -90,3 +90,8 @@ Kanca: her Reels ilk karede tam görünen soru/hata/etki cümlesiyle açılıyor
 - Takipçi: 1.551 (Metricool, 6 Kasım; 7-8 Kasım verisi gelmedi). 30 Ekim-6 Kasım net +54 (~7,7/gün). Bu hızla 50.000'e ~6.300 gün.
 - 1-7 Kasım (14 Reels): SQL 7 Reels 3 sn ort. %34,2 (LIKE #1 %40,3 en iyi; WHERE/HAVING %19,5 en kötü), haber 7 Reels %25,7 (ChatGPT birleşme %28,5 en iyi; Netflix %23,0). (Kaydetme+paylaşım)/erişim 116/8.976 = %1,3. Deneme #6 NOT IN: %38,6, erişim 471. v2 stilin verisi henüz yok (ilk v2 içerikler 8 Kasım akşamı).
 - Bu tur değiştirdiğimiz: deneme Reels'i olan akşamlarda duyuru story'si yerine "30 saniyelik test" (takipçi deneme Reels'i görmüyor); 9 Kasım 23:00 tekrar eden bilgi değiştirildi. "Teknoloji Tarihinden #2" (Hamilton) 10 Kasım 14:00.
+
+## Durum (9 Kasım 2026 gece turu)
+- Takipçi: 1.553 (Metricool, 7 Kasım; 8-9 Kasım verisi gelmedi). 31 Ekim-7 Kasım net +46 (~6,6/gün). Bu hızla 50.000'e ~7.370 gün. Hedefin çok gerisinde.
+- 2-8 Kasım 14 Reels: SQL 7 ort. izlenme 1.155, 3 sn %32,3, (kayd.+payl.)/erişim %1,07; haber 7 ort. izlenme 261, %24,3, %1,81. Denemeler LAG/NOT IN %29,5 (deneme dışı mülakat #2-#4 %37,1). Yorum: 14 Reels'te 0. v2 verisi tek gönderi (WhatsApp %17,1) — yorumlanamaz. Story verisi yok.
+- Bu tur değiştirdiğimiz: (1) 11 Kasım 12:30 haber yerine SQL TEST #6 (BETWEEN; aday haberler ABD'ye özel Gemini Memory ve küçük iOS 27.2.1 güncellemesiydi) → haber hap story'ye (17:00). Bu hafta SQL +1, haber -1; 13-15 Kasım'da en az 2 haber Reels'i (biri deneme) yerine konmalı. (2) Yorum 0 → açıklamada "Sen A mı dedin, B mi, C mi? Harfini yorumlara yaz" (tek harf = düşük eşik). 12 Kasım'da yorum sayısı ölçülecek.

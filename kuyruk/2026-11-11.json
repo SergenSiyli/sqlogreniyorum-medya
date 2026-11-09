@@ -1,10 +1,66 @@
 [
  {
+  "id": "2026-11-11_0900_story_gunaydin",
+  "hedef": "2026-11-11T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@06a5ae74e95e481495173a52de0a7988e9fc73d2/gun/2026-11-11/story_0900_gunaydin.png"
+ },
+ {
+  "id": "2026-11-11_1000_story_sql_test",
+  "hedef": "2026-11-11T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@06a5ae74e95e481495173a52de0a7988e9fc73d2/gun/2026-11-11/story_1000_sql_test.png"
+ },
+ {
+  "id": "2026-11-11_1230_reel_sql_test_between",
+  "hedef": "2026-11-11T12:30",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@06a5ae74e95e481495173a52de0a7988e9fc73d2/gun/2026-11-11/sql_test_between_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@06a5ae74e95e481495173a52de0a7988e9fc73d2/gun/2026-11-11/sql_test_between_reels_kapak.jpg",
+  "aciklama": "SQL BETWEEN tarih tuzağı: Kasım satışlarını çektim, 4 sipariş vardı ama sorgu 3 satır döndürdü 👀\n\nSQL TEST #6: WHERE tarih BETWEEN '2026-11-01' AND '2026-11-30' yazınca 30 Kasım 14:20'deki sipariş gelmiyor. Çünkü '2026-11-30' o günün 00:00'ı demek. Doğrusu: tarih >= '2026-11-01' AND tarih < '2026-12-01'.\n\nSen A mı dedin, B mi, C mi? Harfini yorumlara yaz 👇 Doğru bildiysen 🔥 ekle! Kaydet, rapor yazarken lazım olacak; SQL öğrenen bir arkadaşına gönder.\n\n#sql #sqlöğren #veribilimi #teknikmülakat #between"
+ },
+ {
+  "id": "2026-11-11_1400_story_kariyer",
+  "hedef": "2026-11-11T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@06a5ae74e95e481495173a52de0a7988e9fc73d2/gun/2026-11-11/story_1400_kariyer.png"
+ },
+ {
+  "id": "2026-11-11_1500_story_between_kart",
+  "hedef": "2026-11-11T15:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@06a5ae74e95e481495173a52de0a7988e9fc73d2/gun/2026-11-11/story_1500_between_kart.png"
+ },
+ {
+  "id": "2026-11-11_1700_story_hap_ios",
+  "hedef": "2026-11-11T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@06a5ae74e95e481495173a52de0a7988e9fc73d2/gun/2026-11-11/story_1700_hap_ios.png"
+ },
+ {
+  "id": "2026-11-11_1930_story_mini_test",
+  "hedef": "2026-11-11T19:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@06a5ae74e95e481495173a52de0a7988e9fc73d2/gun/2026-11-11/story_1930_mini_test.png"
+ },
+ {
   "id": "2026-11-11_2030_trialreel_sql_test_ikinci_maas",
   "hedef": "2026-11-11T20:30",
   "tur": "TRIAL_REEL",
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@50472f17451555a7c3c5807bf751aab8b6b1411c/gun/2026-11-11/sql_test_ikinci_maas_reels.mp4",
   "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@50472f17451555a7c3c5807bf751aab8b6b1411c/gun/2026-11-11/sql_test_ikinci_maas_reels_kapak.jpg",
   "aciklama": "SQL TEST #4: İkinci en yüksek maaşı bulmak için ORDER BY maas DESC LIMIT 1 OFFSET 1 yazdım. Maaşlar 9000, 7000, 9000, 5000. Sonuç kaç? 👀\n\nCevap: 9000. Sıralama 9000, 9000, 7000, 5000; OFFSET 1 ilk satırı atlar ama ikinci satır da 9000.\n\nDoğrusu: SELECT DISTINCT maas ... LIMIT 1 OFFSET 1 → 7000. Önce tekrarları sil, sonra atla.\n\nDoğru bildiysen yorumlara 🔥 bırak, SQL öğrenen bir arkadaşına gönder.\n\n#sql #sqlöğren #sqlmülakat #veribilimi #veranalizi"
+ },
+ {
+  "id": "2026-11-11_2200_story_ozet",
+  "hedef": "2026-11-11T22:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@06a5ae74e95e481495173a52de0a7988e9fc73d2/gun/2026-11-11/story_2200_ozet.png"
+ },
+ {
+  "id": "2026-11-11_2300_story_iyigeceler",
+  "hedef": "2026-11-11T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@06a5ae74e95e481495173a52de0a7988e9fc73d2/gun/2026-11-11/story_2300_iyigeceler.png"
  }
 ]
