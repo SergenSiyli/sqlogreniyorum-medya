@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-09T13:42:28+03:00",
+ "zaman": "2026-11-09T14:17:56+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 257,
  "hesap": {
@@ -20,7 +20,12 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b0691271ea869a31d937086147ecdaea2d82036b/hesaplar/utopikanne/gun/2026-11-10/pro/ekgida01_hazir_mi_pro_reels.mp4": "video/mp4",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b0691271ea869a31d937086147ecdaea2d82036b/hesaplar/utopikanne/gun/2026-11-10/pro/ekgida01_hazir_mi_pro_reels_kapak.jpg": "image/jpeg"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@945c24efce9c190b05ae45ebc9e66ac935b2bc2d/hesaplar/utopikanne/gun/2026-11-11/pro/ekgida02_yanlis_dogru_01.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@945c24efce9c190b05ae45ebc9e66ac935b2bc2d/hesaplar/utopikanne/gun/2026-11-11/pro/ekgida02_yanlis_dogru_02.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@945c24efce9c190b05ae45ebc9e66ac935b2bc2d/hesaplar/utopikanne/gun/2026-11-11/pro/ekgida02_yanlis_dogru_03.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@945c24efce9c190b05ae45ebc9e66ac935b2bc2d/hesaplar/utopikanne/gun/2026-11-11/pro/ekgida02_yanlis_dogru_04.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@945c24efce9c190b05ae45ebc9e66ac935b2bc2d/hesaplar/utopikanne/gun/2026-11-11/pro/ekgida02_yanlis_dogru_05.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@945c24efce9c190b05ae45ebc9e66ac935b2bc2d/hesaplar/utopikanne/gun/2026-11-11/pro/ekgida02_yanlis_dogru_06.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@945c24efce9c190b05ae45ebc9e66ac935b2bc2d/hesaplar/utopikanne/gun/2026-11-11/pro/ekgida02_yanlis_dogru_07.jpg": "image/jpeg"
  }
 }
