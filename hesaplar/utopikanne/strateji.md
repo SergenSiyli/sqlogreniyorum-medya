@@ -10,6 +10,7 @@
   - Dönüşümlü: "Eskiden / yüzyıl önce / milattan önce" bilgileri, test/quiz, temizlik takıntılılar için tüyolar, yaklaşan özel günler (24 Kasım Öğretmenler Günü, yılbaşı vb.), güncel gündem.
   - Hamilelik: hafta bilgisi kalabilir ama hamileliği çeşitlendir (hazırlık, doğum çantası, eş/aile, duygular), her gün hafta kartı değil.
 - (15:57 ek) HER GÜN en az 1 test/soru story'si ("Sizce yemeğe hangisi eklenir?", "Temizlikte hangisi işe yarar?", "Biliyor muydunuz?"). Merak uyandıran, "girip bakayım" dedirten güncel kadın/anne gündemi. Mod/söz paylaşımı olur. Burç YOK. Eski bilgiler devam ama dengeli, tekrar yok.
+- (17:41 ek, örnek temizrutinim) Tek sayfada çok bilgi: renkli kartlı ızgara ("Ne sıklıkta yıkanmalı? Fikrini yorumlara yaz", "Leke rehberi: hangi leke neyle çıkar", "Komşu çatlatan temizlik tüyoları" 1-6 numaralı). Kopyalama yok, kendi fikrini üret: "bununla bu olur" eşleştirmeleri, yorum isteyen sorulu başlık. Bilgiler doğrulanmış olmalı; çamaşır suyu+asit gibi tehlikeli karışım asla.
 - Rakip/örnek sayfalardaki gibi (dytzulalyalcin, temizligin_uzman): beyaz zemin, büyük başlık, tek bakışta anlaşılan görsel, "Yanlış/Doğru", "Eski Ben/Yeni Ben", etiketli ızgara.
 - Melike'nin kullanım limitini harcama: gereksiz sınama, uzun araştırma, tekrar çizim yok. Gece ekibi az ve öz çalışsın.
 
