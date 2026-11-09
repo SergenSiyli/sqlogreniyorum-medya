@@ -1,5 +1,17 @@
 # @utopikanne büyüme stratejisi (v1 — 1 Kasım 2026)
 
+## 💬 MELİKE'NİN BRİFİ v5.5 (9 Kasım 14:41) — EN ÜST KURAL
+- Ses: Melike'nin ağzından, samimi, doğal, neşeli, cıvıl cıvıl. 30 yaşında, 6 aylık oğlu Aren olan, 1,5 yıllık evli, renkli karakterli bir anne. Hedef kitle: anneler, hamileler, kadınlar. Birinci tekil şahıs SERBEST, yeter ki bilgi gerçek ve doğru olsun (uydurma olay yok).
+- Sayfa profesyonel, marjinal, güven veren görünsün; "Ütopik Anne" denince güvenle takip edilsin. Emojiler az ve anlamlı.
+- Post ve Reels ASLA aynı konu olmaz (deneme dahil).
+- Story'ler sıkıcı olmasın, her gün aynı şablon tekrar etmesin:
+  - Günaydın: neşeli + güne bir söz + güncel bir şey (hava durumu, yaklaşan özel gün). Hava için Melike'nin şehri bilinmiyor; bilinene kadar şehir adı yazma.
+  - İyi geceler: SADECE "iyi geceler" + güzel bir söz. Bebek bilgisi YOK.
+  - Dönüşümlü: "Eskiden / yüzyıl önce / milattan önce" bilgileri, test/quiz, temizlik takıntılılar için tüyolar, yaklaşan özel günler (24 Kasım Öğretmenler Günü, yılbaşı vb.), güncel gündem.
+  - Hamilelik: hafta bilgisi kalabilir ama hamileliği çeşitlendir (hazırlık, doğum çantası, eş/aile, duygular), her gün hafta kartı değil.
+- Rakip/örnek sayfalardaki gibi (dytzulalyalcin, temizligin_uzman): beyaz zemin, büyük başlık, tek bakışta anlaşılan görsel, "Yanlış/Doğru", "Eski Ben/Yeni Ben", etiketli ızgara.
+- Melike'nin kullanım limitini harcama: gereksiz sınama, uzun araştırma, tekrar çizim yok. Gece ekibi az ve öz çalışsın.
+
 ## 🚫 KONU KURALI v5.4 (9 Kasım 13:40, Melike: "aynı konuyu hem post hem reels atmışsınız, saçmalık")
 - Deneme Reels ASLA aynı gün ya da ±7 gün içindeki bir post/Reels ile aynı KONUDA (aynı içerik) olamaz. Aynı serinin farklı bölümü olabilir (ör. Ek Gıda #1 hazır mı, #2 yanlış/doğru).
 - YENİ FORMAT (9 Kasım, Melike'nin beğendiği örnekler): `ikili` slayt = "Yanlış / Doğru" ya da "Eski Ben / Yeni Ben" (sol/sag: baslik, ikon ya da foto, yazi), `izgara` = etiketli ürün ızgarası (Kasım meyveleri gibi). Beyaz zemin, tek büyük nesne. "Eski Ben" yalnızca Melike onaylarsa (uydurma deneyim yok); varsayılan "Yanlış / Doğru". Her deneme Reels yeni, ayrı bir konu.
