@@ -1,7 +1,8 @@
 # @utopikanne büyüme stratejisi (v1 — 1 Kasım 2026)
 
 ## 🚫 KONU KURALI v5.4 (9 Kasım 13:40, Melike: "aynı konuyu hem post hem reels atmışsınız, saçmalık")
-- Deneme Reels ASLA aynı gün ya da ±7 gün içindeki bir post/Reels ile aynı konuda olamaz. Her deneme Reels yeni, ayrı bir konu.
+- Deneme Reels ASLA aynı gün ya da ±7 gün içindeki bir post/Reels ile aynı KONUDA (aynı içerik) olamaz. Aynı serinin farklı bölümü olabilir (ör. Ek Gıda #1 hazır mı, #2 yanlış/doğru).
+- YENİ FORMAT (9 Kasım, Melike'nin beğendiği örnekler): `ikili` slayt = "Yanlış / Doğru" ya da "Eski Ben / Yeni Ben" (sol/sag: baslik, ikon ya da foto, yazi), `izgara` = etiketli ürün ızgarası (Kasım meyveleri gibi). Beyaz zemin, tek büyük nesne. "Eski Ben" yalnızca Melike onaylarsa (uydurma deneyim yok); varsayılan "Yanlış / Doğru". Her deneme Reels yeni, ayrı bir konu.
 - Günlük düzen: 1 post (konu A) + 1 deneme Reels (konu B, farklı). Konu çakışması varsa denemeyi kuyruğa koyma.
 - 13 Kasım denemesi (emekleme-uyku, postla aynı) kaldırıldı; gece ekibi farklı konulu bir deneme koymalı.
 
