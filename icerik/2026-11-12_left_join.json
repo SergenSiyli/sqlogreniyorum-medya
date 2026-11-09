@@ -1,0 +1,7 @@
+{"ad":"sql_test_left_join_where","hesap":"sqlogreniyorum","seri":"SQL TEST","no":5,"tema":"sql","slaytlar":[
+{"tip":"kapak","ust":"LEFT JOIN yazdım, müşteriler kayboldu 👀","baslik":"Bu sorgu *kaç satır* döndürür?","secenekler":["3","2","1"],"cevap_notu":"3 saniye düşün, cevap geliyor 👉","ikonlar":["laptop","thinking_face","link"]},
+{"tip":"tablo","baslik":"*musteri* ve *siparis*","sutunlar":["musteri","siparis yili"],"satirlar":[["Ali",2026],["Ayşe",2025],["Can",null]],"metin":"3 müşteri var. Can hiç sipariş vermemiş."},
+{"tip":"kod","baslik":"Soru: kaç satır gelir?","kod":"SELECT m.ad, s.yil\nFROM musteri m\nLEFT JOIN siparis s\n  ON s.musteri_id = m.id\nWHERE s.yil = 2026;","metin":"A) 3 · B) 2 · C) 1"},
+{"tip":"adim","no":"C","baslik":"Cevap: *1* 😮","metin":"WHERE, JOIN'den sonra çalışır. Ayşe'nin yılı 2025, Can'ınki NULL; ikisi de elenir. LEFT JOIN, INNER JOIN gibi davranır.","ikonlar":["check_mark_button","red_exclamation_mark"]},
+{"tip":"kod","baslik":"Doğrusu: koşulu *ON*'a taşı","kod":"SELECT m.ad, s.yil\nFROM musteri m\nLEFT JOIN siparis s\n  ON s.musteri_id = m.id\n AND s.yil = 2026;   -- 3 satır","metin":"Herkes gelir; 2026 siparişi olmayanlarda yil NULL olur."},
+{"tip":"son","baslik":"Her gün 1 SQL testi için *takip et*","metin":"Doğru bildiysen yorumlara 🔥 bırak!","gonder":"SQL öğrenen bir arkadaşına gönder","ikonlar":["trophy","rocket","sparkles"]}]}

@@ -1,0 +1,7 @@
+{"ad":"sql_test_ikinci_maas","hesap":"sqlogreniyorum","seri":"SQL TEST","no":4,"tema":"sql","slaytlar":[
+{"tip":"kapak","ust":"Mülakatların klasiği: ikinci en yüksek maaş 👀","baslik":"Bu sorgu *kaç* döndürür?","secenekler":["9000","7000","5000"],"cevap_notu":"3 saniye düşün, cevap geliyor 👉","ikonlar":["laptop","thinking_face","money_bag"]},
+{"tip":"tablo","baslik":"Elimizde *calisan* tablosu","sutunlar":["ad","maas"],"satirlar":[["Ali",9000],["Ayşe",7000],["Can",9000],["Ece",5000]],"metin":"En yüksek maaşı alan 2 kişi var."},
+{"tip":"kod","baslik":"Soru: *ikinci* en yüksek maaş?","kod":"SELECT maas\nFROM calisan\nORDER BY maas DESC\nLIMIT 1 OFFSET 1;","metin":"A) 9000 · B) 7000 · C) 5000"},
+{"tip":"adim","no":"A","baslik":"Cevap: *9000* 😮","metin":"Sıralama 9000, 9000, 7000, 5000. OFFSET 1 ilk satırı atlar ama ikinci satır da 9000. Tekrar eden değerler tuzağı.","ikonlar":["check_mark_button","red_exclamation_mark"]},
+{"tip":"kod","baslik":"Doğrusu: *DISTINCT* ekle","kod":"SELECT DISTINCT maas\nFROM calisan\nORDER BY maas DESC\nLIMIT 1 OFFSET 1;   -- 7000","metin":"Önce tekrarları sil, sonra atla."},
+{"tip":"son","baslik":"Her gün 1 SQL testi için *takip et*","metin":"Doğru bildiysen yorumlara 🔥 bırak!","gonder":"SQL öğrenen bir arkadaşına gönder","ikonlar":["trophy","rocket","sparkles"]}]}
