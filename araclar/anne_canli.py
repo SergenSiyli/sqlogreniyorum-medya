@@ -145,7 +145,7 @@ def slayt_html(s, i, n, meta):
         ic = f'''<div class="bulut kucuk">{ik}</div>
         <h1 class="dev a" data-d="0.1">{vurgula(s.get("baslik","Serinin devamı için *takip et*"))}</h1>
         <p class="metin a" data-d="0.35">{vurgula(s.get("metin","Her gün böyle pratik bilgiler burada."))}</p>
-        <div class="cta a pop" data-d="0.6">+ Takip et</div>
+        {'<div class="cta a pop" data-d="0.6">+ Takip et</div>' if s.get("takip_butonu", True) else ''}
         <div class="cta2 a" data-d="0.8">{"" if PRO["on"] else "🔖 "}Kaydet, lazım olunca bul</div>{gonder}'''
     if s.get("foto"):
         ic += f'<img class="foto a" data-d="0.2" src="{foto_uri(s["foto"])}">'

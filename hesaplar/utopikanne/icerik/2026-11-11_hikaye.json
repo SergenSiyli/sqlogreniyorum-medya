@@ -1,0 +1,53 @@
+{
+ "2026-11-11": [
+  {
+   "saat": "10:30",
+   "sablon": "tarif",
+   "seri": "Ek gıda tarifi #10",
+   "ay": "6+ ay",
+   "baslik": "Muzlu yulaf lapası",
+   "malzemeler": [
+    "2 yemek kaşığı ince yulaf",
+    "Pişirmek için su",
+    "Bebeğinin sütü (anne sütü ya da mama)",
+    "Yarım olgun muz"
+   ],
+   "adimlar": [
+    "Yulafı suyla kısık ateşte yumuşayana dek pişir.",
+    "Ilıyınca bebeğinin sütüyle kıvamını aç.",
+    "Muzu çatalla ezip karıştır, ılık sun."
+   ],
+   "saklama": "Bebeğin yarım bıraktığı porsiyonu saklama, at.",
+   "dikkat": "Tuz ve şeker ekleme. Yulafta gluten olabilir; ilk kez az ver. Yerken yanından ayrılma.",
+   "kaynak": "NHS (ek gıda önerileri)",
+   "cizim": "muz",
+   "cta": "Kaydet, lazım olur"
+  },
+  {
+   "saat": "15:00",
+   "sablon": "hamilelik",
+   "seri": "Hafta hafta hamilelik #9",
+   "hafta": 12,
+   "boy": "Erik kadar, baş-popo ~5,4 cm",
+   "bilgi": "Bebeğinin iç organları ve kasları büyüdü, kalp atışı ultrasonda duyulabiliyor. İskeleti de yavaş yavaş kemikleşiyor.",
+   "ipucu": "Günde 10 dakikalık tempolu bir yürüyüşle başlayabilirsin.",
+   "kaynak": "NHS",
+   "cta": "Hamile bir arkadaşına gönder"
+  },
+  {
+   "saat": "18:30",
+   "sablon": "temizlik",
+   "seri": "Temizlik tüyosu #6",
+   "baslik": "Ellerini kaç saniye yıkıyorsun?",
+   "maddeler": [
+    "Islat, sabunla; elinin sırtını, parmak aralarını ve tırnak altlarını unutma.",
+    "En az 20 saniye ov: \"İyi ki doğdun\" şarkısını baştan sona iki kez söyle.",
+    "Akan temiz suyla durula, temiz bir havluyla kurula.",
+    "Bez değiştirdikten sonra ve mama hazırlamadan önce mutlaka yıka."
+   ],
+   "uyari": "Su ve sabun yoksa en az %60 alkollü el dezenfektanı kullan. Ellerin gözle görülür kirli ya da yağlıysa su ve sabunla yıka.",
+   "kaynak": "CDC",
+   "cta": "Kaydet, bir anneye gönder"
+  }
+ ]
+}
