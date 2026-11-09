@@ -1,5 +1,23 @@
 [
  {
+  "id": "2026-11-11_0830_story_gunaydin",
+  "hedef": "2026-11-11T08:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@311e38b348bb2b8e5fd36f8792e47cc5e252eca7/hesaplar/utopikanne/gun/2026-11-11/story_0830_gunaydin.png"
+ },
+ {
+  "id": "2026-11-11_1000_story_duyuru",
+  "hedef": "2026-11-11T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@311e38b348bb2b8e5fd36f8792e47cc5e252eca7/hesaplar/utopikanne/gun/2026-11-11/story_1000_duyuru_tuz.png"
+ },
+ {
+  "id": "2026-11-11_1030_story_tarif",
+  "hedef": "2026-11-11T10:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@311e38b348bb2b8e5fd36f8792e47cc5e252eca7/hesaplar/utopikanne/gun/2026-11-11/story_1030_tarif.png"
+ },
+ {
   "id": "2026-11-11_1130_carousel_ek_gida_yanlis_dogru",
   "hedef": "2026-11-11T11:30",
   "tur": "CAROUSEL",
@@ -13,5 +31,31 @@
    "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@945c24efce9c190b05ae45ebc9e66ac935b2bc2d/hesaplar/utopikanne/gun/2026-11-11/pro/ekgida02_yanlis_dogru_07.jpg"
   ],
   "aciklama": "Ek gıdada 5 yanlış, 5 doğru. Kaydet, mutfakta lazım olur.\n\n1. Tuz: mamasına tuz ekleme; lezzeti sebze ve otlardan gelsin.\n2. Bal: 1 yaşından önce bal yok; tatlılık için ezilmiş meyve yeter.\n3. Tekrar ısıtmak: artan yemeği yalnızca bir kez ısıt, içi iyice ısınsın.\n4. Tezgâhta bekletmek: pişen yemeği 1-2 saat içinde soğut, buzdolabına koy.\n5. İnek sütü: 1 yaşından önce içecek olarak verilmez; içecek anne sütü ya da mama, yanında su.\n\nKaynak: NHS. Bilgilendirme amaçlıdır; bebeğine özel bir durum varsa doktoruna danış.\n\nSen hangisini bilmiyordun? Ek gıda serisinin devamı için takip et, ek gıdaya başlayan arkadaşına gönder.\n\n#ekgıda #ekgıdayageçiş #bebekbeslenmesi #annelik #6aylıkbebek"
+ },
+ {
+  "id": "2026-11-11_1300_trial_hamile_mutfak",
+  "hedef": "2026-11-11T13:00",
+  "tur": "TRIAL_REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@311e38b348bb2b8e5fd36f8792e47cc5e252eca7/hesaplar/utopikanne/gun/2026-11-11/hamile01_mutfak_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@311e38b348bb2b8e5fd36f8792e47cc5e252eca7/hesaplar/utopikanne/gun/2026-11-11/hamile01_mutfak_reels_kapak.jpg",
+  "aciklama": "Hamilelikte nelere dikkat etmeli? Mutfakta en çok karıştırılan 5 şeyi tek yerde topladım.\n\nEt iyice pişsin, içinde pembelik kalmasın. Pastörize olmamış çiğ süt ve ürünlerinden uzak dur. Ciğerde çok fazla A vitamini var, o yüzden hamilelikte yeme. Sebze ve meyveyi toprağı kalmayana dek yıka. Kafein de günde 200 mg'ı geçmesin; 1 kupa hazır kahvede yaklaşık 100 mg var.\n\nKaynak: NHS. Bilgilendirme amaçlıdır; sana özel durumlar için doktoruna danış.\n\nSen hangisini bilmiyordun? Hamilelik serisinin devamı için takip et, kaydet, hamile bir arkadaşına gönder.\n\n#hamilelik #hamilelikteBeslenme #hamileanneler #gebelik"
+ },
+ {
+  "id": "2026-11-11_1500_story_hamilelik",
+  "hedef": "2026-11-11T15:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@311e38b348bb2b8e5fd36f8792e47cc5e252eca7/hesaplar/utopikanne/gun/2026-11-11/story_1500_hamilelik.png"
+ },
+ {
+  "id": "2026-11-11_1830_story_temizlik",
+  "hedef": "2026-11-11T18:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@311e38b348bb2b8e5fd36f8792e47cc5e252eca7/hesaplar/utopikanne/gun/2026-11-11/story_1830_temizlik.png"
+ },
+ {
+  "id": "2026-11-11_2230_story_iyi_geceler",
+  "hedef": "2026-11-11T22:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@311e38b348bb2b8e5fd36f8792e47cc5e252eca7/hesaplar/utopikanne/gun/2026-11-11/story_2230_iyi_geceler.png"
  }
 ]
