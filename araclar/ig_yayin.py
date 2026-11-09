@@ -219,7 +219,9 @@ def konteyner(uid, o):
         p = {"media_type": "CAROUSEL", "children": ",".join(cocuklar), "caption": o.get("aciklama", "")}
     else:
         raise ValueError("bilinmeyen tür " + o["tur"])
-    yol = yerel_dosya(p.get("video_url"))
+    # Deneme Reels yalnızca video_url yolunda deneme kalıyor: resumable yükleme trial_params'ı kabul edip
+    # normal Reels olarak yayınladı (9 Kasım buzdolabı, is_shared_to_feed=True). Bu yüzden denemede yerel yükleme yok.
+    yol = None if o["tur"] == "TRIAL_REEL" else yerel_dosya(p.get("video_url"))
     if yol:
         try:
             return bekle_hazir(video_yukle(uid, p, yol))
