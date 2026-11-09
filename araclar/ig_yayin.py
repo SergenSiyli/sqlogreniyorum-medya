@@ -405,6 +405,25 @@ def mesajtest():
         time.sleep(3)
 
 
+def trialtest():
+    """Yayınlamadan sınar: API sürümleri trial_params'ı tanıyor mu? Bilerek geçersiz değerle konteyner açar (yayın YOK)."""
+    uid = hesap_id()
+    url = sys.argv[2] if len(sys.argv) > 2 else ""
+    sonuc = {}
+    global api
+    eski = api
+    for surum in ("v23.0", "v24.0", "v25.0"):
+        api = (lambda s=surum: f"https://graph.facebook.com/{s}" if token().startswith("EAA") else f"https://graph.instagram.com/{s}")
+        for ad, deger in (("gecersiz", {"graduation_strategy": "YANLIS_DEGER"}),):
+            try:
+                r = istek("POST", f"{uid}/media", media_type="REELS", video_url=url, trial_params=json.dumps(deger))
+                sonuc[f"{surum}_{ad}"] = {"kabul": True, "yanit": r}
+            except Exception as e:
+                sonuc[f"{surum}_{ad}"] = {"kabul": False, "hata": str(e)[:300]}
+    api = eski
+    print(json.dumps(sonuc, ensure_ascii=False), flush=True)
+
+
 def analiz():
     """Hesap analizi için ham veri: profil + son 200 gönderi (+ erişilebilirse içgörüler) -> <kuyruk>/../analiz/."""
     uid = hesap_id()
@@ -471,4 +490,4 @@ def analiz():
 
 
 if __name__ == "__main__":
-    {"kontrol": kontrol, "yayin": yayin, "analiz": analiz, "videotest": videotest, "mesajtest": mesajtest}[sys.argv[1] if len(sys.argv) > 1 else "yayin"]()
+    {"kontrol": kontrol, "yayin": yayin, "analiz": analiz, "videotest": videotest, "mesajtest": mesajtest, "trialtest": trialtest}[sys.argv[1] if len(sys.argv) > 1 else "yayin"]()
