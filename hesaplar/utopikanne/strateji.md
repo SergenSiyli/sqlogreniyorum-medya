@@ -1,5 +1,10 @@
 # @utopikanne büyüme stratejisi (v1 — 1 Kasım 2026)
 
+## 🚫 KONU KURALI v5.4 (9 Kasım 13:40, Melike: "aynı konuyu hem post hem reels atmışsınız, saçmalık")
+- Deneme Reels ASLA aynı gün ya da ±7 gün içindeki bir post/Reels ile aynı konuda olamaz. Her deneme Reels yeni, ayrı bir konu.
+- Günlük düzen: 1 post (konu A) + 1 deneme Reels (konu B, farklı). Konu çakışması varsa denemeyi kuyruğa koyma.
+- 13 Kasım denemesi (emekleme-uyku, postla aynı) kaldırıldı; gece ekibi farklı konulu bir deneme koymalı.
+
 ## ✨ GÖRSEL KURAL v5.3 (8 Kasım 22:40, Melike geri bildirimi) — EN ÜST KURAL
 Melike bebek banyosu postunu (emoji bulutlu) "karışık, az profesyonel" buldu.
 - Post (CAROUSEL) ve deneme Reels: JSON'a `"stil":"pro"` ekle. Sade dergi düzeni: krem zemin, büyük başlık, 01-02-03 numaralı adımlar, "İPUCU" kutusu, kapakta `icindekiler` listesi. 3D emoji bulutu YOK, yazılarda emoji YOK.
