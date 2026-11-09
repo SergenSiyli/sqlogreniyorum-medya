@@ -128,6 +128,15 @@ def slayt_html(s, i, n, meta):
     elif tip == "not":
         ic = f'''<div class="notkutu a" data-d="0.1">{img(s.get("ikon","stethoscope"),"notik",0.25)}
         <h2>{vurgula(s["baslik"])}</h2><p class="metin">{vurgula(s.get("metin",""))}</p></div>'''
+    elif tip == "ikili":  # "Eski ben / Yeni ben", "Yanlış / Doğru": iki fotoğraf yan yana (Melike'nin ya da AI ürün görseli)
+        def yari(t, d, renk):
+            g = f'<img class="ifoto a" data-d="{d}" src="{foto_uri(t["foto"])}">' if t.get("foto") else f'<div class="ifoto bos a" data-d="{d}">foto</div>'
+            return f'''<div class="yari"><div class="ibas a" data-d="{d-0.1}">{html.escape(t["baslik"])}</div><div class="cizgi" style="background:{renk}"></div>
+            {g}<p class="iyazi a" data-d="{d+0.25}">{vurgula(t["yazi"])}</p></div>'''
+        ic = f'<div class="ikili">{yari(s["sol"], 0.15, "#B4532A")}<div class="ayrac"></div>{yari(s["sag"], 0.45, "#3F7A3A")}</div>'
+    elif tip == "izgara":  # etiketli ürün ızgarası (Kasım meyveleri gibi)
+        og = "".join((f'<div class="hucre a" data-d="{0.2+0.08*j}">' + (f'<img src="{foto_uri(x["foto"])}">' if x.get("foto") else '<div class="bos">foto</div>') + f'<b>{html.escape(x["ad"])}</b></div>') for j, x in enumerate(s["ogeler"]))
+        ic = f'<h2 class="a izb" data-d="0.05">{vurgula(s.get("baslik",""))}</h2><div class="izgara" style="grid-template-columns:repeat({s.get("sutun",3)},1fr)">{og}</div>'
     elif tip == "son":
         ik = "".join(img(a, f"k{j}", 0.3 + 0.15 * j) for j, a in enumerate(s.get("ikonlar", ["smiling_face_with_hearts"])[:3]))
         g = s.get("gonder")
@@ -169,6 +178,13 @@ h2{{font-family:"Inter Display",Inter;color:#22201E;font-weight:800;font-size:76
 .cta{{border-radius:18px;box-shadow:none}} .cta2,.cta3{{background:none;padding:0;color:#4A4440;font-weight:500}}
 .kaydir{{font-weight:600;letter-spacing:1px;order:10}} .kaynak{{order:11}} .t-kapak{{background:linear-gradient(165deg,{b1},#FBF8F4 70%)}} .t-son{{background:linear-gradient(165deg,#FBF8F4 30%,{b1})}} .el{{opacity:.45;font-weight:600;letter-spacing:1px}}
 .secenek li{{font-weight:500}} .harf{{border-width:3px}}
+.sahne.t-ikili,.sahne.t-izgara{{background:#fff}} .t-ikili .govde,.t-izgara .govde{{left:40px;right:40px}}
+.ikili{{display:flex;align-items:stretch;gap:0;height:100%}} .yari{{flex:1;display:flex;flex-direction:column;align-items:center;text-align:center;gap:22px;padding:0 18px}}
+.ayrac{{width:2px;background:#D9D2CA}} .ibas{{font-family:"Inter Display",Inter;font-weight:900;font-size:84px;letter-spacing:-3px;color:#1E1C1A;line-height:1}}
+.cizgi{{width:110px;height:7px;border-radius:4px}} .ifoto{{width:100%;height:560px;object-fit:contain}} .bos{{display:flex;align-items:center;justify-content:center;background:#EEE8E1;color:#9A8F86;border-radius:24px;font-size:30px}}
+.iyazi{{font-size:40px;line-height:1.3;color:#2E2A27}} .iyazi .hl{{font-weight:800}}
+.izb{{text-align:center;color:#1F4D2B}} .izgara{{display:grid;gap:26px 18px}} .hucre{{display:flex;flex-direction:column;align-items:center;gap:10px}}
+.hucre img,.hucre .bos{{width:100%;aspect-ratio:1;object-fit:contain}} .hucre b{{font-size:40px;color:#1F4D2B;font-weight:800}}
 '''
     sl = icerik["slaytlar"]
     sahneler = "".join(slayt_html(s, i + 1, len(sl), icerik) for i, s in enumerate(sl))
