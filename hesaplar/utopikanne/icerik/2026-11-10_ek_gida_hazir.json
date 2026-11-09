@@ -1,0 +1,8 @@
+{"ad":"ekgida01_hazir_mi_pro","hesap":"utopikanne","seri":"EK GIDA","no":1,"tema":"seftali","stil":"pro","slaytlar":[
+{"tip":"kapak","ust":"6. ay yaklaşırken herkesin sorusu","baslik":"Bebeğin ek gıdaya *hazır mı?*","alt":"Takvime değil, bu 3 işarete bak.","icindekiler":["Desteksiz oturabiliyor","Yiyeceği alıp ağzına götürüyor","Yutabiliyor"]},
+{"tip":"adim","no":1,"baslik":"Desteksiz *oturabiliyor*","metin":"Desteksiz iyi oturuyor ve başını dik tutabiliyor.","ipucu":"Bu 3 işaret genelde 6. ay civarında birlikte görülür, daha önce nadiren."},
+{"tip":"adim","no":2,"baslik":"Yiyeceği *alıp ağzına* götürüyor","metin":"Yiyeceğe bakıyor, kendi eliyle alıp ağzına götürebiliyor."},
+{"tip":"adim","no":3,"baslik":"Yiyeceği *yutabiliyor*","metin":"Yiyeceği diliyle geri itmeden yutabiliyor."},
+{"tip":"liste","baslik":"Bunlar *hazır olduğunu* göstermez","maddeler":[{"ikon":"sparkles","yazi":"Yumruğunu çiğnemesi"},{"ikon":"sparkles","yazi":"Gece daha sık uyanması"},{"ikon":"sparkles","yazi":"Daha fazla süt istemesi"}]},
+{"tip":"not","baslik":"İlk yıl *uzak tut*","metin":"1 yaşından önce bal yok; mamasına tuz ve şeker ekleme. Bebeğine özel bir durum varsa doktoruna danış."},
+{"tip":"son","baslik":"Ek gıda serisi için *takip et*","metin":"Kaynak: NHS. Bilgilendirme amaçlıdır.","gonder":"Bebeği 5-6 aylık olan arkadaşına gönder"}]}
