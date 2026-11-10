@@ -432,6 +432,17 @@ def trialtest():
     print(json.dumps(sonuc, ensure_ascii=False), flush=True)
 
 
+def temizle(x):
+    """'paging' alanlarını ve access_token içeren metinleri çıkarır."""
+    if isinstance(x, dict):
+        return {k: temizle(v) for k, v in x.items() if k != "paging"}
+    if isinstance(x, list):
+        return [temizle(v) for v in x]
+    if isinstance(x, str) and "access_token" in x:
+        return re.sub(r"access_token=[^&\s\"]+", "access_token=GIZLI", x)
+    return x
+
+
 def analiz():
     """Hesap analizi için ham veri: profil + son 200 gönderi (+ erişilebilirse içgörüler) -> <kuyruk>/../analiz/."""
     uid = hesap_id()
@@ -485,6 +496,7 @@ def analiz():
     d = os.path.join(os.path.dirname(KUYRUK), "analiz")
     os.makedirs(d, exist_ok=True)
     yol = os.path.join(d, f"veri_{simdi():%Y-%m-%d}.json")
+    out = temizle(out)  # paging adreslerindeki access_token depoya yazılmasın
     with open(yol, "w") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     subprocess.run(["git", "add", yol], cwd=ROOT, check=True)

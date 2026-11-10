@@ -87,10 +87,18 @@ def slayt_html(s, i, n, meta):
     if tip == "kapak":
         ik = s.get("ikonlar", [])
         bulut = "".join(img(a, f"k{j}", 0.35 + 0.15 * j) for j, a in enumerate(ik[:4]))
+        yy = s.get("yanyana")  # isteğe bağlı: iki BÜYÜK çizim yan yana (ör. kapsül ≈ şeker)
+        if yy:
+            def yyt(t, d):
+                return f'<div class="yyt"><img class="yyik a pop" data-d="{d}" src="{ikon_uri(t["ikon"])}"><b class="yyet a" data-d="{d+0.15}">{vurgula(t.get("etiket",""))}</b></div>'
+            bulut_html = f'<div class="yanyana">{yyt(yy["sol"],0.3)}<div class="yyis a pop" data-d="0.5">{html.escape(yy.get("isaret","≈"))}</div>{yyt(yy["sag"],0.65)}</div>'
+        else:
+            bulut_html = f'<div class="bulut">{bulut}</div>'
         ic = f'''<div class="ust a" data-d="0.05">{vurgula(s.get("ust",""))}</div>
         <h1 class="dev a" data-d="0.15">{vurgula(s["baslik"])}</h1>
-        <div class="alt a" data-d="0.3">{vurgula(s.get("alt",""))}</div>
-        {secenek_html(s)}<div class="bulut">{bulut}</div>
+        {'' if yy else f'<div class="alt a" data-d="0.3">{vurgula(s.get("alt",""))}</div>'}
+        {secenek_html(s)}{bulut_html}
+        {f'<div class="alt a" data-d="0.8">{vurgula(s.get("alt",""))}</div>' if yy and s.get("alt") else ''}
         {'' if s.get("secenekler") else '<div class="kaydir a" data-d="0.9">Kaydır, öğren <b>→</b></div>'}
         {f'<div class="kaynak a" data-d="1.0">Kaynak: {html.escape(s["kaynak"])} · Bilgilendirme amaçlıdır.</div>' if s.get("kaynak") else ""}'''
     elif tip == "adim":
@@ -213,6 +221,11 @@ h2{{font-size:70px;line-height:1.08;font-weight:900;letter-spacing:-1px}}
 .bulut.kucuk{{height:260px}}
 .ik{{width:250px;height:250px;object-fit:contain;filter:drop-shadow(0 18px 22px rgba(0,0,0,.18))}}
 .bulut .ik{{position:absolute}}
+.yanyana{{display:flex;align-items:center;justify-content:center;gap:6px;background:#ffffffa8;border-radius:56px;padding:26px 20px 22px;box-shadow:0 14px 34px rgba(0,0,0,.07)}}
+.yyt{{display:flex;flex-direction:column;align-items:center;gap:4px}}
+.yyik{{width:{340 if not reels else 380}px;height:{340 if not reels else 380}px;object-fit:contain;filter:drop-shadow(0 20px 24px rgba(0,0,0,.16))}}
+.yyet{{font-size:40px;font-weight:900;background:{v};color:#fff;padding:6px 26px;border-radius:30px}}
+.yyis{{font-size:120px;font-weight:900;color:{v};margin-bottom:60px}}
 .k0{{left:0;top:30px;width:270px;height:270px}} .k1{{left:300px;top:0}} .k2{{left:590px;top:50px;width:230px;height:230px}} .k3{{left:760px;top:-10px;width:180px;height:180px}}
 .secenek{{list-style:none;display:flex;flex-direction:column;gap:18px}}
 .secenek li{{display:flex;align-items:center;gap:24px;font-size:44px;font-weight:700}}

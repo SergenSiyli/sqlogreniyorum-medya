@@ -2252,11 +2252,7 @@
     "title": "Takipçi Sayısı",
     "description": "Bu profili takip eden toplam tekil hesap sayısı"
    }
-  ],
-  "paging": {
-   "previous": "https://graph.facebook.com/v26.0/17841478247923387/insights?metric=reach%2Cfollower_count&period=day&access_token=EAAVY3Pd4BTsBS38qNBbVctpb6D0fbKGZCIhF4NJlnYv3AJGjb902jDhSzwFx1jZCze3JxLbJx299B7mZB9zsN3DXTrUrjd25yIp8r4iAezmPkBB4NcE0xorrqI4FqDdo6e7jvJQALQ2dILpU28qrcH86S7qJEzHLwGWiHqWlR04UresF7wqRZBb1sZA30UW5U1ZAQx8IVo8TR7mmZBLfLloeZB5PhnwA2dgZCPwzZCUyYbB3ySmznFT8HyVwZDZD&since=1793716548&until=1793889348",
-   "next": "https://graph.facebook.com/v26.0/17841478247923387/insights?metric=reach%2Cfollower_count&period=day&access_token=EAAVY3Pd4BTsBS38qNBbVctpb6D0fbKGZCIhF4NJlnYv3AJGjb902jDhSzwFx1jZCze3JxLbJx299B7mZB9zsN3DXTrUrjd25yIp8r4iAezmPkBB4NcE0xorrqI4FqDdo6e7jvJQALQ2dILpU28qrcH86S7qJEzHLwGWiHqWlR04UresF7wqRZBb1sZA30UW5U1ZAQx8IVo8TR7mmZBLfLloeZB5PhnwA2dgZCPwzZCUyYbB3ySmznFT8HyVwZDZD&since=1794062150&until=1794234950"
-  }
+  ]
  },
  "kitle": {
   "data": [
