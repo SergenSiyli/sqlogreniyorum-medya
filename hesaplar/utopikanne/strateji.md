@@ -181,3 +181,13 @@ KARARLAR
 5. TASARIM: Renkli Tasarımcı / Art Direktör kalıcı rol. "stil":"pro" YASAK. Başlık bir nesneden söz ediyorsa nesne kapakta büyük çizilir (anne_canli kapak "yanyana"); her slaytta metni anlatan çizim; Fluent'te yoksa kendi 3D çizimimiz (hesaplar/utopikanne/marka/ikon/). Yapay zekâ görsel üretimi bu kurulumda yok; gerçek kişi/bebek görseli yalnızca Melike'nin gönderdikleri.
 6. HASHTAG: ekip gönderilerinde 2 (1 niş + 1 konuya özel). İlk satır merak/duygu kancası; "takip et" çağrısı yalnızca son slaytta ve açıklamanın son satırında bir kez.
 7. HEDEFLER (22 Kasım incelemesi): net takipçi ≥ 0/hafta; yeni takipçi/erişim ≥ %0,3; Melike Reels ortanca ≥ 2.000; ekip carousel kaydetme/erişim ≥ %4; deneme Reels ortanca ≥ 300.
+
+## v6.1 — Rakip formatları (10 Kasım; Melike: "hesapları örnek al, ne yapıyorlarsa geliştirip bana yap")
+Kopya YOK (metin, görsel, video, kimlik); yalnızca işe yarayan format örnek alınır, içerik bizim ve doğrulanmış.
+Veri: analiz/rakip_2026-11-10_2301.json ve _2302.json (31 hesap; örnek kalıplar: mamablogtr, ddmadaaa, betusgram, nazlismzgunduz, 3cocukluhemsireanne_, yagmuraataman, obenalkan, hacercemrekaplan, gunluk_ev_isleri). Not: Business Discovery hikâyeleri vermez; hikâye kalıpları gözlenemedi.
+1. Duygu anı Reels (Melike): 7–15 sn gerçek an, tek satır duygu kancası, hashtag yok.
+2. "Tam olarak böyle olmuyor mu?" anne/ev mizahı (Melike; haftada 1): "6 aylık bebek annesi olarak…" sabit girişi.
+3. Mevsim kancalı ek gıda tarifi ("… mevsimi geçmeden"): ekip carousel'i (Salı) + Melike Reels; uzun tarif açıklamada, "kaydet / ihtiyacı olana gönder".
+4. Numaralı mini seri: "Aren'in ek gıda günlüğü · Bölüm N" (Melike, 14 Kasım'dan), aynı kapak + aynı ilk cümle.
+5. Ay dönümü fotoğraf dökümü carousel'i (her ayın 14'ü, Melike'nin fotoğrafları) + ev işi mizahı Reels.
+Sıçrayan gönderilerde ortanca hashtag 0; paylaşım yoğunluğu 19–21; kazanan orta hesaplar haftada 1–3 paylaşım.
