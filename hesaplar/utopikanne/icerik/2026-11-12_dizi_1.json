@@ -1,0 +1,26 @@
+{
+ "ad": "story_2000_dizi_1",
+ "hesap": "utopikanne",
+ "seri": "TAHMİN ET",
+ "no": 1,
+ "tema": "limon",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Akşam beyin jimnastiği",
+   "baslik": "Yeni doğan bebeğin kaç *kemiği* var?",
+   "secenekler": [
+    "206, tıpkı senin gibi",
+    "Yaklaşık 100",
+    "Yaklaşık 300"
+   ],
+   "cevap_notu": "Aklında tut. *İpucu sonraki karede →*",
+   "ikonlar": [
+    "baby",
+    "thinking_face",
+    "red_question_mark",
+    "magnifying_glass_tilted_left"
+   ]
+  }
+ ]
+}
