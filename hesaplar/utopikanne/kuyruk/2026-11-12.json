@@ -1,0 +1,60 @@
+[
+ {
+  "id": "2026-11-12_0830_story_gunaydin",
+  "hedef": "2026-11-12T08:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_0830_gunaydin.png"
+ },
+ {
+  "id": "2026-11-12_1000_story_duyuru",
+  "hedef": "2026-11-12T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_1000_duyuru_kapsul.png"
+ },
+ {
+  "id": "2026-11-12_1030_story_tarif",
+  "hedef": "2026-11-12T10:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_1030_tarif.png"
+ },
+ {
+  "id": "2026-11-12_1130_carousel_camasir_kapsul",
+  "hedef": "2026-11-12T11:30",
+  "tur": "CAROUSEL",
+  "medya": [
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_01.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_02.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_03.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_04.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_05.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_06.jpg"
+  ],
+  "aciklama": "Çamaşır kapsülü nerede saklanmalı? Sabahki testin cevabı: kilitli, yüksek bir dolapta, orijinal kutusunda ve kapağı kapalı 🔐\n\nBu kapsüller rengarenk, minikler şekerle karıştırabiliyor. Üstelik ıslak elde ya da tükürükle hemen eriyor. O yüzden kuru elle tut, kullanınca kutuyu hemen kapatıp kaldır.\n\nKazara yutma ya da göze kaçma olursa: Ulusal Zehir Merkezi 114, durum ağırsa 112. Göze kaçtıysa bol suyla en az 15 dakika yıka.\n\nKaynak: AAP, CPSC, T.C. Sağlık Bakanlığı. Bilgilendirme amaçlıdır.\n\nSen kapsülleri nerede saklıyorsun? Yorumlara yaz 👇\n\nÇamaşır & bebek eşyası serisinin devamı için takip et · Kaydet · Evinde minik olan arkadaşına gönder\n\n#annelik #bebekgüvenliği #çamaşır #evdüzeni"
+ },
+ {
+  "id": "2026-11-12_1300_trial_camasir_kapsul",
+  "hedef": "2026-11-12T13:00",
+  "tur": "TRIAL_REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_reels_kapak.jpg",
+  "aciklama": "Bu renkli kapsül şekere benziyor ama bebeğin için hiç oyun değil 👀\n\nNerede saklanır, nasıl kullanılır, kazara olursa ne yapılır? 20 saniyede anlattım.\n\nKaynak: AAP, CPSC, T.C. Sağlık Bakanlığı.\n\nHer gün ev, bebek ve ek gıda için pratik bir bilgi; takipte kal ✨ Evinde minik olan bir arkadaşına gönder.\n\n#annelik #bebekgüvenliği #çamaşır"
+ },
+ {
+  "id": "2026-11-12_1500_story_hamilelik",
+  "hedef": "2026-11-12T15:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_1500_hamilelik.png"
+ },
+ {
+  "id": "2026-11-12_1830_story_temizlik",
+  "hedef": "2026-11-12T18:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_1830_temizlik.png"
+ },
+ {
+  "id": "2026-11-12_2230_story_iyi_geceler",
+  "hedef": "2026-11-12T22:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_2230_iyi_geceler.png"
+ }
+]
