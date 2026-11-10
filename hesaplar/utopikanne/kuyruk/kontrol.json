@@ -1,7 +1,7 @@
 {
- "zaman": "2026-11-10T22:43:46+03:00",
+ "zaman": "2026-11-10T23:31:03+03:00",
  "anahtar_turu": "facebook",
- "anahtar_uzunlugu": 257,
+ "anahtar_uzunlugu": 254,
  "hesap": {
   "id": "17841478247923387",
   "media_count": 173,
@@ -18,9 +18,5 @@
    }
   ]
  },
- "durum": "ok",
- "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b9015cc1d8ab547b6794272abb26944dde309775/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_01.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b9015cc1d8ab547b6794272abb26944dde309775/hesaplar/utopikanne/gun/2026-11-12/story_2230_iyi_geceler.png": "image/png"
- }
+ "durum": "ok"
 }
