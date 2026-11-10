@@ -432,6 +432,31 @@ def trialtest():
     print(json.dumps(sonuc, ensure_ascii=False), flush=True)
 
 
+def rakip():
+    """Herkese açık işletme/içerik üreticisi hesaplarını Business Discovery ile okur (yalnızca okuma)."""
+    uid = hesap_id()
+    out = {"zaman": simdi().isoformat(timespec="seconds"), "hesaplar": {}}
+    alan = ("business_discovery.username({u}){{username,name,biography,followers_count,media_count,"
+            "media.limit(40){{timestamp,media_type,media_product_type,like_count,comments_count,caption,permalink}}}}")
+    for u in sys.argv[2:]:
+        try:
+            out["hesaplar"][u] = istek("GET", uid, fields=alan.format(u=u)).get("business_discovery")
+        except Exception as e:
+            out["hesaplar"][u] = {"hata": str(e)[:300]}
+    out = temizle(out)
+    d = os.path.join(os.path.dirname(KUYRUK), "analiz")
+    os.makedirs(d, exist_ok=True)
+    yol = os.path.join(d, f"rakip_{simdi():%Y-%m-%d_%H%M}.json")
+    with open(yol, "w") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1)
+    subprocess.run(["git", "add", yol], cwd=ROOT, check=True)
+    subprocess.run(["git", "commit", "-qm", f"[{HESAP}] rakip analizi ({len(out['hesaplar'])} hesap)"], cwd=ROOT)
+    for _ in range(5):
+        subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
+        if subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0:
+            break
+
+
 def temizle(x):
     """'paging' alanlarını ve access_token içeren metinleri çıkarır."""
     if isinstance(x, dict):
@@ -510,4 +535,4 @@ def analiz():
 
 
 if __name__ == "__main__":
-    {"kontrol": kontrol, "yayin": yayin, "analiz": analiz, "videotest": videotest, "mesajtest": mesajtest, "trialtest": trialtest}[sys.argv[1] if len(sys.argv) > 1 else "yayin"]()
+    {"kontrol": kontrol, "yayin": yayin, "analiz": analiz, "videotest": videotest, "mesajtest": mesajtest, "trialtest": trialtest, "rakip": rakip}[sys.argv[1] if len(sys.argv) > 1 else "yayin"]()
