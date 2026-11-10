@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-10T22:30:27+03:00",
+ "zaman": "2026-11-10T22:42:08+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 257,
  "hesap": {
@@ -10,7 +10,7 @@
  "kota": {
   "data": [
    {
-    "quota_usage": 7,
+    "quota_usage": 8,
     "config": {
      "quota_total": 100,
      "quota_duration": 86400
@@ -20,19 +20,14 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_0830_gunaydin.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_1000_duyuru_kapsul.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_1030_tarif.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_01.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_02.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_03.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_04.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_05.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_06.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_reels.mp4": "video/mp4",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_1500_hamilelik.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_1830_temizlik.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_2230_iyi_geceler.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_reels_kapak.jpg": "image/jpeg"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b9015cc1d8ab547b6794272abb26944dde309775/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_01.jpg": "HATA HTTP Error 403: Forbidden",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b9015cc1d8ab547b6794272abb26944dde309775/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_02.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b9015cc1d8ab547b6794272abb26944dde309775/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_03.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b9015cc1d8ab547b6794272abb26944dde309775/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_04.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b9015cc1d8ab547b6794272abb26944dde309775/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_05.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b9015cc1d8ab547b6794272abb26944dde309775/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_06.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b9015cc1d8ab547b6794272abb26944dde309775/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_reels.mp4": "video/mp4",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b9015cc1d8ab547b6794272abb26944dde309775/hesaplar/utopikanne/gun/2026-11-12/pro/camasir01_kapsul_reels_kapak.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@b9015cc1d8ab547b6794272abb26944dde309775/hesaplar/utopikanne/gun/2026-11-12/story_2230_iyi_geceler.png": "HATA HTTP Error 403: Forbidden"
  }
 }
