@@ -1,0 +1,24 @@
+{
+ "ad": "story_1000_sql_test",
+ "hesap": "sqlogreniyorum",
+ "seri": "SQL TEST · CEVAP 20:30 REELS'TE",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "3 müşteri · LEFT JOIN + WHERE s.yil = 2026",
+   "baslik": "Bu sorgu *kaç satır* döndürür?",
+   "secenekler": [
+    "3",
+    "2",
+    "1"
+   ],
+   "cevap_notu": "Cevabı akşam 20:30 Reels'te 👀 Tahminini aklında tut!",
+   "ikonlar": [
+    "link",
+    "thinking_face",
+    "card_file_box"
+   ]
+  }
+ ]
+}

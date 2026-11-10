@@ -1,0 +1,19 @@
+{
+ "ad": "story_1930_duyuru",
+ "hesap": "sqlogreniyorum",
+ "seri": "BU AKŞAM 20:30",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "LEFT JOIN kullanıyorsan bunu kaçırma 👀",
+   "baslik": "LEFT JOIN yazdım, *müşteriler kayboldu*",
+   "alt": "20:30'da Reels'te SQL TEST #5. Gel bak!",
+   "ikonlar": [
+    "link",
+    "card_file_box",
+    "eyes"
+   ]
+  }
+ ]
+}

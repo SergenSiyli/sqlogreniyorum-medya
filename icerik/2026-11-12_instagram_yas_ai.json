@@ -1,0 +1,82 @@
+{
+ "ad": "reel_instagram_yas_ai",
+ "hesap": "sqlogreniyorum",
+ "seri": "YAPAY ZEKÂ HABERİ",
+ "tema": "ai",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Doğum tarihini büyük yazan gençler dikkat 👀",
+   "baslik": "Yaşını büyük yazsan da *yapay zekâ* fark edebilir",
+   "alt": "30 saniyede anlatıyorum 👉",
+   "ikonlar": [
+    "robot",
+    "detective",
+    "mobile_phone"
+   ]
+  },
+  {
+   "tip": "liste",
+   "baslik": "Meta'nın açıklaması *(9 Kasım)*",
+   "maddeler": [
+    {
+     "ikon": "globe_showing_europe_africa",
+     "yazi": "Yaş tahmin eden yapay zekâ dünyaya açılıyor"
+    },
+    {
+     "ikon": "detective",
+     "yazi": "Yetişkin doğum tarihi yazanları da tarıyor"
+    },
+    {
+     "ikon": "locked",
+     "yazi": "Genç olduğu düşünülen hesap Genç Hesap'a geçiyor"
+    }
+   ]
+  },
+  {
+   "tip": "liste",
+   "baslik": "Genç Hesap'ta *neler sınırlı?*",
+   "maddeler": [
+    {
+     "ikon": "speech_balloon",
+     "yazi": "Sana kimin ulaşabileceği"
+    },
+    {
+     "ikon": "eyes",
+     "yazi": "Gördüğün içerik"
+    },
+    {
+     "ikon": "hourglass_done",
+     "yazi": "Uygulamada geçirdiğin süre"
+    }
+   ]
+  },
+  {
+   "tip": "not",
+   "ikon": "warning",
+   "baslik": "Dikkat: *bilgiler Meta'nın*",
+   "metin": "Facebook'ta da dağıtılıyor, Threads'e bu yıl içinde gelecek. Meta ülke listesi ve kesin sayı vermedi; yalnızca \"milyonlarca genç\" diyor."
+  },
+  {
+   "tip": "adim",
+   "no": "?",
+   "baslik": "Doğru mu yanlış mı: *18+ yazmak* her zaman kurtarır",
+   "metin": "Cevap: Yanlış ❌ Meta'ya göre yapay zekâ, yetişkin doğum tarihi yazan gençleri de bulmaya çalışıyor.",
+   "ikonlar": [
+    "red_question_mark",
+    "cross_mark"
+   ]
+  },
+  {
+   "tip": "son",
+   "baslik": "Yapay zekâ haberleri için *takip et*",
+   "metin": "Sence yapay zekâ yaşı ne kadar doğru tahmin eder? Yorumlara yaz 👇",
+   "gonder": "Bunu bilmesi gereken birine gönder",
+   "ikonlar": [
+    "robot",
+    "brain",
+    "sparkles"
+   ]
+  }
+ ]
+}

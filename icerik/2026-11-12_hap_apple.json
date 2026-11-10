@@ -1,0 +1,25 @@
+{
+ "ad": "story_1700_hap_apple",
+ "hesap": "sqlogreniyorum",
+ "seri": "HAP HABER",
+ "tema": "tekno",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Kodlama öğrenmek isteyenlere haber 👀",
+   "baslik": "Apple Türkiye'de *7 merkez* açacak",
+   "secenekler": [
+    "3 yılda 5 Developer Academy",
+    "2027'de İstanbul'da Developer Center",
+    "2028'de Ankara'da üretim akademisi"
+   ],
+   "cevap_notu": "Şirketin açıklamasına göre akademiler 9 aylık, ücretsiz 🎓",
+   "kaynak": "MacRumors, 9to5Mac, DonanımHaber (9 Kasım 2026)",
+   "ikonlar": [
+    "graduation_cap",
+    "laptop",
+    "school"
+   ]
+  }
+ ]
+}

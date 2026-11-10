@@ -1,0 +1,20 @@
+{
+ "ad": "story_1400_ilham_johnson",
+ "hesap": "sqlogreniyorum",
+ "seri": "TEKNOLOJİ TARİHİNDEN #3",
+ "tema": "gunes",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Uzaya giden hesapları kim kontrol etti? 🚀",
+   "baslik": "Bilgisayarı *kontrol eden* kadın",
+   "alt": "NASA matematikçisi Katherine Johnson, 1962'de John Glenn'in Friendship 7 yörünge uçuşundan önce bilgisayarın hesapladığı yörünge sayılarını masa hesap makinesiyle doğruladı. Glenn bu kontrolü özellikle ondan istedi.",
+   "kaynak": "NASA, Computer History Museum",
+   "ikonlar": [
+    "woman_technologist",
+    "rocket",
+    "globe_showing_europe_africa"
+   ]
+  }
+ ]
+}
