@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-10T22:02:38+03:00",
+ "zaman": "2026-11-10T22:42:19+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 256,
  "hesap": {
@@ -18,9 +18,5 @@
    }
   ]
  },
- "durum": "ok",
- "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@415ce8af5b2d8f3ff95520f246949128d29418ad/gun/2026-11-12/story_1400_ilham_johnson.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@415ce8af5b2d8f3ff95520f246949128d29418ad/gun/2026-11-12/story_2200_ozet.png": "image/png"
- }
+ "durum": "ok"
 }
