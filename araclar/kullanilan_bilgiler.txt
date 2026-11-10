@@ -26,3 +26,6 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-10 iyi geceler: ilk cep telefonu görüşmesi 3 Nisan 1973, Martin Cooper (Motorola) → Joel Engel (Bell Labs) — kaynak: CBS, ABC
 2026-11-11 günaydın: ENIAC'ı programlayan altı kadın (Haziran 1945 işe alım, kılavuz yok, 1946 tanıtımında adları anılmadı) — kaynak: army.mil, Penn Today
 2026-11-11 iyi geceler: Spacewar! (1962, MIT PDP-1) arka planda gerçek takımyıldızlar (Peter Samson), güneşin yer çekimi (Dan Edwards) — kaynak: Computer History Museum, MIT Technology Review
+2026-11-12 günaydın: IBM 350 RAMAC (1956), 50 adet 24 inç disk, 5 milyon karakter ≈3,75 MB, kompresörle 1 tonu aşkın — kaynak: Computer History Museum, ETHW
+2026-11-12 ilham (Teknoloji Tarihinden #3): Katherine Johnson, 1962 Friendship 7 öncesi bilgisayar yörünge hesaplarını masa hesap makinesiyle doğruladı, Glenn özellikle istedi — kaynak: NASA, CHM
+2026-11-12 iyi geceler: "bit" = binary digit, John Tukey önerdi, Shannon 1948 makalesi — kaynak: History of Information, Word Origins

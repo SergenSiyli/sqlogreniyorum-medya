@@ -1,10 +1,66 @@
 [
  {
+  "id": "2026-11-12_0900_story_gunaydin",
+  "hedef": "2026-11-12T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@415ce8af5b2d8f3ff95520f246949128d29418ad/gun/2026-11-12/story_0900_gunaydin.png"
+ },
+ {
+  "id": "2026-11-12_1000_story_sql_test",
+  "hedef": "2026-11-12T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@415ce8af5b2d8f3ff95520f246949128d29418ad/gun/2026-11-12/story_1000_sql_test.png"
+ },
+ {
+  "id": "2026-11-12_1230_reel_instagram_yas_ai",
+  "hedef": "2026-11-12T12:30",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@415ce8af5b2d8f3ff95520f246949128d29418ad/gun/2026-11-12/reel_instagram_yas_ai_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@415ce8af5b2d8f3ff95520f246949128d29418ad/gun/2026-11-12/reel_instagram_yas_ai_reels_kapak.jpg",
+  "aciklama": "Yapay zekâ ile yaş tahmini: Instagram, doğum tarihini büyük yazan gençleri de bulmaya çalışıyor 👀\n\nMeta'nın 9 Kasım açıklamasına göre:\n• Yaş tahmin eden yapay zekâ dünya geneline açılıyor\n• Yetişkin doğum tarihi yazsa da genç olduğu düşünülen hesaplar Genç Hesap'a geçiyor\n• Genç Hesap; sana kimin ulaşabileceğini, gördüğün içeriği ve uygulamada geçirdiğin süreyi sınırlıyor\n• Facebook'ta da dağıtılıyor; benzer teknoloji bu yıl Threads'e gelecek\n\nNot: Meta ülke listesi ve kesin sayı vermedi, \"milyonlarca genç\" diyor.\n\nDoğru mu yanlış mı: 18+ yazmak her zaman kurtarır? Cevabını yorumlara yaz 👇 Bunu bilmesi gereken birine gönder, kaydet.\n\nKaynak: Meta Newsroom, MediaNama, Phandroid (9-10 Kasım 2026)\n\n#yapayzeka #yapayzekahaberleri #teknolojihaberleri #instagram"
+ },
+ {
+  "id": "2026-11-12_1400_story_ilham_johnson",
+  "hedef": "2026-11-12T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@415ce8af5b2d8f3ff95520f246949128d29418ad/gun/2026-11-12/story_1400_ilham_johnson.png"
+ },
+ {
+  "id": "2026-11-12_1500_story_yas_kart",
+  "hedef": "2026-11-12T15:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@415ce8af5b2d8f3ff95520f246949128d29418ad/gun/2026-11-12/story_1500_yas_kart.png"
+ },
+ {
+  "id": "2026-11-12_1700_story_hap_apple",
+  "hedef": "2026-11-12T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@415ce8af5b2d8f3ff95520f246949128d29418ad/gun/2026-11-12/story_1700_hap_apple.png"
+ },
+ {
+  "id": "2026-11-12_1930_story_duyuru",
+  "hedef": "2026-11-12T19:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@415ce8af5b2d8f3ff95520f246949128d29418ad/gun/2026-11-12/story_1930_duyuru.png"
+ },
+ {
   "id": "2026-11-12_2030_trialreel_sql_test_left_join",
   "hedef": "2026-11-12T20:30",
-  "tur": "TRIAL_REEL",
+  "tur": "REEL",
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@50472f17451555a7c3c5807bf751aab8b6b1411c/gun/2026-11-12/sql_test_left_join_where_reels.mp4",
   "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@50472f17451555a7c3c5807bf751aab8b6b1411c/gun/2026-11-12/sql_test_left_join_where_reels_kapak.jpg",
   "aciklama": "SQL TEST #5: LEFT JOIN yazdım, müşteriler kayboldu. 3 müşteri var; WHERE s.yil = 2026 ekleyince kaç satır gelir? 👀\n\nCevap: 1. WHERE, JOIN'den sonra çalışır; yılı 2025 olan ve hiç siparişi olmayan (NULL) müşteriler elenir. LEFT JOIN, INNER JOIN gibi davranır.\n\nDoğrusu: koşulu ON'a taşı: ON s.musteri_id = m.id AND s.yil = 2026 → 3 satır, siparişi olmayanlarda yil NULL.\n\nDoğru bildiysen yorumlara 🔥 bırak, SQL öğrenen bir arkadaşına gönder.\n\n#sql #sqlöğren #sqlmülakat #veribilimi #veranalizi"
+ },
+ {
+  "id": "2026-11-12_2200_story_ozet",
+  "hedef": "2026-11-12T22:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@415ce8af5b2d8f3ff95520f246949128d29418ad/gun/2026-11-12/story_2200_ozet.png"
+ },
+ {
+  "id": "2026-11-12_2300_story_iyigeceler",
+  "hedef": "2026-11-12T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@415ce8af5b2d8f3ff95520f246949128d29418ad/gun/2026-11-12/story_2300_iyigeceler.png"
  }
 ]

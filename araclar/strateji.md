@@ -95,3 +95,7 @@ Kanca: her Reels ilk karede tam görünen soru/hata/etki cümlesiyle açılıyor
 - Takipçi: 1.553 (Metricool, 7 Kasım; 8-9 Kasım verisi gelmedi). 31 Ekim-7 Kasım net +46 (~6,6/gün). Bu hızla 50.000'e ~7.370 gün. Hedefin çok gerisinde.
 - 2-8 Kasım 14 Reels: SQL 7 ort. izlenme 1.155, 3 sn %32,3, (kayd.+payl.)/erişim %1,07; haber 7 ort. izlenme 261, %24,3, %1,81. Denemeler LAG/NOT IN %29,5 (deneme dışı mülakat #2-#4 %37,1). Yorum: 14 Reels'te 0. v2 verisi tek gönderi (WhatsApp %17,1) — yorumlanamaz. Story verisi yok.
 - Bu tur değiştirdiğimiz: (1) 11 Kasım 12:30 haber yerine SQL TEST #6 (BETWEEN; aday haberler ABD'ye özel Gemini Memory ve küçük iOS 27.2.1 güncellemesiydi) → haber hap story'ye (17:00). Bu hafta SQL +1, haber -1; 13-15 Kasım'da en az 2 haber Reels'i (biri deneme) yerine konmalı. (2) Yorum 0 → açıklamada "Sen A mı dedin, B mi, C mi? Harfini yorumlara yaz" (tek harf = düşük eşik). 12 Kasım'da yorum sayısı ölçülecek.
+
+## Durum (10 Kasım 2026 gece turu)
+- 12 Kasım dolduruldu: 12:30 AI haber Reels (Instagram yapay zekâ ile yaş tahmini, Meta 9 Kasım), 20:30 SQL TEST #5 LEFT JOIN+WHERE (deneme → normal Reels; haftanın deneme sayısı 3'te kaldı). Hikâyeler: RAMAC günaydın, Teknoloji Tarihinden #3 (Katherine Johnson), Apple Türkiye 7 merkez hap haber, bit/Tukey iyi geceler.
+- 9-15 Kasım dengesi (12 Kasım sonu): SQL 6, AI/haber 2, kariyer 0, ilham 0. 13-15 Kasım'daki 6 Reels: en az 3 haber, 2 teknoloji kariyeri/mülakat, 1 ilham (Teknoloji Tarihinden). Deneme Reels bu hafta artık yok.
