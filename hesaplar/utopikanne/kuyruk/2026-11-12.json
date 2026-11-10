@@ -52,6 +52,30 @@
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4f7e143ec01eb030935feeb44389035874e47963/hesaplar/utopikanne/gun/2026-11-12/story_1830_temizlik.png"
  },
  {
+  "id": "2026-11-12_2000_story_dizi_1",
+  "hedef": "2026-11-12T20:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@2a208b864cc2119b545f315d9c3fddd07e67d108/hesaplar/utopikanne/gun/2026-11-12/story_2000_dizi_1.png"
+ },
+ {
+  "id": "2026-11-12_2001_story_dizi_2",
+  "hedef": "2026-11-12T20:01",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@2a208b864cc2119b545f315d9c3fddd07e67d108/hesaplar/utopikanne/gun/2026-11-12/story_2000_dizi_2.png"
+ },
+ {
+  "id": "2026-11-12_2002_story_dizi_3",
+  "hedef": "2026-11-12T20:02",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@2a208b864cc2119b545f315d9c3fddd07e67d108/hesaplar/utopikanne/gun/2026-11-12/story_2000_dizi_3.png"
+ },
+ {
+  "id": "2026-11-12_2003_story_dizi_4",
+  "hedef": "2026-11-12T20:03",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@2a208b864cc2119b545f315d9c3fddd07e67d108/hesaplar/utopikanne/gun/2026-11-12/story_2000_dizi_4.png"
+ },
+ {
   "id": "2026-11-12_2230_story_iyi_geceler",
   "hedef": "2026-11-12T22:30",
   "tur": "STORY",
