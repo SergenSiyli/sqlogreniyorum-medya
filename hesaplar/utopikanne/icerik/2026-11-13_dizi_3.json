@@ -1,0 +1,20 @@
+{
+ "hesap": "utopikanne",
+ "seri": "BU NE İŞE YARAR?",
+ "no": 1,
+ "tema": "gok",
+ "ad": "story_2000_dizi_3",
+ "slaytlar": [
+  {
+   "tip": "adim",
+   "no": "B",
+   "baslik": "Cevap: *hava geçsin diye!*",
+   "metin": "Yönetmelikteki adı *havalandırma delikleri*. ABD'de emzik kalkanında en az 2 delik zorunlu, her biri en az 5 mm.",
+   "ikonlar": [
+    "exploding_head",
+    "emzik",
+    "sparkles"
+   ]
+  }
+ ]
+}

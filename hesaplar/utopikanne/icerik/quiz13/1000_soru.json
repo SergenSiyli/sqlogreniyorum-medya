@@ -1,0 +1,24 @@
+{
+ "ad": "story_1000_soru",
+ "hesap": "utopikanne",
+ "seri": "GÜNÜN TESTİ",
+ "tema": "pembe",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "SORU 1/2 · BİLİYOR MUSUN? 🤔",
+   "baslik": "Bebek *adını* duyunca ne zaman dönüp bakar?",
+   "secenekler": [
+    "2 aylıkken",
+    "9 aylıkken",
+    "2 yaşında"
+   ],
+   "cevap_notu": "Cevap 2 dakika sonra 👀",
+   "ikonlar": [
+    "baby",
+    "speech_balloon",
+    "thinking_face"
+   ]
+  }
+ ]
+}

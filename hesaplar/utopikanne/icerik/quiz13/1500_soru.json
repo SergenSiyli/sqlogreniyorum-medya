@@ -1,0 +1,24 @@
+{
+ "ad": "story_1500_soru",
+ "hesap": "utopikanne",
+ "seri": "GÜNÜN TESTİ",
+ "tema": "lila",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "SORU 2/2 · HAMİLELİK 14. HAFTA 🤰",
+   "baslik": "Karnındaki minik bu hafta *ne yapıyor?*",
+   "secenekler": [
+    "Çiş yapıyor",
+    "Gözlerini açıyor",
+    "Ağlıyor"
+   ],
+   "cevap_notu": "Cevap 2 dakika sonra 👀",
+   "ikonlar": [
+    "pregnant_woman",
+    "kiwi_fruit",
+    "thinking_face"
+   ]
+  }
+ ]
+}

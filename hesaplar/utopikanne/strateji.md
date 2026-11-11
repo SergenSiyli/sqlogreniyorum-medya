@@ -138,6 +138,10 @@ Veri: Melike'nin son 10 Reels'i 1.218–3.739 kişiye ulaşıyor ama net takipç
 | ÇAMAŞIR & BEBEK EŞYASI | 1 (#1 çamaşır kapsülü, 12 Kasım carousel + deneme Reels) |
 | PRATİK HAYAT | 0 |
 | AREN X AYLIK | 5 (ilk yayın 6 aylık, 14 Kasım) |
+| HİKÂYE · TAHMİN ET | 1 (12 Kasım kemik sayısı) |
+| HİKÂYE · BU NE İŞE YARAR? | 1 (13 Kasım emzik delikleri) |
+| HİKÂYE · DOĞRU MU EFSANE Mİ? / BİLMECE SAATİ / MUTFAK SİHRİ / ANNE ZEKÂ TESTİ / KARNINDAKİ MİNİK | 0 |
+| HAMİLELİK (15:00, soru-cevap) | 11 (13 Kasım = 14. hafta) |
 
 ## v4.4 — 8 Kasım gece (Melike: "atacağımız şeyleri hikâyede haber verelim, iletişimli duralım, samimi sıcak, ben atıyorum gibi; renkli")
 - Her gönderi/deneme Reels öncesi DUYURU HİKÂYESİ (carousel günü 10:00; `anne_canli.py --story`), Melike'nin ağzından birinci tekil ("hazırladım, paylaşıyorum, bana yaz"); uydurma deneyim yok.

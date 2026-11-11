@@ -1,0 +1,20 @@
+{
+ "hesap": "utopikanne",
+ "seri": "BU NE İŞE YARAR?",
+ "no": 1,
+ "tema": "gok",
+ "ad": "story_2000_dizi_2",
+ "slaytlar": [
+  {
+   "tip": "adim",
+   "no": "?",
+   "baslik": "İpucu: adı *yönetmelikte* yazıyor",
+   "metin": "Resmî adı, pencereyi açınca odaya yaptığın *şeyden* geliyor.\n\nTahminin değişti mi? *Cevap sonraki karede →*",
+   "ikonlar": [
+    "light_bulb",
+    "emzik",
+    "face_with_monocle"
+   ]
+  }
+ ]
+}

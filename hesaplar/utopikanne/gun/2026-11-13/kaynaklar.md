@@ -1,0 +1,6 @@
+# 13 Kasım 2026 — hikâye kaynakları (Sağlık Doğrulayıcı)
+- 08:30 Günaydın · Bunu biliyor muydun?: 1946'da Marion Donovan (anne) duş perdeleriyle su geçirmez bez kılıfı yaptı (son ürün naylon paraşüt kumaşı; patent 1951). Lemelson-MIT — https://lemelson.mit.edu/resources/marion-donovan ("Donovan's first breakthrough, in 1946, was to design a waterproof diaper cover." / "a series of shower curtains")
+- 10:00 Test: Çoğu bebek 9 aylıkken adı söylenince bakar. CDC — https://www.cdc.gov/act-early/milestones/9-months.html ("Looks when you call her name")
+- 15:00 Hamilelik 14. hafta (#11): bebek çiş yapıyor; baş-popo ~8,5 cm, kivi. NHS — https://www.nhs.uk/pregnancy/week-by-week/13-to-27/14-weeks ("having a wee!", "around 8.5cm long from head to bottom … kiwi fruit"). Gözler ~26. haftada açılır (NHS 111 Wales 25–28 hafta). Yüz ifadesi 14. hafta için NHS/HSE'de yok → kullanılmadı.
+- 20:00 Dizi BU NE İŞE YARAR? #1: emzik kalkanında en az 2 "ventilation hole", her biri ≥5 mm, kenardan ≥5 mm içeride. eCFR 16 CFR §1511.3(b) — https://www.ecfr.gov/current/title-16/chapter-II/subchapter-C/part-1511. "Nefes yolu açık kalsın" amacı resmî metinde yok → yalnız "havalandırma delikleri / hava geçsin" denildi.
+- 22:30 İyi geceler: yalnız söz (bilgi yok).

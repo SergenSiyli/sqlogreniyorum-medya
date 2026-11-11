@@ -1,0 +1,25 @@
+{
+ "hesap": "utopikanne",
+ "seri": "BU NE İŞE YARAR?",
+ "no": 1,
+ "tema": "gok",
+ "ad": "story_2000_dizi_1",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Cuma akşamı dedektiflik",
+   "baslik": "Emziğin kenarındaki *delikler* ne işe yarar?",
+   "secenekler": [
+    "Süs olsun diye",
+    "Hava geçsin diye",
+    "Yıkarken su aksın diye"
+   ],
+   "cevap_notu": "Aklında tut. *İpucu sonraki karede →*",
+   "ikonlar": [
+    "emzik",
+    "thinking_face",
+    "magnifying_glass_tilted_left"
+   ]
+  }
+ ]
+}
