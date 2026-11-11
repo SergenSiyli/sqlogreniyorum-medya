@@ -1,5 +1,11 @@
 # @utopikanne büyüme stratejisi (v1 — 1 Kasım 2026)
 
+## 🔥 STORY KURALI v5.6 (11 Kasım 19:12, Melike: "hikayeler çok sıkıcı, uzun, izlenme düştü") — EN ÜST
+- Story = SORU + CEVAP çifti. Soru story'si (A/B/C, büyük başlık, renkli tema, 3 büyük ikon, "Cevap 2 dakika sonra 👀"), 2 dk sonra cevap story'si (tek kısa cümle açıklama + sonraki sorunun saati). Günde 3-4 çift, her biri farklı renk (pembe/nane/limon/lila/gok/seftali).
+- Konu karışımı: bebek bilgisi, temizlik testi, eskiden/tarih, bilmece/zeka sorusu, hamilelik "biliyor musun". Metin en fazla 2 kısa satır; uzun düz metin story YASAK. Dizi (1/4, 2/4) ile devamlılık.
+- Şablon: hesaplar/utopikanne/icerik/quiz12/*.json (anne_canli.py --story). Günaydın ve iyi geceler de kısa ve renkli kalır.
+- Post ve deneme Reels AYNI KONU olamaz (12 Kasım çamaşır kapsülü denemesi bu yüzden kaldırıldı).
+
 ## 💬 MELİKE'NİN BRİFİ v5.5 (9 Kasım 14:41) — EN ÜST KURAL
 - Ses: Melike'nin ağzından, samimi, doğal, neşeli, cıvıl cıvıl. 30 yaşında, 6 aylık oğlu Aren olan, 1,5 yıllık evli, renkli karakterli bir anne. Hedef kitle: anneler, hamileler, kadınlar. Birinci tekil şahıs SERBEST, yeter ki bilgi gerçek ve doğru olsun (uydurma olay yok).
 - Sayfa profesyonel, marjinal, güven veren görünsün; "Ütopik Anne" denince güvenle takip edilsin. Emojiler az ve anlamlı.
