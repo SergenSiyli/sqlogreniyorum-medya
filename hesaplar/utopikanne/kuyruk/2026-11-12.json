@@ -9,13 +9,13 @@
   "id": "2026-11-12_1000_story_soru",
   "hedef": "2026-11-12T10:00",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@876dfac413204b3e153139321a5e26ba53e94f11/hesaplar/utopikanne/gun/2026-11-12/quiz/story_1000_soru.png"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@068d9717d55248f90042d023eb8da0216f2b16f5/hesaplar/utopikanne/gun/2026-11-12/quiz/story_1000_soru.png"
  },
  {
   "id": "2026-11-12_1000_story_cevap",
   "hedef": "2026-11-12T10:02",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@876dfac413204b3e153139321a5e26ba53e94f11/hesaplar/utopikanne/gun/2026-11-12/quiz/story_1000_cevap.png"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@068d9717d55248f90042d023eb8da0216f2b16f5/hesaplar/utopikanne/gun/2026-11-12/quiz/story_1000_cevap.png"
  },
  {
   "id": "2026-11-12_1030_story_tarif",
@@ -41,25 +41,13 @@
   "id": "2026-11-12_1500_story_soru",
   "hedef": "2026-11-12T15:00",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@876dfac413204b3e153139321a5e26ba53e94f11/hesaplar/utopikanne/gun/2026-11-12/quiz/story_1500_soru.png"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@068d9717d55248f90042d023eb8da0216f2b16f5/hesaplar/utopikanne/gun/2026-11-12/quiz/story_1500_soru.png"
  },
  {
   "id": "2026-11-12_1500_story_cevap",
   "hedef": "2026-11-12T15:02",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@876dfac413204b3e153139321a5e26ba53e94f11/hesaplar/utopikanne/gun/2026-11-12/quiz/story_1500_cevap.png"
- },
- {
-  "id": "2026-11-12_1830_story_soru",
-  "hedef": "2026-11-12T18:30",
-  "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@876dfac413204b3e153139321a5e26ba53e94f11/hesaplar/utopikanne/gun/2026-11-12/quiz/story_1830_soru.png"
- },
- {
-  "id": "2026-11-12_1830_story_cevap",
-  "hedef": "2026-11-12T18:32",
-  "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@876dfac413204b3e153139321a5e26ba53e94f11/hesaplar/utopikanne/gun/2026-11-12/quiz/story_1830_cevap.png"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@068d9717d55248f90042d023eb8da0216f2b16f5/hesaplar/utopikanne/gun/2026-11-12/quiz/story_1500_cevap.png"
  },
  {
   "id": "2026-11-12_2000_story_dizi_1",
@@ -84,18 +72,6 @@
   "hedef": "2026-11-12T20:03",
   "tur": "STORY",
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@2a208b864cc2119b545f315d9c3fddd07e67d108/hesaplar/utopikanne/gun/2026-11-12/story_2000_dizi_4.png"
- },
- {
-  "id": "2026-11-12_2100_story_soru",
-  "hedef": "2026-11-12T21:00",
-  "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@876dfac413204b3e153139321a5e26ba53e94f11/hesaplar/utopikanne/gun/2026-11-12/quiz/story_2100_soru.png"
- },
- {
-  "id": "2026-11-12_2100_story_cevap",
-  "hedef": "2026-11-12T21:02",
-  "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@876dfac413204b3e153139321a5e26ba53e94f11/hesaplar/utopikanne/gun/2026-11-12/quiz/story_2100_cevap.png"
  },
  {
   "id": "2026-11-12_2230_story_iyi_geceler",
