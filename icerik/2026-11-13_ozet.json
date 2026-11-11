@@ -1,0 +1,24 @@
+{
+ "ad": "story_2200_ozet",
+ "hesap": "sqlogreniyorum",
+ "seri": "GÜNÜN ÖZETİ",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "12:30 sorusunun cevabı: 3 ✅ (NULL sayılmaz)",
+   "baslik": "Bugün *3 bilgi*",
+   "secenekler": [
+    "COUNT(DISTINCT) tekrarı ve NULL'ı saymaz",
+    "ChatGPT'de eski sesli modlar 11 Aralık'ta kalkıyor",
+    "Apple'ın destek forumu 20 Kasım'da kapanıyor"
+   ],
+   "cevap_notu": "Kaçırdığın varsa profilime uğra 👀",
+   "ikonlar": [
+    "books",
+    "card_file_box",
+    "light_bulb"
+   ]
+  }
+ ]
+}

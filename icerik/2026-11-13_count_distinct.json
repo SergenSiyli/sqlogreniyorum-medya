@@ -1,0 +1,93 @@
+{
+ "ad": "sql_mulakat_count_distinct",
+ "hesap": "sqlogreniyorum",
+ "seri": "SQL MÜLAKAT SORUSU",
+ "no": 9,
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Mülakatta soruluyor: 6 müşteri, 1'inin şehri NULL 👀",
+   "baslik": "*COUNT(DISTINCT sehir)* kaç döndürür?",
+   "secenekler": [
+    "6",
+    "4",
+    "3"
+   ],
+   "cevap_notu": "3 saniye düşün, cevap geliyor 👉",
+   "ikonlar": [
+    "briefcase",
+    "thinking_face",
+    "globe_showing_europe_africa"
+   ]
+  },
+  {
+   "tip": "tablo",
+   "baslik": "Elimizde *musteri* tablosu",
+   "sutunlar": [
+    "id",
+    "sehir"
+   ],
+   "satirlar": [
+    [
+     1,
+     "Ankara"
+    ],
+    [
+     2,
+     "İzmir"
+    ],
+    [
+     3,
+     "Ankara"
+    ],
+    [
+     4,
+     null
+    ],
+    [
+     5,
+     "İzmir"
+    ],
+    [
+     6,
+     "Bursa"
+    ]
+   ],
+   "metin": "Ankara ve İzmir ikişer kez geçiyor, 1 şehir boş."
+  },
+  {
+   "tip": "kod",
+   "baslik": "Soru: Bu sorgu *ne* döndürür?",
+   "kod": "SELECT COUNT(DISTINCT sehir)\nFROM musteri;",
+   "metin": "A) 6 · B) 4 · C) 3"
+  },
+  {
+   "tip": "adim",
+   "no": "C",
+   "baslik": "Cevap: *3* 🎯",
+   "metin": "DISTINCT tekrarları atar: Ankara, İzmir, Bursa. COUNT(sütun) da NULL'ı saymaz. Sonuç 3.",
+   "ikonlar": [
+    "check_mark_button",
+    "magnifying_glass_tilted_left"
+   ]
+  },
+  {
+   "tip": "kod",
+   "baslik": "Tuzak: *SELECT DISTINCT* 4 satır verir",
+   "kod": "SELECT DISTINCT sehir\nFROM musteri;   -- 4 satır",
+   "metin": "DISTINCT listede NULL da bir satırdır. Saymak başka, listelemek başka!"
+  },
+  {
+   "tip": "son",
+   "baslik": "Her gün 1 SQL sorusu için *takip et*",
+   "metin": "Doğru bildiysen yorumlara 🔥 bırak!",
+   "gonder": "SQL öğrenen bir arkadaşına gönder",
+   "ikonlar": [
+    "trophy",
+    "graduation_cap",
+    "sparkles"
+   ]
+  }
+ ]
+}

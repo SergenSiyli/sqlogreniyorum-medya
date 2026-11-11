@@ -1,0 +1,20 @@
+{
+ "ad": "story_2300_iyigeceler",
+ "hesap": "sqlogreniyorum",
+ "seri": "İYİ GECELER 🌙",
+ "tema": "koyu",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Yatmadan bir bilgi 🌙",
+   "baslik": "*Ctrl+Alt+Del* nereden geldi?",
+   "alt": "IBM mühendisi David Bradley, 1981'de IBM PC geliştirilirken bilgisayarı kapatmadan yeniden başlatmak için buldu. Tuşlara kazara birlikte basılmasın diye bu üçlüyü seçti. Yarın yeni bir SQL testi var 😉",
+   "kaynak": "Lemelson-MIT, Mental Floss",
+   "ikonlar": [
+    "crescent_moon",
+    "keyboard",
+    "desktop_computer"
+   ]
+  }
+ ]
+}

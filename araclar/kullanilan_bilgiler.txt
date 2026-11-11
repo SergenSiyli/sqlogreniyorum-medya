@@ -29,3 +29,6 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-12 günaydın: IBM 350 RAMAC (1956), 50 adet 24 inç disk, 5 milyon karakter ≈3,75 MB, kompresörle 1 tonu aşkın — kaynak: Computer History Museum, ETHW
 2026-11-12 ilham (Teknoloji Tarihinden #3): Katherine Johnson, 1962 Friendship 7 öncesi bilgisayar yörünge hesaplarını masa hesap makinesiyle doğruladı, Glenn özellikle istedi — kaynak: NASA, CHM
 2026-11-12 iyi geceler: "bit" = binary digit, John Tukey önerdi, Shannon 1948 makalesi — kaynak: History of Information, Word Origins
+2026-11-13 günaydın: Hollerith 1890 sayımı delikli kartları kabaca dönemin kâğıt parası boyutunda, para kutuları kullanıldı — kaynak: Computer History Museum, Columbia University
+2026-11-13 ilham (Teknoloji Tarihinden #4): Ada Lovelace, Menabrea makalesi çevirisi + notlar (1843), Bernoulli sayıları planı ilk program sayılıyor — kaynak: Yale, Scientific American
+2026-11-13 iyi geceler: Ctrl+Alt+Del, David Bradley, 1981 IBM PC, kazara basılmasın diye — kaynak: Lemelson-MIT, Mental Floss

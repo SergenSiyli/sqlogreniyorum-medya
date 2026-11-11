@@ -1,0 +1,24 @@
+{
+ "ad": "story_1000_sql_test",
+ "hesap": "sqlogreniyorum",
+ "seri": "SQL TEST · CEVAP 12:30 REELS'TE",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "6 müşteri · Ankara ve İzmir 2'şer kez · 1 şehir NULL",
+   "baslik": "*COUNT(DISTINCT sehir)* kaç döndürür?",
+   "secenekler": [
+    "6",
+    "4",
+    "3"
+   ],
+   "cevap_notu": "Cevabı öğlen 12:30 Reels'te 👀 Tahminini aklında tut!",
+   "ikonlar": [
+    "globe_showing_europe_africa",
+    "thinking_face",
+    "card_file_box"
+   ]
+  }
+ ]
+}

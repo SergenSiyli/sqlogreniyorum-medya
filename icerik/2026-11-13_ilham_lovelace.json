@@ -1,0 +1,20 @@
+{
+ "ad": "story_1400_ilham_lovelace",
+ "hesap": "sqlogreniyorum",
+ "seri": "TEKNOLOJİ TARİHİNDEN #4",
+ "tema": "gunes",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Bilgisayar yokken program yazılır mı? 🤔",
+   "baslik": "*İlk program* 1843'te yayımlandı",
+   "alt": "Ada Lovelace, Babbage'ın Analitik Makinesi üzerine bir makaleyi çevirip kendi notlarını ekledi. 1843'te yayımlanan notlardaki Bernoulli sayıları planı, ilk bilgisayar programı sayılıyor.",
+   "kaynak": "Yale University, Scientific American",
+   "ikonlar": [
+    "woman_technologist",
+    "gear",
+    "open_book"
+   ]
+  }
+ ]
+}

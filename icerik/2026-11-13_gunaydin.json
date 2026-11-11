@@ -1,0 +1,20 @@
+{
+ "ad": "story_0900_gunaydin",
+ "hesap": "sqlogreniyorum",
+ "seri": "GÜNAYDIN ☀️",
+ "tema": "gunes",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Günaydın! Kahveni al, bir veri bilgisi geliyor ☕",
+   "baslik": "Delikli kartlar *para boyutundaydı*",
+   "alt": "Hollerith'in 1890 ABD nüfus sayımında kullandığı delikli kartlar kabaca dönemin kâğıt paraları boyutundaydı. Böylece mevcut para saklama kutuları kullanılabildi.",
+   "kaynak": "Computer History Museum, Columbia University",
+   "ikonlar": [
+    "sun_with_face",
+    "card_file_box",
+    "bar_chart"
+   ]
+  }
+ ]
+}

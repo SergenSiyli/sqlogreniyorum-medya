@@ -1,0 +1,70 @@
+{
+ "ad": "reel_chatgpt_ses",
+ "hesap": "sqlogreniyorum",
+ "seri": "YAPAY ZEKÂ HABERİ",
+ "tema": "ai",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "11 Aralık'ta değişiyor 👀",
+   "baslik": "ChatGPT'yle *sesli konuşuyorsan* bu seni ilgilendiriyor",
+   "alt": "30 saniyede anlatıyorum 👉",
+   "ikonlar": [
+    "headphone",
+    "robot",
+    "speech_balloon"
+   ]
+  },
+  {
+   "tip": "liste",
+   "baslik": "OpenAI'ın duyurusu *(10 Kasım)*",
+   "maddeler": [
+    {
+     "ikon": "cross_mark",
+     "yazi": "Gelişmiş ve Standart ses 11 Aralık'ta seçiciden kalkıyor"
+    },
+    {
+     "ikon": "high_voltage",
+     "yazi": "Kullanıcılar otomatik olarak GPT-Live'a geçecek"
+    },
+    {
+     "ikon": "speech_balloon",
+     "yazi": "GPT-Live aynı anda dinleyip konuşabiliyor"
+    }
+   ]
+  },
+  {
+   "tip": "not",
+   "ikon": "chart_increasing",
+   "baslik": "Neden *şimdi?*",
+   "metin": "Şirketin açıklamasına göre GPT-Live'ın Temmuz'da çıkmasından bu yana sesli kullanım neredeyse ikiye katlandı. Kesin rakam verilmedi."
+  },
+  {
+   "tip": "not",
+   "ikon": "warning",
+   "baslik": "Dikkat: *video ve ekran paylaşımı*",
+   "metin": "Canlı video ve ekran paylaşımı, GPT-Live bunları destekleyene kadar Gelişmiş seste kalacak. OpenAI bunun için tarih vermedi."
+  },
+  {
+   "tip": "adim",
+   "no": "?",
+   "baslik": "Doğru mu yanlış mı: *eski sesli sohbetlerin* silinecek",
+   "metin": "Cevap: Yanlış ❌ Habere göre eski sesli sohbetler geçmişinde kalmaya devam edecek.",
+   "ikonlar": [
+    "red_question_mark",
+    "thinking_face"
+   ]
+  },
+  {
+   "tip": "son",
+   "baslik": "Yapay zekâ haberleri için *takip et*",
+   "metin": "Sen ChatGPT'yle hiç sesli konuştun mu? Yorumlara yaz 👇",
+   "gonder": "ChatGPT kullanan bir arkadaşına gönder",
+   "ikonlar": [
+    "robot",
+    "sparkles",
+    "rocket"
+   ]
+  }
+ ]
+}

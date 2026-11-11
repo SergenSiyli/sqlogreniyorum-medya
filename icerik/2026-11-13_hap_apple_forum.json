@@ -1,0 +1,25 @@
+{
+ "ad": "story_1700_hap_apple_forum",
+ "hesap": "sqlogreniyorum",
+ "seri": "HAP HABER",
+ "tema": "tekno",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "iPhone sorununu forumda arıyorsan 👀",
+   "baslik": "Apple'ın *28 yıllık* forumu kapanıyor",
+   "secenekler": [
+    "20 Kasım'da kalıcı olarak kapanıyor",
+    "Şu an yalnızca okunabilir",
+    "Apple, Apple Destek sitesini öneriyor"
+   ],
+   "cevap_notu": "Eski başlıkların akıbeti belli değil.",
+   "kaynak": "9to5Mac, Engadget (10-11 Kasım)",
+   "ikonlar": [
+    "mobile_phone",
+    "laptop",
+    "warning"
+   ]
+  }
+ ]
+}
