@@ -3,11 +3,7 @@
 ## 🔥 STORY KURALI v5.6 (11 Kasım 19:12, Melike: "hikayeler çok sıkıcı, uzun, izlenme düştü") — EN ÜST
 - Story = SORU + CEVAP çifti. Soru story'si (A/B/C, büyük başlık, renkli tema, 3 büyük ikon, "Cevap 2 dakika sonra 👀"), 2 dk sonra cevap story'si (tek kısa cümle açıklama + sonraki sorunun saati). Günde 3-4 çift, her biri farklı renk (pembe/nane/limon/lila/gok/seftali).
 - (19:19 Melike) Günde toplam ~10 story: 08:30 günaydın + 2 soru-cevap çifti + 1 akşam dizisi (20:00, 3-4 kare) + 22:30 iyi geceler. Konular bebek ve hamilelik ağırlıklı; temizlik ve eskiden story'leri gerekmez.
-- EKİP KARARI (19:29) GÜNCEL TEKRARLAYAN BİLGİ (burç yerine):
-  - Her gün 08:30 Günaydın = Yalova hava durumu (en düşük/en yüksek derece, yağmur) + "Bugün bebeğe ne giydirsem?" katman önerisi (soğuksa bir kat fazla, şapka; sıcaksa ince). Veri: hazırlarken WebSearch ile ertesi günün Yalova tahmini. Bulunamazsa hava kısmını atla.
-  - Pazartesi Günaydın: "Bu haftanın pazar listesi" (mevsimin meyve-sebzesi, ek gıdaya uygun olanlar).
-  - Özel gün varsa (Öğretmenler Günü 24 Kasım, Anneler Günü, yılbaşı, Dünya Prematüre Günü 17 Kasım vb.) Günaydın'da "Bugün ... günü" kısa notu.
-  - 22:30 İyi geceler: tek güzel söz, kısa (bilgi yok).
+- (19:30 Melike) Hava durumu, "ne giydirsem", pazar listesi, özel gün notu YOK (beğenmedi). Günaydın/iyi geceler kısa ve neşeli kalsın; yeni tekrarlayan fikir Melike onaylamadan eklenmez.
 - EKİP KARARI (19:24, Melike "siz karar verin"): Düz tarif story'si KALKTI (tarifler post/Reels'te). Hamilelik KALIYOR ama düz hafta kartı değil, soru-cevap çifti olarak ("Bebeğin 20. haftada neyi duyabilir?" gibi), günde 2 çiftten biri. Hedef günde ~10 story; düz metin story yok. Metin en fazla 2 kısa satır; uzun düz metin story YASAK. Dizi (1/4, 2/4) ile devamlılık.
 - Şablon: hesaplar/utopikanne/icerik/quiz12/*.json (anne_canli.py --story). Günaydın ve iyi geceler de kısa ve renkli kalır.
 - Post ve deneme Reels AYNI KONU olamaz (12 Kasım çamaşır kapsülü denemesi bu yüzden kaldırıldı).
@@ -17,7 +13,7 @@
 - Sayfa profesyonel, marjinal, güven veren görünsün; "Ütopik Anne" denince güvenle takip edilsin. Emojiler az ve anlamlı.
 - Post ve Reels ASLA aynı konu olmaz (deneme dahil).
 - Story'ler sıkıcı olmasın, her gün aynı şablon tekrar etmesin:
-  - Günaydın: neşeli + güne bir söz + güncel bir şey (hava durumu, yaklaşan özel gün). Şehir: Yalova (hava/güncel için kullanılabilir, her gün şart değil).
+  - Günaydın: neşeli + güne bir söz + güncel bir şey (hava durumu, yaklaşan özel gün). Şehir bilgisi içerikte KULLANILMAZ.
   - İyi geceler: SADECE "iyi geceler" + güzel bir söz. Bebek bilgisi YOK.
   - Dönüşümlü: "Eskiden / yüzyıl önce / milattan önce" bilgileri, test/quiz, temizlik takıntılılar için tüyolar, yaklaşan özel günler (24 Kasım Öğretmenler Günü, yılbaşı vb.), güncel gündem.
   - Hamilelik: hafta bilgisi kalabilir ama hamileliği çeşitlendir (hazırlık, doğum çantası, eş/aile, duygular), her gün hafta kartı değil.
