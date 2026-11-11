@@ -1,0 +1,66 @@
+[
+ {
+  "id": "2026-11-13_0900_story_gunaydin",
+  "hedef": "2026-11-13T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@49ae33fd6a33fe9a47d1e15d5f71be7f9f39385a/gun/2026-11-13/story_0900_gunaydin.png"
+ },
+ {
+  "id": "2026-11-13_1000_story_sql_test",
+  "hedef": "2026-11-13T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@49ae33fd6a33fe9a47d1e15d5f71be7f9f39385a/gun/2026-11-13/story_1000_sql_test.png"
+ },
+ {
+  "id": "2026-11-13_1230_reel_sql_mulakat_count_distinct",
+  "hedef": "2026-11-13T12:30",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@49ae33fd6a33fe9a47d1e15d5f71be7f9f39385a/gun/2026-11-13/sql_mulakat_count_distinct_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@49ae33fd6a33fe9a47d1e15d5f71be7f9f39385a/gun/2026-11-13/sql_mulakat_count_distinct_reels_kapak.jpg",
+  "aciklama": "SQL Mülakat Sorusu #9: COUNT(DISTINCT sehir) kaç döndürür? 6 mı, 4 mü, 3 mü? 👀\n\nTabloda 6 müşteri var; Ankara ve İzmir ikişer kez geçiyor, 1 müşterinin şehri NULL.\n\nCevap: 3. DISTINCT tekrarları atar (Ankara, İzmir, Bursa), COUNT(sütun) da NULL'ı saymaz.\nTuzak: SELECT DISTINCT sehir ise 4 satır döndürür, çünkü listede NULL da bir satırdır. Saymak başka, listelemek başka.\n\nSen A mı dedin, B mi, C mi? Harfini yorumlara yaz; doğru bildiysen 🔥 bırak! SQL öğrenen bir arkadaşına gönder, mülakattan önce bakmak için kaydet.\n\n#sql #sqlöğren #teknikmülakat #veribilimi #countdistinct"
+ },
+ {
+  "id": "2026-11-13_1400_story_ilham_lovelace",
+  "hedef": "2026-11-13T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@49ae33fd6a33fe9a47d1e15d5f71be7f9f39385a/gun/2026-11-13/story_1400_ilham_lovelace.png"
+ },
+ {
+  "id": "2026-11-13_1500_story_distinct_kart",
+  "hedef": "2026-11-13T15:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@49ae33fd6a33fe9a47d1e15d5f71be7f9f39385a/gun/2026-11-13/story_1500_distinct_kart.png"
+ },
+ {
+  "id": "2026-11-13_1700_story_hap_apple_forum",
+  "hedef": "2026-11-13T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@49ae33fd6a33fe9a47d1e15d5f71be7f9f39385a/gun/2026-11-13/story_1700_hap_apple_forum.png"
+ },
+ {
+  "id": "2026-11-13_1930_story_duyuru",
+  "hedef": "2026-11-13T19:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@49ae33fd6a33fe9a47d1e15d5f71be7f9f39385a/gun/2026-11-13/story_1930_duyuru.png"
+ },
+ {
+  "id": "2026-11-13_2030_reel_chatgpt_ses",
+  "hedef": "2026-11-13T20:30",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@49ae33fd6a33fe9a47d1e15d5f71be7f9f39385a/gun/2026-11-13/reel_chatgpt_ses_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@49ae33fd6a33fe9a47d1e15d5f71be7f9f39385a/gun/2026-11-13/reel_chatgpt_ses_reels_kapak.jpg",
+  "aciklama": "ChatGPT'yle sesli konuşuyorsan bu seni ilgilendiriyor: eski sesli modlar 11 Aralık'ta kalkıyor 👀\n\nOpenAI'ın 10 Kasım duyurusuna göre:\n• Gelişmiş ve Standart ses 11 Aralık'ta model seçiciden kaldırılıyor\n• Kullanıcılar otomatik olarak GPT-Live'a geçecek\n• GPT-Live aynı anda dinleyip konuşabiliyor\n• Şirketin açıklamasına göre Temmuz'dan beri sesli kullanım neredeyse ikiye katlandı (kesin rakam verilmedi)\n\nDikkat: Canlı video ve ekran paylaşımı, GPT-Live bunları destekleyene kadar Gelişmiş seste kalacak; OpenAI bunun için tarih vermedi.\n\nDoğru mu yanlış mı: Eski sesli sohbetlerin silinecek? Cevap: Yanlış, geçmişinde kalmaya devam ediyor.\n\nSen ChatGPT'yle hiç sesli konuştun mu? Yorumlara yaz 👇 ChatGPT kullanan bir arkadaşına gönder, kaydet.\n\nKaynak: Interesting Engineering, The Tribune (10-11 Kasım 2026)\n\n#yapayzeka #yapayzekahaberleri #teknolojihaberleri #chatgpt"
+ },
+ {
+  "id": "2026-11-13_2200_story_ozet",
+  "hedef": "2026-11-13T22:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@49ae33fd6a33fe9a47d1e15d5f71be7f9f39385a/gun/2026-11-13/story_2200_ozet.png"
+ },
+ {
+  "id": "2026-11-13_2300_story_iyigeceler",
+  "hedef": "2026-11-13T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@49ae33fd6a33fe9a47d1e15d5f71be7f9f39385a/gun/2026-11-13/story_2300_iyigeceler.png"
+ }
+]
