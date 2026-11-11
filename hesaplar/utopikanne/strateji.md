@@ -2,7 +2,8 @@
 
 ## 🔥 STORY KURALI v5.6 (11 Kasım 19:12, Melike: "hikayeler çok sıkıcı, uzun, izlenme düştü") — EN ÜST
 - Story = SORU + CEVAP çifti. Soru story'si (A/B/C, büyük başlık, renkli tema, 3 büyük ikon, "Cevap 2 dakika sonra 👀"), 2 dk sonra cevap story'si (tek kısa cümle açıklama + sonraki sorunun saati). Günde 3-4 çift, her biri farklı renk (pembe/nane/limon/lila/gok/seftali).
-- (19:19 Melike) Günde toplam ~10 story: 08:30 günaydın + 2 soru-cevap çifti + 1 akşam dizisi (20:00, 3-4 kare) + 22:30 iyi geceler. Konular bebek ve hamilelik ağırlıklı; temizlik ve eskiden story'leri gerekmez. Metin en fazla 2 kısa satır; uzun düz metin story YASAK. Dizi (1/4, 2/4) ile devamlılık.
+- (19:19 Melike) Günde toplam ~10 story: 08:30 günaydın + 2 soru-cevap çifti + 1 akşam dizisi (20:00, 3-4 kare) + 22:30 iyi geceler. Konular bebek ve hamilelik ağırlıklı; temizlik ve eskiden story'leri gerekmez.
+- EKİP KARARI (19:24, Melike "siz karar verin"): Düz tarif story'si KALKTI (tarifler post/Reels'te). Hamilelik KALIYOR ama düz hafta kartı değil, soru-cevap çifti olarak ("Bebeğin 20. haftada neyi duyabilir?" gibi), günde 2 çiftten biri. Hedef günde ~10 story; düz metin story yok. Metin en fazla 2 kısa satır; uzun düz metin story YASAK. Dizi (1/4, 2/4) ile devamlılık.
 - Şablon: hesaplar/utopikanne/icerik/quiz12/*.json (anne_canli.py --story). Günaydın ve iyi geceler de kısa ve renkli kalır.
 - Post ve deneme Reels AYNI KONU olamaz (12 Kasım çamaşır kapsülü denemesi bu yüzden kaldırıldı).
 
