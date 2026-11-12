@@ -11,6 +11,7 @@
 ## 🌅🌙 GÜNAYDIN / İYİ GECELER v7 (12 Kasım 13:25, Melike) — EN ÜST
 - GÜNAYDIN: "Günaydın" + TEK güzel, doğrulanmış bilgi. Kısa, dallandırma yok, ek selam/soru yok.
 - İYİ GECELER: ciddi ve bilgili. ŞİİR/EDEBİ SÖZ YOK (şair rolü iptal). Şunlardan biri: (a) tarihli bilgi ("Yarın 14 Kasım Dünya Diyabet Günü..." / "Tarihte bugün..."), (b) yarın Türkiye'de dikkat çeken bir hava olayı varsa (MGM uyarısı: lodos, fırtına, kar, sağanak) hangi illeri etkilediği, kaynak MGM; yoksa (a).
+- (12 Kasım 16:14, örnek havaforum) İyi geceler hava uyarısı görünümü: büyük rakam, kısa başlık ("Yarın lodos geliyor", "Sıcaklıklar 8 derece düşüyor"), etkilenen iller listesi, tek görsel. Veriyi MGM'den kendimiz al, başka sayfanın görselini/verisini kopyalama. Sadece dikkat çeken bir hava olayı varsa; her gün hava YOK.
 - Melike kendi story'lerini de atacak: ekip story'si günde en fazla 6 (günaydın, 2 soru+cevap, iyi geceler). Anonim değil bilgili bir anne sayfası gibi dursun.
 - Instagram'a ek istek yok: kontrol/analiz/test çağrısı yapma, sadece kuyruk yayını.
 
