@@ -1,3 +1,5 @@
+## ⛔ UYARI (12 Kasım 11:45): Meta, Melike'nin işletme portföyünü REKLAM için kısıtladı ("kurallara uymayan otomasyon"). Yayın çalışıyor (11:30 post yayınlandı). Yeniden değerlendirme sonuçlanana kadar utopikanne için kontrol/trialtest/videotest/analiz gibi EK API çağrısı YAPMA; yalnızca kuyruktaki normal yayın. Günlük yayın sayısını artırma.
+
 # @utopikanne büyüme stratejisi (v1 — 1 Kasım 2026)
 
 ## 👥 EKİP ROLLERİ (11 Kasım 19:46, Melike: "araştırmacı ve şair katılsın, özel olalım")
