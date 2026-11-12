@@ -36,7 +36,7 @@ TEMA = {  # bg1, bg2, vurgu, mürekkep, fosfor
     "kariyer": ("#FFF3E3", "#FFD5A8", "#E8590C", "#3B1D06", "#B2F2BB"),
     "koyu":    ("#0F172A", "#1E3A8A", "#22D3EE", "#FFFFFF", "#7C3AED"),
     "gece":    ("#2C2A63", "#6A4BA8", "#FF8FB1", "#FFFFFF", "#8A5CF6"),
-    "gunes":   ("#FFF4C2", "#FFC2A6", "#FF6A2B", "#4A2110", "#FFFFFF"),
+    "gunes":   ("#FFF4C2", "#FFC2A6", "#FF6A2B", "#4A2110", "#FFD166"),
 }
 
 
