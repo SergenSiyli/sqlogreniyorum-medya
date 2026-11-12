@@ -2,6 +2,12 @@
 
 # @utopikanne büyüme stratejisi (v1 — 1 Kasım 2026)
 
+## 🌅🌙 GÜNAYDIN / İYİ GECELER v7 (12 Kasım 13:25, Melike) — EN ÜST
+- GÜNAYDIN: "Günaydın" + TEK güzel, doğrulanmış bilgi. Kısa, dallandırma yok, ek selam/soru yok.
+- İYİ GECELER: ciddi ve bilgili. ŞİİR/EDEBİ SÖZ YOK (şair rolü iptal). Şunlardan biri: (a) tarihli bilgi ("Yarın 14 Kasım Dünya Diyabet Günü..." / "Tarihte bugün..."), (b) yarın Türkiye'de dikkat çeken bir hava olayı varsa (MGM uyarısı: lodos, fırtına, kar, sağanak) hangi illeri etkilediği, kaynak MGM; yoksa (a).
+- Melike kendi story'lerini de atacak: ekip story'si günde en fazla 6 (günaydın, 2 soru+cevap, iyi geceler). Anonim değil bilgili bir anne sayfası gibi dursun.
+- Instagram'a ek istek yok: kontrol/analiz/test çağrısı yapma, sadece kuyruk yayını.
+
 ## 🕖 SAAT DÜZENİ v6 (12 Kasım 13:14, Melike onayı) — EN ÜST KURAL
 - 06:25-06:40 arası (dakikayı her gün değiştir): GÜNAYDIN story + "Bunu biliyor muydun?" bilgisi.
 - 06:55-07:10 arası SABAH PAYLAŞIMI (ekip kararı 13:21, Melike "siz karar verin"): Pazartesi, Çarşamba, Cuma, Pazar = 1 NORMAL REELS (tur "REEL", deneme YOK). Salı, Perşembe = 1 POST (CAROUSEL) aynı saatte. Cumartesi = ekip feed paylaşımı YOK (sadece story). Açıklamada "günaydın" yazma, #günaydın yok. İlk cümle kanca, sonra kısa bilgi, kaynak, 3-5 konuya uygun hashtag.
@@ -16,7 +22,7 @@
 
 ## 👥 EKİP ROLLERİ (11 Kasım 19:46, Melike: "araştırmacı ve şair katılsın, özel olalım")
 - ARAŞTIRMACI-TARİHÇİ: Günaydın "Bunu biliyor muydun?" bilgisini o seçer. Şaşırtan ama doğru bilgi; en az 1 güvenilir kaynak (müze, ansiklopedi, üniversite, resmî kurum), tarih/isim/sayı kaynakla birebir. Efsane, "bilim insanları kanıtladı" abartısı YOK. Tek cümle, merak uyandıran sonla.
-- ŞAİR-YAZAR: İyi geceler sözünü o yazar. Özgün, akıcı Türkçe, ritimli tek cümle; şiir tadında ama sade. Var olan şiir/şarkı sözü/alıntı KULLANMAZ, ünlüye söz atfetmez. Aynı sözü ya da kalıbı tekrar etmez (kullanılanları kullanilan_bilgiler.txt'ye "SÖZ:" diye yazar).
+- (İPTAL 13:25) ŞAİR-YAZAR rolü kaldırıldı. Eski not: Özgün, akıcı Türkçe, ritimli tek cümle; şiir tadında ama sade. Var olan şiir/şarkı sözü/alıntı KULLANMAZ, ünlüye söz atfetmez. Aynı sözü ya da kalıbı tekrar etmez (kullanılanları kullanilan_bilgiler.txt'ye "SÖZ:" diye yazar).
 - Diğer roller (içerik, görsel, kontrol) aynı. Son kontrolde yazım hatası taranır.
 
 ## 🔥 STORY KURALI v5.6 (11 Kasım 19:12, Melike: "hikayeler çok sıkıcı, uzun, izlenme düştü") — EN ÜST
