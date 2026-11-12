@@ -10,6 +10,7 @@
 - 20:00 civarı MELİKE'NİN KENDİ REELS'İ: o saate story/Reels/post KOYMA. Akşam dizi story'si kalktı.
 - 22:25-22:40 arası: İyi geceler story.
 - Konu: sabah Reels, post ve Melike'nin Reels'i birbirinden farklı. Melike'nin son Reels konularına analiz verisinden bak.
+- (13:19) Melike akşam ~20:00 kendi Reels'ini atar (ek gıda tarifleri, Aren'le, kendisi). Günde 2 Reels + Pzt/Çar/Cum post SORUN DEĞİL; sabah Reels ile akşam arası ≥12 saat. Sabah Reels'in konusu Melike'nin o haftaki tarif/ek gıda videolarıyla çakışmasın: Melike tarif atıyorsa sabah Reels temizlik/bebek bakımı/hamilelik olsun. HAFTALIK KONTROL (her Pazar, analiz verisi): ekip sabah Reels'lerinin ortalama erişimi Melike'nin Reels ortalamasının çok altındaysa ve 2 hafta düzelmezse sabah Reels'i haftada 4'e indir.
 - DOĞAL GÖRÜNÜM: saatleri her gün birkaç dakika kaydır (hep :00 olmasın), günde en fazla ~10 story, ek API çağrısı yok. Hesap gerçek kişi gibi dursun.
 - DETAY/ANLAŞILIRLIK: herkesin bildiği sade kelimeler ("yaldızlı tabak" değil "altın ya da gümüş kenarlı tabak"), birebir çeviri benzetme yok, yazım hatası kontrolü. Belirsiz kelime varsa açıkla.
 
