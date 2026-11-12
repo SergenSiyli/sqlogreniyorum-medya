@@ -2,6 +2,10 @@
 
 # @utopikanne büyüme stratejisi (v1 — 1 Kasım 2026)
 
+## ✅ MELİKE'NİN SON TALİMATI (12 Kasım 13:28): "Her şeyi size bırakıyorum, hata yapma."
+- Hedef kitle: hamile anneler, 6 aylık bebek anneleri, ek gıdaya başlayan anneler. Bu kitleye hitap eden sayfaların Reels/post formatlarını örnek al (kopyalama).
+- Her paylaşım: doğrulanmış bilgi, sade ve anlaşılır Türkçe, yazım kontrolü. "Pardon" dedirtecek hata YOK: yayından önce son kontrol (bilgi-kaynak eşleşmesi, kelime anlaşılırlığı, konu çakışması, saat kuralı).
+
 ## 🌅🌙 GÜNAYDIN / İYİ GECELER v7 (12 Kasım 13:25, Melike) — EN ÜST
 - GÜNAYDIN: "Günaydın" + TEK güzel, doğrulanmış bilgi. Kısa, dallandırma yok, ek selam/soru yok.
 - İYİ GECELER: ciddi ve bilgili. ŞİİR/EDEBİ SÖZ YOK (şair rolü iptal). Şunlardan biri: (a) tarihli bilgi ("Yarın 14 Kasım Dünya Diyabet Günü..." / "Tarihte bugün..."), (b) yarın Türkiye'de dikkat çeken bir hava olayı varsa (MGM uyarısı: lodos, fırtına, kar, sağanak) hangi illeri etkilediği, kaynak MGM; yoksa (a).
