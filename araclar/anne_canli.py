@@ -203,7 +203,7 @@ h2{{font-family:"Inter Display",Inter;color:#22201E;font-weight:800;font-size:76
     return f'''<!doctype html><html><head><meta charset="utf-8"><style>
 *{{margin:0;padding:0;box-sizing:border-box}}
 html,body{{width:{W}px;height:{H}px;overflow:hidden;font-family:Inter,sans-serif;color:{ink}}}
-.sahne{{position:absolute;inset:0;background:radial-gradient(circle at 18% 12%,{'#ffffff22' if icerik.get('tema')=='gece' else '#ffffffcc'} 0,transparent 38%),linear-gradient(160deg,{b1},{b2});overflow:hidden}}
+.sahne{{position:absolute;inset:0;background:radial-gradient(circle at 18% 12%,{'#ffffff22' if icerik.get('tema') in ('gece','koyu') else '#ffffffcc'} 0,transparent 38%),linear-gradient(160deg,{b1},{b2});overflow:hidden}}
 .sahne:before,.sahne:after{{content:"";position:absolute;border-radius:50%;background:{v};opacity:.10}}
 .sahne:before{{width:520px;height:520px;right:-180px;top:-160px}}
 .sahne:after{{width:380px;height:380px;left:-150px;bottom:-120px;opacity:.08}}

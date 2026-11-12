@@ -1,0 +1,20 @@
+{
+ "ad": "story_2300_iyigeceler",
+ "seri": "İYİ GECELER 🌙",
+ "tema": "koyu",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Yatmadan bir bilgi 🌙",
+   "baslik": "*Robot* kelimesi bir tiyatrodan",
+   "alt": "Robot kelimesi Karel Čapek'in 1920'de yayımlanan R.U.R. oyunuyla doğdu. Kökü, Çekçede zorla çalıştırmayı anlatan bir kelime. Yarın yeni bir SQL testi var 😉",
+   "kaynak": "Britannica, BBC Science Focus",
+   "ikonlar": [
+    "crescent_moon",
+    "robot",
+    "open_book"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

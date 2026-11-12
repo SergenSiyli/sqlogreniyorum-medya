@@ -1,0 +1,25 @@
+{
+ "ad": "story_1600_hap_gemini_carplay",
+ "seri": "HAP HABER",
+ "tema": "tekno",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Arabada iPhone kullanıyorsan 👀",
+   "baslik": "Gemini *CarPlay'e* geldi",
+   "secenekler": [
+    "Dünya genelinde dağıtılmaya başladı",
+    "Gemini uygulamasının son sürümü gerek",
+    "Sohbetler telefonla eşitleniyor"
+   ],
+   "cevap_notu": "İzin verirsen Gmail ve Takvim'le günlük özet de sunuyor.",
+   "kaynak": "9to5Google, InsideEVs (11-12 Kas)",
+   "ikonlar": [
+    "mobile_phone",
+    "speech_balloon",
+    "sparkles"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

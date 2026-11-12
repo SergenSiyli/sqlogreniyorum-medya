@@ -1,0 +1,20 @@
+{
+ "ad": "story_1330_ilham_hopper",
+ "seri": "TEKNOLOJİ TARİHİNDEN #5",
+ "tema": "gunes",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Kimse inanmadığında devam etmek 💡",
+   "baslik": "Grace Hopper ve *ilk derleyici*",
+   "alt": "Grace Hopper 1952'de ilk derleyicisi A-0'ı tamamladı. O dönem bilgisayarın kendi programını yazamayacağı düşünülüyordu; derleyicinin kabul görmesi iki yıl sürdü.",
+   "kaynak": "IEEE, Computing History UK",
+   "ikonlar": [
+    "woman_technologist",
+    "gear",
+    "desktop_computer"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

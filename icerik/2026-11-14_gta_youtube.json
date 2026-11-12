@@ -1,0 +1,68 @@
+{
+ "ad": "reel_gta_youtube",
+ "seri": "TEKNOLOJİ HABERİ",
+ "tema": "tekno",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "GTA VI bekleyenler 👀",
+   "baslik": "Çıkış günü YouTube'da *24 saat* canlı yayın",
+   "alt": "Saatleri 18 saniyede anlatıyorum 👉",
+   "ikonlar": [
+    "video_game",
+    "television",
+    "high_voltage"
+   ]
+  },
+  {
+   "tip": "liste",
+   "baslik": "YouTube'un *duyurusu* (12 Kasım)",
+   "maddeler": [
+    {
+     "ikon": "video_game",
+     "yazi": "GTA VI 19 Kasım'da resmî olarak çıkıyor"
+    },
+    {
+     "ikon": "alarm_clock",
+     "yazi": "Ön gösteri 19 Kasım 07:00'de (TSİ)"
+    },
+    {
+     "ikon": "television",
+     "yazi": "24 saatlik yayın 08:00'de başlıyor (TSİ)"
+    },
+    {
+     "ikon": "globe_showing_europe_africa",
+     "yazi": "Yayın youtube.com/youtube kanalında"
+    }
+   ]
+  },
+  {
+   "tip": "not",
+   "ikon": "camera",
+   "baslik": "Shorts'a *Vice City* efekti",
+   "metin": "YouTube'a göre Shorts'a \"GTAVI: Visit Vice City\" efekti geliyor. Seçili canlı yayınlarda sınırlı sayıda GTA temalı hediye de olacak."
+  },
+  {
+   "tip": "adim",
+   "no": "?",
+   "baslik": "Doğru mu yanlış mı: GTA videoları YouTube'da *900 milyardan* fazla izlendi",
+   "metin": "Cevap: Doğru ✅ YouTube'un açıklamasına göre seri 900 milyarı aştı.",
+   "ikonlar": [
+    "red_question_mark",
+    "thinking_face"
+   ]
+  },
+  {
+   "tip": "son",
+   "baslik": "Teknoloji haberleri için *takip et*",
+   "metin": "Sen çıkış günü yayını izleyecek misin? Evet mi hayır mı, yorumlara yaz 👇",
+   "gonder": "GTA VI bekleyen bir arkadaşına gönder",
+   "ikonlar": [
+    "joystick",
+    "rocket",
+    "sparkles"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

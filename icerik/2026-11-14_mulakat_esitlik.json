@@ -1,0 +1,85 @@
+{
+ "ad": "reel_mulakat_esitlik",
+ "seri": "TEKNİK MÜLAKAT TAKTİĞİ",
+ "no": 5,
+ "tema": "kariyer",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Veri analisti mülakatı: en yüksek maaşı kim alıyor? 👀",
+   "baslik": "2 kişi vardı, sorgu *1'ini* getirdi",
+   "alt": "Puan kaybettiren detay 👉",
+   "ikonlar": [
+    "briefcase",
+    "money_bag",
+    "exploding_head"
+   ]
+  },
+  {
+   "tip": "tablo",
+   "baslik": "Elimizde *calisan* tablosu",
+   "sutunlar": [
+    "id",
+    "ad",
+    "maas"
+   ],
+   "satirlar": [
+    [
+     1,
+     "Elif",
+     8000
+    ],
+    [
+     2,
+     "Mert",
+     6500
+    ],
+    [
+     3,
+     "Deniz",
+     8000
+    ],
+    [
+     4,
+     "Can",
+     5000
+    ]
+   ],
+   "metin": "Elif ve Deniz aynı maaşı alıyor: 8000."
+  },
+  {
+   "tip": "kod",
+   "baslik": "İlk akla gelen *sorgu*",
+   "kod": "SELECT ad, maas FROM calisan\nORDER BY maas DESC\nLIMIT 1;   -- 1 satır",
+   "metin": "Sadece 1 kişi gelir; hangisinin geleceği de garanti değil."
+  },
+  {
+   "tip": "adim",
+   "no": "1",
+   "baslik": "Taktik: yazmadan önce *eşitlik* sor",
+   "metin": "\"Aynı maaşı alan iki kişi varsa ikisi de gelsin mi?\" Bu soru, kenar durumları düşündüğünü gösterir.",
+   "ikonlar": [
+    "red_question_mark",
+    "man_technologist"
+   ]
+  },
+  {
+   "tip": "kod",
+   "baslik": "Eşitlikleri de *getiren* sorgu",
+   "kod": "SELECT ad, maas FROM calisan\nWHERE maas = (SELECT MAX(maas)\n              FROM calisan);",
+   "metin": "Sonuç: Elif ve Deniz, 2 satır ✅"
+  },
+  {
+   "tip": "son",
+   "baslik": "Mülakat taktikleri için *takip et*",
+   "metin": "Sen hangisini yazardın: LIMIT mi, alt sorgu mu? Yorumlara yaz 👇",
+   "gonder": "Teknoloji alanında iş arayan bir arkadaşına gönder",
+   "ikonlar": [
+    "trophy",
+    "rocket",
+    "sparkles"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

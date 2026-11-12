@@ -1,0 +1,24 @@
+{
+ "ad": "story_1000_sql_test",
+ "seri": "SQL TEST · CEVAP 18:00 REELS'TE",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "En yüksek maaş 8000 · Elif ve Deniz ikisi de 8000 alıyor",
+   "baslik": "Hangi sorgu *ikisini de* getirir?",
+   "secenekler": [
+    "ORDER BY maas DESC LIMIT 1",
+    "WHERE maas = (SELECT MAX…)",
+    "SELECT MAX(maas) FROM calisan"
+   ],
+   "cevap_notu": "Cevabı akşam 18:00 Reels'te 👀 Tahminini aklında tut!",
+   "ikonlar": [
+    "money_bag",
+    "thinking_face",
+    "card_file_box"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}
