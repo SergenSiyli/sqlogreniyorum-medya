@@ -4,11 +4,11 @@
 
 ## 🕖 SAAT DÜZENİ v6 (12 Kasım 13:14, Melike onayı) — EN ÜST KURAL
 - 06:25-06:40 arası (dakikayı her gün değiştir): GÜNAYDIN story + "Bunu biliyor muydun?" bilgisi.
-- 06:55-07:10 arası (dakikayı her gün değiştir): HER GÜN 1 NORMAL REELS (tur "REEL", deneme/TRIAL_REEL YOK). Açıklamada "günaydın" yazma, #günaydın yok. İlk cümle kanca, sonra kısa bilgi, kaynak, 3-5 konuya uygun hashtag.
+- 06:55-07:10 arası SABAH PAYLAŞIMI (ekip kararı 13:21, Melike "siz karar verin"): Pazartesi, Çarşamba, Cuma, Pazar = 1 NORMAL REELS (tur "REEL", deneme YOK). Salı, Perşembe = 1 POST (CAROUSEL) aynı saatte. Cumartesi = ekip feed paylaşımı YOK (sadece story). Açıklamada "günaydın" yazma, #günaydın yok. İlk cümle kanca, sonra kısa bilgi, kaynak, 3-5 konuya uygun hashtag.
 - 10:00 + 2 dk: soru story + cevap. 15:00 + 2 dk: soru story + cevap (biri hamilelik).
-- POST (CAROUSEL): yalnızca Pazartesi, Çarşamba, Cuma, 18:25-18:40 arası.
+- Akşam 18:30 post KALDIRILDI; postlar Salı/Perşembe sabahı.
 - 20:00 civarı MELİKE'NİN KENDİ REELS'İ: o saate story/Reels/post KOYMA. Akşam dizi story'si kalktı.
-- 22:25-22:40 arası: İyi geceler story.
+- 22:25-22:40 arası: İyi geceler STORY olarak kalır (post değil).
 - Konu: sabah Reels, post ve Melike'nin Reels'i birbirinden farklı. Melike'nin son Reels konularına analiz verisinden bak.
 - (13:19) Melike akşam ~20:00 kendi Reels'ini atar (ek gıda tarifleri, Aren'le, kendisi). Günde 2 Reels + Pzt/Çar/Cum post SORUN DEĞİL; sabah Reels ile akşam arası ≥12 saat. Sabah Reels'in konusu Melike'nin o haftaki tarif/ek gıda videolarıyla çakışmasın: Melike tarif atıyorsa sabah Reels temizlik/bebek bakımı/hamilelik olsun. HAFTALIK KONTROL (her Pazar, analiz verisi): ekip sabah Reels'lerinin ortalama erişimi Melike'nin Reels ortalamasının çok altındaysa ve 2 hafta düzelmezse sabah Reels'i haftada 4'e indir.
 - DOĞAL GÖRÜNÜM: saatleri her gün birkaç dakika kaydır (hep :00 olmasın), günde en fazla ~10 story, ek API çağrısı yok. Hesap gerçek kişi gibi dursun.
