@@ -2,6 +2,17 @@
 
 # @utopikanne büyüme stratejisi (v1 — 1 Kasım 2026)
 
+## 🕖 SAAT DÜZENİ v6 (12 Kasım 13:14, Melike onayı) — EN ÜST KURAL
+- 06:25-06:40 arası (dakikayı her gün değiştir): GÜNAYDIN story + "Bunu biliyor muydun?" bilgisi.
+- 06:55-07:10 arası (dakikayı her gün değiştir): HER GÜN 1 NORMAL REELS (tur "REEL", deneme/TRIAL_REEL YOK). Açıklamada "günaydın" yazma, #günaydın yok. İlk cümle kanca, sonra kısa bilgi, kaynak, 3-5 konuya uygun hashtag.
+- 10:00 + 2 dk: soru story + cevap. 15:00 + 2 dk: soru story + cevap (biri hamilelik).
+- POST (CAROUSEL): yalnızca Pazartesi, Çarşamba, Cuma, 18:25-18:40 arası.
+- 20:00 civarı MELİKE'NİN KENDİ REELS'İ: o saate story/Reels/post KOYMA. Akşam dizi story'si kalktı.
+- 22:25-22:40 arası: İyi geceler story.
+- Konu: sabah Reels, post ve Melike'nin Reels'i birbirinden farklı. Melike'nin son Reels konularına analiz verisinden bak.
+- DOĞAL GÖRÜNÜM: saatleri her gün birkaç dakika kaydır (hep :00 olmasın), günde en fazla ~10 story, ek API çağrısı yok. Hesap gerçek kişi gibi dursun.
+- DETAY/ANLAŞILIRLIK: herkesin bildiği sade kelimeler ("yaldızlı tabak" değil "altın ya da gümüş kenarlı tabak"), birebir çeviri benzetme yok, yazım hatası kontrolü. Belirsiz kelime varsa açıkla.
+
 ## 👥 EKİP ROLLERİ (11 Kasım 19:46, Melike: "araştırmacı ve şair katılsın, özel olalım")
 - ARAŞTIRMACI-TARİHÇİ: Günaydın "Bunu biliyor muydun?" bilgisini o seçer. Şaşırtan ama doğru bilgi; en az 1 güvenilir kaynak (müze, ansiklopedi, üniversite, resmî kurum), tarih/isim/sayı kaynakla birebir. Efsane, "bilim insanları kanıtladı" abartısı YOK. Tek cümle, merak uyandıran sonla.
 - ŞAİR-YAZAR: İyi geceler sözünü o yazar. Özgün, akıcı Türkçe, ritimli tek cümle; şiir tadında ama sade. Var olan şiir/şarkı sözü/alıntı KULLANMAZ, ünlüye söz atfetmez. Aynı sözü ya da kalıbı tekrar etmez (kullanılanları kullanilan_bilgiler.txt'ye "SÖZ:" diye yazar).
