@@ -1,0 +1,66 @@
+[
+ {
+  "id": "2026-11-14_0900_story_gunaydin",
+  "hedef": "2026-11-14T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ffbd2b836d6bd7b51cf70acdee0c9dfbefdadbb/gun/2026-11-14/story_0900_gunaydin.png"
+ },
+ {
+  "id": "2026-11-14_1000_story_sql_test",
+  "hedef": "2026-11-14T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ffbd2b836d6bd7b51cf70acdee0c9dfbefdadbb/gun/2026-11-14/story_1000_sql_test.png"
+ },
+ {
+  "id": "2026-11-14_1300_reel_gta_youtube",
+  "hedef": "2026-11-14T13:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ffbd2b836d6bd7b51cf70acdee0c9dfbefdadbb/gun/2026-11-14/reel_gta_youtube_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ffbd2b836d6bd7b51cf70acdee0c9dfbefdadbb/gun/2026-11-14/reel_gta_youtube_reels_kapak.jpg",
+  "aciklama": "GTA VI çıkış günü YouTube'da 24 saat canlı yayın var 🎮\n\nYouTube'un 12 Kasım duyurusuna göre GTA VI 19 Kasım'da çıkıyor. Ön gösteri 19 Kasım 07:00'de (TSİ), 24 saatlik yayın 08:00'de youtube.com/youtube kanalında başlıyor. Shorts'a \"GTAVI: Visit Vice City\" efekti geliyor; seçili canlı yayınlarda sınırlı sayıda GTA temalı hediye olacak. Şirketin açıklamasına göre GTA serisinin videoları YouTube'da 900 milyardan fazla izlendi.\n\nSen çıkış günü yayını izleyecek misin? Evet mi hayır mı, yorumlara yaz 👇 GTA VI bekleyen bir arkadaşına gönder, saatler için kaydet.\n\nKaynak: YouTube Blog, GTABoom (12 Kasım 2026)\n\n#teknoloji #teknolojihaberleri #oyun #gta6"
+ },
+ {
+  "id": "2026-11-14_1330_story_ilham_hopper",
+  "hedef": "2026-11-14T13:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ffbd2b836d6bd7b51cf70acdee0c9dfbefdadbb/gun/2026-11-14/story_1330_ilham_hopper.png"
+ },
+ {
+  "id": "2026-11-14_1400_story_gta_kart",
+  "hedef": "2026-11-14T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ffbd2b836d6bd7b51cf70acdee0c9dfbefdadbb/gun/2026-11-14/story_1400_gta_kart.png"
+ },
+ {
+  "id": "2026-11-14_1600_story_hap_gemini_carplay",
+  "hedef": "2026-11-14T16:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ffbd2b836d6bd7b51cf70acdee0c9dfbefdadbb/gun/2026-11-14/story_1600_hap_gemini_carplay.png"
+ },
+ {
+  "id": "2026-11-14_1730_story_duyuru",
+  "hedef": "2026-11-14T17:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ffbd2b836d6bd7b51cf70acdee0c9dfbefdadbb/gun/2026-11-14/story_1730_duyuru.png"
+ },
+ {
+  "id": "2026-11-14_1800_reel_mulakat_esitlik",
+  "hedef": "2026-11-14T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ffbd2b836d6bd7b51cf70acdee0c9dfbefdadbb/gun/2026-11-14/reel_mulakat_esitlik_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ffbd2b836d6bd7b51cf70acdee0c9dfbefdadbb/gun/2026-11-14/reel_mulakat_esitlik_reels_kapak.jpg",
+  "aciklama": "Teknik Mülakat Taktiği #5: Veri analisti mülakatında \"en yüksek maaşı kim alıyor?\" sorusu. 2 kişi vardı, sorgu 1'ini getirdi 👀\n\nORDER BY maas DESC LIMIT 1 yalnızca 1 satır döndürür; Elif ve Deniz aynı maaşı (8000) alıyorsa biri kaybolur, hangisinin geleceği de garanti değil. Eşitlikleri de getiren sorgu: WHERE maas = (SELECT MAX(maas) FROM calisan) → 2 satır.\n\nTaktik: sorguyu yazmadan önce sor: \"Eşit değer olursa hepsi gelsin mi?\" Bu soru, kenar durumları düşündüğünü gösterir.\n\nSen hangisini yazardın: LIMIT mi, alt sorgu mu? Yorumlara yaz 👇 Kaydet; teknoloji alanında iş arayan bir arkadaşına gönder.\n\n#sql #teknikmülakat #veribilimi #sqlöğren #verianalisti"
+ },
+ {
+  "id": "2026-11-14_2130_story_ozet",
+  "hedef": "2026-11-14T21:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ffbd2b836d6bd7b51cf70acdee0c9dfbefdadbb/gun/2026-11-14/story_2130_ozet.png"
+ },
+ {
+  "id": "2026-11-14_2300_story_iyigeceler",
+  "hedef": "2026-11-14T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ffbd2b836d6bd7b51cf70acdee0c9dfbefdadbb/gun/2026-11-14/story_2300_iyigeceler.png"
+ }
+]
