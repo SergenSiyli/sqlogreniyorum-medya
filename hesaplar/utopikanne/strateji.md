@@ -3,7 +3,8 @@
 # @utopikanne büyüme stratejisi (v1 — 1 Kasım 2026)
 
 ## ✅ MELİKE'NİN SON TALİMATI (12 Kasım 13:28): "Her şeyi size bırakıyorum, hata yapma."
-- Hedef kitle GENİŞ (13:29 düzeltme): tüm anneler, hamileler, kadınlar; her yaştaki bebek. 6 aylık/ek gıda annesi Melike'nin şu anki durumu, o kitleyi de topla ama sadece onunla sınırlama. Karışım: hap bilgi + mizah + tatlı/duygusal. Öncelik KAYDETTİREN ve GÖNDERTEN içerik ("Eşine gönder", "Hamile arkadaşına gönder"). Melike'nin gönderdiği örnek görsellerin notları (formatlar 1-10) geçerli. Bu kitleye hitap eden sayfaların Reels/post formatlarını örnek al (kopyalama).
+- Hedef kitle GENİŞ (13:29 düzeltme): tüm anneler, hamileler, kadınlar; her yaştaki bebek. 6 aylık/ek gıda annesi Melike'nin şu anki durumu, o kitleyi de topla ama sadece onunla sınırlama. Karışım: hap bilgi + mizah + tatlı/duygusal. Öncelik KAYDETTİREN ve GÖNDERTEN içerik ("Eşine gönder", "Hamile arkadaşına gönder"). Melike'nin gönderdiği örnek görsellerin notları (formatlar 1-10) geçerli.
+- KANITLANMIŞ FORMAT (Melike'nin en çok izlenen Reels'i, ~5.900 erişim): kısa görüntü + ekranda "Detaylar açıklamada 👇" / "Bunları biliyor muydunuz?", asıl bilgi açıklamada madde madde. Sabah Reels'lerinde sık kullan: videoda merak cümlesi, açıklamada kaydedilecek liste. Bu kitleye hitap eden sayfaların Reels/post formatlarını örnek al (kopyalama).
 - Her paylaşım: doğrulanmış bilgi, sade ve anlaşılır Türkçe, yazım kontrolü. "Pardon" dedirtecek hata YOK: yayından önce son kontrol (bilgi-kaynak eşleşmesi, kelime anlaşılırlığı, konu çakışması, saat kuralı).
 
 ## 🌅🌙 GÜNAYDIN / İYİ GECELER v7 (12 Kasım 13:25, Melike) — EN ÜST
