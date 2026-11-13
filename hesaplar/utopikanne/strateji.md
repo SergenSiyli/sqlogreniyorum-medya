@@ -165,7 +165,7 @@ Veri: Melike'nin son 10 Reels'i 1.218–3.739 kişiye ulaşıyor ama net takipç
 | MUTFAK TÜYOSU | 2 (8 Kasım: #1 buzdolabı 9 Kasım, #2 mikrodalga reels 10 Kasım) |
 | BEBEK BAKIMI | 2 (#1 bebek banyosu 8 Kasım; #2 emekleme ve uyku, 13 Kasım carousel + deneme Reels — ana sohbet hazırladı) |
 | EK GIDA TARİFİ (carousel) | 1 (#1 yumurta, 10 Kasım) |
-| HAMİLELİKTE BİLMEN GEREKENLER | 1 (#1 hamileyken mutfak, 11 Kasım deneme Reels) |
+| HAMİLELİKTE BİLMEN GEREKENLER | 2 (#1 hamileyken mutfak, 11 Kasım deneme Reels; #2 acil işaretler, 15 Kasım sabah Reels) |
 | ÇAMAŞIR & BEBEK EŞYASI | 1 (#1 çamaşır kapsülü, 12 Kasım carousel + deneme Reels) |
 | PRATİK HAYAT | 0 |
 | AREN X AYLIK | 5 (ilk yayın 6 aylık, 14 Kasım) |
