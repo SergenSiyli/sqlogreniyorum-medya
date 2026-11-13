@@ -1,0 +1,19 @@
+{
+ "ad": "story_1400_sum_over_cevap",
+ "seri": "EKRAN GÖRÜNTÜSÜNÜ AL 📸",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Sabahki testin cevabı: B ✅",
+   "baslik": "Mart satırında *350* yazar",
+   "ikonlar": [
+    "bar_chart",
+    "chart_increasing",
+    "check_mark_button"
+   ],
+   "alt": "SUM() OVER birikerek toplar: Ocak 100 → Şubat 100+200 = 300 → Mart 300+50 = 350. Satırlar kaybolmaz 📌"
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

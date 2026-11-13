@@ -1,0 +1,20 @@
+{
+ "ad": "story_2300_iyigeceler",
+ "seri": "İYİ GECELER 🌙",
+ "tema": "koyu",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Yatmadan bir bilgi 🌙",
+   "baslik": "PostgreSQL = *Ingres'ten sonra*",
+   "alt": "Postgres 1986'da Berkeley'de başladı; adı Post-Ingres'ten geliyor. 1996'da SQL desteğini göstermek için adı PostgreSQL oldu. Yarın yeni bir SQL testi var 😉",
+   "kaynak": "Britannica, postgresql.org",
+   "ikonlar": [
+    "crescent_moon",
+    "card_file_box",
+    "school"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

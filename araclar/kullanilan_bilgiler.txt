@@ -32,3 +32,9 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-13 günaydın: Hollerith 1890 sayımı delikli kartları kabaca dönemin kâğıt parası boyutunda, para kutuları kullanıldı — kaynak: Computer History Museum, Columbia University
 2026-11-13 ilham (Teknoloji Tarihinden #4): Ada Lovelace, Menabrea makalesi çevirisi + notlar (1843), Bernoulli sayıları planı ilk program sayılıyor — kaynak: Yale, Scientific American
 2026-11-13 iyi geceler: Ctrl+Alt+Del, David Bradley, 1981 IBM PC, kazara basılmasın diye — kaynak: Lemelson-MIT, Mental Floss
+2026-11-14 günaydın: Oracle V2 (1979) ilk ticari SQL veritabanı (önceki tur kaydetmemişti)
+2026-11-14 ilham (Teknoloji Tarihinden #5): Grace Hopper A-0 derleyici 1952 — kaynak: IEEE, Computing History UK
+2026-11-14 iyi geceler: robot kelimesi Karel Čapek R.U.R. (1920) — kaynak: Britannica, BBC Science Focus
+2026-11-15 günaydın: SQLite her iPhone/Android'de, muhtemelen diğer tüm motorların toplamından çok kullanılıyor — kaynak: sqlite.org, O'Reilly
+2026-11-15 Reels (Teknoloji Tarihinden #6): NCSA Mosaic, Andreessen (lisans öğrencisi) + Eric Bina, 1993, 1994 Netscape — kaynak: Lemelson-MIT, Grainger Illinois, NCSA
+2026-11-15 iyi geceler: Postgres 1986 Berkeley, Post-Ingres; 1996 PostgreSQL adı — kaynak: Britannica, postgresql.org

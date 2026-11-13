@@ -1,0 +1,24 @@
+{
+ "ad": "story_1000_sql_test",
+ "seri": "SQL TEST · CEVAP 14:00 HİKÂYEDE",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Ocak 100 · Şubat 200 · Mart 50 · SUM(tutar) OVER (ORDER BY ay_no)",
+   "baslik": "*Mart* satırında ne yazar?",
+   "secenekler": [
+    "50",
+    "350",
+    "300"
+   ],
+   "cevap_notu": "Cevap 14:00 hikâyesinde 👀 Tahminini aklında tut!",
+   "ikonlar": [
+    "bar_chart",
+    "thinking_face",
+    "card_file_box"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

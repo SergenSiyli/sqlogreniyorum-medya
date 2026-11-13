@@ -1,0 +1,19 @@
+{
+ "ad": "story_1330_kariyer",
+ "seri": "TEKNİK MÜLAKAT TAKTİĞİ #6",
+ "tema": "kariyer",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Veri analisti / yazılım mülakatına hazırlananlar 💼",
+   "baslik": "Kod yazmadan önce *çıktıyı* söyle",
+   "alt": "Canlı SQL sorusunda önce beklediğin sonucu yüksek sesle anlat: hangi sütunlar, kaç satır, eşitlik ya da NULL olursa ne olur. Yanlış anlamayı daha ilk dakikada yakalarsın.",
+   "ikonlar": [
+    "briefcase",
+    "speech_balloon",
+    "card_file_box"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

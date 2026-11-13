@@ -1,0 +1,24 @@
+{
+ "ad": "story_1600_hap_amd_ssd",
+ "seri": "HAP HABER",
+ "tema": "tekno",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Radeon ekran kartı kullanıyorsan 👀",
+   "baslik": "SSD'yi yoran sürücü hatası *düzeltildi*",
+   "secenekler": [
+    "Opsiyonel Adrenalin 26.11.1 sürücüsü",
+    "RX 7000 serisinde boşta aşırı yazma"
+   ],
+   "cevap_notu": "Teorik hesapla günde ~432 GB yazma olabiliyordu.",
+   "kaynak": "Wccftech, MakeUseOf (12 Kas)",
+   "ikonlar": [
+    "desktop_computer",
+    "bug",
+    "gear"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

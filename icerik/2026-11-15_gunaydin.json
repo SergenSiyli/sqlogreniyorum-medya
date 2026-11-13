@@ -1,0 +1,20 @@
+{
+ "ad": "story_0900_gunaydin",
+ "seri": "GÜNAYDIN ☀️",
+ "tema": "gunes",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Günaydın! Kahveni al, bir SQL bilgisi geliyor ☕",
+   "baslik": "Telefonunda *gizli* bir veritabanı var",
+   "alt": "Her iPhone ve Android cihazda SQLite bulunur. Resmî sitesine göre muhtemelen diğer tüm veritabanı motorlarının toplamından daha çok kullanılıyor.",
+   "kaynak": "sqlite.org, O'Reilly",
+   "ikonlar": [
+    "sun_with_face",
+    "mobile_phone",
+    "card_file_box"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

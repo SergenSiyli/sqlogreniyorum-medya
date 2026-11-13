@@ -1,0 +1,68 @@
+{
+ "ad": "reel_gemini_hydrogen",
+ "seri": "YAPAY ZEKÂ HABERİ",
+ "tema": "ai",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Telefonunda Gemini kullanıyorsan 👀",
+   "baslik": "Yeni model dağıtılıyor: *2,5 kat* daha hızlı",
+   "alt": "Şirkete göre 3.8 Flash'a kıyasla. Ücretsiz kullanıcılar da var 👉",
+   "ikonlar": [
+    "mobile_phone",
+    "high_voltage",
+    "sparkles"
+   ]
+  },
+  {
+   "tip": "liste",
+   "baslik": "Gemini 4 *Hydrogen* (12 Kasım)",
+   "maddeler": [
+    {
+     "ikon": "globe_showing_europe_africa",
+     "yazi": "Dünya genelinde dağıtılmaya başladı"
+    },
+    {
+     "ikon": "mobile_phone",
+     "yazi": "Gemini uygulamasına ve geliştiricilere geliyor"
+    },
+    {
+     "ikon": "high_voltage",
+     "yazi": "Google'a göre 3.8 Flash'tan 2,5 kat hızlı"
+    },
+    {
+     "ikon": "magnifying_glass_tilted_left",
+     "yazi": "Google Arama'da da kullanıma sunuldu"
+    }
+   ]
+  },
+  {
+   "tip": "not",
+   "ikon": "light_bulb",
+   "baslik": "Neden *önemli?*",
+   "metin": "Ücretsiz kullanıcılar da uygun sorularda otomatik model seçimiyle bu modele erişebiliyor. Google Arama'da da sunuldu."
+  },
+  {
+   "tip": "adim",
+   "no": "?",
+   "baslik": "Doğru mu yanlış mı: Ücretsiz kullanıcılar Hydrogen'a *hiç erişemiyor*",
+   "metin": "Cevap: Yanlış ❌ Google'a göre ücretsiz kullanıcılara soruya uygunsa otomatik model seçimiyle geliyor.",
+   "ikonlar": [
+    "red_question_mark",
+    "thinking_face"
+   ]
+  },
+  {
+   "tip": "son",
+   "baslik": "Yapay zekâ haberleri için *takip et*",
+   "metin": "Sen Gemini mi kullanıyorsun, ChatGPT mi? Yorumlara yaz 👇",
+   "gonder": "Gemini kullanan bir arkadaşına gönder",
+   "ikonlar": [
+    "robot",
+    "rocket",
+    "sparkles"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

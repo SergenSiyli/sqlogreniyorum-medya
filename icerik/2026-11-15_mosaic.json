@@ -1,0 +1,66 @@
+{
+ "ad": "reel_mosaic",
+ "seri": "TEKNOLOJİ TARİHİNDEN #6",
+ "tema": "gunes",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Öğrenciysen bunu izle 👀",
+   "baslik": "Bir öğrenci ve bir programcı: *Mosaic* tarayıcısı",
+   "alt": "Resimleri sayfanın içinde gösteren tarayıcının hikâyesi 👉",
+   "ikonlar": [
+    "globe_showing_europe_africa",
+    "man_technologist",
+    "school"
+   ]
+  },
+  {
+   "tip": "adim",
+   "no": "1",
+   "baslik": "1992: Yarı zamanlı bir *lisans öğrencisi*",
+   "metin": "Marc Andreessen, Illinois'teki NCSA'da hem öğrenci hem yarı zamanlı asistandı. Programcı Eric Bina ile bir tarayıcıya başladılar.",
+   "ikonlar": [
+    "man_technologist",
+    "school"
+   ]
+  },
+  {
+   "tip": "adim",
+   "no": "2",
+   "baslik": "1993: Mosaic çıktı, resimler *sayfanın içinde*",
+   "metin": "Mosaic, resimleri metinle aynı sayfada gösterdi. Ücretsiz dağıtıldı ve hızla yayıldı.",
+   "ikonlar": [
+    "desktop_computer",
+    "globe_showing_europe_africa"
+   ]
+  },
+  {
+   "tip": "adim",
+   "no": "?",
+   "baslik": "Doğru mu yanlış mı: Mosaic'i *büyük bir şirket* geliştirdi",
+   "metin": "Cevap: Yanlış ❌ Bir öğrenci ve bir NCSA programcısı başlattı, ekipte başka katkıcılar da vardı. 1994'te Netscape kuruldu.",
+   "ikonlar": [
+    "red_question_mark",
+    "thinking_face"
+   ]
+  },
+  {
+   "tip": "not",
+   "ikon": "seedling",
+   "baslik": "Senin için *ders*",
+   "metin": "Kampüsteki yarı zamanlı bir iş ya da küçük bir öğrenci projesi, çok daha büyük bir şeyin başlangıcı olabilir."
+  },
+  {
+   "tip": "son",
+   "baslik": "Teknoloji hikâyeleri için *takip et*",
+   "metin": "Sen şu an hangi proje üzerinde çalışıyorsun? Yorumlara yaz 👇",
+   "gonder": "Yazılım öğrenen bir arkadaşına gönder",
+   "ikonlar": [
+    "rocket",
+    "trophy",
+    "sparkles"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}
