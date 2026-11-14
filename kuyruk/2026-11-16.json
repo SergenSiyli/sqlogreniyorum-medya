@@ -1,0 +1,66 @@
+[
+ {
+  "id": "2026-11-16_0900_story_gunaydin",
+  "hedef": "2026-11-16T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_0900_gunaydin.png"
+ },
+ {
+  "id": "2026-11-16_1000_story_sql_test",
+  "hedef": "2026-11-16T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1000_sql_test.png"
+ },
+ {
+  "id": "2026-11-16_1230_reel_sql_test_and_or",
+  "hedef": "2026-11-16T12:30",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_and_or_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_and_or_reels_kapak.jpg",
+  "aciklama": "SQL TEST #7: WHERE'de AND ve OR birlikteyse hangisi önce çalışır? 🎯\n\nAnkara ve İzmir'den 100 TL üstü siparişleri istedik ama parantez yazmadık. AND, OR'dan önce gelir; sorgu Ankara'nın tüm siparişlerini de getirdi. Çözüm: OR kısmını paranteze al ya da sehir IN ('Ankara', 'İzmir') yaz.\n\nSen A mı dedin, B mi, C mi? Harfini yorumlara yaz 👇 Doğru bildiysen 🔥 bırak!\nSQL öğrenen bir arkadaşına gönder, kaydet 📌\n\n#sql #sqlöğren #veribilimi #sqltest"
+ },
+ {
+  "id": "2026-11-16_1330_story_ilham_lawson",
+  "hedef": "2026-11-16T13:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1330_ilham_lawson.png"
+ },
+ {
+  "id": "2026-11-16_1400_story_and_or_kart",
+  "hedef": "2026-11-16T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1400_and_or_kart.png"
+ },
+ {
+  "id": "2026-11-16_1600_story_hap_microsoft",
+  "hedef": "2026-11-16T16:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1600_hap_microsoft.png"
+ },
+ {
+  "id": "2026-11-16_1700_story_duyuru",
+  "hedef": "2026-11-16T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1700_duyuru.png"
+ },
+ {
+  "id": "2026-11-16_1800_reel_sql_mulakat_left_join_count",
+  "hedef": "2026-11-16T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels_kapak.jpg",
+  "aciklama": "SQL Mülakat Sorusu #10: LEFT JOIN + COUNT(*) siparişi olmayan müşteriye 1 yazar 😱\n\nCan hiç sipariş vermedi ama sorgu 1 dedi. LEFT JOIN, eşleşmeyen müşteri için sipariş sütunları NULL olan bir satır üretir; yıldızlı COUNT bu satırı da sayar. Doğrusu COUNT(s.id): NULL'ı saymaz, Can için 0 döner.\n\nSen ilk seferde fark eder miydin? Yorumlara yaz 👇\nTeknoloji alanında iş arayan bir arkadaşına gönder, kaydet 📌\n\n#sql #teknikmülakat #sqlöğren #leftjoin"
+ },
+ {
+  "id": "2026-11-16_2130_story_ozet",
+  "hedef": "2026-11-16T21:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_2130_ozet.png"
+ },
+ {
+  "id": "2026-11-16_2300_story_iyigeceler",
+  "hedef": "2026-11-16T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_2300_iyigeceler.png"
+ }
+]
