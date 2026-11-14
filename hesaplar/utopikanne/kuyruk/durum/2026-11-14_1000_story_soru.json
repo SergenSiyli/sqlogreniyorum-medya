@@ -1,0 +1,8 @@
+{
+ "id": "2026-11-14_1000_story_soru",
+ "hedef": "2026-11-14T10:00",
+ "tur": "STORY",
+ "durum": "hata",
+ "hata": "API 400: {\"error\":{\"message\":\"Only photo or video can be accepted as media type.\",\"code\":9004,\"type\":\"OAuthException\",\"error_subcode\":2207052,\"is_transient\":false,\"error_user_msg\":\"Medya şu URI'den alınamadı: https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@120b23d88a8add3b5ab3194e43053cb9c5e1db6a/hesaplar/utopikanne/gun/2026-11-14/quiz/story_1000_soru.png.Daha fazla bilgi için lütfen geliştirm",
+ "zaman": "2026-11-14T09:58:09+03:00"
+}
