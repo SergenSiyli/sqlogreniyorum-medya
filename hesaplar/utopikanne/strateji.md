@@ -176,7 +176,7 @@ Veri: Melike'nin son 10 Reels'i 1.218–3.739 kişiye ulaşıyor ama net takipç
 |---|---|
 | EV HAP BİLGİ | 0 |
 | MUTFAK TÜYOSU | 2 (8 Kasım: #1 buzdolabı 9 Kasım, #2 mikrodalga reels 10 Kasım) |
-| BEBEK BAKIMI | 2 (#1 bebek banyosu 8 Kasım; #2 emekleme ve uyku, 13 Kasım carousel + deneme Reels — ana sohbet hazırladı) |
+| BEBEK BAKIMI | 3 (#1 bebek banyosu 8 Kasım; #2 emekleme ve uyku, 13 Kasım; #3 kışın oto koltuğu ve mont, 16 Kasım sabah Reels) |
 | EK GIDA TARİFİ (carousel) | 1 (#1 yumurta, 10 Kasım) |
 | HAMİLELİKTE BİLMEN GEREKENLER | 2 (#1 hamileyken mutfak, 11 Kasım deneme Reels; #2 acil işaretler, 15 Kasım sabah Reels) |
 | ÇAMAŞIR & BEBEK EŞYASI | 1 (#1 çamaşır kapsülü, 12 Kasım carousel + deneme Reels) |
@@ -185,7 +185,7 @@ Veri: Melike'nin son 10 Reels'i 1.218–3.739 kişiye ulaşıyor ama net takipç
 | HİKÂYE · TAHMİN ET | 1 (12 Kasım kemik sayısı) |
 | HİKÂYE · BU NE İŞE YARAR? | 1 (13 Kasım emzik delikleri) |
 | HİKÂYE · DOĞRU MU EFSANE Mİ? / BİLMECE SAATİ / MUTFAK SİHRİ / ANNE ZEKÂ TESTİ / KARNINDAKİ MİNİK | 0 |
-| HAMİLELİK (15:00, soru-cevap) | 12 (14 Kasım = 15. hafta) |
+| HAMİLELİK (15:00, soru-cevap) | 14 (16 Kasım = 17. hafta) |
 
 ## v4.4 — 8 Kasım gece (Melike: "atacağımız şeyleri hikâyede haber verelim, iletişimli duralım, samimi sıcak, ben atıyorum gibi; renkli")
 - Her gönderi/deneme Reels öncesi DUYURU HİKÂYESİ (carousel günü 10:00; `anne_canli.py --story`), Melike'nin ağzından birinci tekil ("hazırladım, paylaşıyorum, bana yaz"); uydurma deneyim yok.
