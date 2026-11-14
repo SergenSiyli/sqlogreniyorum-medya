@@ -37,6 +37,7 @@
 - Diğer roller (içerik, görsel, kontrol) aynı. Son kontrolde yazım hatası taranır.
 
 ## 🔥 STORY KURALI v5.6
+- (14 Kasım) Soru story'si CDN hatasıyla yayınlanamadı, cevap tek başına çıktı. Düzeltme: ig_yayin.py artık medyayı 3 kez dener; soru yayınlanmazsa _cevap otomatik atlanır. Soru-cevap id'leri MUTLAKA ..._soru / ..._cevap çifti olsun.
 - ✅ (12 Kasım 20:27) Melike 12 Kasım soru → cevap (ipucu, "cevap 2 dk sonra", sonraki sorunun saati) story düzenini ÇOK BEĞENDİ. Bu düzen referans: aynen sürdür. (11 Kasım 19:12, Melike: "hikayeler çok sıkıcı, uzun, izlenme düştü") — EN ÜST
 - Story = SORU + CEVAP çifti. Soru story'si (A/B/C, büyük başlık, renkli tema, 3 büyük ikon, "Cevap 2 dakika sonra 👀"), 2 dk sonra cevap story'si (tek kısa cümle açıklama + sonraki sorunun saati). Günde 3-4 çift, her biri farklı renk (pembe/nane/limon/lila/gok/seftali).
 - (19:19 Melike) Günde toplam ~10 story: 08:30 günaydın + 2 soru-cevap çifti + 1 akşam dizisi (20:00, 3-4 kare) + 22:30 iyi geceler. Konular bebek ve hamilelik ağırlıklı; temizlik ve eskiden story'leri gerekmez.

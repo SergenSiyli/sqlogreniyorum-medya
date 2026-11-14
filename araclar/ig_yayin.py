@@ -236,8 +236,26 @@ def yayin_turu(uid):
         hazirlik = o["_h"] - dt.timedelta(minutes=HAZIRLIK_DK.get(o["tur"], 3))
         print(f"{o['id']}: hedef {o['hedef']}, hazırlık {hazirlik:%H:%M}", flush=True)
         bekle(hazirlik)
+        if o["id"].endswith("_cevap"):  # soru yayınlanmadıysa cevabı da atma (14 Kasım: cevap tek başına çıktı)
+            soru = os.path.join(DURUM, o["id"][:-len("_cevap")] + "_soru.json")
+            try:
+                tamam = json.load(open(soru)).get("durum") == "yayinlandi"
+            except Exception:
+                tamam = False
+            if not tamam:
+                print("  soru yayınlanmadı, cevap atlandı", flush=True)
+                kaydet(o, {"durum": "atlandi", "neden": "soru yayınlanmadı", "zaman": simdi().isoformat(timespec="seconds")})
+                continue
         try:
-            cid = konteyner(uid, o)
+            for deneme in range(3):  # medya geçici olarak alınamazsa (CDN) 20 sn arayla tekrar dene
+                try:
+                    cid = konteyner(uid, o)
+                    break
+                except Exception as e:
+                    if deneme == 2 or not any(k in str(e) for k in ("2207052", "alınamadı", "Only photo or video")):
+                        raise
+                    print(f"  medya alınamadı, tekrar denenecek ({deneme + 1})", flush=True)
+                    time.sleep(20)
             bekle(o["_h"])
             mid = istek("POST", f"{uid}/media_publish", creation_id=cid)["id"]
             gecikme = round((simdi() - o["_h"]).total_seconds())
