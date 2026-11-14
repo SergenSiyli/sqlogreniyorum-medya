@@ -1,0 +1,95 @@
+{
+ "ad": "reel_and_or",
+ "seri": "SQL TEST",
+ "no": 7,
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Ankara OR İzmir AND tutar > 100 👀",
+   "baslik": "Bu WHERE *kaç* satır getirir?",
+   "secenekler": [
+    "2",
+    "3",
+    "5"
+   ],
+   "cevap_notu": "Tablo ve sorgu geliyor, tahmin et 👉",
+   "ikonlar": [
+    "card_file_box",
+    "magnifying_glass_tilted_left",
+    "thinking_face"
+   ]
+  },
+  {
+   "tip": "tablo",
+   "baslik": "Elimizde *siparis* tablosu",
+   "sutunlar": [
+    "id",
+    "sehir",
+    "tutar"
+   ],
+   "satirlar": [
+    [
+     1,
+     "Ankara",
+     50
+    ],
+    [
+     2,
+     "Ankara",
+     300
+    ],
+    [
+     3,
+     "İzmir",
+     80
+    ],
+    [
+     4,
+     "İzmir",
+     250
+    ],
+    [
+     5,
+     "Bursa",
+     400
+    ]
+   ],
+   "metin": "Ankara + İzmir ve 100 TL üstü: sadece 2 ve 4."
+  },
+  {
+   "tip": "kod",
+   "baslik": "Soru: Bu sorgu *kaç* satır getirir?",
+   "kod": "SELECT id FROM siparis\nWHERE sehir = 'Ankara'\n   OR sehir = 'İzmir'\n  AND tutar > 100;",
+   "metin": "A) 2 · B) 3 · C) 5"
+  },
+  {
+   "tip": "adim",
+   "no": "B",
+   "baslik": "Cevap: *3* 🎯",
+   "metin": "AND, OR'dan önce gelir. Sorgu Ankara'nın TÜM siparişlerini + İzmir'in 100 TL üstünü getirir. Gelen satırlar: 1, 2, 4.",
+   "ikonlar": [
+    "warning",
+    "check_mark_button"
+   ]
+  },
+  {
+   "tip": "kod",
+   "baslik": "Çözüm: *parantez* koy",
+   "kod": "SELECT id FROM siparis\nWHERE (sehir = 'Ankara'\n    OR sehir = 'İzmir')\n  AND tutar > 100;",
+   "metin": "Sonuç: 2 ve 4, tam 2 satır ✅"
+  },
+  {
+   "tip": "son",
+   "baslik": "Her gün 1 SQL testi için *takip et*",
+   "metin": "Doğru bildiysen yorumlara 🔥 bırak!",
+   "gonder": "SQL öğrenen bir arkadaşına gönder",
+   "ikonlar": [
+    "fire",
+    "trophy",
+    "rocket"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

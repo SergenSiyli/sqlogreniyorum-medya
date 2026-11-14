@@ -1,0 +1,19 @@
+{
+ "ad": "story_1700_duyuru",
+ "seri": "BU AKŞAM 18:00",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "SQL mülakatına hazırlanıyorsan 👀",
+   "baslik": "Can'ın siparişi yok, sorgu *1* dedi",
+   "alt": "18:00'de Reels'te: LEFT JOIN + COUNT tuzağı. Kaçırma!",
+   "ikonlar": [
+    "alarm_clock",
+    "eyes",
+    "card_file_box"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

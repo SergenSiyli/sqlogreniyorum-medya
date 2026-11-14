@@ -1,0 +1,19 @@
+{
+ "ad": "story_1400_and_or_kart",
+ "seri": "EKRAN GÖRÜNTÜSÜNÜ AL 📸",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Sabahki testin cevabı: A ✅",
+   "baslik": "Parantez yoksa *AND* önce gelir",
+   "alt": "a OR b AND c → a OR (b AND c) olarak okunur. OR'u gruplamak istiyorsan parantez koy ya da IN kullan: sehir IN ('Ankara', 'İzmir') 📌",
+   "ikonlar": [
+    "check_mark_button",
+    "key",
+    "card_file_box"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

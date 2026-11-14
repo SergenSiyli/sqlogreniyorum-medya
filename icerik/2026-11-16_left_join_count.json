@@ -1,0 +1,76 @@
+{
+ "ad": "reel_left_join_count",
+ "seri": "SQL MÜLAKAT SORUSU",
+ "no": 10,
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Veri analisti mülakatı: müşteri başına sipariş sayısı 👀",
+   "baslik": "Can'ın siparişi yok, sorgu *1* dedi",
+   "alt": "Mülakatta puan kaybettiren detay 👉",
+   "ikonlar": [
+    "detective",
+    "red_exclamation_mark",
+    "card_index_dividers"
+   ]
+  },
+  {
+   "tip": "tablo",
+   "baslik": "Elimizde *siparis* tablosu",
+   "sutunlar": [
+    "id",
+    "musteri_id"
+   ],
+   "satirlar": [
+    [
+     1,
+     1
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     3,
+     2
+    ]
+   ],
+   "metin": "Müşteriler: Ali (1), Ayşe (2), Can (3). Can'ın hiç siparişi yok."
+  },
+  {
+   "tip": "kod",
+   "baslik": "İlk akla gelen *sorgu*",
+   "kod": "SELECT m.ad, COUNT(*) AS adet\nFROM musteri m\nLEFT JOIN siparis s\n  ON s.musteri_id = m.id\nGROUP BY m.ad;",
+   "metin": "Sonuç: Ali 2 · Ayşe 1 · Can 1 ❌"
+  },
+  {
+   "tip": "adim",
+   "no": "1",
+   "baslik": "Neden? *Yıldızlı* COUNT boş satırı da sayar",
+   "metin": "LEFT JOIN, Can için sipariş sütunları NULL olan 1 satır üretir. COUNT(*) bu satırı da sayar.",
+   "ikonlar": [
+    "face_with_monocle",
+    "bug"
+   ]
+  },
+  {
+   "tip": "kod",
+   "baslik": "Doğrusu: siparişin *id'sini* say",
+   "kod": "SELECT m.ad, COUNT(s.id) AS adet\nFROM musteri m\nLEFT JOIN siparis s\n  ON s.musteri_id = m.id\nGROUP BY m.ad;",
+   "metin": "COUNT(s.id) NULL'ı saymaz → Can 0 ✅"
+  },
+  {
+   "tip": "son",
+   "baslik": "SQL mülakat soruları için *takip et*",
+   "metin": "İlk seferde fark eder miydin? Yorumlara yaz 👇",
+   "gonder": "Teknoloji alanında iş arayan bir arkadaşına gönder",
+   "ikonlar": [
+    "briefcase",
+    "hundred_points",
+    "sparkles"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

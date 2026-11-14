@@ -38,3 +38,6 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-15 günaydın: SQLite her iPhone/Android'de, muhtemelen diğer tüm motorların toplamından çok kullanılıyor — kaynak: sqlite.org, O'Reilly
 2026-11-15 Reels (Teknoloji Tarihinden #6): NCSA Mosaic, Andreessen (lisans öğrencisi) + Eric Bina, 1993, 1994 Netscape — kaynak: Lemelson-MIT, Grainger Illinois, NCSA
 2026-11-15 iyi geceler: Postgres 1986 Berkeley, Post-Ingres; 1996 PostgreSQL adı — kaynak: Britannica, postgresql.org
+2026-11-16 günaydın: IBM IMS Apollo roket parçaları için, ilk READY 14 Ağustos 1968 (Rockwell, Downey) — kaynak: IBM, Wikipedia
+2026-11-16 ilham (Teknoloji Tarihinden #7): Jerry Lawson, Fairchild Channel F (1976) değiştirilebilir kartuşlu ilk ev konsolu, kartuşun mucitlerinden — kaynak: The Henry Ford, The Strong
+2026-11-16 iyi geceler: ilk disket IBM 1971, 8 inç, salt okunur, 80 KB, mikrokod yükleme (Minnow) — kaynak: CHM, Wikipedia

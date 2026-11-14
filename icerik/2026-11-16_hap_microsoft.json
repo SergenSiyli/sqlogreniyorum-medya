@@ -1,0 +1,20 @@
+{
+ "ad": "story_1600_hap_microsoft",
+ "seri": "HAP HABER",
+ "tema": "tekno",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Outlook ya da Teams kullanıyorsan 👀",
+   "baslik": "Microsoft kesinti için *özür* diledi",
+   "kaynak": "Forbes, ABC News (13 Kas)",
+   "ikonlar": [
+    "warning",
+    "laptop",
+    "electric_plug"
+   ],
+   "alt": "Şirkete göre neden: ağ kapasitesi yükseltmesindeki bir sorun; siber saldırı ya da yapay zekâ değil. Kesinti 12 Kasım'da başladı, bir günden uzun sürdü."
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}
