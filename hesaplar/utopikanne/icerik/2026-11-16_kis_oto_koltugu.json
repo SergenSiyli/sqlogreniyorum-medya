@@ -1,0 +1,7 @@
+{"ad":"bebek03_kis_oto_koltugu","hesap":"utopikanne","seri":"BEBEK BAKIMI","no":3,"tema":"gok","slaytlar":[
+{"tip":"kapak","ust":"Kış geldi, bunu kaydet 📌","baslik":"Bebeğini oto koltuğuna *kalın montla* bağlama","yanyana":{"sol":{"ikon":"mont","etiket":"kalın mont"},"isaret":"≠","sag":{"ikon":"oto_koltugu","etiket":"oto koltuğu"}},"alt":"Detaylar açıklamada 👇"},
+{"tip":"adim","no":1,"baslik":"Neden *mont olmaz?*","metin":"Kaza anında montun kabarıklığı ezilir. Kemer gevşek kalır, bebeğin yeterince korunmaz.","ikonlar":["mont","warning"]},
+{"tip":"adim","no":2,"baslik":"Önce *ince katmanlar*","metin":"Tayt, uzun kollu body gibi vücudu saran ince kıyafetler giydir.","ikonlar":["t_shirt","baby"]},
+{"tip":"adim","no":3,"baslik":"Mont kemerin *üstüne*","metin":"Kemeri bağladıktan sonra montu ters giydir ya da battaniyeyi kemerin üstüne ört.","ikonlar":["oto_koltugu","snowflake"]},
+{"tip":"adim","no":4,"baslik":"*Sıkıştırma* testi","metin":"Kemer kayışını parmaklarınla sıkıştırabiliyorsan gevşektir. Göğsüne oturana kadar sık.","ikonlar":["check_mark_button","oto_koltugu"]},
+{"tip":"son","baslik":"Bebek bakımı serisi için *takip et*","metin":"Kaynak: AAP (Amerikan Pediatri Akademisi).","gonder":"Kışın yola çıkacak bir anneye gönder 🚗","takip_butonu":false,"ikonlar":["baby","red_heart","sparkles"]}]}
