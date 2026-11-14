@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-14T22:10:02+03:00",
+ "zaman": "2026-11-14T22:11:43+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 259,
  "hesap": {
@@ -20,17 +20,10 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_0900_gunaydin.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1000_sql_test.png": "HATA HTTP Error 403: Forbidden",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_and_or_reels.mp4": "HATA HTTP Error 403: Forbidden",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1330_ilham_lawson.png": "HATA HTTP Error 403: Forbidden",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1400_and_or_kart.png": "HATA HTTP Error 403: Forbidden",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1600_hap_microsoft.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1700_duyuru.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels.mp4": "HATA HTTP Error 403: Forbidden",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_2130_ozet.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_2300_iyigeceler.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_and_or_reels_kapak.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels_kapak.jpg": "image/jpeg"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1000_sql_test.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_and_or_reels.mp4": "video/mp4",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1330_ilham_lawson.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1400_and_or_kart.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels.mp4": "video/mp4"
  }
 }
