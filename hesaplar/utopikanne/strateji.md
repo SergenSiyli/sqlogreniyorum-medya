@@ -36,6 +36,8 @@
 - (İPTAL 13:25) ŞAİR-YAZAR rolü kaldırıldı. Eski not: Özgün, akıcı Türkçe, ritimli tek cümle; şiir tadında ama sade. Var olan şiir/şarkı sözü/alıntı KULLANMAZ, ünlüye söz atfetmez. Aynı sözü ya da kalıbı tekrar etmez (kullanılanları kullanilan_bilgiler.txt'ye "SÖZ:" diye yazar).
 - Diğer roller (içerik, görsel, kontrol) aynı. Son kontrolde yazım hatası taranır.
 
+- (14 Kasım 16:01) Melike'nin kendi aile videosunu kurgulayıp yüze emoji koyduğumuz Reels'i ÇOK BEĞENMEDİ. Melike'nin kişisel videolarını ekip KURGULAMAZ; istenirse yalnızca yazı/açıklama önerisi verilir.
+
 ## 🔥 STORY KURALI v5.6
 - (14 Kasım) Soru story'si CDN hatasıyla yayınlanamadı, cevap tek başına çıktı. Düzeltme: ig_yayin.py artık medyayı 3 kez dener; soru yayınlanmazsa _cevap otomatik atlanır. Soru-cevap id'leri MUTLAKA ..._soru / ..._cevap çifti olsun.
 - ✅ (12 Kasım 20:27) Melike 12 Kasım soru → cevap (ipucu, "cevap 2 dk sonra", sonraki sorunun saati) story düzenini ÇOK BEĞENDİ. Bu düzen referans: aynen sürdür. (11 Kasım 19:12, Melike: "hikayeler çok sıkıcı, uzun, izlenme düştü") — EN ÜST
