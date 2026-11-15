@@ -130,7 +130,13 @@ def adaylar():
                 ogeler += json.load(f)
     n = simdi()
     sec = []
+    # Otomatik yayın kapatma: hesap klasöründe OTOMATIK_YAYIN_KAPALI dosyası varsa (içinde YYYY-AA-GG),
+    # o tarihten itibaren hiçbir şey yayınlanmaz (Melike 15 Kasım: içerikleri kendisi paylaşacak).
+    kapali = os.path.join(os.path.dirname(KUYRUK), "OTOMATIK_YAYIN_KAPALI")
+    kapali_tarih = open(kapali).read().strip()[:10] if os.path.exists(kapali) else None
     for o in ogeler:
+        if kapali_tarih and o["hedef"][:10] >= kapali_tarih:
+            continue
         h = dt.datetime.fromisoformat(o["hedef"]).replace(tzinfo=TZ)
         o["_h"] = h
         if yapildi(o["id"]):

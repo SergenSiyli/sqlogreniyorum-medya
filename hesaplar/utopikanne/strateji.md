@@ -2,6 +2,14 @@
 
 # @utopikanne büyüme stratejisi (v1 — 1 Kasım 2026)
 
+## 🛑 YENİ DÜZEN v8 (15 Kasım 14:13, Melike + Sergen kararı) — TÜM ESKİ YAYIN KURALLARININ ÜSTÜNDE
+1. OTOMATİK YAYIN YOK: 16 Kasım'dan itibaren utopikanne hesabına hiçbir şey otomatik yayınlanmaz (hesaplar/utopikanne/OTOMATIK_YAYIN_KAPALI = 2026-11-16; ig_yayin.py bu tarihten sonraki kuyruğu atlar). hesaplar/utopikanne/kuyruk/ klasörüne YENİ DOSYA EKLEME.
+2. REELS YOK: ekip hiç Reels/deneme Reels üretmez. Reels'i Melike kendisi yapar.
+3. HİKÂYELER aynı düzende hazırlanır ama TESLİM edilir: hesaplar/utopikanne/hazir/YYYY-AA-GG/ klasörüne sırayla: 1_sabah_gunaydin.png, 2_ogle_soru.png, 3_ogle_cevap.png, 4_ikindi_soru.png, 5_ikindi_cevap.png, 6_gece_iyi_geceler.png. Melike müzik/çıkartma ekleyip kendisi paylaşır.
+4. POST: haftada 2-3 (Pzt, Çar, Cum), yine hazir/ klasörüne post_1.png ... + post_aciklama.txt (açıklama + sabitlenecek yorum). BİLGİ POSTU YOK. Yalnızca MİZAH + ANNELİK + DUYGUSAL/GÖNDERMELİK (eşe, anneye, anne arkadaşına, çocuğa hitap; tatlı laf sokma). Örnek sayfalar bu dosyada: bitutamburcu, pastelsezer, minik_adimlarla2025, onediocom, bizarti1. Şablon: araclar/anne_soz.py (krem zemin, serif, kiremit vurgu, tek küçük çizim); örnek: hesaplar/utopikanne/icerik/ornek_soz_post.json. Çok sayfalı (karusel) post yapılacaksa ÖNCE Melike'ye sorulur; varsayılan tek sayfa.
+5. Ton: güzel anne / genç kadın profili, mizah, annelik; Melike'nin ağzından, sözler özgün.
+6. Her teslim klasörüne OKU.txt: hangi görsel hangi saate, kısa açıklama önerisi.
+
 ## ✅ MELİKE'NİN SON TALİMATI (12 Kasım 13:28): "Her şeyi size bırakıyorum, hata yapma."
 - Hedef kitle GENİŞ (13:29 düzeltme): tüm anneler, hamileler, kadınlar; her yaştaki bebek. 6 aylık/ek gıda annesi Melike'nin şu anki durumu, o kitleyi de topla ama sadece onunla sınırlama. Karışım: hap bilgi + mizah + tatlı/duygusal. Öncelik KAYDETTİREN ve GÖNDERTEN içerik ("Eşine gönder", "Hamile arkadaşına gönder"). Melike'nin gönderdiği örnek görsellerin notları (formatlar 1-10) geçerli.
 - ÖRNEK SAYFA murategecem (25,4B, "Kaydetmelik bilgiler"): kapakta kalın kanca + 📌 ("HAMİLEYSEN KAYDET 📌", "Haftalara göre ultrason takvimi", "Bebek aşı takvimi", "Gebelikte ... 7 işareti", "Birisi lohusalığın ne olduğunu sorarsa ona bu fotoğrafı gösterin"). Bize uyarlama: takvim/liste postları (aşı takvimi YALNIZCA T.C. Sağlık Bakanlığı güncel takvimine birebir; ultrason/gebelik kontrolleri Bakanlık doğum öncesi bakım rehberi) ve "... ona bunu gösterin" duygusal kancası. GÜVENLİK: düz kafa için yastık/havlu/konumlandırıcı ile uyutma önerisi YOK (güvenli uyku: sırtüstü, düz yatak, boş beşik; uyanıkken karın üstü oyun). Belirti listelerinde "Bunlardan biri varsa hemen doktoruna başvur" notu şart. Ürün/indirim kodu yok.

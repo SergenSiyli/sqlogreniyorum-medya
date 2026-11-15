@@ -1,0 +1,7 @@
+16 Kasım Pazartesi — hazır hikâyeler (sırayla paylaş):
+1_sabah_gunaydin.png  -> sabah
+2_ogle_soru.png       -> öğlen (anket/soru çıkartması ekleyebilirsin)
+3_ogle_cevap.png      -> sorudan birkaç dk sonra
+4_ikindi_soru.png     -> ikindi
+5_ikindi_cevap.png    -> sorudan birkaç dk sonra
+6_gece_iyi_geceler.png-> gece
