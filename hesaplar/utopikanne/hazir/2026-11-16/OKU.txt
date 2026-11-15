@@ -5,3 +5,6 @@
 4_ikindi_soru.png     -> ikindi
 5_ikindi_cevap.png    -> sorudan birkaç dk sonra
 6_gece_iyi_geceler.png-> gece
+
+POST (Pazartesi):
+post_1.png            -> 11:30 civarı (öğle soru story'siyle çakışmasın) · Annelerde pazartesi sendromu olmaz (mizah). Açıklama ve sabitlenecek yorum: post_aciklama.txt. Paylaştıktan sonra hikâyene de ekleyebilirsin.
