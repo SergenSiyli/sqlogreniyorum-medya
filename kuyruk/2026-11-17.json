@@ -1,0 +1,66 @@
+[
+ {
+  "id": "2026-11-17_0900_story_gunaydin",
+  "hedef": "2026-11-17T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@97863ea17a9f1b6ae19b3da71abc7affa47f2ec8/gun/2026-11-17/story_0900_gunaydin.png"
+ },
+ {
+  "id": "2026-11-17_1000_story_sql_test",
+  "hedef": "2026-11-17T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@97863ea17a9f1b6ae19b3da71abc7affa47f2ec8/gun/2026-11-17/story_1000_sql_test.png"
+ },
+ {
+  "id": "2026-11-17_1230_reel_sql_test_esittir_null",
+  "hedef": "2026-11-17T12:30",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@97863ea17a9f1b6ae19b3da71abc7affa47f2ec8/gun/2026-11-17/reel_esittir_null_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@97863ea17a9f1b6ae19b3da71abc7affa47f2ec8/gun/2026-11-17/reel_esittir_null_reels_kapak.jpg",
+  "aciklama": "SQL TEST #8: WHERE telefon = NULL kaç satır getirir? 🎯\n\n2 müşterinin telefonu boş ama sorgu 0 satır döndürdü. NULL bir değer değil, \"bilinmiyor\" demektir; = NULL karşılaştırması doğru ya da yanlış değil, bilinmeyen döner ve WHERE hiçbir satırı almaz. Doğrusu: WHERE telefon IS NULL (dolu olanlar için IS NOT NULL).\n\nSen A mı dedin, B mi, C mi? Harfini yorumlara yaz 👇 Doğru bildiysen 🔥 bırak!\nSQL öğrenen bir arkadaşına gönder, kaydet 📌\n\n#sql #sqlöğren #veribilimi #sqlnull"
+ },
+ {
+  "id": "2026-11-17_1330_story_mulakat_taktigi",
+  "hedef": "2026-11-17T13:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@97863ea17a9f1b6ae19b3da71abc7affa47f2ec8/gun/2026-11-17/story_1330_mulakat_taktigi.png"
+ },
+ {
+  "id": "2026-11-17_1400_story_null_kart",
+  "hedef": "2026-11-17T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@97863ea17a9f1b6ae19b3da71abc7affa47f2ec8/gun/2026-11-17/story_1400_null_kart.png"
+ },
+ {
+  "id": "2026-11-17_1600_story_hap_meta_ceza",
+  "hedef": "2026-11-17T16:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@97863ea17a9f1b6ae19b3da71abc7affa47f2ec8/gun/2026-11-17/story_1600_hap_meta_ceza.png"
+ },
+ {
+  "id": "2026-11-17_1700_story_duyuru",
+  "hedef": "2026-11-17T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@97863ea17a9f1b6ae19b3da71abc7affa47f2ec8/gun/2026-11-17/story_1700_duyuru.png"
+ },
+ {
+  "id": "2026-11-17_1800_reel_starship",
+  "hedef": "2026-11-17T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@97863ea17a9f1b6ae19b3da71abc7affa47f2ec8/gun/2026-11-17/reel_starship_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@97863ea17a9f1b6ae19b3da71abc7affa47f2ec8/gun/2026-11-17/reel_starship_reels_kapak.jpg",
+  "aciklama": "Uzaydan dönen Starship havada yakalandı 🚀\n\nSpaceX'in Starship 15. test uçuşunda üst kademe (gemi) Dünya çevresinde yaklaşık 14 tur attıktan sonra 15 Kasım gecesi (TSİ) Teksas'taki fırlatma kulesinin dev kollarıyla havada yakalandı. Bir üst kademenin kulede yakalanması ilk kez oldu. Super Heavy alt kademesi ise yakalanamadı, Meksika Körfezi'ne yönlendirildi. Şirketin hedefi tamamen yeniden kullanılabilir bir roket.\n\nSence ilk insanlı Starship uçuşu ne zaman olur? Yorumlara yaz 👇\nUzay meraklısı bir arkadaşına gönder, kaydet 📌\n\nKaynak: ShiftDelete, EarthSky, Daily Wire\n\n#teknoloji #teknolojihaberleri #uzay #starship"
+ },
+ {
+  "id": "2026-11-17_2130_story_ozet",
+  "hedef": "2026-11-17T21:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@97863ea17a9f1b6ae19b3da71abc7affa47f2ec8/gun/2026-11-17/story_2130_ozet.png"
+ },
+ {
+  "id": "2026-11-17_2300_story_iyigeceler",
+  "hedef": "2026-11-17T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@97863ea17a9f1b6ae19b3da71abc7affa47f2ec8/gun/2026-11-17/story_2300_iyigeceler.png"
+ }
+]

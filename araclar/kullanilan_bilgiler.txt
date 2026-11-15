@@ -41,3 +41,5 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-16 günaydın: IBM IMS Apollo roket parçaları için, ilk READY 14 Ağustos 1968 (Rockwell, Downey) — kaynak: IBM, Wikipedia
 2026-11-16 ilham (Teknoloji Tarihinden #7): Jerry Lawson, Fairchild Channel F (1976) değiştirilebilir kartuşlu ilk ev konsolu, kartuşun mucitlerinden — kaynak: The Henry Ford, The Strong
 2026-11-16 iyi geceler: ilk disket IBM 1971, 8 inç, salt okunur, 80 KB, mikrokod yükleme (Minnow) — kaynak: CHM, Wikipedia
+2026-11-17 günaydın: ilk UPC barkod taraması 26 Haziran 1974, Marsh Supermarket (Troy, Ohio), 10'lu Wrigley's sakız, 67 sent — kaynak: Smithsonian, CBC
+2026-11-17 iyi geceler: Brain virüsü (1986, Lahor, Alvi kardeşler), IBM PC'lerin ilk virüsü sayılır, kodda ad/adres/telefon — kaynak: ETHW, Wikipedia
