@@ -7,6 +7,7 @@
 2. REELS YOK: ekip hiç Reels/deneme Reels üretmez. Reels'i Melike kendisi yapar.
 3. HİKÂYELER aynı düzende hazırlanır ama TESLİM edilir: hesaplar/utopikanne/hazir/YYYY-AA-GG/ klasörüne sırayla: 1_sabah_gunaydin.png, 2_ogle_soru.png, 3_ogle_cevap.png, 4_ikindi_soru.png, 5_ikindi_cevap.png, 6_gece_iyi_geceler.png. Melike müzik/çıkartma ekleyip kendisi paylaşır.
 4. POST: haftada 2-3 (Pzt, Çar, Cum), yine hazir/ klasörüne post_1.png ... + post_aciklama.txt (açıklama + sabitlenecek yorum). BİLGİ POSTU YOK. Yalnızca MİZAH + ANNELİK + DUYGUSAL/GÖNDERMELİK (eşe, anneye, anne arkadaşına, çocuğa hitap; tatlı laf sokma). Örnek sayfalar bu dosyada: bitutamburcu, pastelsezer, minik_adimlarla2025, onediocom, bizarti1. Şablon: araclar/anne_soz.py (krem zemin, serif, kiremit vurgu, tek küçük çizim); örnek: hesaplar/utopikanne/icerik/ornek_soz_post.json. Çok sayfalı (karusel) post yapılacaksa ÖNCE Melike'ye sorulur; varsayılan tek sayfa.
+4b. TASARIM (15 Kasım 14:29): şık olacak olan şık-sade, renkli olacak olan renkli; anlamı renk, yazı stili ya da küçük destek görseliyle geçir. Kalite > sayı.
 5. Ton: güzel anne / genç kadın profili, mizah, annelik; Melike'nin ağzından, sözler özgün.
 6. Her teslim klasörüne OKU.txt: hangi görsel hangi saate, kısa açıklama önerisi.
 
