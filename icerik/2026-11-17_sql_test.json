@@ -1,0 +1,24 @@
+{
+ "ad": "story_1000_sql_test",
+ "seri": "SQL TEST · CEVAP 12:30 REELS'TE",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "WHERE telefon = NULL 👀",
+   "baslik": "Telefonu boş 2 kişi var. Kaç satır *gelir?*",
+   "secenekler": [
+    "2",
+    "0",
+    "5"
+   ],
+   "cevap_notu": "Cevap 12:30'da Reels'te 👀 Tahminini tut!",
+   "ikonlar": [
+    "mobile_phone",
+    "thinking_face",
+    "stopwatch"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

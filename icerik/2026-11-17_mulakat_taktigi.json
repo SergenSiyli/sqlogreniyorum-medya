@@ -1,0 +1,19 @@
+{
+ "ad": "story_1330_mulakat_taktigi",
+ "seri": "TEKNİK MÜLAKAT TAKTİĞİ #7",
+ "tema": "kariyer",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "SQL mülakatına giriyorsan 👀",
+   "baslik": "Sorguyu yazmadan önce *NULL* sor",
+   "alt": "\"Bu sütunda boş değer olabilir mi?\" diye sor. NULL; =, COUNT ve NOT IN sonuçlarını değiştirir. Soruyu düşündüğünü gösterir, hatayı baştan önler.",
+   "ikonlar": [
+    "briefcase",
+    "man_technologist",
+    "light_bulb"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

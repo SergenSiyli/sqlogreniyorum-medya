@@ -1,0 +1,95 @@
+{
+ "ad": "reel_esittir_null",
+ "seri": "SQL TEST",
+ "no": 8,
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "WHERE telefon = NULL 👀",
+   "baslik": "2 kişinin telefonu yok. Kaç satır *gelir?*",
+   "secenekler": [
+    "2",
+    "0",
+    "5"
+   ],
+   "cevap_notu": "3 saniye düşün, cevap geliyor 👉",
+   "ikonlar": [
+    "mobile_phone",
+    "card_file_box",
+    "thinking_face"
+   ]
+  },
+  {
+   "tip": "tablo",
+   "baslik": "Elimizde *musteri* tablosu",
+   "sutunlar": [
+    "id",
+    "ad",
+    "telefon"
+   ],
+   "satirlar": [
+    [
+     1,
+     "Ali",
+     "0532"
+    ],
+    [
+     2,
+     "Ayşe",
+     null
+    ],
+    [
+     3,
+     "Can",
+     "0544"
+    ],
+    [
+     4,
+     "Deniz",
+     null
+    ],
+    [
+     5,
+     "Ece",
+     "0505"
+    ]
+   ],
+   "metin": "Telefonu boş olanlar: Ayşe ve Deniz."
+  },
+  {
+   "tip": "kod",
+   "baslik": "Soru: Bu sorgu *kaç* satır getirir?",
+   "kod": "SELECT ad FROM musteri\nWHERE telefon = NULL;",
+   "metin": "A) 2 · B) 0 · C) 5"
+  },
+  {
+   "tip": "adim",
+   "no": "B",
+   "baslik": "Cevap: *0* 🎯",
+   "metin": "NULL bir değer değil, \"bilinmiyor\" demek. telefon = NULL karşılaştırması doğru ya da yanlış değil, bilinmeyen döner. WHERE hiçbir satırı almaz.",
+   "ikonlar": [
+    "warning",
+    "cross_mark"
+   ]
+  },
+  {
+   "tip": "kod",
+   "baslik": "Çözüm: *IS NULL* yaz",
+   "kod": "SELECT ad FROM musteri\nWHERE telefon IS NULL;",
+   "metin": "Sonuç: Ayşe ve Deniz, tam 2 satır ✅"
+  },
+  {
+   "tip": "son",
+   "baslik": "Her gün 1 SQL testi için *takip et*",
+   "metin": "Doğru bildiysen yorumlara 🔥 bırak!",
+   "gonder": "SQL öğrenen bir arkadaşına gönder",
+   "ikonlar": [
+    "fire",
+    "trophy",
+    "rocket"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

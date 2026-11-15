@@ -1,0 +1,19 @@
+{
+ "ad": "story_1400_null_kart",
+ "seri": "EKRAN GÖRÜNTÜSÜNÜ AL 📸",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Sabahki testin cevabı: B ✅",
+   "baslik": "NULL'ı *IS NULL* ile ara",
+   "alt": "= NULL ve <> NULL hiçbir satır getirmez. Boşları bulmak için IS NULL, dolu olanlar için IS NOT NULL yaz 📌",
+   "ikonlar": [
+    "check_mark_button",
+    "key",
+    "card_file_box"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

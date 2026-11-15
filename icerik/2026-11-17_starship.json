@@ -1,0 +1,68 @@
+{
+ "ad": "reel_starship",
+ "seri": "TEKNOLOJİ HABERİ",
+ "tema": "tekno",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Roketler tekrar tekrar uçabilir mi? 👀",
+   "baslik": "Uzaydan dönen Starship *havada* yakalandı",
+   "alt": "Starship'in 15. test uçuşu, 15 Kasım gecesi (TSİ) 👉",
+   "ikonlar": [
+    "rocket",
+    "exploding_head",
+    "satellite"
+   ]
+  },
+  {
+   "tip": "liste",
+   "baslik": "Starship *15. uçuş*",
+   "maddeler": [
+    {
+     "ikon": "globe_showing_europe_africa",
+     "yazi": "Üst kademe Dünya çevresinde yaklaşık 14 tur attı"
+    },
+    {
+     "ikon": "hammer_and_wrench",
+     "yazi": "Kuledeki dev kollar gemiyi havada yakaladı"
+    },
+    {
+     "ikon": "trophy",
+     "yazi": "Bir üst kademe ilk kez kulede yakalandı"
+    },
+    {
+     "ikon": "warning",
+     "yazi": "Alt kademe yakalanamadı, denize yönlendirildi"
+    }
+   ]
+  },
+  {
+   "tip": "not",
+   "ikon": "light_bulb",
+   "baslik": "Neden *önemli?*",
+   "metin": "SpaceX'in hedefi tamamen yeniden kullanılabilir bir roket. Havada yakalanan gemi, denize düşmeden fırlatma sahasına geri dönmüş oldu."
+  },
+  {
+   "tip": "adim",
+   "no": "?",
+   "baslik": "Doğru mu yanlış mı: *İki kademe de* yakalandı",
+   "metin": "Cevap: Yanlış ❌ Yalnızca üst kademe (gemi) yakalandı. Super Heavy alt kademesi Meksika Körfezi'ne yönlendirildi.",
+   "ikonlar": [
+    "red_question_mark",
+    "thinking_face"
+   ]
+  },
+  {
+   "tip": "son",
+   "baslik": "Teknoloji haberleri için *takip et*",
+   "metin": "Sence ilk insanlı Starship uçuşu ne zaman olur? Yorumlara yaz 👇",
+   "gonder": "Uzay meraklısı bir arkadaşına gönder",
+   "ikonlar": [
+    "rocket",
+    "satellite",
+    "sparkles"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

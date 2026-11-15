@@ -1,0 +1,20 @@
+{
+ "ad": "story_1600_hap_meta_ceza",
+ "seri": "HAP HABER",
+ "tema": "tekno",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Uygulamalara galeri izni veriyorsan 👀",
+   "baslik": "İtalya'dan Meta'ya *805 milyon euro* ceza",
+   "alt": "İtalya'nın veri koruma kurumuna göre Facebook'un Android uygulaması galeriye açık onay olmadan erişti. Meta'ya düzeltmek için 60 gün verildi.",
+   "kaynak": "The Hacker News, Security Affairs",
+   "ikonlar": [
+    "mobile_phone",
+    "locked",
+    "camera"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}
