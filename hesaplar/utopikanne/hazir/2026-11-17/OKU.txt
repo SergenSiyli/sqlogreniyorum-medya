@@ -1,0 +1,10 @@
+17 Kasım Salı — hazır hikâyeler (sırayla paylaş; post günü değil):
+1_sabah_gunaydin.png   -> sabah: Günaydın + Apgar puanını Dr. Virginia Apgar 1952'de geliştirdi (NLM)
+2_ogle_soru.png        -> öğle sorusu: çiğ tavuk yıkanır mı? (alta A/B/C Anket ekleyebilirsin)  → Öne çıkan: Temizlik
+3_ogle_cevap.png       -> öğle cevabı: B) yıkanmamalı, mikroplar sıçrar (FSA)  → Öne çıkan: Temizlik
+4_ikindi_soru.png      -> ikindi sorusu: 18. haftada ilk kıpırtılar  → Öne çıkan: Hamilelik
+5_ikindi_cevap.png     -> ikindi cevabı: A) ilk kıpırtılar, ~14 cm (NHS)  → Öne çıkan: Hamilelik
+6_aksam_soru.png       -> akşam sorusu: üzüm nasıl doğranır?  → Öne çıkan: Tarifler/Ek Gıda
+7_aksam_cevap.png      -> akşam cevabı: C) boyuna dörde (FSA)  → Öne çıkan: Tarifler/Ek Gıda
+8_gece_iyi_geceler.png -> gece: yarın (18 Kasım) Avrupa Antibiyotik Farkındalık Günü (DSÖ, ECDC)
+Not: Akşam sorusunu ~20:00'deki kendi Reels'inle çakıştırma.
