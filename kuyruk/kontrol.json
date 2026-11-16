@@ -1,10 +1,10 @@
 {
- "zaman": "2026-11-16T07:33:47+03:00",
+ "zaman": "2026-11-16T21:58:27+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 259,
  "hesap": {
   "id": "17841460768999553",
-  "media_count": 93,
+  "media_count": 94,
   "username": "sqlogreniyorum"
  },
  "kota": {
@@ -20,17 +20,17 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_0900_gunaydin.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1000_sql_test.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_and_or_reels.mp4": "video/mp4",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_and_or_reels_kapak.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1330_ilham_lawson.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1400_and_or_kart.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1600_hap_microsoft.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_1700_duyuru.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels.mp4": "video/mp4",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels_kapak.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_2130_ozet.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/story_2300_iyigeceler.png": "image/png"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_0900_gunaydin.png": "HATA The read operation timed out",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_1000_sql_test.png": "HATA The read operation timed out",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/reel_join_cogalma_reels.mp4": "HATA HTTP Error 404: Not Found",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_1330_ilham_visicalc.png": "HATA The read operation timed out",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_1400_join_kart.png": "HATA The read operation timed out",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_1600_hap_vulcan.png": "HATA The read operation timed out",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_1700_duyuru.png": "HATA The read operation timed out",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/reel_kore_sinav_reels.mp4": "HATA HTTP Error 404: Not Found",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_2130_ozet.png": "HATA The read operation timed out",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_2300_iyigeceler.png": "HATA The read operation timed out",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/reel_join_cogalma_reels_kapak.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/reel_kore_sinav_reels_kapak.jpg": "HATA HTTP Error 404: Not Found"
  }
 }
