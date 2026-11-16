@@ -1,0 +1,10 @@
+[
+ {
+  "id": "2026-11-19_1230_reel_sql_mulakat_left_join_count_tekrar",
+  "hedef": "2026-11-19T12:30",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels_kapak.jpg",
+  "aciklama": "SQL Mülakat Sorusu #10: LEFT JOIN + COUNT(*) siparişi olmayan müşteriye 1 yazar 😱\n\nCan hiç sipariş vermedi ama sorgu 1 dedi. LEFT JOIN, eşleşmeyen müşteri için sipariş sütunları NULL olan bir satır üretir; yıldızlı COUNT bu satırı da sayar. Doğrusu COUNT(s.id): NULL'ı saymaz, Can için 0 döner.\n\nSen ilk seferde fark eder miydin? Yorumlara yaz 👇\nTeknoloji alanında iş arayan bir arkadaşına gönder, kaydet 📌\n\n#sql #teknikmülakat #sqlöğren #leftjoin"
+ }
+]

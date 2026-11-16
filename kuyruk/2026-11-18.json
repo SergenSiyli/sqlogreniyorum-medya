@@ -1,0 +1,66 @@
+[
+ {
+  "id": "2026-11-18_0900_story_gunaydin",
+  "hedef": "2026-11-18T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_0900_gunaydin.png"
+ },
+ {
+  "id": "2026-11-18_1000_story_sql_test",
+  "hedef": "2026-11-18T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_1000_sql_test.png"
+ },
+ {
+  "id": "2026-11-18_1230_reel_sql_test_join",
+  "hedef": "2026-11-18T12:30",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/reel_join_cogalma_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/reel_join_cogalma_reels_kapak.jpg",
+  "aciklama": "SQL TEST #9: JOIN kaç satır getirir? 3 müşteri var ama sonuç 3 değil 🎯\n\nAli'nin 3 siparişi, Ayşe'nin 1 siparişi var; Can'ın hiç yok. JOIN her eşleşme için ayrı satır üretir: Ali 3 kez gelir, Ayşe 1 kez, Can hiç gelmez. Doğru cevap B) 4.\n\nSen A mı dedin, B mi, C mi? Harfini yorumlara yaz, doğru bildiysen 🔥 bırak!\n📌 Kaydet, lazım olunca bul.\n📩 SQL öğrenen bir arkadaşına gönder.\n\n#sql #sqlöğren #veribilimi #sqljoin"
+ },
+ {
+  "id": "2026-11-18_1330_story_ilham_visicalc",
+  "hedef": "2026-11-18T13:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_1330_ilham_visicalc.png"
+ },
+ {
+  "id": "2026-11-18_1400_story_join_kart",
+  "hedef": "2026-11-18T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_1400_join_kart.png"
+ },
+ {
+  "id": "2026-11-18_1600_story_hap_vulcan",
+  "hedef": "2026-11-18T16:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_1600_hap_vulcan.png"
+ },
+ {
+  "id": "2026-11-18_1700_story_duyuru",
+  "hedef": "2026-11-18T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_1700_duyuru.png"
+ },
+ {
+  "id": "2026-11-18_1800_reel_kore_yz_kopya",
+  "hedef": "2026-11-18T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/reel_kore_sinav_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/reel_kore_sinav_reels_kapak.jpg",
+  "aciklama": "Yapay zekâ ile kopya yüzünden Güney Kore'de üniversite sınavında gözlükler kontrol edilecek 👀\n\nBir meslek sınavının birincisi; soruları gizli kamerayla çekip yapay zekâya gönderdiğini, cevapları akıllı telefondan okuduğunu itiraf etti (160 sorudan 159 doğru). 19 Kasım'daki üniversite sınavına 500 binden fazla öğrenci girecek; tüm gözlükler kontrol edilecek ve her sınav merkezinde en az bir eğitimli gözetmen olacak.\n\nSence yapay zekâ sınavları nasıl değiştirecek? Yorumlara yaz 👇\n📩 Sınava hazırlanan bir arkadaşına gönder, 📌 kaydet.\n\nKaynak: The Next Web, The Telegraph, The Korea Herald\n\n#yapayzeka #yapayzekahaberleri #teknolojihaberleri #sınav"
+ },
+ {
+  "id": "2026-11-18_2130_story_ozet",
+  "hedef": "2026-11-18T21:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_2130_ozet.png"
+ },
+ {
+  "id": "2026-11-18_2300_story_iyigeceler",
+  "hedef": "2026-11-18T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_2300_iyigeceler.png"
+ }
+]

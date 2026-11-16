@@ -43,3 +43,6 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-16 iyi geceler: ilk disket IBM 1971, 8 inç, salt okunur, 80 KB, mikrokod yükleme (Minnow) — kaynak: CHM, Wikipedia
 2026-11-17 günaydın: ilk UPC barkod taraması 26 Haziran 1974, Marsh Supermarket (Troy, Ohio), 10'lu Wrigley's sakız, 67 sent — kaynak: Smithsonian, CBC
 2026-11-17 iyi geceler: Brain virüsü (1986, Lahor, Alvi kardeşler), IBM PC'lerin ilk virüsü sayılır, kodda ad/adres/telefon — kaynak: ETHW, Wikipedia
+2026-11-18 09:00 günaydın: Manchester Baby, 21 Haziran 1948 ilk program, 2^18 en büyük bölen 52 dk (Univ. of Manchester, Cosmos)
+2026-11-18 13:30 Teknoloji Tarihinden #8: Dan Bricklin & Bob Frankston, VisiCalc 1979 Apple II (Computing History UK, Wikipedia)
+2026-11-18 23:00 iyi geceler: Scott Fahlman :-) 19 Eylül 1982, CMU, Guinness ilk dijital ifade
