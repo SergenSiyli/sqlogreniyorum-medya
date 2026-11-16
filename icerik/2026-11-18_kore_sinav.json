@@ -1,0 +1,68 @@
+{
+ "ad": "reel_kore_sinav",
+ "seri": "YAPAY ZEKÂ HABERİ",
+ "tema": "ai",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Sınava gözlükle mi giriyorsun? 👀",
+   "baslik": "Yapay zekâ kopyası yüzünden *gözlükler* kontrol edilecek",
+   "alt": "Güney Kore, 19 Kasım'daki üniversite sınavı için karar aldı 👉",
+   "ikonlar": [
+    "detective",
+    "robot",
+    "eyes"
+   ]
+  },
+  {
+   "tip": "liste",
+   "baslik": "Ne *oldu?*",
+   "maddeler": [
+    {
+     "ikon": "trophy",
+     "yazi": "Bir meslek sınavının birincisi kopyayı itiraf etti"
+    },
+    {
+     "ikon": "camera",
+     "yazi": "Soruları gizli kamerayla çekti"
+    },
+    {
+     "ikon": "robot",
+     "yazi": "Yapay zekâya gönderdi, cevabı telefondan okudu"
+    },
+    {
+     "ikon": "hundred_points",
+     "yazi": "160 sorudan 159'unu doğru yaptı"
+    }
+   ]
+  },
+  {
+   "tip": "not",
+   "ikon": "warning",
+   "baslik": "Şimdi ne *değişiyor?*",
+   "metin": "500 binden fazla öğrencinin gireceği üniversite sınavında tüm gözlükler kontrol edilecek. Her sınav merkezinde en az bir eğitimli gözetmen olacak."
+  },
+  {
+   "tip": "adim",
+   "no": "?",
+   "baslik": "Doğru mu yanlış mı: Cevapları *gözlükten* okudu",
+   "metin": "Cevap: Yanlış ❌ Soruları minik bir kamerayla çekip yapay zekâya gönderdi, cevapları akıllı telefondan okudu.",
+   "ikonlar": [
+    "red_question_mark",
+    "thinking_face"
+   ]
+  },
+  {
+   "tip": "son",
+   "baslik": "Yapay zekâ haberleri için *takip et*",
+   "metin": "Sence yapay zekâ sınavları nasıl değiştirecek? Yorumlara yaz 👇",
+   "gonder": "Sınava hazırlanan bir arkadaşına gönder",
+   "ikonlar": [
+    "robot",
+    "graduation_cap",
+    "sparkles"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

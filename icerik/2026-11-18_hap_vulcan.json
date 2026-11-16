@@ -1,0 +1,20 @@
+{
+ "ad": "story_1600_hap_vulcan",
+ "seri": "HAP HABER",
+ "tema": "tekno",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Uydu internetini merak ediyorsan 👀",
+   "baslik": "10 dakikada *40 uydu* kayboldu",
+   "alt": "ULA'nın Vulcan roketi 15 Kasım'da kalkıştan yaklaşık 10 dakika sonra arızalandı; Amazon Leo uyduları yörüngeye ulaşamadı. Neden henüz belli değil.",
+   "kaynak": "Spaceflight Now, Gizmodo",
+   "ikonlar": [
+    "rocket",
+    "satellite",
+    "warning"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

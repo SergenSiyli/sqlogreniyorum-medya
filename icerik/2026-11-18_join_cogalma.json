@@ -1,0 +1,107 @@
+{
+ "ad": "reel_join_cogalma",
+ "seri": "SQL TEST",
+ "no": 9,
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "musteri JOIN siparis 👀",
+   "baslik": "3 müşteri var. JOIN kaç satır *getirir?*",
+   "secenekler": [
+    "3",
+    "4",
+    "5"
+   ],
+   "cevap_notu": "3 saniye düşün, cevap geliyor 👉",
+   "ikonlar": [
+    "card_file_box",
+    "link",
+    "thinking_face"
+   ]
+  },
+  {
+   "tip": "tablo",
+   "baslik": "Elimizde *musteri* tablosu",
+   "sutunlar": [
+    "id",
+    "ad"
+   ],
+   "satirlar": [
+    [
+     1,
+     "Ali"
+    ],
+    [
+     2,
+     "Ayşe"
+    ],
+    [
+     3,
+     "Can"
+    ]
+   ],
+   "metin": "3 müşteri, her biri 1 satır."
+  },
+  {
+   "tip": "tablo",
+   "baslik": "Bir de *siparis* tablosu",
+   "sutunlar": [
+    "id",
+    "musteri_id",
+    "tutar"
+   ],
+   "satirlar": [
+    [
+     1,
+     1,
+     100
+    ],
+    [
+     2,
+     1,
+     250
+    ],
+    [
+     3,
+     1,
+     80
+    ],
+    [
+     4,
+     2,
+     300
+    ]
+   ],
+   "metin": "Ali'nin 3, Ayşe'nin 1 siparişi var. Can'ın hiç yok."
+  },
+  {
+   "tip": "kod",
+   "baslik": "Soru: Bu sorgu *kaç* satır getirir?",
+   "kod": "SELECT m.ad, s.tutar\nFROM musteri m\nJOIN siparis s\n  ON s.musteri_id = m.id;",
+   "metin": "A) 3 · B) 4 · C) 5"
+  },
+  {
+   "tip": "adim",
+   "no": "B",
+   "baslik": "Cevap: *4* 🎯",
+   "metin": "JOIN her eşleşme için ayrı satır üretir. Ali 3 kez gelir, Ayşe 1 kez. Siparişi olmayan Can hiç gelmez.",
+   "ikonlar": [
+    "warning",
+    "bar_chart"
+   ]
+  },
+  {
+   "tip": "son",
+   "baslik": "Her gün 1 SQL testi için *takip et*",
+   "metin": "Doğru bildiysen yorumlara 🔥 bırak!",
+   "gonder": "SQL öğrenen bir arkadaşına gönder",
+   "ikonlar": [
+    "fire",
+    "trophy",
+    "rocket"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

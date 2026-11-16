@@ -1,0 +1,19 @@
+{
+ "ad": "story_1400_join_kart",
+ "seri": "EKRAN GÖRÜNTÜSÜNÜ AL 📸",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Sabahki testin cevabı: B ✅",
+   "baslik": "JOIN satırları *çoğaltır*",
+   "alt": "3 siparişi olan müşteri JOIN sonucunda 3 kez görünür. Eşleşmesi olmayan satır JOIN'de kaybolur; onu da tutmak için LEFT JOIN yaz 📌",
+   "ikonlar": [
+    "check_mark_button",
+    "link",
+    "card_file_box"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}
