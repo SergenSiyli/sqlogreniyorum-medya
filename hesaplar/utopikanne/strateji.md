@@ -10,6 +10,7 @@
 4b. TASARIM (15 Kasım 14:29): şık olacak olan şık-sade, renkli olacak olan renkli; anlamı renk, yazı stili ya da küçük destek görseliyle geçir. Kalite > sayı.
 5. Ton: güzel anne / genç kadın profili, mizah, annelik; Melike'nin ağzından, sözler özgün.
 5d. (16 Kasım 14:22) Melike soru story'sine Anket (A/B/C) ekliyor: soru görsellerinde alt bölümü ANKET İÇİN BOŞ bırak — ikonlar en fazla 1 tane, küçük, sağ üst köşede ("ikonlar":[] ya da tek ikon), cevap_notu'ndan sonra boşluk.
+5e. (16 Kasım 16:12) Cevap ve soru story'lerinde HİÇBİR SAAT YAZMA ("2. soru 15:00'te", "Yarın 10:00'da" yok). Melike elle, istediği saatte paylaşıyor.
 5c. (16 Kasım) Soru görsellerinde "Cevap 2 dakika sonra" YAZMA → "Cevap bir sonraki hikâyede 👉" (Melike elle paylaşıyor). Yer adlarında ülke/şehir yaz ("Glasgow (İskoçya)"); herkesin bilmediği yer, kişi, kurum kısa açıklamayla. Günde 3 soru-cevap çifti (öğle, ikindi, akşam). ÖNE ÇIKANLAR boş kalmasın: 3 soru farklı öne çıkan konularından (Temizlik, Bebek, Hamilelik, Tarifler/Ek Gıda) dönüşümlü; her gün en az 1 Hamilelik, haftada en az 3 Temizlik. OKU.txt'de her soru-cevabın yanına hangi öne çıkana ekleneceğini yaz ("→ Öne çıkan: Temizlik").
 5b. (15 Kasım 23:40 GERİ ALINDI) Melike'nin Instagram'ında Test çıkartması yok. Eski, beğenilen düzen sürer: soru görselinde A/B/C şıklar YAZILI + ayrı cevap story'si (6 story). Çıkartma zorunlu değil; isterse 'Anket' ile A/B/C ekler.
 6. Her teslim klasörüne OKU.txt: hangi görsel hangi saate, kısa açıklama önerisi.
