@@ -1,10 +1,74 @@
 [
  {
+  "id": "2026-11-19_0900_story_gunaydin",
+  "hedef": "2026-11-19T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/story_0900_gunaydin.png",
+  "aciklama": "Günaydın: SQL'in ilk adı SEQUEL'di"
+ },
+ {
+  "id": "2026-11-19_1000_story_sql_test",
+  "hedef": "2026-11-19T10:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/story_1000_sql_test.png",
+  "aciklama": "SQL test: LEFT JOIN + COUNT(*)"
+ },
+ {
   "id": "2026-11-19_1230_reel_sql_mulakat_left_join_count_tekrar",
   "hedef": "2026-11-19T12:30",
   "tur": "REEL",
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels.mp4",
   "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels_kapak.jpg",
   "aciklama": "SQL Mülakat Sorusu #10: LEFT JOIN + COUNT(*) siparişi olmayan müşteriye 1 yazar 😱\n\nCan hiç sipariş vermedi ama sorgu 1 dedi. LEFT JOIN, eşleşmeyen müşteri için sipariş sütunları NULL olan bir satır üretir; yıldızlı COUNT bu satırı da sayar. Doğrusu COUNT(s.id): NULL'ı saymaz, Can için 0 döner.\n\nSen ilk seferde fark eder miydin? Yorumlara yaz 👇\nTeknoloji alanında iş arayan bir arkadaşına gönder, kaydet 📌\n\n#sql #teknikmülakat #sqlöğren #leftjoin"
+ },
+ {
+  "id": "2026-11-19_1330_story_mulakat_taktigi",
+  "hedef": "2026-11-19T13:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/story_1330_mulakat_taktigi.png",
+  "aciklama": "Teknik Mülakat Taktiği #8"
+ },
+ {
+  "id": "2026-11-19_1400_story_count_kart",
+  "hedef": "2026-11-19T14:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/story_1400_count_kart.png",
+  "aciklama": "LEFT JOIN'de COUNT(sütun)"
+ },
+ {
+  "id": "2026-11-19_1600_story_hap_instagram",
+  "hedef": "2026-11-19T16:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/story_1600_hap_instagram.png",
+  "aciklama": "Hap haber: Instagram kopya Reels aracı"
+ },
+ {
+  "id": "2026-11-19_1700_story_duyuru",
+  "hedef": "2026-11-19T17:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/story_1700_duyuru.png",
+  "aciklama": "18:00 Voyager duyurusu"
+ },
+ {
+  "id": "2026-11-19_1800_reel_voyager",
+  "hedef": "2026-11-19T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/reel_voyager_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/reel_voyager_reels_kapak.jpg",
+  "aciklama": "Voyager 1 artık Dünya'dan 1 ışık günü uzakta 🛰️\n\n1977'de fırlatılan Voyager 1, 18 Kasım 2026'da ışığın 24 saatte gittiği mesafeye, yaklaşık 25,9 milyar kilometreye ulaştı. NASA'nın gönderdiği bir komut ona 1 günde varıyor; cevabın dönmesi toplam yaklaşık 2 gün sürüyor. Araç saatte yaklaşık 61 bin km hızla ilerliyor ve hâlâ veri gönderiyor.\n\nSence Voyager daha kaç yıl veri gönderebilir? Yorumlara yaz 👇\nUzayı seven bir arkadaşına gönder, kaydet 📌\n\nKaynak: NASA, EarthSky, ScienceAlert\n\n#teknoloji #teknolojihaberleri #uzay #voyager1"
+ },
+ {
+  "id": "2026-11-19_2130_story_ozet",
+  "hedef": "2026-11-19T21:30",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/story_2130_ozet.png",
+  "aciklama": "Günün özeti"
+ },
+ {
+  "id": "2026-11-19_2300_story_iyigeceler",
+  "hedef": "2026-11-19T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/story_2300_iyigeceler.png",
+  "aciklama": "İyi geceler: Trojan Room kahve demliği"
  }
 ]
