@@ -258,10 +258,13 @@ def yayin_turu(uid):
                     cid = konteyner(uid, o)
                     break
                 except Exception as e:
-                    if deneme == 2 or not any(k in str(e) for k in ("2207052", "alınamadı", "Only photo or video")):
+                    # 16 Kasım: Meta, sağlam bir Reels'i geçici olarak "konteyner ERROR" ile reddetti (aynı dosya
+                    # sonra sorunsuz yüklendi) → Reels'te ERROR olursa 3 dk sonra 1 kez daha denenir.
+                    reel_err = o["tur"] in ("REEL", "TRIAL_REEL") and "konteyner ERROR" in str(e) and deneme == 0
+                    if deneme == 2 or not (reel_err or any(k in str(e) for k in ("2207052", "alınamadı", "Only photo or video"))):
                         raise
-                    print(f"  medya alınamadı, tekrar denenecek ({deneme + 1})", flush=True)
-                    time.sleep(20)
+                    print(f"  {'konteyner ERROR' if reel_err else 'medya alınamadı'}, tekrar denenecek ({deneme + 1})", flush=True)
+                    time.sleep(180 if reel_err else 20)
             bekle(o["_h"])
             mid = istek("POST", f"{uid}/media_publish", creation_id=cid)["id"]
             gecikme = round((simdi() - o["_h"]).total_seconds())
