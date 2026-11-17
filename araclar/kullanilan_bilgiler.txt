@@ -46,3 +46,5 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-18 09:00 günaydın: Manchester Baby, 21 Haziran 1948 ilk program, 2^18 en büyük bölen 52 dk (Univ. of Manchester, Cosmos)
 2026-11-18 13:30 Teknoloji Tarihinden #8: Dan Bricklin & Bob Frankston, VisiCalc 1979 Apple II (Computing History UK, Wikipedia)
 2026-11-18 23:00 iyi geceler: Scott Fahlman :-) 19 Eylül 1982, CMU, Guinness ilk dijital ifade
+2026-11-19 09:00 günaydın: SQL'in ilk adı SEQUEL (Chamberlin & Boyce 1974), marka çakışması (History of Information, Wikipedia)
+2026-11-19 23:00 iyi geceler: Trojan Room kahve demliği, Cambridge 1991, web 1993, kapanış 2001 (Wikipedia, History of Information)
