@@ -1,0 +1,19 @@
+{
+ "ad": "story_1330_mulakat_taktigi",
+ "seri": "TEKNİK MÜLAKAT TAKTİĞİ #8",
+ "tema": "kariyer",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "SQL mülakatına giriyorsan 👀",
+   "baslik": "Sorguyu *3 satırla* elle dene",
+   "alt": "Yazdığın sorguyu 3-4 satırlık küçük bir örnek tabloyla kafanda çalıştır ve sonucu söyle. Eşleşmeyen ya da NULL olan satırı mutlaka ekle; hatalar en çok orada çıkar.",
+   "ikonlar": [
+    "briefcase",
+    "woman_technologist",
+    "magnifying_glass_tilted_left"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

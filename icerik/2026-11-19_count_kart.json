@@ -1,0 +1,19 @@
+{
+ "ad": "story_1400_count_kart",
+ "seri": "EKRAN GÖRÜNTÜSÜNÜ AL 📸",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Sabahki testin cevabı: B ✅",
+   "baslik": "LEFT JOIN'de *COUNT(sütun)* kullan",
+   "alt": "Yıldızlı COUNT, LEFT JOIN'in NULL'lu satırını da sayar: Can 1 görünür. COUNT(s.id) NULL'ı saymaz, Can doğru şekilde 0 olur 📌",
+   "ikonlar": [
+    "check_mark_button",
+    "card_file_box",
+    "pushpin"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}
