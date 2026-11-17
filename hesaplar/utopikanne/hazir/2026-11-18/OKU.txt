@@ -1,0 +1,9 @@
+18 Kasım Çarşamba — hazır hikâyeler (sırayla paylaş) + POST GÜNÜ (secenek_A/B/C'den birini seç, açıklamalar post_aciklama.txt'de):
+1_sabah_gunaydin.png   -> sabah: Günaydın + ilk kuvözlerden biri civciv kuluçka makinesinden esinlendi, Dr. Tarnier, Paris (Fransa), 1880 (NLM)
+2_ogle_soru.png        -> öğle sorusu: çiğ et ve salata için ayrı tahta mı? (alta A/B/C Anket ekleyebilirsin)  → Öne çıkan: Temizlik
+3_ogle_cevap.png       -> öğle cevabı: B) ayrı kesme tahtası (FSA)  → Öne çıkan: Temizlik
+4_ikindi_soru.png      -> ikindi sorusu: 19. hafta, deriyi koruyan beyaz tabaka  → Öne çıkan: Hamilelik
+5_ikindi_cevap.png     -> ikindi cevabı: A) verniks (NHS)  → Öne çıkan: Hamilelik
+6_aksam_soru.png       -> akşam sorusu: güvenli uykuda bebek yatağı  → Öne çıkan: Bebek
+7_aksam_cevap.png      -> akşam cevabı: C) düz yatak, boş beşik, sırtüstü (AAP, The Lullaby Trust)  → Öne çıkan: Bebek
+8_gece_iyi_geceler.png -> gece: yarın (19 Kasım) Dünya Tuvalet Günü + el yıkama hatırlatması (BM, CDC)
