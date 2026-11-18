@@ -8,7 +8,13 @@ KARARLAR:
 2. İÇERİK ORANI (haftalık 7-9 Reels): SQL tuzak/test %60 (ilk karede yanlış sonuç + sayı: "4 sipariş vardı, 3 geldi"), SQL/veri analisti MÜLAKAT %30 ("Veri Analisti Mülakatında Eleyen Soru #N" yeni numaralı seri, #1'den), haber %10 (haftada en fazla 1, yalnız kitle oyun/WhatsApp/Instagram/ChatGPT gibi herkesin kullandığı şey). Teknoloji tarihi, uzay, model sürüm haberi, ilham Reels'i YOK.
 3. KISA: Reels 10-15 sn; cevap 6. saniyeden önce; son sahne 1,5 sn; döngü (son kare kapağa bağlansın).
 4. GÖNDERİM ÇAĞRISI somut kişiye: "Mülakata hazırlanan arkadaşını etiketle", "Bunu bilmeyen stajyere gönder". "Yorumlara 🔥 bırak" zorlaması azalt.
-5. KARUSEL POST haftada 2 (Salı, Cuma): "SQL kopya kâğıdı" (JOIN türleri, NULL kuralları, mülakat 5 soru) → kaydet/gönder. Şablon anne_canli --story slaytları 1080x1350'e uyarlanabilir; yoksa tek sayfa.
+5. POST (18 Kasım, Sergen: "insanların birbirine göndereceği postlar"): haftada 3 post, 12:30 (Reels 18:00'le çakışmasın): Pzt mizah tek görsel · Çar karusel · Cuma karusel. Araştırma (Socialinsider 2026): karusel etkileşimi %0,55 (Reels %0,52, tek görsel %0,37), kaydetme karuselde en yüksek.
+   GÖNDERMELİK FORMATLAR:
+   a) Yazılımcı/veri analisti MİZAHI (tek görsel, iş arkadaşını etiketletir): "Müdür: 'Basit bir rapor.' Ben: 4 tablo JOIN, 2 alt sorgu", "Cuma 17:59'da WHERE'siz DELETE", "Excel'de 2 saat vs SQL'de 1 satır", "Sorgu çalıştı ama neden çalıştı bilmiyorum". Çağrı: "Bunu yaşayan iş arkadaşını etiketle".
+   b) KOPYA KÂĞIDI karusel (kaydet + gönder): JOIN türleri tek sayfa, NULL kuralları, SQL sorgu çalışma sırası, en çok kullanılan 10 fonksiyon, pencere fonksiyonları. Son slayt: "Mülakattan önce kaydet, SQL öğrenen arkadaşına gönder".
+   c) "MÜLAKATTA SORULAN 5 SQL SORUSU" karusel: her slayt 1 soru, son slaytta cevaplar (kaydırtır). Çağrı: "Mülakata hazırlanan arkadaşını etiketle".
+   d) "HATA NEREDE?" meydan okuma (tek görsel): yanlış sorgu + "Çözebilecek arkadaşını etiketle", cevap ertesi gün hikâyede.
+   Tasarım: anne_canli.py "sql"/"koyu" teması, 1080x1350; mizahta büyük, kısa yazı, kod parçası en fazla 4 satır. Uydurma istatistik/maaş YOK; marka logosu YOK.
 6. HİKÂYE günde 5: 09:00 günaydın+mini soru · 13:00 anket ("Hangisi döner?") · 18:05 Reels paylaşımı · 21:00 cevap · 23:00 iyi geceler. Diğer story slotları kaldırıldı.
 7. 19 Kasım 18:00 Voyager Reels'i KALDIRILDI → yerine SQL/mülakat Reels (gece ekibi üretir).
 8. Ölçüm 25 Kasım: hedef Reels başı ort. erişim ≥600, gönderim/erişim ≥%1, haftalık net takipçi ≥+40.
