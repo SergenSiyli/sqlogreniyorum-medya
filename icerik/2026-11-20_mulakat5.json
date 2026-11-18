@@ -1,0 +1,87 @@
+{
+ "ad": "mulakat5",
+ "seri": "MÜLAKATTA SORULAN 5 SQL SORUSU",
+ "no": 1,
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Mülakattan önce kendini test et 📌",
+   "baslik": "Mülakatta sorulan *5 SQL* sorusu",
+   "alt": "Cevaplar son slaytta. Kaçını bileceksin?",
+   "ikonlar": [
+    "briefcase",
+    "card_file_box",
+    "thinking_face"
+   ]
+  },
+  {
+   "tip": "kod",
+   "baslik": "Soru 1: Toplamı *500* üstü olanlar",
+   "kod": "SELECT musteri FROM siparis\nGROUP BY musteri\n______ SUM(tutar) > 500;",
+   "metin": "Boşluğa ne gelir? A) HAVING · B) WHERE · C) ORDER BY"
+  },
+  {
+   "tip": "kod",
+   "baslik": "Soru 2: Kaç *farklı* şehir?",
+   "kod": "-- sehir: Ankara, İzmir,\n--        Ankara, NULL\nSELECT COUNT(DISTINCT sehir)\nFROM musteri;",
+   "metin": "A) 4 · B) 2 · C) 3"
+  },
+  {
+   "tip": "kod",
+   "baslik": "Soru 3: *UNION* kaç satır getirir?",
+   "kod": "-- a: 1, 2, 2   b: 2, 3\nSELECT x FROM a\nUNION\nSELECT x FROM b;",
+   "metin": "A) 5 · B) 2 · C) 3"
+  },
+  {
+   "tip": "kod",
+   "baslik": "Soru 4: Hangisi *önce* çalışır?",
+   "kod": "SELECT ad\nFROM calisan\nWHERE maas > 5000\nORDER BY ad;",
+   "metin": "A) WHERE · B) SELECT · C) ORDER BY"
+  },
+  {
+   "tip": "kod",
+   "baslik": "Soru 5: Hangi *maaş* gelir?",
+   "kod": "-- maas: 9000, 7000, 7000, 5000\nSELECT maas FROM calisan\nORDER BY maas DESC\nLIMIT 1 OFFSET 1;",
+   "metin": "A) 9000 · B) 5000 · C) 7000"
+  },
+  {
+   "tip": "liste",
+   "baslik": "*Cevaplar* 🎯",
+   "maddeler": [
+    {
+     "ikon": "check_mark_button",
+     "yazi": "1-A: Toplam filtresi HAVING'de olur"
+    },
+    {
+     "ikon": "check_mark_button",
+     "yazi": "2-B: 2 şehir. COUNT, NULL'u saymaz"
+    },
+    {
+     "ikon": "check_mark_button",
+     "yazi": "3-C: 3 satır. UNION tekrarı siler"
+    },
+    {
+     "ikon": "check_mark_button",
+     "yazi": "4-A: WHERE, SELECT'ten önce çalışır"
+    },
+    {
+     "ikon": "check_mark_button",
+     "yazi": "5-C: 7000. OFFSET 1 ilk satırı atlar"
+    }
+   ]
+  },
+  {
+   "tip": "son",
+   "baslik": "Kaç tane bildin? *Yorumla*",
+   "metin": "Her hafta yeni 5 soru için takip et.",
+   "gonder": "Mülakata hazırlanan arkadaşına gönder",
+   "ikonlar": [
+    "trophy",
+    "rocket",
+    "sparkles"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

@@ -1,0 +1,63 @@
+{
+ "ad": "reel_avg_null",
+ "seri": "SQL TEST",
+ "no": 10,
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "sure": 3.0,
+   "ust": "100, 80, NULL, NULL: ortalama 45 değil 😱",
+   "baslik": "*AVG(puan)* kaç döner?",
+   "secenekler": [
+    "45",
+    "90",
+    "NULL"
+   ],
+   "cevap_notu": "3 saniye düşün 👉",
+   "ikonlar": [
+    "bar_chart",
+    "thinking_face",
+    "card_file_box"
+   ]
+  },
+  {
+   "tip": "kod",
+   "sure": 2.6,
+   "baslik": "*2* öğrencinin puanı boş",
+   "kod": "-- puan: 100, 80, NULL, NULL\nSELECT AVG(puan)\nFROM sinav;",
+   "metin": "A) 45 · B) 90 · C) NULL"
+  },
+  {
+   "tip": "adim",
+   "sure": 3.4,
+   "no": "B",
+   "baslik": "Cevap: *90* 🎯",
+   "metin": "AVG, NULL satırları hiç saymaz: (100 + 80) / 2 = 90. Boş puan 0 sayılmaz, yok sayılır.",
+   "ikonlar": [
+    "warning",
+    "bar_chart"
+   ]
+  },
+  {
+   "tip": "kod",
+   "sure": 2.8,
+   "baslik": "Boşlar 0 sayılsın istersen",
+   "kod": "SELECT AVG(COALESCE(puan, 0))\nFROM sinav;   -- 45",
+   "metin": "COALESCE, NULL'u 0 yapar. Ortalama 45 olur."
+  },
+  {
+   "tip": "son",
+   "sure": 1.8,
+   "baslik": "Her gün 1 SQL testi için *takip et*",
+   "metin": "Bilemedin mi? Normal, çoğu kişi 45 der.",
+   "gonder": "Mülakata hazırlanan arkadaşını etiketle",
+   "ikonlar": [
+    "fire",
+    "trophy",
+    "rocket"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

@@ -1,0 +1,20 @@
+{
+ "ad": "story_2300_iyigeceler_v2",
+ "seri": "İYİ GECELER 🌙",
+ "tema": "koyu",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Yatmadan bir bilgi 🌙",
+   "baslik": "Firefox'un ilk adı *Phoenix*'ti",
+   "alt": "2002'de Phoenix adıyla çıktı, marka çakışınca Firebird oldu. Firebird adı da bir veritabanı projesiyle çakışınca 2004'te Firefox'ta karar kılındı. Yarın yeni bir SQL testi var 😉",
+   "kaynak": "Britannica, Wikipedia",
+   "ikonlar": [
+    "crescent_moon",
+    "globe_showing_europe_africa",
+    "card_file_box"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

@@ -1,0 +1,24 @@
+{
+ "ad": "story_1300_anket",
+ "seri": "ANKET · HANGİSİ DÖNER?",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "sehir: Ankara, İzmir, NULL · WHERE sehir <> 'Ankara'",
+   "baslik": "Kaç satır *döner?*",
+   "secenekler": [
+    "2",
+    "1",
+    "0"
+   ],
+   "cevap_notu": "Cevap 21:00'de. Tahminini aklında tut 👀",
+   "ikonlar": [
+    "bar_chart",
+    "thinking_face",
+    "card_file_box"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

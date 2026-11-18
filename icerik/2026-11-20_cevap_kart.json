@@ -1,0 +1,19 @@
+{
+ "ad": "story_2100_cevap_kart",
+ "seri": "BUGÜNÜN CEVAPLARI 🎯",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Anket: WHERE sehir <> 'Ankara'",
+   "baslik": "Doğru cevap: *1 satır*",
+   "alt": "Sadece İzmir gelir. NULL ile karşılaştırma 'bilinmiyor' döner, o satır elenir. Günaydın sorusu: Excel'de 16.384 sütun var (A).",
+   "ikonlar": [
+    "check_mark_button",
+    "card_file_box",
+    "light_bulb"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

@@ -1,0 +1,63 @@
+{
+ "ad": "reel_eleyen_not_in",
+ "seri": "VERİ ANALİSTİ MÜLAKATINDA ELEYEN SORU",
+ "no": 1,
+ "tema": "kariyer",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "sure": 3.0,
+   "ust": "2 müşteri sipariş vermedi, sorgu 0 satır 😱",
+   "baslik": "*NOT IN* neden boş döndü?",
+   "secenekler": [
+    "Alt sorguda NULL var",
+    "Yazım hatası",
+    "JOIN eksik"
+   ],
+   "cevap_notu": "3 saniye düşün 👉",
+   "ikonlar": [
+    "briefcase",
+    "thinking_face",
+    "card_file_box"
+   ]
+  },
+  {
+   "tip": "kod",
+   "sure": 2.6,
+   "baslik": "Siparişlerde bir *NULL* var",
+   "kod": "-- siparis.musteri_id: 1, 2, NULL\nSELECT ad FROM musteri\nWHERE id NOT IN (\n  SELECT musteri_id\n  FROM siparis);",
+   "metin": "Can ve Deniz gelmeliydi. Gelen: 0 satır."
+  },
+  {
+   "tip": "adim",
+   "sure": 3.4,
+   "no": "A",
+   "baslik": "Suçlu: *NULL* 🎯",
+   "metin": "Listede bir NULL varsa NOT IN hiçbir satır için 'doğru' diyemez. Sonuç: 0 satır.",
+   "ikonlar": [
+    "warning",
+    "red_exclamation_mark"
+   ]
+  },
+  {
+   "tip": "kod",
+   "sure": 2.8,
+   "baslik": "Doğrusu: *NOT EXISTS*",
+   "kod": "SELECT ad FROM musteri m\nWHERE NOT EXISTS (\n  SELECT 1 FROM siparis s\n  WHERE s.musteri_id = m.id);",
+   "metin": "Sonuç: Can, Deniz. NULL'dan etkilenmez."
+  },
+  {
+   "tip": "son",
+   "sure": 1.8,
+   "baslik": "Seri için *takip et*",
+   "metin": "Her hafta mülakatta eleyen yeni bir soru.",
+   "gonder": "Mülakata hazırlanan arkadaşını etiketle",
+   "ikonlar": [
+    "briefcase",
+    "trophy",
+    "rocket"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

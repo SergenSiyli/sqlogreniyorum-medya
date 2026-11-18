@@ -1,0 +1,19 @@
+{
+ "ad": "story_1805_duyuru",
+ "seri": "YENİ REELS · ŞİMDİ",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "100, 80, NULL, NULL 👀",
+   "baslik": "*AVG(puan)* kaç döner?",
+   "alt": "Cevap yeni Reels'te. Çoğu kişi 45 diyor, sen ne dersin? Profilime dokun 👆",
+   "ikonlar": [
+    "bar_chart",
+    "thinking_face",
+    "fire"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}
