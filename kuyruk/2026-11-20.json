@@ -1,0 +1,61 @@
+[
+ {
+  "id": "2026-11-20_0900_story_gunaydin",
+  "hedef": "2026-11-20T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/story_0900_gunaydin.png",
+  "aciklama": "Günaydın: Excel 1.048.576 satır + mini soru"
+ },
+ {
+  "id": "2026-11-20_1230_carousel_mulakat5",
+  "hedef": "2026-11-20T12:30",
+  "tur": "CAROUSEL",
+  "medya": [
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/mulakat5_01.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/mulakat5_02.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/mulakat5_03.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/mulakat5_04.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/mulakat5_05.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/mulakat5_06.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/mulakat5_07.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/mulakat5_08.jpg"
+  ],
+  "aciklama": "Mülakatta sorulan 5 SQL sorusu #1 📌 Cevaplar son slaytta.\n\nHAVING mi WHERE mi, COUNT(DISTINCT) NULL'u sayar mı, UNION kaç satır getirir, hangisi önce çalışır, OFFSET hangi maaşı getirir? Önce kendin cevapla, sonra son slayta kaydır.\n\nKaç tane bildin? 5/5 ise yorumlara yaz 👇\n📩 Mülakata hazırlanan arkadaşına gönder.\n📌 Kaydet, mülakattan önce bak.\n\n#sql #sqlöğren #verianalisti #mülakat #sqlmülakat"
+ },
+ {
+  "id": "2026-11-20_1300_story_anket",
+  "hedef": "2026-11-20T13:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/story_1300_anket.png",
+  "aciklama": "Anket: sehir <> 'Ankara' kaç satır?"
+ },
+ {
+  "id": "2026-11-20_1800_reel_eleyen_soru_1_not_in",
+  "hedef": "2026-11-20T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/reel_eleyen_not_in_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/reel_eleyen_not_in_reels_kapak.jpg",
+  "aciklama": "Veri Analisti Mülakatında Eleyen Soru #1: NOT IN neden 0 satır döndürdü? 😱\n\nCan ve Deniz hiç sipariş vermedi ama sorgu boş geldi. Sebep: siparis tablosunda musteri_id'si NULL olan bir satır var. Listede NULL varsa NOT IN hiçbir satır için \"doğru\" diyemez. Doğru cevap A. Çözüm: NOT EXISTS; sonuç Can, Deniz.\n\nBunu bilen mülakatı geçer. Bilmeyen... 👀\n📩 Mülakata hazırlanan arkadaşını etiketle.\n📌 Kaydet, mülakattan önce bak.\n\n#sql #verianalisti #mülakat #sqlmülakat #sqlöğren"
+ },
+ {
+  "id": "2026-11-20_1805_story_duyuru",
+  "hedef": "2026-11-20T18:05",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/story_1805_duyuru.png",
+  "aciklama": "Reels duyurusu: Eleyen Soru #1"
+ },
+ {
+  "id": "2026-11-20_2100_story_cevap_kart",
+  "hedef": "2026-11-20T21:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/story_2100_cevap_kart.png",
+  "aciklama": "Anket ve mini soru cevapları"
+ },
+ {
+  "id": "2026-11-20_2300_story_iyigeceler",
+  "hedef": "2026-11-20T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-20/story_2300_iyigeceler.png",
+  "aciklama": "İyi geceler: Tennis for Two"
+ }
+]

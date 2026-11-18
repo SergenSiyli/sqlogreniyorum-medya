@@ -48,3 +48,7 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-18 23:00 iyi geceler: Scott Fahlman :-) 19 Eylül 1982, CMU, Guinness ilk dijital ifade
 2026-11-19 09:00 günaydın: SQL'in ilk adı SEQUEL (Chamberlin & Boyce 1974), marka çakışması (History of Information, Wikipedia)
 2026-11-19 23:00 iyi geceler: Trojan Room kahve demliği, Cambridge 1991, web 1993, kapanış 2001 (Wikipedia, History of Information)
+2026-11-19 09:00 günaydın (v2, SEQUEL tekrarı yerine): MySQL "My" Widenius'un kızı; mini soru MariaDB Maria (cevap 21:30) — kaynak: MariaDB KB, Wikipedia
+2026-11-19 23:00 iyi geceler (v2, Trojan Room tekrarı yerine): Firefox Phoenix (2002) → Firebird → Firefox (2004) — kaynak: Britannica, Wikipedia
+2026-11-20 09:00 günaydın: Excel 1.048.576 satır, 16.384 sütun (mini soru) — kaynak: Microsoft Destek
+2026-11-20 23:00 iyi geceler: Tennis for Two, 1958, Higinbotham, Brookhaven ziyaretçi günü, osiloskop — kaynak: APS News, BNL
