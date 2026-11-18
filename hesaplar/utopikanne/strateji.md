@@ -22,6 +22,7 @@
 - basaritemeli: iki sahneli duygusal hikâye (önce/sonra) → 42 bin gönderim.
 - gebelikten_anneligee: açıklamada tek cümle "Kocana gönder ❤️" yeterli; eşe göndermelik sözler çok paylaşılıyor.
 - bicizimbisoz: sıcak ev sahnesi + huzur sözü → 2 bin gönderim.
+- 1mombloguu (18 Kasım, Melike: örnek sayfa): sade krem/gri zemin + tek küçük anne-bebek çizimi + ortada kısa ya da orta uzunlukta "anne iç sesi" metni + altta küçük logo. ÖNEMLİ: Bunları POST değil, sabit görsel + sakin piyano müziğiyle REELS olarak paylaşıyor; 10 bin–1 milyon izlenme. En çok izlenenler: "Buraya fotoğraf ekle" çerçeveli şablonlar (annelerin kendi bebek fotoğrafını koyup hikâyesine attığı; 129–685 bin), "Anne olunca anladım ki…" (1 milyon), "Sana annelik ederken…", "Meğer annemin de uykusu varmış", "Görünmeyen emek/zihinsel yük", "Eşimin anlamadığı şey şu…". Bizim için: sıcak, kimseyi suçlamayan versiyonlar; kavga/siyaset/dini metin yok.
 YAPMA: başka hesapların çizim/görsellerini kullanma; dini/siyasi söz yok; "düşman, kıskanç" gibi kavgacı sözler yok (bizim ton sıcak anne).
 
 5b. (15 Kasım 23:40 GERİ ALINDI) Melike'nin Instagram'ında Test çıkartması yok. Eski, beğenilen düzen sürer: soru görselinde A/B/C şıklar YAZILI + ayrı cevap story'si (6 story). Çıkartma zorunlu değil; isterse 'Anket' ile A/B/C ekler.
