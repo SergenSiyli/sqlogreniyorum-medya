@@ -1,5 +1,18 @@
 # Strateji (Büyüme Stratejisti)
 
+## 🚀 HIZLANDIRMA v4 (18 Kasım, Sergen: "takipçi gelmiyor, SQL ve mülakata ağırlık ver, gaza bas") — EN ÜST KURAL (v3'ün yerine)
+VERİ (4-16 Kasım): takipçi 1.547 → 1.557 (12 günde +10; Ekim sonu haftada +57'ydi). Günde 2 Reels + her gün deneme başlayınca Reels başı erişim ~1.100'den ~150-250'ye düştü. Denemeler (20:30) 104-186 erişim. Gönderim (paylaşım) neredeyse 0 → asıl darboğaz. Kazananlar: BETWEEN tarih tuzağı 1.145 erişim (%31, 6,4 sn), GTA VI 957, COUNT(DISTINCT) Mülakat #9 736, UNION #7 %35. Kaybedenler: Starship 78, Voyager/teknoloji tarihi ~144, model haberleri (Gemini, Meta AI) 98-142.
+Araştırma: Mosseri: dağıtımda en güçlü sinyal gönderim/erişim; deneme Reels "neredeyse her zaman daha az erişim alır"; hesap kalitesi bütün olarak değerlendirilir (zayıf içerik iyi içeriği de düşürür).
+KARARLAR:
+1. GÜNDE 1 GÜÇLÜ REELS (18:00). 12:30 Reels yalnızca elde çok güçlü ikinci içerik varsa. Deneme Reels (TRIAL_REEL) haftada EN FAZLA 2, yalnızca kazanan formatın yeni kancalı versiyonu.
+2. İÇERİK ORANI (haftalık 7-9 Reels): SQL tuzak/test %60 (ilk karede yanlış sonuç + sayı: "4 sipariş vardı, 3 geldi"), SQL/veri analisti MÜLAKAT %30 ("Veri Analisti Mülakatında Eleyen Soru #N" yeni numaralı seri, #1'den), haber %10 (haftada en fazla 1, yalnız kitle oyun/WhatsApp/Instagram/ChatGPT gibi herkesin kullandığı şey). Teknoloji tarihi, uzay, model sürüm haberi, ilham Reels'i YOK.
+3. KISA: Reels 10-15 sn; cevap 6. saniyeden önce; son sahne 1,5 sn; döngü (son kare kapağa bağlansın).
+4. GÖNDERİM ÇAĞRISI somut kişiye: "Mülakata hazırlanan arkadaşını etiketle", "Bunu bilmeyen stajyere gönder". "Yorumlara 🔥 bırak" zorlaması azalt.
+5. KARUSEL POST haftada 2 (Salı, Cuma): "SQL kopya kâğıdı" (JOIN türleri, NULL kuralları, mülakat 5 soru) → kaydet/gönder. Şablon anne_canli --story slaytları 1080x1350'e uyarlanabilir; yoksa tek sayfa.
+6. HİKÂYE günde 5: 09:00 günaydın+mini soru · 13:00 anket ("Hangisi döner?") · 18:05 Reels paylaşımı · 21:00 cevap · 23:00 iyi geceler. Diğer story slotları kaldırıldı.
+7. 19 Kasım 18:00 Voyager Reels'i KALDIRILDI → yerine SQL/mülakat Reels (gece ekibi üretir).
+8. Ölçüm 25 Kasım: hedef Reels başı ort. erişim ≥600, gönderim/erişim ≥%1, haftalık net takipçi ≥+40.
+
 ## ⚡ HIZLANDIRMA v3 (8 Kasım 17:45, Sergen'in isteği) — EN ÜST KURAL
 Bu bölüm tetik talimatındaki "Haftada 2-3 TRIAL_REEL" kuralının YERİNE geçer.
 - HER GÜN 2 Reels: 12:30 normal REEL (takipçiler) + 20:30 TRIAL_REEL (takip etmeyenler, yeni takipçi kanalı). Haftada 7 deneme.
