@@ -22,27 +22,6 @@
   "aciklama": "SQL Mülakat Sorusu #10: LEFT JOIN + COUNT(*) siparişi olmayan müşteriye 1 yazar 😱\n\nCan hiç sipariş vermedi ama sorgu 1 dedi. LEFT JOIN, eşleşmeyen müşteri için sipariş sütunları NULL olan bir satır üretir; yıldızlı COUNT bu satırı da sayar. Doğrusu COUNT(s.id): NULL'ı saymaz, Can için 0 döner.\n\nSen ilk seferde fark eder miydin? Yorumlara yaz 👇\nTeknoloji alanında iş arayan bir arkadaşına gönder, kaydet 📌\n\n#sql #teknikmülakat #sqlöğren #leftjoin"
  },
  {
-  "id": "2026-11-19_1330_story_mulakat_taktigi",
-  "hedef": "2026-11-19T13:30",
-  "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/story_1330_mulakat_taktigi.png",
-  "aciklama": "Teknik Mülakat Taktiği #8"
- },
- {
-  "id": "2026-11-19_1400_story_count_kart",
-  "hedef": "2026-11-19T14:00",
-  "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/story_1400_count_kart.png",
-  "aciklama": "LEFT JOIN'de COUNT(sütun)"
- },
- {
-  "id": "2026-11-19_1600_story_hap_instagram",
-  "hedef": "2026-11-19T16:00",
-  "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/story_1600_hap_instagram.png",
-  "aciklama": "Hap haber: Instagram kopya Reels aracı"
- },
- {
   "id": "2026-11-19_1800_reel_sql_test_avg_null",
   "hedef": "2026-11-19T18:00",
   "tur": "REEL",
