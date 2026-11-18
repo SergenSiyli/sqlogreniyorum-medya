@@ -1,0 +1,10 @@
+{"ad":"kopya_join","hesap":"sqlogreniyorum","seri":"SQL KOPYA KÂĞIDI","no":1,"tema":"sql",
+"slaytlar":[
+{"tip":"kapak","ust":"Mülakattan önce kaydet 📌","baslik":"4 JOIN türü, *tek* postta","cevap_notu":"Kaydır, 5 sayfada hepsi 👉","ikonlar":["card_file_box","laptop","sparkles"]},
+{"tip":"tablo","baslik":"Elimizde *2 tablo* var","sutunlar":["musteri","siparis (musteri_id)"],"satirlar":[["1 Ali","1 → 200 TL"],["2 Ayşe","1 → 150 TL"],["3 Can","4 → 300 TL"]],"metin":"Ali'nin 2 siparişi var. Ayşe ve Can hiç sipariş vermedi. 4 numaralı müşteri tabloda yok."},
+{"tip":"kod","baslik":"INNER JOIN → *2* satır","kod":"SELECT m.ad, s.tutar\nFROM musteri m\nINNER JOIN siparis s\n  ON s.musteri_id = m.id;","metin":"Sadece iki tarafta da eşleşenler: Ali 200, Ali 150."},
+{"tip":"kod","baslik":"LEFT JOIN → *4* satır","kod":"... FROM musteri m\nLEFT JOIN siparis s\n  ON s.musteri_id = m.id;","metin":"Soldaki tüm müşteriler gelir. Ayşe ve Can'ın tutarı NULL."},
+{"tip":"kod","baslik":"RIGHT JOIN → *3* · FULL → *5*","kod":"RIGHT JOIN: tüm siparişler\n  (müşteri 4 yok → ad NULL)\nFULL OUTER JOIN: iki taraf da tam","metin":"RIGHT, LEFT'in tersidir. FULL, ikisinin birleşimidir."},
+{"tip":"kod","baslik":"Bonus: *hiç sipariş vermeyenler*","kod":"SELECT m.ad FROM musteri m\nLEFT JOIN siparis s\n  ON s.musteri_id = m.id\nWHERE s.id IS NULL;","metin":"Sonuç: Ayşe, Can. Mülakatta çok sorulur."},
+{"tip":"son","baslik":"Mülakattan önce *kaydet*","metin":"Her hafta yeni bir SQL kopya kâğıdı için takip et.","gonder":"Mülakata hazırlanan arkadaşını etiketle","ikonlar":["trophy","rocket","sparkles"]}
+]}
