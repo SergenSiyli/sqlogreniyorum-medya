@@ -1,0 +1,18 @@
+19 KASIM PERŞEMBE — HİKÂYE SEÇENEK HAVUZU (beğendiklerini seç, kendi sıranla at; saat yok)
+
+gunaydin.png — Günaydın: bebekler ~300 kemikle doğar, yetişkinde 206 (Nemours KidsHealth)
+soru_hamilelik.png + cevap_hamilelik.png — 20. hafta: ayrıntılı ultrason 18–21. haftalar (NHS) → Öne çıkan: Hamilelik
+soru_bebek.png + cevap_bebek.png — Çoğu bebek en geç 9. ayda desteksiz oturur (CDC) → Öne çıkan: Bebek
+soru_temizlik.png + cevap_temizlik.png — Buzdolabı 5°C ya da altı (FSA) → Öne çıkan: Temizlik
+soru_ekgida.png + cevap_ekgida.png — Tane kuruyemiş 5 yaşına kadar yok, boğulma (NHS) → Öne çıkan: Tarifler/Ek Gıda
+soru_bilgi.png + cevap_bilgi.png — Ahtapotun 3 kalbi var, kanı mavi (Smithsonian) → Öne çıkan: Bilgi (ya da öne çıkana eklemeden)
+bilgi_1.png — Yenidoğanlar çoğu zaman gözyaşı olmadan ağlar (Cleveland Clinic)
+bilgi_2.png — Kutup ayısının derisi siyah, tüyleri şeffaf (Polar Bears International)
+iyi_geceler.png — Yarın için küçük not: 20 Kasım Dünya Çocuk Hakları Günü (UNICEF)
+
+Soru görsellerinin altı boş: anket/çıkartmanı oraya ekle.
+
+POSTLAR (post_aciklama.txt'de açıklama + etiket + sabit yorum):
+secenek_A.png — Anneme küçük bir not: "Üşürsün" hırkası (duygusal, annesini etiketletir)
+secenek_B.png — Bebeği uyutma operasyonu: "Ben uyudum" (mizah)
+secenek_C.png — Anne arkadaşıma küçük bir not: "Seninki de mi uyumadı?" (göndermelik)

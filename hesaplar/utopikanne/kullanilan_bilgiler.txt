@@ -102,3 +102,15 @@ SÖZ: 2026-11-16 POST alternatif "Kendine küçük bir not: ev dağınık olabil
 2026-11-18 ikindi hamilelik #16 soru-cevap: 19. hafta verniks (beyaz yağlı tabaka deriyi korur), lanugo ince tüyler — NHS
 2026-11-18 akşam test (Bebek): güvenli uyku, düz yatak + gergin çarşaf, boş beşik, sırtüstü — AAP, The Lullaby Trust
 2026-11-18 iyi geceler (küçük not, özel gün): 19 Kasım Dünya Tuvalet Günü (BM, 2013), bez sonrası 20 sn el yıkama — BM, CDC
+2026-11-19 günaydın: bebekler ~300 kemikle doğar, yetişkinde 206 — Nemours KidsHealth
+2026-11-19 hamilelik #17 soru-cevap: 20. hafta, ayrıntılı ultrason (anomali) 18–21. haftalar, gebeliğin yarısı — NHS
+2026-11-19 bebek soru-cevap: desteksiz oturma en geç 9. ay — CDC
+2026-11-19 temizlik soru-cevap: buzdolabı 5°C ya da altı — FSA
+2026-11-19 ek gıda soru-cevap: tane kuruyemiş 5 yaşına kadar yok (boğulma), öğütülmüş/ezme — NHS
+2026-11-19 bilgi soru-cevap: ahtapotun 3 kalbi, mavi kan — Smithsonian Ocean
+2026-11-19 bilgi kartı: yenidoğanlar gözyaşsız ağlar — Cleveland Clinic
+2026-11-19 bilgi kartı: kutup ayısı derisi siyah, tüyler şeffaf — Polar Bears International
+2026-11-19 iyi geceler (küçük not, özel gün): 20 Kasım Dünya Çocuk Hakları Günü, BM sözleşmesi 1989, Türkiye 1990 imza — UNICEF
+SÖZ: 2026-11-19 POST seçenek "Anneme küçük bir not: 'Üşürsün' diye giydirdiğin hırkayı şimdi ben oğluma giydiriyorum. Haklıymışsın anne."
+SÖZ: 2026-11-19 POST seçenek "Bebeği uyutma operasyonu: ninni, sırt okşama, ışıklar… Ben uyudum."
+SÖZ: 2026-11-19 POST seçenek "Anne arkadaşıma küçük bir not: gece yarısı 'Seninki de mi uyumadı?' mesajın hiçbir tavsiyeden daha iyi geldi."
