@@ -62,5 +62,20 @@
   "hedef": "2026-11-18T23:00",
   "tur": "STORY",
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@9ef6d7cbf02100c58b5315a2f5d5bd1497af6b0e/gun/2026-11-18/story_2300_iyigeceler.png"
+ },
+ {
+  "id": "2026-11-18_2030_carousel_kopya_join",
+  "hedef": "2026-11-18T20:30",
+  "tur": "CAROUSEL",
+  "medya": [
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c0ac7b281bb7e2af15588b1f14e4c16e76aa2b6d/gun/2026-11-18/kopya_join_01.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c0ac7b281bb7e2af15588b1f14e4c16e76aa2b6d/gun/2026-11-18/kopya_join_02.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c0ac7b281bb7e2af15588b1f14e4c16e76aa2b6d/gun/2026-11-18/kopya_join_03.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c0ac7b281bb7e2af15588b1f14e4c16e76aa2b6d/gun/2026-11-18/kopya_join_04.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c0ac7b281bb7e2af15588b1f14e4c16e76aa2b6d/gun/2026-11-18/kopya_join_05.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c0ac7b281bb7e2af15588b1f14e4c16e76aa2b6d/gun/2026-11-18/kopya_join_06.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c0ac7b281bb7e2af15588b1f14e4c16e76aa2b6d/gun/2026-11-18/kopya_join_07.jpg"
+  ],
+  "aciklama": "SQL Kopya Kâğıdı #1: 4 JOIN türü tek postta 📌\n\nAynı iki tablo, dört JOIN: INNER 2 satır, LEFT 4, RIGHT 3, FULL 5 getirir. Son sayfada mülakatların favorisi var: hiç sipariş vermeyen müşterileri bulmak.\n\nMülakattan önce kaydet, mülakata hazırlanan arkadaşını etiketle 👇\nHangi JOIN seni en çok yanılttı? Yorumlara yaz.\n\n#sql #sqlöğren #veribilimi #teknikmülakat #sqljoin"
  }
 ]
