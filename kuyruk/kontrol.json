@@ -1,16 +1,16 @@
 {
- "zaman": "2026-11-19T07:33:20+03:00",
+ "zaman": "2026-11-19T21:49:21+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 259,
  "hesap": {
   "id": "17841460768999553",
-  "media_count": 100,
+  "media_count": 102,
   "username": "sqlogreniyorum"
  },
  "kota": {
   "data": [
    {
-    "quota_usage": 11,
+    "quota_usage": 7,
     "config": {
      "quota_total": 100,
      "quota_duration": 86400
@@ -20,14 +20,6 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-19/story_0900_gunaydin_v2.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@6640d8e884ac402fbf544cbdd0a840bb198bca5a/gun/2026-11-19/story_1000_sql_test.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels.mp4": "video/mp4",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@34f19899b7c28684bb3682b81c3acf55691bc484/gun/2026-11-16/reel_left_join_count_reels_kapak.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-19/reel_avg_null_reels.mp4": "video/mp4",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-19/reel_avg_null_reels_kapak.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-19/story_1805_duyuru.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-19/story_2130_ozet_v2.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@c61027e36b2db6a294f99ac09801d851612e44a0/gun/2026-11-19/story_2300_iyigeceler_v2.png": "image/png"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/story_0900_gunaydin.png,https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/story_1300_anket.png,https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/reel_sql_test_sum_null_reels.mp4,https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/story_1805_duyuru.png,https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/story_2100_cevap_kart.png,https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/story_2300_iyigeceler.png,https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/reel_sql_test_sum_null_reels_kapak.jpg": "HATA HTTP Error 400: Bad Request"
  }
 }
