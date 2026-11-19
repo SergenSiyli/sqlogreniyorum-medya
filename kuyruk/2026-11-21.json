@@ -1,0 +1,45 @@
+[
+ {
+  "id": "2026-11-21_0900_story_gunaydin",
+  "hedef": "2026-11-21T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/story_0900_gunaydin.png",
+  "aciklama": "Günaydın: Hoare null milyar dolarlık hata + mini soru"
+ },
+ {
+  "id": "2026-11-21_1300_story_anket",
+  "hedef": "2026-11-21T13:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/story_1300_anket.png",
+  "aciklama": "Anket: GROUP BY ve NULL kaç satır?"
+ },
+ {
+  "id": "2026-11-21_1800_reel_sql_test_sum_null",
+  "hedef": "2026-11-21T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/reel_sql_test_sum_null_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/reel_sql_test_sum_null_reels_kapak.jpg",
+  "aciklama": "SQL TEST #11: Ciro 1.000 TL olmalıydı. SQL 700 dedi 😱\n\nFiyatlar 400, 300, 200; kargo 50, NULL, 50. B satırında 300 + NULL = NULL olur, SUM o satırı atlar ve 300 TL sessizce kaybolur. Doğru cevap A. Çözüm: SUM(fiyat + COALESCE(kargo, 0)) → 1.000 TL.\n\nSen hangisini dedin: A, B, C? Yorumlara yaz 👇\n📩 Rapor hazırlayan iş arkadaşına gönder.\n📌 Kaydet, mülakattan önce bak.\n\n#sql #sqlöğren #verianalisti #mülakat #veri"
+ },
+ {
+  "id": "2026-11-21_1805_story_duyuru",
+  "hedef": "2026-11-21T18:05",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/story_1805_duyuru.png",
+  "aciklama": "Reels duyurusu: SQL TEST #11"
+ },
+ {
+  "id": "2026-11-21_2100_story_cevap_kart",
+  "hedef": "2026-11-21T21:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/story_2100_cevap_kart.png",
+  "aciklama": "Anket ve mini soru cevapları"
+ },
+ {
+  "id": "2026-11-21_2300_story_iyigeceler",
+  "hedef": "2026-11-21T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@fb064be739c175e9147193f1b7311a6160da33fa/gun/2026-11-21/story_2300_iyigeceler.png",
+  "aciklama": "İyi geceler: IBM 350 ilk sabit disk"
+ }
+]
