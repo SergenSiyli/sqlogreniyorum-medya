@@ -19,6 +19,11 @@ KARARLAR:
 7. 19 Kasım 18:00 Voyager Reels'i KALDIRILDI → yerine SQL/mülakat Reels (gece ekibi üretir).
 8. Ölçüm 25 Kasım: hedef Reels başı ort. erişim ≥600, gönderim/erişim ≥%1, haftalık net takipçi ≥+40.
 
+### Günlük düzeltme 19 Kasım (sabah nöbeti):
+VERİ (Metricool, en son gün 17 Kasım): takipçi 1.559; 11-17 Kasım +14 / -9 → 7 günde net +5 (hedef günde +10). Son 4 günün 7 Reels'i: erişim 118-267, 3 sn oranı %9,9-28,7 (atlama %71-90), PAYLAŞIM 7'sinde de 0. En iyi: AND/OR #7 267 erişim; WHERE = NULL #8 %28,7 / 5,0 sn. En kötü: Kore YZ kopya haberi 118, Mosaic tarihi %9,9. 18 Kasım karuseli 37 erişim, 0 paylaşım.
+KÖK NEDEN: Son 10 günün bütün SQL kapakları aynı açık mavi "SQL TEST #N · kaç satır? A/B/C" kartı; ekranın alt yarısı boş, kod yok → akışta hikâye kartı gibi görünüp kaydırılıyor. Elimizdeki en yüksek 3 sn oranlarından UNION #7 (%35) koyu temalı, ilk karede "Ciro 1000 TL olmalıydı. SQL 750 dedi." + 4 satır kod gösteriyordu.
+TEK DEĞİŞİKLİK (bu gece 21 Kasım 18:00 Reels'i): İLK KARE = koyu tema ("koyu"), üstte iki satırlık YANLIŞ SONUÇ cümlesi ("X olmalıydı. SQL Y dedi."), altında en fazla 4 satırlık sorgu kod bloğu ekranın alt yarısını doldursun. A/B/C seçenekleri ilk karede YOK (2. sahnede gelsin). Süre 13-15 sn kalır, diğer her şey aynı. 23 Kasım sabah nöbeti 3 sn oranını %28,7 (son en iyi) ile karşılaştırır.
+
 ## ⚡ HIZLANDIRMA v3 (8 Kasım 17:45, Sergen'in isteği) — EN ÜST KURAL
 Bu bölüm tetik talimatındaki "Haftada 2-3 TRIAL_REEL" kuralının YERİNE geçer.
 - HER GÜN 2 Reels: 12:30 normal REEL (takipçiler) + 20:30 TRIAL_REEL (takip etmeyenler, yeni takipçi kanalı). Haftada 7 deneme.
