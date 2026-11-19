@@ -125,7 +125,7 @@ def slayt_html(s, i, n, meta):
         kod = re.sub(r"(&#x27;[^&]*?&#x27;)", r'<i class="st">\1</i>', kod)
         ik = img(s["ikon"], "kodik", 0.3) if s.get("ikon") else ""
         ic = f'''<h2 class="a" data-d="0.05">{vurgula(s.get("baslik",""))}</h2>
-        <pre class="kod a" data-d="0.25">{kod}</pre>{ik}
+        <pre class="kod a{' buyuk' if s.get('buyuk') else ''}" data-d="0.25">{kod}</pre>{ik}
         <p class="metin a" data-d="0.6">{vurgula(s.get("metin",""))}</p>'''
     elif tip == "tablo":
         bas = "".join(f"<th>{html.escape(str(h))}</th>" for h in s["sutunlar"])
@@ -231,7 +231,7 @@ h2{{font-size:70px;line-height:1.08;font-weight:900;letter-spacing:-1px}}
 .secenek li{{display:flex;align-items:center;gap:24px;font-size:44px;font-weight:700}}
 .harf{{width:78px;height:78px;flex:none;border-radius:50%;border:5px solid {v};color:{v};display:flex;align-items:center;justify-content:center;font-size:42px;font-weight:900}}
 .kod{{background:#0F172A;color:#E2E8F0;font-family:"DejaVu Sans Mono",monospace;font-size:38px;line-height:1.5;padding:36px 40px;border-radius:32px;white-space:pre-wrap;box-shadow:0 14px 34px rgba(15,23,42,.28)}}
-.kod .kw{{color:#7DD3FC;font-weight:700}} .kod .st{{color:#FDE68A;font-style:normal}}
+.kod.buyuk{{font-size:50px;padding:52px 46px;margin-top:20px}} .kod .kw{{color:#7DD3FC;font-weight:700}} .kod .st{{color:#FDE68A;font-style:normal}}
 .kodik{{position:absolute;right:40px;width:170px;height:170px}}
 .tablo{{border-collapse:separate;border-spacing:0;background:#fff;border-radius:28px;overflow:hidden;font-size:40px;box-shadow:0 10px 26px rgba(0,0,0,.08);color:#0F1E4A}}
 .tablo th{{background:{v};color:#fff;padding:18px 30px;text-align:left}} .tablo td{{padding:16px 30px;border-top:2px solid #EEF2FF}}

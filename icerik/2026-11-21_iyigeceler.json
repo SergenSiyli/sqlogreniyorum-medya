@@ -1,0 +1,20 @@
+{
+ "ad": "story_2300_iyigeceler",
+ "seri": "İYİ GECELER 🌙",
+ "tema": "koyu",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Yatmadan bir bilgi 🌙",
+   "baslik": "İlk sabit disk bir tondan *ağırdı*",
+   "alt": "1956'da IBM 350, 50 adet 24 inçlik diskte 3,75 MB veri tutuyordu. Bugün bu, telefonla çekilmiş tek bir fotoğraf kadar. Yarın yeni bir SQL sorusu var 😉",
+   "kaynak": "Computer History Museum",
+   "ikonlar": [
+    "crescent_moon",
+    "floppy_disk",
+    "glowing_star"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

@@ -52,3 +52,5 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-19 23:00 iyi geceler (v2, Trojan Room tekrarı yerine): Firefox Phoenix (2002) → Firebird → Firefox (2004) — kaynak: Britannica, Wikipedia
 2026-11-20 09:00 günaydın: Excel 1.048.576 satır, 16.384 sütun (mini soru) — kaynak: Microsoft Destek
 2026-11-20 23:00 iyi geceler: Tennis for Two, 1958, Higinbotham, Brookhaven ziyaretçi günü, osiloskop — kaynak: APS News, BNL
+2026-11-21 09:00 günaydın: Tony Hoare null referansı ALGOL W, "milyar dolarlık hata" (yıl kaynakta 1964/1965 çelişkili, yazılmadı); mini soru NULL = NULL → NULL — kaynak: InfoQ
+2026-11-21 23:00 iyi geceler: IBM 350 (RAMAC) 1956, 50 adet 24 inç disk, 3,75 MB, bir tondan ağır (kompresör dahil) — kaynak: Computer History Museum

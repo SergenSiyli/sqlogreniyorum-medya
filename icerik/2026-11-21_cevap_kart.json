@@ -1,0 +1,19 @@
+{
+ "ad": "story_2100_cevap_kart",
+ "seri": "BUGÜNÜN CEVAPLARI 🎯",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Anket: GROUP BY sehir",
+   "baslik": "Cevap: *3 satır*",
+   "alt": "Ankara, İzmir ve tek bir NULL grubu. GROUP BY bütün NULL'ları aynı gruba koyar. Günaydın sorusu: NULL = NULL, NULL döner (C).",
+   "ikonlar": [
+    "check_mark_button",
+    "card_file_box",
+    "light_bulb"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}
