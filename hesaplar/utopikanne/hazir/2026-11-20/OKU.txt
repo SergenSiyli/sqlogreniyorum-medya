@@ -1,0 +1,18 @@
+20 KASIM CUMA — HİKÂYE SEÇENEK HAVUZU (beğendiklerini seç, kendi sıranla at; saat yok)
+
+gunaydin.png — Günaydın: yenidoğanlar annelerinin sesini tanır (Science, 1980, DeCasper ve Fifer)
+soru_hamilelik.png + cevap_hamilelik.png — Hamilelikte diş eti kanaması: hormonlar; diş hekimine gidilebilir (NHS) → Öne çıkan: Hamilelik
+soru_bebek.png + cevap_bebek.png — "mamama/bababa" heceleri en geç 9. ay (CDC) → Öne çıkan: Bebek
+soru_temizlik.png + cevap_temizlik.png — Çamaşır suyu sirkeyle/amonyakla karıştırılmaz, zehirli gaz (CDC) → Öne çıkan: Temizlik
+soru_ekgida.png + cevap_ekgida.png — Demirden zengin ek gıda: mercimek, nohut, kırmızı et, koyu yeşil sebze (NHS) → Öne çıkan: Tarifler/Ek Gıda
+soru_bilgi.png + cevap_bilgi.png — Flamingolar pembeliğini yediklerinden alır (Smithsonian) → Öne çıkan: Bilgi (ya da öne çıkana eklemeden)
+bilgi_1.png — Yenidoğan en iyi 20–30 cm uzağı görür (AAP)
+bilgi_2.png — Denizatında yavruları baba taşır (Smithsonian)
+iyi_geceler.png — Yarın için küçük not: 21 Kasım Dünya Televizyon Günü; DSÖ 1 yaş altına ekran süresi önermiyor
+
+Soru görsellerinin altı boş: anket/çıkartmanı oraya ekle.
+
+POSTLAR (Cuma post günü; post_aciklama.txt'de açıklama + etiket + sabit yorum):
+secenek_A.png — Önceden / Şimdi: "Bu akşam nereye çıkalım?" → "Bu gece sıra kimde?" (eşe, ETİKETLETİR)
+secenek_B.png — Annenin çantasından çıkanlar: "Cüzdanım? Evde kalmış." (mizah)
+secenek_C.png — Hamile arkadaşıma küçük bir not: "O bebeğin en doğru annesi sensin." (göndermelik)

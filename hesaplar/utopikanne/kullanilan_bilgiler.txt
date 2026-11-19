@@ -114,3 +114,15 @@ SÖZ: 2026-11-16 POST alternatif "Kendine küçük bir not: ev dağınık olabil
 SÖZ: 2026-11-19 POST seçenek "Anneme küçük bir not: 'Üşürsün' diye giydirdiğin hırkayı şimdi ben oğluma giydiriyorum. Haklıymışsın anne."
 SÖZ: 2026-11-19 POST seçenek "Bebeği uyutma operasyonu: ninni, sırt okşama, ışıklar… Ben uyudum."
 SÖZ: 2026-11-19 POST seçenek "Anne arkadaşıma küçük bir not: gece yarısı 'Seninki de mi uyumadı?' mesajın hiçbir tavsiyeden daha iyi geldi."
+2026-11-20 günaydın: yenidoğanlar annelerinin sesini tanır — Science 1980, DeCasper ve Fifer
+2026-11-20 hamilelik soru-cevap: diş eti kanaması hormonlar, diş hekimine gidilebilir — NHS
+2026-11-20 bebek soru-cevap: "mamama/bababa" heceleri en geç 9. ay — CDC
+2026-11-20 temizlik soru-cevap: çamaşır suyu + sirke/amonyak zehirli gaz — CDC
+2026-11-20 ek gıda soru-cevap: demirden zengin: mercimek, nohut, kırmızı et, koyu yeşil sebze — NHS
+2026-11-20 bilgi soru-cevap: flamingo pembeliği yediği alg/karidesten, yavrular gri — Smithsonian Ulusal Hayvanat Bahçesi
+2026-11-20 bilgi kartı: yenidoğan en iyi 20–30 cm uzağı görür — AAP
+2026-11-20 bilgi kartı: denizatında yavruları baba taşır — Smithsonian NMNH
+2026-11-20 iyi geceler (küçük not, özel gün): 21 Kasım Dünya Televizyon Günü (BM 1996), DSÖ 1 yaş altı ekran önermiyor — BM, DSÖ
+SÖZ: 2026-11-20 POST seçenek "Önceden: 'Bu akşam nereye çıkalım?' Şimdi: 'Bu gece sıra kimde?' Seninle ikisi de güzel."
+SÖZ: 2026-11-20 POST seçenek "Annenin çantasından çıkanlar: bez, ıslak mendil, yedek body… Cüzdanım? Evde kalmış."
+SÖZ: 2026-11-20 POST seçenek "Hamile arkadaşıma küçük bir not: Herkes sana bir şey önerecek. O bebeğin en doğru annesi sensin."
