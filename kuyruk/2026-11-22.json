@@ -1,0 +1,45 @@
+[
+ {
+  "id": "2026-11-22_0900_story_gunaydin",
+  "hedef": "2026-11-22T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/story_0900_gunaydin.png",
+  "aciklama": "Günaydın: Unix zamanı 1970/2038 + mini soru WHERE/HAVING"
+ },
+ {
+  "id": "2026-11-22_1300_story_anket",
+  "hedef": "2026-11-22T13:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/story_1300_anket.png",
+  "aciklama": "Anket: LIMIT 3 OFFSET 2 kaç satır?"
+ },
+ {
+  "id": "2026-11-22_1800_reel_eleyen_soru_2_tamsayi_bolme",
+  "hedef": "2026-11-22T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/reel_eleyen_soru_2_tamsayi_bolme_reels.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/reel_eleyen_soru_2_tamsayi_bolme_reels_kapak.jpg",
+  "aciklama": "Veri Analisti Mülakatında Eleyen Soru #2: İade oranı %25 olmalıydı. Rapor %0 dedi 😱\n\n8 sipariş, 2 iade. SUM(iade) / COUNT(*) iki tam sayıyı böler: 2 / 8 = 0, küsurat atılır, 0 * 100 = 0. Müdür \"hiç iade yok\" sanar. Doğru cevap A. Çözüm: SUM(iade) * 100.0 / COUNT(*) → %25.\n\n(PostgreSQL, SQL Server ve SQLite'ta böyle; MySQL'de / ondalık döndürür.)\n\n📩 Mülakata hazırlanan arkadaşını etiketle.\n📌 Kaydet, mülakattan önce bak.\n\n#sql #sqlöğren #verianalisti #mülakat #veri"
+ },
+ {
+  "id": "2026-11-22_1805_story_duyuru",
+  "hedef": "2026-11-22T18:05",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/story_1805_duyuru.png",
+  "aciklama": "Reels duyurusu: Eleyen Soru #2"
+ },
+ {
+  "id": "2026-11-22_2100_story_cevap_kart",
+  "hedef": "2026-11-22T21:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/story_2100_cevap_kart.png",
+  "aciklama": "Anket ve mini soru cevapları"
+ },
+ {
+  "id": "2026-11-22_2300_story_iyigeceler",
+  "hedef": "2026-11-22T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/story_2300_iyigeceler.png",
+  "aciklama": "İyi geceler: Larry Tesler kopyala-yapıştır"
+ }
+]
