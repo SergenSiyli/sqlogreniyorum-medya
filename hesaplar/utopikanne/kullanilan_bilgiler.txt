@@ -126,3 +126,15 @@ SÖZ: 2026-11-19 POST seçenek "Anne arkadaşıma küçük bir not: gece yarıs�
 SÖZ: 2026-11-20 POST seçenek "Önceden: 'Bu akşam nereye çıkalım?' Şimdi: 'Bu gece sıra kimde?' Seninle ikisi de güzel."
 SÖZ: 2026-11-20 POST seçenek "Annenin çantasından çıkanlar: bez, ıslak mendil, yedek body… Cüzdanım? Evde kalmış."
 SÖZ: 2026-11-20 POST seçenek "Hamile arkadaşıma küçük bir not: Herkes sana bir şey önerecek. O bebeğin en doğru annesi sensin."
+2026-11-21 günaydın: deniz su samurları uyurken bazen el ele tutuşur — Monterey Bay Akvaryumu
+2026-11-21 hamilelik soru-cevap: bacak krampları çoğu akşam/gece, esneme, şiddetliyse ebe/doktor — NHS
+2026-11-21 bebek soru-cevap: karından sırta dönme en geç 6. ay — CDC
+2026-11-21 temizlik soru-cevap: pişmiş pilav artığı 1 saatte soğut, 24 saatte tüket, bir kez ısıt — FSA
+2026-11-21 ek gıda soru-cevap: 6. aydan tam yağlı, şekersiz sade yoğurt; şekerli/meyveli hazır yoğurt değil — NHS
+2026-11-21 bilgi soru-cevap: koala parmak izi insanınkine çok benzer — Avustralya Müzesi
+2026-11-21 bilgi kartı: kelebekler tadı ayaklarıyla alır — Doğa Tarihi Müzesi (Londra)
+2026-11-21 bilgi kartı: kabarık bulut ~500 ton su — USGS
+2026-11-21 iyi geceler (küçük not): 24 Kasım Salı dolunay + Öğretmenler Günü — NASA, MEB
+SÖZ: 2026-11-21 POST seçenek "Eşime küçük bir not: Herkes 'Bebek nasıl?' diye soruyor. Bir tek sen 'Sen nasılsın?' diyorsun."
+SÖZ: 2026-11-21 POST seçenek "Anne olunca kazandığım yetenekler: tek elle kahvaltı, fısıltıyla tartışmak, üç dakikada duş. CV'ye yazsam kimse inanmaz."
+SÖZ: 2026-11-21 POST seçenek "Bunu annene gönder: O yıllarda hiç 'yoruldum' demedin. Demediğin için hiç fark etmedik. Şimdi anlıyorum anne."
