@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-20T21:47:53+03:00",
+ "zaman": "2026-11-20T21:49:51+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 259,
  "hesap": {
@@ -20,12 +20,8 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/story_0900_gunaydin.png": "HATA HTTP Error 403: Forbidden",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/story_1300_anket.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/story_1805_duyuru.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/story_2100_cevap_kart.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/story_2300_iyigeceler.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/reel_eleyen_soru_2_tamsayi_bolme_reels_kapak.jpg": "HATA HTTP Error 403: Forbidden",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/story_0900_gunaydin.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/reel_eleyen_soru_2_tamsayi_bolme_reels_kapak.jpg": "image/jpeg",
   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/reel_eleyen_soru_2_tamsayi_bolme_reels.mp4": "video/mp4"
  }
 }
