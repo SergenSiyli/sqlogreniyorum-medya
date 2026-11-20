@@ -1,0 +1,19 @@
+{
+ "ad": "story_2100_cevap_kart",
+ "seri": "BUGÜNÜN CEVAPLARI 🎯",
+ "tema": "sql",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Anket: LIMIT 3 OFFSET 2",
+   "baslik": "Cevap: *2 satır*",
+   "alt": "İlk 2 satır atlanır, geriye 2 satır kalır; LIMIT 3 en fazla demektir. Günaydın sorusu: gruplamadan önce WHERE çalışır (A), HAVING sonra.",
+   "ikonlar": [
+    "check_mark_button",
+    "card_file_box",
+    "light_bulb"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

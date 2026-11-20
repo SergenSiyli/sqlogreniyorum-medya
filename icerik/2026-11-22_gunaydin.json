@@ -1,0 +1,20 @@
+{
+ "ad": "story_0900_gunaydin",
+ "seri": "GÜNAYDIN ☀️",
+ "tema": "gunes",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Günaydın! Bir yazılım bilgisi ☕",
+   "baslik": "Çoğu sistem zamanı *1970'ten* sayar",
+   "alt": "Unix zamanı, 1 Ocak 1970'ten beri geçen saniyedir. İşaretli 32 bitlik sayaçlar 19 Ocak 2038'de taşar. Mini soru: hangisi gruplamadan ÖNCE çalışır? A) WHERE · B) HAVING. Cevap 21:00'de 👀",
+   "kaynak": "TechTarget, How-To Geek",
+   "ikonlar": [
+    "sun_with_face",
+    "alarm_clock",
+    "red_question_mark"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

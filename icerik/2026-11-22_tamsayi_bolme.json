@@ -1,0 +1,64 @@
+{
+ "ad": "reel_eleyen_soru_2_tamsayi_bolme",
+ "seri": "VERİ ANALİSTİ MÜLAKATINDA ELEYEN SORU",
+ "no": 2,
+ "tema": "koyu",
+ "slaytlar": [
+  {
+   "tip": "kod",
+   "sure": 3.0,
+   "baslik": "İade oranı %25 olmalıydı. Rapor *%0* dedi.",
+   "kod": "-- 8 sipariş, 2 iade\nSELECT SUM(iade) / COUNT(*)\n  * 100\nFROM siparis;",
+   "metin": "Müdür 'hiç iade yok, harika' dedi. Sorun nerede? 🤔",
+   "buyuk": true
+  },
+  {
+   "tip": "kapak",
+   "sure": 2.4,
+   "ust": "2 / 8 * 100 = 0",
+   "baslik": "Rapor neden *%0* dedi?",
+   "secenekler": [
+    "Tam sayı bölmesi: 2/8 = 0",
+    "SUM iadeleri saymadı",
+    "COUNT(*) yanlış saydı"
+   ],
+   "cevap_notu": "Cevap geliyor 👉",
+   "ikonlar": [
+    "briefcase",
+    "thinking_face",
+    "bar_chart"
+   ]
+  },
+  {
+   "tip": "adim",
+   "sure": 3.2,
+   "no": "A",
+   "baslik": "Suçlu: *tam sayı* bölmesi 🎯",
+   "metin": "İki tam sayı bölünürse küsurat atılır: 2 / 8 = 0. Sonra 0 * 100 = 0.",
+   "ikonlar": [
+    "warning",
+    "red_exclamation_mark"
+   ]
+  },
+  {
+   "tip": "kod",
+   "sure": 2.8,
+   "baslik": "Doğrusu: *100.0* ile çarp",
+   "kod": "SELECT SUM(iade) * 100.0\n  / COUNT(*)\nFROM siparis;",
+   "metin": "Sonuç: %25. Önce ondalıklıya çevir, sonra böl."
+  },
+  {
+   "tip": "son",
+   "sure": 1.8,
+   "baslik": "Seri için *takip et*",
+   "metin": "Mülakatta eleyen SQL soruları her gün.",
+   "gonder": "Mülakata hazırlanan arkadaşını etiketle",
+   "ikonlar": [
+    "briefcase",
+    "trophy",
+    "rocket"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}
