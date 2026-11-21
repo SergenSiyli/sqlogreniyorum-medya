@@ -138,3 +138,15 @@ SÖZ: 2026-11-20 POST seçenek "Hamile arkadaşıma küçük bir not: Herkes san
 SÖZ: 2026-11-21 POST seçenek "Eşime küçük bir not: Herkes 'Bebek nasıl?' diye soruyor. Bir tek sen 'Sen nasılsın?' diyorsun."
 SÖZ: 2026-11-21 POST seçenek "Anne olunca kazandığım yetenekler: tek elle kahvaltı, fısıltıyla tartışmak, üç dakikada duş. CV'ye yazsam kimse inanmaz."
 SÖZ: 2026-11-21 POST seçenek "Bunu annene gönder: O yıllarda hiç 'yoruldum' demedin. Demediğin için hiç fark etmedik. Şimdi anlıyorum anne."
+2026-11-22 günaydın: bal arıları dansla çiçeklerin yerini anlatır, Karl von Frisch Nobel 1973 — Nobel Vakfı
+2026-11-22 hamilelik soru-cevap: yüzme/yürüyüş güvenli, temaslı spor ve tüplü dalış önerilmez — NHS
+2026-11-22 bebek soru-cevap: tutunarak ayağa kalkma en geç 12. ay — CDC
+2026-11-22 temizlik soru-cevap: donmuş et buzdolabında çözdür, 24 saatte pişir — FSA
+2026-11-22 ek gıda soru-cevap: 1 yaşından önce bal yok (bebek botulizmi) — NHS
+2026-11-22 bilgi soru-cevap: Venüs'te gün (243 gün) yıldan (225 gün) uzun — NASA
+2026-11-22 bilgi kartı: zürafa dili ~45-50 cm — San Diego Hayvanat Bahçesi
+2026-11-22 bilgi kartı: şimşek ~27.000 °C, Güneş yüzeyinin ~5 katı — NOAA
+2026-11-22 iyi geceler (küçük not): 23 Kasım Fibonacci Günü, ayçiçeği sarmalları — Britannica
+SÖZ: 2026-11-22 POST seçenek "Bunu eşine gönder: Bebek uyuyunca fısıltıyla konuştuğumuz o akşamlar, en sevdiğim randevularımız oldu."
+SÖZ: 2026-11-22 POST seçenek "Bebek uyudu, 20 dakikam var. Plan: duş, sıcak kahve, bir bölüm dizi. Gerçek: uyuyan bebeğimin fotoğraflarına baktım."
+SÖZ: 2026-11-22 POST seçenek "Bunu duymaya ihtiyacı olan bir anneye: Bugün hiçbir işi yetiştiremediysen de bütün gün bir bebeği sevdin. Bu hiç az iş değil."
