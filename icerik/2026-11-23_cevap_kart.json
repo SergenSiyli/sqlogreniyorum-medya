@@ -1,0 +1,19 @@
+{
+ "ad": "story_2100_cevap_kart",
+ "seri": "BUGÜNÜN CEVAPLARI 🎯",
+ "tema": "koyu",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Anket: COALESCE(NULL, 0, 5)",
+   "baslik": "Cevap: *0*",
+   "alt": "COALESCE ilk NULL olmayan değeri döndürür. 0 bir değerdir, NULL değildir. Günaydın sorusu: LAG() önceki satırı getirir (A), LEAD() sonrakini.",
+   "ikonlar": [
+    "check_mark_button",
+    "card_file_box",
+    "light_bulb"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

@@ -1,0 +1,19 @@
+{
+ "ad": "story_2100_cevap_kart",
+ "seri": "BUGÜNÜN CEVAPLARI 🎯",
+ "tema": "koyu",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Anket: NULLIF(5, 5)",
+   "baslik": "Cevap: *NULL*",
+   "alt": "NULLIF iki değer eşitse NULL döndürür. Günaydın sorusu: RANK boşluk bırakır (A): 1, 1, 3. DENSE_RANK ise 1, 1, 2 verir.",
+   "ikonlar": [
+    "check_mark_button",
+    "card_file_box",
+    "light_bulb"
+   ]
+  }
+ ],
+ "hesap": "sqlogreniyorum"
+}

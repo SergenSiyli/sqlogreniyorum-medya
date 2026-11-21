@@ -1,0 +1,30 @@
+{
+ "ad": "mizah_basit_rapor",
+ "seri": "PAZARTESİ MİZAHI",
+ "tema": "koyu",
+ "hesap": "sqlogreniyorum",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Pazartesi 09:00 😅",
+   "baslik": "Müdür: \"Basit bir rapor, *5 dakikalık* iş.\"",
+   "alt": "Ben: 4 tablo JOIN, 2 alt sorgu, 3 kahve. Öğle arası yok.",
+   "ikonlar": [
+    "briefcase",
+    "hot_beverage",
+    "exploding_head"
+   ]
+  },
+  {
+   "tip": "son",
+   "baslik": "Bunu yaşayan iş arkadaşını *etiketle*",
+   "metin": "Her gün SQL ve veri analizi için takip et.",
+   "gonder": "Raporu bekleyen müdürüne gönder 😄",
+   "ikonlar": [
+    "partying_face",
+    "rocket",
+    "sparkles"
+   ]
+  }
+ ]
+}

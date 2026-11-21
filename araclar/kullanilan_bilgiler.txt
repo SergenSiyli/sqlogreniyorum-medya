@@ -56,3 +56,7 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-21 23:00 iyi geceler: IBM 350 (RAMAC) 1956, 50 adet 24 inç disk, 3,75 MB, bir tondan ağır (kompresör dahil) — kaynak: Computer History Museum
 2026-11-22 09:00 günaydın: Unix zamanı 1 Ocak 1970'ten saniye, işaretli 32 bit 19 Ocak 2038'de taşar; mini soru WHERE/HAVING → WHERE — kaynak: TechTarget, How-To Geek
 2026-11-22 23:00 iyi geceler: Larry Tesler kes/kopyala/yapıştır, 1970'ler Xerox PARC — kaynak: Computerworld, Al Jazeera
+2026-11-23 09:00 günaydın: Ethernet, Bob Metcalfe'nin 22 Mayıs 1973 Xerox PARC notu; mini soru LAG önceki satır (A) — kaynak: Computer History Museum
+2026-11-23 23:00 iyi geceler: ilk dijital fotoğraf 1957, Russell Kirsch (NBS/NIST), oğlu Walden, 176x176 piksel — kaynak: NIST, Guinness
+2026-11-24 09:00 günaydın: Git 2005, BitKeeper sonrası Linus Torvalds; mini soru RANK boşluk bırakır (A) — kaynak: GitHub Blog
+2026-11-24 23:00 iyi geceler: ilk banner reklam 27 Ekim 1994 HotWired, AT&T "Have you ever clicked your mouse right here? You will." — kaynak: Guinness, Digiday
