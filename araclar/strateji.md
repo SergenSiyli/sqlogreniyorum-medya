@@ -18,6 +18,13 @@ KARARLAR:
 6. Haber Reels haftada en fazla 1 ve yalnız GTA/WhatsApp/Instagram/ChatGPT gibi herkesin kullandığı şey; aynı koyu şablon (news_with_hook).
 7. Ölçüm her sabah (sabah nöbeti): yeni koyu Reels erişimi ≥800 ve 3 sn ≥%30 değilse kancayı değiştir; 25 Kasım'da v5 değerlendirmesi.
 
+### Durum (21 Kasım gece turu, v5 uygulaması)
+- 22 Kasım 18:00 Reels anne_canli şablonundaydı → koyu kod editörüyle yeniden üretildi: SQL Mülakat Sorusu #11 tam sayı bölmesi (yeni id …_reel_mulakat_11_tamsayi_bolme, 23 sn). 22 Kasım story'leri dokunulmadı (duyuru başlığı "Eleyen Soru #2" yazıyor, konu aynı).
+- 23 Kasım: 12:30 mizah karusel (2 slayt; ig_yayin.py tek görsel desteklemiyor) · 18:00 #12 LAG PARTITION BY'sız (Kadıköy ilk gün +300) · 5 story koyu.
+- 24 Kasım: 18:00 #13 LIMIT eşitlik → DENSE_RANK (Deniz listede yok) · 5 story koyu. Ortak yardımcı: araclar/v5_ortak.py (hook_scene: kanca+kod+kırmızı sonuç t=0'da).
+- Sıradaki seri no: #14. Kullanılmayan kazanan açıları: LEFT JOIN+WHERE (yeni tablo), HAVING, UNION ALL, çalışma sırası, COUNT DISTINCT.
+- Metricool (en son gün 19 Kasım): takipçi 1.557, 12→19 Kasım net +1; 17-20 Kasım 7 Reels ort. erişim 149, 3 sn %18,2. v5 koyu Reels verisi henüz yok (ilk: 22 Kasım).
+
 ## 🚀 HIZLANDIRMA v4 (18 Kasım, Sergen: "takipçi gelmiyor, SQL ve mülakata ağırlık ver, gaza bas") — EN ÜST KURAL (v3'ün yerine)
 VERİ (4-16 Kasım): takipçi 1.547 → 1.557 (12 günde +10; Ekim sonu haftada +57'ydi). Günde 2 Reels + her gün deneme başlayınca Reels başı erişim ~1.100'den ~150-250'ye düştü. Denemeler (20:30) 104-186 erişim. Gönderim (paylaşım) neredeyse 0 → asıl darboğaz. Kazananlar: BETWEEN tarih tuzağı 1.145 erişim (%31, 6,4 sn), GTA VI 957, COUNT(DISTINCT) Mülakat #9 736, UNION #7 %35. Kaybedenler: Starship 78, Voyager/teknoloji tarihi ~144, model haberleri (Gemini, Meta AI) 98-142.
 Araştırma: Mosseri: dağıtımda en güçlü sinyal gönderim/erişim; deneme Reels "neredeyse her zaman daha az erişim alır"; hesap kalitesi bütün olarak değerlendirilir (zayıf içerik iyi içeriği de düşürür).
