@@ -1,5 +1,23 @@
 # Strateji (Büyüme Stratejisti)
 
+## 🔁 GERİ DÖNÜŞ v5 (21 Kasım, Sergen: "sayfa ilerlemiyor, insanlar neye ilgi duyuyor bak, değiştirin") — EN ÜST KURAL (v4'ün görsel ve kanca kurallarının yerine; v4'ün sıklık/post/hikâye kuralları sürer)
+VERİ (Metricool, 29 Ekim–20 Kasım, 44 Reels):
+- 29 Ekim–7 Kasım: SQL Reels erişimi 1.150–1.500 (NULL 1.503, LIKE 1.345, ROW_NUMBER 1.278, LAG 1.198, LEFT JOIN 1.192, 2. maaş 1.150, NOT IN 1.202), 3 sn izlenme %35–40, kaydetme 13–22. Takipçi 1.490 → 1.553 (günde 6–15).
+- 8–20 Kasım: SQL Reels erişimi çoğunlukla 104–268, 3 sn %12–29, kaydetme 0–2. Takipçi 1.553 → 1.557 (günde 0–3). İstisna: BETWEEN 1.145 (%31), COUNT DISTINCT 740.
+- Haber: GTA VI 959 dışında hep 98–450. Teknoloji tarihi/uzay 136–176.
+KÖK NEDEN (8 Kasım'da üç şey birden değişti, düşüş aynı gün başladı):
+1) GÖRSEL: koyu "kod editörü" teması (araclar/reels.py + brand.py; örnek gun/2026-11-04/uret_4kasim.py) yerine açık pastel, emojili quiz şablonu (anne_canli.py). SQL kitlesi (öğrenci/geliştirici) koyu, ciddi görünümde kalıyor; pastel tema çocuk testi gibi görünüyor → ilk saniyede kaydırılıyor (3 sn oranı yarıya düştü).
+2) KANCA: "Tek kişiyi aradım, 3 kişi geldi. Neden?" / "DISTINCT yazdım, tekrarlar silinmedi." (birinci tekil, gerçek hata hikâyesi + ilk karede kod ve YANLIŞ SONUÇ) yerine "SQL TEST #N: X kaç döner? A/B/C, 3 saniye düşün". Kazanan iki yeni Reels (BETWEEN, COUNT DISTINCT) de hikâye kancasıydı.
+3) SIKLIK: günde 2 Reels + her gün deneme → hesap kalitesi düştü; denemeler takipçi getirmedi.
+KARARLAR:
+1. SQL Reels yeniden KOYU KOD EDİTÖRÜ şablonuyla: araclar/reels.py + uretim.reel (örnek gun/2026-11-02…07/uret_*.py; aynı kalıpla gun/<tarih>/uret_<tarih>.py yaz). anne_canli.py pastel şablon sqlogreniyorum Reels'inde KULLANILMAZ (hikâye/karuselde tema "koyu" ya da "sql" kalabilir).
+2. Kanca kalıbı ZORUNLU: 1. karede birinci tekil hata hikâyesi + kod + kırmızı yanlış sonuç: "<X> yazdım, <beklenen> yerine <gelen> geldi. Neden?" Seri adı "SQL Mülakat Sorusu #N" (kaldığı yerden; #11'den). "SQL TEST #N" ve A/B/C kapak YOK.
+3. Kazanan konuları yeni açıyla tekrar et (hafta içinde en az 3): NULL karşılaştırma, LIKE joker, kopya kayıt/ROW_NUMBER, LEFT JOIN+WHERE, ikinci en yüksek maaş/DENSE_RANK, LAG/LEAD, NOT IN+NULL, BETWEEN tarih, COUNT DISTINCT, GROUP BY+HAVING, UNION vs UNION ALL, sorgu çalışma sırası. Aynı örnek tablo/sorgu tekrar yok.
+4. Saat: SQL Reels 18:00 (eski kazanan saat). Günde 1 Reels. TRIAL_REEL şimdilik DURDU (25 Kasım'a kadar 0).
+5. Süre 20–26 sn (eski kazananların süresi; 10–15 sn kuralı iptal). Son sahne: "SQL öğrenen bir arkadaşına gönder. Kaydet, mülakatta sorulur."
+6. Haber Reels haftada en fazla 1 ve yalnız GTA/WhatsApp/Instagram/ChatGPT gibi herkesin kullandığı şey; aynı koyu şablon (news_with_hook).
+7. Ölçüm her sabah (sabah nöbeti): yeni koyu Reels erişimi ≥800 ve 3 sn ≥%30 değilse kancayı değiştir; 25 Kasım'da v5 değerlendirmesi.
+
 ## 🚀 HIZLANDIRMA v4 (18 Kasım, Sergen: "takipçi gelmiyor, SQL ve mülakata ağırlık ver, gaza bas") — EN ÜST KURAL (v3'ün yerine)
 VERİ (4-16 Kasım): takipçi 1.547 → 1.557 (12 günde +10; Ekim sonu haftada +57'ydi). Günde 2 Reels + her gün deneme başlayınca Reels başı erişim ~1.100'den ~150-250'ye düştü. Denemeler (20:30) 104-186 erişim. Gönderim (paylaşım) neredeyse 0 → asıl darboğaz. Kazananlar: BETWEEN tarih tuzağı 1.145 erişim (%31, 6,4 sn), GTA VI 957, COUNT(DISTINCT) Mülakat #9 736, UNION #7 %35. Kaybedenler: Starship 78, Voyager/teknoloji tarihi ~144, model haberleri (Gemini, Meta AI) 98-142.
 Araştırma: Mosseri: dağıtımda en güçlü sinyal gönderim/erişim; deneme Reels "neredeyse her zaman daha az erişim alır"; hesap kalitesi bütün olarak değerlendirilir (zayıf içerik iyi içeriği de düşürür).
