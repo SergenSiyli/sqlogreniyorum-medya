@@ -1,0 +1,40 @@
+[
+ {
+  "id": "2026-11-24_0900_story_gunaydin",
+  "hedef": "2026-11-24T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/story_0900_gunaydin.png"
+ },
+ {
+  "id": "2026-11-24_1300_story_anket",
+  "hedef": "2026-11-24T13:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/story_1300_anket.png"
+ },
+ {
+  "id": "2026-11-24_1800_reel_mulakat_13_limit_esitlik",
+  "hedef": "2026-11-24T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/reel_mulakat_13_limit_esitlik.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/reel_mulakat_13_limit_esitlik_kapak.png",
+  "aciklama": "SQL Mülakat Sorusu #13: En iyi 3 satıcıya prim verdim, Deniz itiraz etti 😱\n📩 Prim listesini hazırlayan iş arkadaşına gönder.\n\nAyşe ve Deniz 70'te eşit. ORDER BY satis DESC LIMIT 3 eşitliğe bakmaz, tam 3 satır keser; hangisinin kalacağı da garanti değil.\nÇözüm: DENSE_RANK() OVER (ORDER BY satis DESC) ile sira <= 3 → Ali, Can, Ayşe, Deniz.\n\nSQL öğrenen bir arkadaşına gönder. Kaydet, mülakatta sorulur.\n\n#sql #sqlöğren #verianalisti #mülakat #veri #yazılım #denserank"
+ },
+ {
+  "id": "2026-11-24_1805_story_duyuru",
+  "hedef": "2026-11-24T18:05",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/story_1805_duyuru.png"
+ },
+ {
+  "id": "2026-11-24_2100_story_cevap_kart",
+  "hedef": "2026-11-24T21:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/story_2100_cevap_kart.png"
+ },
+ {
+  "id": "2026-11-24_2300_story_iyigeceler",
+  "hedef": "2026-11-24T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/story_2300_iyigeceler.png"
+ }
+]

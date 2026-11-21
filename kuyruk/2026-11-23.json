@@ -1,0 +1,50 @@
+[
+ {
+  "id": "2026-11-23_0900_story_gunaydin",
+  "hedef": "2026-11-23T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-23/story_0900_gunaydin.png"
+ },
+ {
+  "id": "2026-11-23_1230_carousel_mizah_basit_rapor",
+  "hedef": "2026-11-23T12:30",
+  "tur": "CAROUSEL",
+  "medya": [
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-23/mizah_basit_rapor_01.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-23/mizah_basit_rapor_02.jpg"
+  ],
+  "aciklama": "Müdür: \"Basit bir rapor, 5 dakikalık iş.\" 😅\n📩 Raporu bekleyen müdürüne gönder.\n\nBen: 4 tablo JOIN, 2 alt sorgu, 3 kahve. Öğle arası yok.\n\nBunu yaşayan iş arkadaşını etiketle 👇\n\n#sql #verianalisti #yazılımcı #yazılımmizahı #excel"
+ },
+ {
+  "id": "2026-11-23_1300_story_anket",
+  "hedef": "2026-11-23T13:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-23/story_1300_anket.png"
+ },
+ {
+  "id": "2026-11-23_1800_reel_mulakat_12_lag_partition",
+  "hedef": "2026-11-23T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-23/reel_mulakat_12_lag_partition.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-23/reel_mulakat_12_lag_partition_kapak.png",
+  "aciklama": "SQL Mülakat Sorusu #12: Şubelerin günlük farkını çıkardım, Kadıköy ilk gününde +300 büyümüş 😱\n📩 Şube raporu hazırlayan iş arkadaşına gönder.\n\nLAG() OVER (ORDER BY sube, gun) PARTITION BY olmadan bütün tabloyu tek sıra sayar. Kadıköy'ün ilk günü, Beşiktaş'ın son gününü \"dün\" sandı: 900 − 600 = 300.\nÇözüm: LAG(ciro) OVER (PARTITION BY sube ORDER BY gun) → Kadıköy'ün ilk günü NULL.\n\nSQL öğrenen bir arkadaşına gönder. Kaydet, mülakatta sorulur.\n\n#sql #sqlöğren #verianalisti #mülakat #veri #yazılım #lag #windowfunctions"
+ },
+ {
+  "id": "2026-11-23_1805_story_duyuru",
+  "hedef": "2026-11-23T18:05",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-23/story_1805_duyuru.png"
+ },
+ {
+  "id": "2026-11-23_2100_story_cevap_kart",
+  "hedef": "2026-11-23T21:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-23/story_2100_cevap_kart.png"
+ },
+ {
+  "id": "2026-11-23_2300_story_iyigeceler",
+  "hedef": "2026-11-23T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-23/story_2300_iyigeceler.png"
+ }
+]

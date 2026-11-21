@@ -14,12 +14,12 @@
   "aciklama": "Anket: LIMIT 3 OFFSET 2 kaç satır?"
  },
  {
-  "id": "2026-11-22_1800_reel_eleyen_soru_2_tamsayi_bolme",
+  "id": "2026-11-22_1800_reel_mulakat_11_tamsayi_bolme",
   "hedef": "2026-11-22T18:00",
   "tur": "REEL",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/reel_eleyen_soru_2_tamsayi_bolme_reels.mp4",
-  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@56800bb90f88c9481ea67e99d7cbfd4fb8518219/gun/2026-11-22/reel_eleyen_soru_2_tamsayi_bolme_reels_kapak.jpg",
-  "aciklama": "Veri Analisti Mülakatında Eleyen Soru #2: İade oranı %25 olmalıydı. Rapor %0 dedi 😱\n\n8 sipariş, 2 iade. SUM(iade) / COUNT(*) iki tam sayıyı böler: 2 / 8 = 0, küsurat atılır, 0 * 100 = 0. Müdür \"hiç iade yok\" sanar. Doğru cevap A. Çözüm: SUM(iade) * 100.0 / COUNT(*) → %25.\n\n(PostgreSQL, SQL Server ve SQLite'ta böyle; MySQL'de / ondalık döndürür.)\n\n📩 Mülakata hazırlanan arkadaşını etiketle.\n📌 Kaydet, mülakattan önce bak.\n\n#sql #sqlöğren #verianalisti #mülakat #veri"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-22/reel_mulakat_11_tamsayi_bolme.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-22/reel_mulakat_11_tamsayi_bolme_kapak.png",
+  "aciklama": "SQL Mülakat Sorusu #11: İade oranı %25 olmalıydı, SQL %0 dedi 😱\n📩 Bu raporu hazırlayan iş arkadaşına gönder.\n\n8 sipariş, 2 iade. SUM(iade) / COUNT(*) iki tam sayıyı böler: 2 / 8 = 0, küsurat atılır. 0 * 100 de 0. Müdür \"hiç iade yok\" sanar.\nÇözüm: önce 100.0 ile çarp: SUM(iade) * 100.0 / COUNT(*) → 25.0\n\n(PostgreSQL, SQL Server ve SQLite'ta böyle; MySQL'de / ondalıklı böler.)\n\nSQL öğrenen bir arkadaşına gönder. Kaydet, mülakatta sorulur.\n\n#sql #sqlöğren #verianalisti #mülakat #veri #yazılım"
  },
  {
   "id": "2026-11-22_1805_story_duyuru",
