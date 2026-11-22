@@ -5,7 +5,7 @@
  "slaytlar": [
   {
    "tip": "kapak",
-   "ust": "urun tablosunda 4 satır var",
+   "ust": "Ürün tablosunda 4 satır var",
    "baslik": "LIMIT 3 OFFSET 2 kaç satır *döner?*",
    "secenekler": [
     "3",
