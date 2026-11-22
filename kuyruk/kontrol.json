@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-22T10:56:51+03:00",
+ "zaman": "2026-11-22T10:57:30+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 259,
  "hesap": {
@@ -20,6 +20,6 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4cc21d100f674c6fda7eef1acfc87db581ae64d7/gun/2026-11-22/story_1805_duyuru_v5.png": "HATA HTTP Error 403: Forbidden"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f0707d2a045f821facfb0a16d5333dab4f0c0ddd/gun/2026-11-22/story_1805_duyuru_v5b.png": "image/png"
  }
 }
