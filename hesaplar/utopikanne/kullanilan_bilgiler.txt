@@ -150,3 +150,15 @@ SÖZ: 2026-11-21 POST seçenek "Bunu annene gönder: O yıllarda hiç 'yoruldum'
 SÖZ: 2026-11-22 POST seçenek "Bunu eşine gönder: Bebek uyuyunca fısıltıyla konuştuğumuz o akşamlar, en sevdiğim randevularımız oldu."
 SÖZ: 2026-11-22 POST seçenek "Bebek uyudu, 20 dakikam var. Plan: duş, sıcak kahve, bir bölüm dizi. Gerçek: uyuyan bebeğimin fotoğraflarına baktım."
 SÖZ: 2026-11-22 POST seçenek "Bunu duymaya ihtiyacı olan bir anneye: Bugün hiçbir işi yetiştiremediysen de bütün gün bir bebeği sevdin. Bu hiç az iş değil."
+2026-11-23 günaydın: şişe burunlu yunusların kendine özgü imza ıslığı — NOAA
+2026-11-23 hamilelik soru-cevap: küflü yumuşak peynir (brie, camembert) pişirilmeden yok, listeria; pastörize kaşar/beyaz peynir güvenli — NHS
+2026-11-23 bebek soru-cevap: baş ve işaret parmağıyla küçük şeyleri alma en geç 12. ay — CDC
+2026-11-23 temizlik soru-cevap: mutfak bezleri sık değiştir, 60 °C yıka — FSA
+2026-11-23 ek gıda soru-cevap: öğürme normal refleks, boğulma sessiz, dik oturt, yanından ayrılma — NHS
+2026-11-23 bilgi soru-cevap: Ay yılda ~3,8 cm uzaklaşıyor — NASA
+2026-11-23 bilgi kartı: kediler tatlı tadı alamaz — Monell Kimyasal Duyular Merkezi
+2026-11-23 bilgi kartı: yer fıstığı baklagil — Britannica
+2026-11-23 iyi geceler (küçük not): 24 Kasım Öğretmenler Günü, 24 Kasım 1928 Başöğretmenlik, 1981'den beri — MEB
+SÖZ: 2026-11-23 POST seçenek "Bunu annene gönder: Bizi 'Ağlasın biraz, alışmasın' diye büyüten annem, torunu bir kez ağlayınca koşa koşa geliyor."
+SÖZ: 2026-11-23 POST seçenek "Bunu eşine gönder: Gece 3'te 'Sen yat, ben bakarım' demen, bana söylediğin en romantik cümle oldu."
+SÖZ: 2026-11-23 POST seçenek "Anne olmadan önce: 'Ben asla bebeğe şarkı söyleyerek bez değiştirmem.' Şimdi: Bez şarkımın üç kıtası var."
