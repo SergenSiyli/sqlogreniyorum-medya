@@ -25,11 +25,13 @@ em{{font-style:italic;color:#B5532E}}
 .alt{{font-size:40px;margin-top:44px;color:#6B5A50;line-height:1.35}}
 .ik{{width:170px;height:170px;margin-top:70px;opacity:.95;filter:saturate(.75) drop-shadow(0 10px 14px #0002)}}
 .el{{position:absolute;bottom:50px;font-size:28px;color:#8B7A70;letter-spacing:2px;display:flex;align-items:center;gap:14px}}
+.ad{{font-style:italic;font-size:34px;color:#A0522D;letter-spacing:1px}}
+.nk{{color:#C9B8AC}}
 .pp{{width:56px;height:56px;border-radius:50%;border:2px solid #fff;box-shadow:0 3px 8px #0002}}
 </style></head><body>
 {f'<div class="ust">{html.escape(d["ust"])}</div>' if d.get("ust") else ""}{satir}
 {f'<div class="alt">{v(d["alt"])}</div>' if d.get("alt") else ""}{ik}
-<div class="el">{imza}@{d.get("hesap","utopikanne")}</div></body></html>'''
+<div class="el">{imza}{('<span class="ad">Melike</span><span class="nk">·</span>' if d.get("hesap","utopikanne")=="utopikanne" and d.get("imza", True) else "")}@{d.get("hesap","utopikanne")}</div></body></html>'''
 from playwright.sync_api import sync_playwright
 with sync_playwright() as pw:
     b = pw.chromium.launch(); pg = b.new_page(viewport={"width":1080,"height":1350})
