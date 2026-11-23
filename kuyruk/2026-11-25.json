@@ -1,0 +1,56 @@
+[
+ {
+  "id": "2026-11-25_0900_story_gunaydin_v5",
+  "hedef": "2026-11-25T09:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_0900_gunaydin_v5.png"
+ },
+ {
+  "id": "2026-11-25_1230_carousel_kopya_null",
+  "hedef": "2026-11-25T12:30",
+  "tur": "CAROUSEL",
+  "medya": [
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/kopya_null_01.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/kopya_null_02.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/kopya_null_03.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/kopya_null_04.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/kopya_null_05.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/kopya_null_06.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/kopya_null_07.jpg",
+   "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/kopya_null_08.jpg"
+  ],
+  "aciklama": "NULL'un 5 kuralı, tek postta 📌 Raporlarını sessizce bozan 5 tuzak.\n📩 SQL öğrenen arkadaşına gönder.\n\n1) = NULL hiç satır getirmez, IS NULL kullan.\n2) COUNT(prim) NULL'ları saymaz.\n3) AVG yalnız dolu satırlara böler.\n4) NULL + 50 = NULL, çözüm COALESCE.\n5) NOT IN listesinde NULL varsa 0 satır.\n\nKaçını biliyordun? Yorumlara yaz 👇\n🔖 Kaydet, mülakattan önce bak.\n\n#sql #sqlöğren #verianalisti #mülakat #sqlmülakat #veritabanı"
+ },
+ {
+  "id": "2026-11-25_1300_story_anket_v5",
+  "hedef": "2026-11-25T13:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_1300_anket_v5.png"
+ },
+ {
+  "id": "2026-11-25_1800_reel_mulakat_14_ay_sonu",
+  "hedef": "2026-11-25T18:00",
+  "tur": "REEL",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/reel_mulakat_14_ay_sonu.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/reel_mulakat_14_ay_sonu_kapak.png",
+  "aciklama": "SQL Mülakat Sorusu #14: Kasım cirosunu çektim, 30 Kasım'ın hepsi eksik geldi 😱\n📩 Ay sonu raporunu hazırlayan iş arkadaşına gönder.\n\nRapor 2.500 TL dedi, olması gereken 4.100 TL. Sütunda saat de var: '2026-11-30 11:30' <= '2026-11-30' YANLIŞ döner, 30 Kasım'ın tamamı rapordan düşer.\n\nDoğrusu: tarih < '2026-12-01' (sonraki ayın 1'i). BETWEEN ... '2026-11-30' de aynı tuzağa düşer.\n\n🔖 Kaydet, mülakatta sorulur. Her gün yeni SQL için takip et.\n\n#sql #sqlöğren #verianalisti #mülakat #sqlmülakat #raporlama"
+ },
+ {
+  "id": "2026-11-25_1805_story_duyuru_v5",
+  "hedef": "2026-11-25T18:05",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_1805_duyuru_v5.png"
+ },
+ {
+  "id": "2026-11-25_2100_story_cevap_kart_v5",
+  "hedef": "2026-11-25T21:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_2100_cevap_kart_v5.png"
+ },
+ {
+  "id": "2026-11-25_2300_story_iyigeceler_v5",
+  "hedef": "2026-11-25T23:00",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_2300_iyigeceler_v5.png"
+ }
+]
