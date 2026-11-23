@@ -162,3 +162,15 @@ SÖZ: 2026-11-22 POST seçenek "Bunu duymaya ihtiyacı olan bir anneye: Bugün h
 SÖZ: 2026-11-23 POST seçenek "Bunu annene gönder: Bizi 'Ağlasın biraz, alışmasın' diye büyüten annem, torunu bir kez ağlayınca koşa koşa geliyor."
 SÖZ: 2026-11-23 POST seçenek "Bunu eşine gönder: Gece 3'te 'Sen yat, ben bakarım' demen, bana söylediğin en romantik cümle oldu."
 SÖZ: 2026-11-23 POST seçenek "Anne olmadan önce: 'Ben asla bebeğe şarkı söyleyerek bez değiştirmem.' Şimdi: Bez şarkımın üç kıtası var."
+2026-11-24 günaydın: muz ağacı ağaç değil, otsu bitki; gövde iç içe yapraklar — Britannica
+2026-11-24 hamilelik soru-cevap: kedi kumu toksoplazma, başkası temizlesin / eldiven + el yıkama — NHS
+2026-11-24 bebek soru-cevap: oyuncağı bir elinden diğerine geçirme en geç 9. ay — CDC
+2026-11-24 temizlik soru-cevap: artan yemeği her yeri dumanı tütene kadar ısıt, bebeğe soğutup ver — FSA
+2026-11-24 ek gıda soru-cevap: elma çiğ sert dilim değil, pişir/rendele (boğulma) — NHS
+2026-11-24 bilgi soru-cevap: denizanasında beyin, kalp, kemik yok — NOAA
+2026-11-24 bilgi kartı: baykuş gözlerini oynatamaz, baş 270° — Johns Hopkins Üniversitesi
+2026-11-24 bilgi kartı: domates bilimsel olarak meyve — Britannica
+2026-11-24 iyi geceler (küçük not, özel gün): 25 Kasım Kadına Yönelik Şiddete Karşı Uluslararası Mücadele Günü, BM 1999, turuncu, ALO 183 — BM, Aile ve Sosyal Hizmetler Bakanlığı
+SÖZ: 2026-11-24 POST seçenek "Anneme küçük bir not: İlk öğretmenim sendin anne. Şimdi aynı sabırla torununa 'agu' öğretiyorsun."
+SÖZ: 2026-11-24 POST seçenek "Anne olduktan sonra zamanı artık saatle değil, 'En son ne zaman emdi?' diye ölçüyorum."
+SÖZ: 2026-11-24 POST seçenek "Anne arkadaşıma küçük bir not: Aynı gece uykusuz kalıp sabah birbirimize 'Harikayız' yazmamız var ya… En sevdiğim yalanımız."
