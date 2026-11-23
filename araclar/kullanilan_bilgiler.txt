@@ -60,3 +60,5 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-23 23:00 iyi geceler: ilk dijital fotoğraf 1957, Russell Kirsch (NBS/NIST), oğlu Walden, 176x176 piksel — kaynak: NIST, Guinness
 2026-11-24 09:00 günaydın: Git 2005, BitKeeper sonrası Linus Torvalds; mini soru RANK boşluk bırakır (A) — kaynak: GitHub Blog
 2026-11-24 23:00 iyi geceler: ilk banner reklam 27 Ekim 1994 HotWired, AT&T "Have you ever clicked your mouse right here? You will." — kaynak: Guinness, Digiday
+2026-11-25 09:00 günaydın: ISO 8601 tarih biçimi 1988, büyükten küçüğe yazılan tarih metin olarak da doğru sıralanır; mini soru NULL + 5 → NULL (A) — kaynak: ISO, Wikipedia
+2026-11-25 23:00 iyi geceler: "hello, world" Kernighan 1972 B dili eğitimi (Bell Labs), 1978 C kitabıyla gelenek — kaynak: Wikipedia, Nokia Bell Labs

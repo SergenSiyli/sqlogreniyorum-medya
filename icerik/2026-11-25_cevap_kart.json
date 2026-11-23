@@ -1,0 +1,19 @@
+{
+ "ad": "story_2100_cevap_kart",
+ "seri": "BUGÜNÜN CEVAPLARI 🎯",
+ "tema": "koyu",
+ "hesap": "sqlogreniyorum",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Anket: DATE('2026-11-30 19:45')",
+   "baslik": "Cevap: *2026-11-30*",
+   "alt": "DATE() saati atar, yalnız günü bırakır. Günaydın sorusu: NULL + 5 → NULL (A). COALESCE(NULL, 5) ise 5 verir.",
+   "ikonlar": [
+    "check_mark_button",
+    "card_file_box",
+    "light_bulb"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "ad": "kopya_null",
+ "hesap": "sqlogreniyorum",
+ "seri": "SQL KOPYA KÂĞIDI",
+ "no": 2,
+ "tema": "koyu",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Mülakattan önce kaydet 📌",
+   "baslik": "NULL'un *5 kuralı*, tek postta",
+   "alt": "Raporları sessizce bozan 5 tuzak. Kaydır 👉",
+   "ikonlar": [
+    "card_file_box",
+    "laptop",
+    "sparkles"
+   ]
+  },
+  {
+   "tip": "tablo",
+   "baslik": "Elimizde *1 tablo* var",
+   "sutunlar": [
+    "ad",
+    "prim"
+   ],
+   "satirlar": [
+    [
+     "Ali",
+     100
+    ],
+    [
+     "Ayşe",
+     null
+    ],
+    [
+     "Can",
+     300
+    ],
+    [
+     "Ece",
+     null
+    ]
+   ],
+   "metin": "Ayşe ve Ece'nin primi NULL: bilinmiyor demek, 0 değil."
+  },
+  {
+   "tip": "kod",
+   "baslik": "Kural 1: NULL *eşittirle* aranmaz",
+   "kod": "SELECT ad FROM calisan\nWHERE prim = NULL;\n-- 0 satır\n-- doğrusu: WHERE prim IS NULL",
+   "metin": "NULL hiçbir şeye eşit değildir, NULL'a bile. IS NULL ile Ayşe ve Ece gelir."
+  },
+  {
+   "tip": "kod",
+   "baslik": "Kural 2: COUNT(prim) *NULL'u* atlar",
+   "kod": "SELECT COUNT(*),\n       COUNT(prim)\nFROM calisan;\n-- 4 | 2",
+   "metin": "Yıldızlı COUNT satırları sayar, COUNT(prim) yalnız dolu değerleri."
+  },
+  {
+   "tip": "kod",
+   "baslik": "Kural 3: AVG *2 kişiye* böler",
+   "kod": "SELECT AVG(prim)\nFROM calisan;\n-- 200 (400 / 2)",
+   "metin": "NULL'u 0 saymak istiyorsan AVG(COALESCE(prim, 0)) yaz: sonuç 100."
+  },
+  {
+   "tip": "kod",
+   "baslik": "Kural 4: NULL + 50 = *NULL*",
+   "kod": "SELECT prim + 50 FROM calisan;\n-- 150, NULL, 350, NULL\nSELECT COALESCE(prim, 0) + 50\n  FROM calisan;\n-- 150, 50, 350, 50",
+   "metin": "NULL ile yapılan her hesap NULL olur. Çözüm: COALESCE."
+  },
+  {
+   "tip": "kod",
+   "baslik": "Kural 5: NOT IN + NULL = *0 satır*",
+   "kod": "SELECT ad FROM calisan\nWHERE prim NOT IN (100, NULL);\n-- 0 satır",
+   "metin": "Listede NULL varsa NOT IN hiçbir satır getirmez. prim <> 100 ise yalnız Can'ı getirir: NULL'lar yine dışarıda."
+  },
+  {
+   "tip": "son",
+   "baslik": "Mülakattan önce *kaydet*",
+   "metin": "Her hafta yeni SQL kopya kâğıdı için takip et.",
+   "gonder": "SQL öğrenen arkadaşına gönder",
+   "ikonlar": [
+    "trophy",
+    "rocket",
+    "sparkles"
+   ]
+  }
+ ]
+}

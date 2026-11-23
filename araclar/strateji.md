@@ -23,7 +23,8 @@ KARARLAR:
 - 22 Kasım 18:00 Reels anne_canli şablonundaydı → koyu kod editörüyle yeniden üretildi: SQL Mülakat Sorusu #11 tam sayı bölmesi (yeni id …_reel_mulakat_11_tamsayi_bolme, 23 sn). 22 Kasım story'leri dokunulmadı (duyuru başlığı "Eleyen Soru #2" yazıyor, konu aynı).
 - 23 Kasım: 12:30 mizah karusel (2 slayt; ig_yayin.py tek görsel desteklemiyor) · 18:00 #12 LAG PARTITION BY'sız (Kadıköy ilk gün +300) · 5 story koyu.
 - 24 Kasım: 18:00 #13 LIMIT eşitlik → DENSE_RANK (Deniz listede yok) · 5 story koyu. Ortak yardımcı: araclar/v5_ortak.py (hook_scene: kanca+kod+kırmızı sonuç t=0'da).
-- Sıradaki seri no: #14. Kullanılmayan kazanan açıları: LEFT JOIN+WHERE (yeni tablo), HAVING, UNION ALL, çalışma sırası, COUNT DISTINCT.
+- 25 Kasım (23 Kasım gece turu): 12:30 KARUSEL SQL Kopya Kâğıdı #2 NULL'un 5 kuralı (8 slayt, koyu) · 18:00 #14 ay sonu tarih tuzağı (<= '2026-11-30' → 2.500 TL, doğrusu < '2026-12-01' → 4.100 TL; 24,4 sn; EKRANI DOLDUR uygulandı: tüm sahnelerde alt kenar ≥1.480 px, kod 54 px) · 5 story koyu (anket DATE()).
+- Sıradaki seri no: #15. Kullanılmayan kazanan açıları: LEFT JOIN+WHERE (yeni tablo), HAVING, UNION ALL, çalışma sırası, COUNT DISTINCT. Sıradaki kopya kâğıdı #3: sorgu çalışma sırası.
 - Metricool (en son gün 19 Kasım): takipçi 1.557, 12→19 Kasım net +1; 17-20 Kasım 7 Reels ort. erişim 149, 3 sn %18,2. v5 koyu Reels verisi henüz yok (ilk: 22 Kasım).
 
 ## 🚀 HIZLANDIRMA v4 (18 Kasım, Sergen: "takipçi gelmiyor, SQL ve mülakata ağırlık ver, gaza bas") — EN ÜST KURAL (v3'ün yerine)
