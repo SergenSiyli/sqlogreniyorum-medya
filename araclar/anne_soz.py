@@ -11,6 +11,8 @@ if d.get("ikon"):
     for k in (KOK/"hesaplar/utopikanne/marka/ikon", KOK/"marka/ikon"):
         p = k/f'{d["ikon"]}.png'
         if p.exists(): ik = f'<img class="ik" src="data:image/png;base64,{base64.b64encode(p.read_bytes()).decode()}">'; break
+pp = KOK/"hesaplar/utopikanne/marka/profil_yuvarlak.png"
+imza = (f'<img class="pp" src="data:image/png;base64,{base64.b64encode(pp.read_bytes()).decode()}">' if pp.exists() and d.get("hesap","utopikanne")=="utopikanne" and d.get("imza", True) else "")
 satir = "".join(f"<p>{v(s)}</p>" for s in d["satirlar"])
 H = f'''<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>
 *{{margin:0;box-sizing:border-box}}
@@ -22,11 +24,12 @@ p{{font-size:74px;line-height:1.22;margin:6px 0}}
 em{{font-style:italic;color:#B5532E}}
 .alt{{font-size:40px;margin-top:44px;color:#6B5A50;line-height:1.35}}
 .ik{{width:170px;height:170px;margin-top:70px;opacity:.95;filter:saturate(.75) drop-shadow(0 10px 14px #0002)}}
-.el{{position:absolute;bottom:56px;font-size:28px;color:#8B7A70;letter-spacing:2px}}
+.el{{position:absolute;bottom:50px;font-size:28px;color:#8B7A70;letter-spacing:2px;display:flex;align-items:center;gap:14px}}
+.pp{{width:56px;height:56px;border-radius:50%;border:2px solid #fff;box-shadow:0 3px 8px #0002}}
 </style></head><body>
 {f'<div class="ust">{html.escape(d["ust"])}</div>' if d.get("ust") else ""}{satir}
 {f'<div class="alt">{v(d["alt"])}</div>' if d.get("alt") else ""}{ik}
-<div class="el">@{d.get("hesap","utopikanne")}</div></body></html>'''
+<div class="el">{imza}@{d.get("hesap","utopikanne")}</div></body></html>'''
 from playwright.sync_api import sync_playwright
 with sync_playwright() as pw:
     b = pw.chromium.launch(); pg = b.new_page(viewport={"width":1080,"height":1350})
