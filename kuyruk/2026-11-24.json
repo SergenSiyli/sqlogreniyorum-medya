@@ -18,12 +18,12 @@
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4cc21d100f674c6fda7eef1acfc87db581ae64d7/gun/2026-11-24/story_1300_anket_v5.png"
  },
  {
-  "id": "2026-11-24_1800_reel_mulakat_13_limit_esitlik",
+  "id": "2026-11-24_1800_reel_30gun_gun1_select",
   "hedef": "2026-11-24T18:00",
   "tur": "REEL",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/reel_mulakat_13_limit_esitlik.mp4",
-  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/reel_mulakat_13_limit_esitlik_kapak.png",
-  "aciklama": "SQL Mülakat Sorusu #13: En iyi 3 satıcıya prim verdim, Deniz itiraz etti 😱\n📩 Prim listesini hazırlayan iş arkadaşına gönder.\n\nAyşe ve Deniz 70'te eşit. ORDER BY satis DESC LIMIT 3 eşitliğe bakmaz, tam 3 satır keser; hangisinin kalacağı da garanti değil.\nÇözüm: DENSE_RANK() OVER (ORDER BY satis DESC) ile sira <= 3 → Ali, Can, Ayşe, Deniz.\n\nSQL öğrenen bir arkadaşına gönder. Kaydet, mülakatta sorulur.\n\n#sql #sqlöğren #verianalisti #mülakat #veri #yazılım #denserank"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@85a3f816eef5c329872275dfaf921999e37c2102/gun/2026-11-24/reel_30gun_sql_gun1_select.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@85a3f816eef5c329872275dfaf921999e37c2102/gun/2026-11-24/reel_30gun_sql_gun1_select_kapak.png",
+  "aciklama": "30 GÜNDE SQL · GÜN 1/30: SELECT 🎯\n\nAd ve soyadı istedim, tek sütun geldi, adı da 'soyad'. Sebep: araya virgül koymadım. SQL ikinci kelimeyi takma ad sandı; SELECT ad soyad, aslında SELECT ad AS soyad demek. Hata vermez, sessizce yanlış sonuç verir. Doğrusu: SELECT ad, soyad.\n\nSen hiç virgül unuttun mu? Evet ya da hayır yaz 👇\nYarın Gün 2: WHERE. Kaçırmamak için takip et.\n\n#sql #sqlöğren #30gündesql #veribilimi #yazılım"
  },
  {
   "id": "2026-11-24_1805_story_duyuru_v5",
