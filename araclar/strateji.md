@@ -4,7 +4,7 @@
 VERİ: v5 koyu Reels 3 sn oranı %33–35'e döndü (v4'te %18–24) ama erişim 150–185, paylaşım 0, takipçi 1.556→1.558. Sorun artık izlenme değil, GÖNDERİLME ve TAKİP ETME SEBEBİ.
 1. "30 GÜNDE SQL" SERİSİ (takip sebebi): Reels'ler numaralı tek yol haritası: "Gün 1/30: SELECT", "Gün 2/30: WHERE" … Kapakta büyük "GÜN N/30", son sahnede "Yarın Gün N+1: <konu>. Kaçırmamak için takip et". Profilde sabit sıra. Başlangıç: 26 Kasım Gün 1. Hata-hikâyesi kancası her bölümde korunur (o günün konusunun tipik hatası).
 2. EXCEL KULLANICISINA HİTAP (kitleyi büyüt): haftada 2 Reels "Excel'de 2 saat, SQL'de 1 satır" serisi: aynı işi önce Excel'de (DÜŞEYARA, PİVOT, KOŞULLU TOPLAM) sonra tek SQL sorgusuyla göster. Ofis çalışanı, muhasebe, satış, İK = öğrenciden çok daha büyük kitle; iş arkadaşına GÖNDERİLİR. Açıklama: "Excel'de boğulan iş arkadaşına gönder".
-3. ÜCRETSİZ PDF (kaydetme + takip): "SQL Mülakat Kopya Kâğıdı" tek sayfa PDF (araclar ile üret, depo/pdf/), herkese açık link (jsDelivr). Sergen bio'daki bağlantıya ekler. Her Reels açıklamasının son satırı: "Ücretsiz SQL kopya kâğıdı profildeki linkte 📄". Takipçiyi profile getirir.
+3. (İPTAL, 24 Kasım Sergen: "bana iş çıkarma") Ücretsiz PDF / bio linki YOK. Sergen'den hiçbir manuel adım isteme; her şey otomatik yayınlanır.
 4. YORUM TETİĞİ: her Reels'in sonunda tek kelimelik cevap istenen soru ("Sence kaç satır? Sadece sayıyı yaz"). Yorumlar dağıtımı artırır. "🔥 bırak" türü zorlama yok.
 5. SÜRE: Seri Reels 15–20 sn; ilk karede "GÜN N/30" + hata cümlesi.
 ÖLÇÜM: 1 Aralık'ta seri + Excel Reels'in erişimi, paylaşım ve 7 günlük net takipçi.
