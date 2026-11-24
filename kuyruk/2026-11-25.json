@@ -6,6 +6,12 @@
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_0900_gunaydin_v5.png"
  },
  {
+  "id": "2026-11-25_1015_story_kadina_siddet",
+  "hedef": "2026-11-25T10:15",
+  "tur": "STORY",
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-25/story_1015_kadina_siddet_v5.png"
+ },
+ {
   "id": "2026-11-25_1230_carousel_kopya_null",
   "hedef": "2026-11-25T12:30",
   "tur": "CAROUSEL",
@@ -39,7 +45,7 @@
   "id": "2026-11-25_1805_story_duyuru_v5",
   "hedef": "2026-11-25T18:05",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_1805_duyuru_v5.png"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-25/story_1805_duyuru_v5.png"
  },
  {
   "id": "2026-11-25_2100_story_cevap_kart_v5",
