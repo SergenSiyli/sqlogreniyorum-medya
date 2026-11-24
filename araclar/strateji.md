@@ -17,6 +17,7 @@ KARARLAR:
 5. Süre 20–26 sn (eski kazananların süresi; 10–15 sn kuralı iptal). Son sahne: "SQL öğrenen bir arkadaşına gönder. Kaydet, mülakatta sorulur."
 6. Haber Reels haftada en fazla 1 ve yalnız GTA/WhatsApp/Instagram/ChatGPT gibi herkesin kullandığı şey; aynı koyu şablon (news_with_hook).
 6b. (22 Kasım, Sergen onayı) HİKÂYELER DE KOYU: anne_canli.py pastel/koyu story yerine eski koyu stil. İçerik JSON'u (icerik/<tarih>_{gunaydin,anket,duyuru,cevap_kart,iyigeceler}.json, anne_canli formatı) yazılır, sonra `python3 araclar/story_koyu.py <tarih>` → gun/<tarih>/story_<saat>_<ad>_v5.png. Emoji görsele girmez (PIL çizemez). Duyurudaki seri adı Reels'le aynı olmalı.
+6c. (24 Kasım, Sergen: "özel günleri unutmayın") ÖZEL GÜNLER: Her gece turu 2 gün sonrasına kadar Türkiye'de önemli günleri kontrol eder (resmî bayramlar, Öğretmenler Günü, Cumhuriyet Bayramı, 10 Kasım, Anneler/Babalar Günü, yılbaşı, teknoloji günleri: Pi Günü, Programcılar Günü 256. gün, Dünya Şifre Günü vb.). O gün için sabah 10:15'te koyu stilde 1 özel story (SQL/yazılım açısıyla, sıcak, etiketletir); 10 Kasım'da yalnız saygı, mizah yok.
 7. Ölçüm her sabah (sabah nöbeti): yeni koyu Reels erişimi ≥800 ve 3 sn ≥%30 değilse kancayı değiştir; 25 Kasım'da v5 değerlendirmesi.
 
 ### Durum (21 Kasım gece turu, v5 uygulaması)
