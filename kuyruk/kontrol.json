@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-24T09:53:57+03:00",
+ "zaman": "2026-11-24T15:21:47+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 259,
  "hesap": {
@@ -20,6 +20,6 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@12f2bc97b8f45f958310116a0ec62ea6ae0293f9/gun/2026-11-24/story_1030_ogretmenler_gunu_v5.png": "image/png"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@85a3f816eef5c329872275dfaf921999e37c2102/gun/2026-11-24/reel_30gun_sql_gun1_select.mp4": "video/mp4"
  }
 }
