@@ -8,6 +8,7 @@ VERİ: v5 koyu Reels 3 sn oranı %33–35'e döndü (v4'te %18–24) ama erişim
 4. YORUM TETİĞİ: her Reels'in sonunda tek kelimelik cevap istenen soru ("Sence kaç satır? Sadece sayıyı yaz"). Yorumlar dağıtımı artırır. "🔥 bırak" türü zorlama yok.
 5. SÜRE: Seri Reels 15–20 sn; ilk karede "GÜN N/30" + hata cümlesi.
 ÖLÇÜM: 1 Aralık'ta seri + Excel Reels'in erişimi, paylaşım ve 7 günlük net takipçi.
+DURUM (24 Kasım gece turu): 26 Kasım 18:00 Gün 2/30 WHERE ('izmir' ≠ 'İzmir', 0 satır; 15,2 sn; yorum sorusu <> 'İzmir' → 2). Yol haritası: Gün 3 ORDER BY (27 Kasım 18:00, Reels ve story'lerde duyuruldu). 24 ve 25 Kasım 18:05 duyuruları Reels'le eşlendi (Gün 1 / #13). 25 Kasım 10:15 özel gün story'si (Kadına Yönelik Şiddete Karşı Mücadele Günü, KADES/112/ALO 183, mizahsız). Excel serisi henüz başlamadı.
 
 ## 🔁 GERİ DÖNÜŞ v5 (21 Kasım, Sergen: "sayfa ilerlemiyor, insanlar neye ilgi duyuyor bak, değiştirin") — EN ÜST KURAL (v4'ün görsel ve kanca kurallarının yerine; v4'ün sıklık/post/hikâye kuralları sürer)
 VERİ (Metricool, 29 Ekim–20 Kasım, 44 Reels):
