@@ -62,3 +62,5 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-24 23:00 iyi geceler: ilk banner reklam 27 Ekim 1994 HotWired, AT&T "Have you ever clicked your mouse right here? You will." — kaynak: Guinness, Digiday
 2026-11-25 09:00 günaydın: ISO 8601 tarih biçimi 1988, büyükten küçüğe yazılan tarih metin olarak da doğru sıralanır; mini soru NULL + 5 → NULL (A) — kaynak: ISO, Wikipedia
 2026-11-25 23:00 iyi geceler: "hello, world" Kernighan 1972 B dili eğitimi (Bell Labs), 1978 C kitabıyla gelenek — kaynak: Wikipedia, Nokia Bell Labs
+2026-11-26 09:00 günaydın: SQL 1986 ANSI standardı, 1987 ISO; mini soru SELECT * tüm sütunlar (A) — kaynak: ANSI, ISO, Wikipedia
+2026-11-26 23:00 iyi geceler: CAPTCHA açılımı (Completely Automated Public Turing test to tell Computers and Humans Apart), 2000'lerin başı Carnegie Mellon, Luis von Ahn ve ekibi — kaynak: Carnegie Mellon, Wikipedia

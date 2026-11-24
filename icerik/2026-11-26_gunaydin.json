@@ -1,0 +1,15 @@
+{
+ "ad": "story_0900_gunaydin",
+ "seri": "GÜNAYDIN ☀️",
+ "tema": "koyu",
+ "hesap": "sqlogreniyorum",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Günaydın! Bir veritabanı bilgisi ☕",
+   "baslik": "SQL *1986'da* ANSI standardı oldu",
+   "alt": "1987'de ISO da kabul etti; bu yüzden temel SELECT yazımı çoğu veritabanında aynıdır. Mini soru: SELECT * ne getirir? A) Tüm sütunlar · B) Yalnız ilk sütun. Cevap 21:00'de 👀",
+   "kaynak": "ANSI, ISO, Wikipedia"
+  }
+ ]
+}

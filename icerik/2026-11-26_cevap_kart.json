@@ -1,0 +1,14 @@
+{
+ "ad": "story_2100_cevap_kart",
+ "seri": "BUGÜNÜN CEVAPLARI 🎯",
+ "tema": "koyu",
+ "hesap": "sqlogreniyorum",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Anket: SELECT ad AS isim",
+   "baslik": "Cevap: *isim*",
+   "alt": "AS, sonuç sütununa yeni ad verir. Günaydın sorusu: SELECT * tüm sütunları getirir (A). Reels sorusu: SELECT 'merhaba' FROM musteri → 4 satır, hepsinde 'merhaba'."
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "ad": "story_1300_anket",
+ "seri": "ANKET · HANGİSİ DÖNER?",
+ "tema": "koyu",
+ "hesap": "sqlogreniyorum",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "SELECT ad AS isim\nFROM musteri;",
+   "baslik": "Sütunun adı ne *olur?*",
+   "secenekler": [
+    "isim",
+    "ad",
+    "AS isim"
+   ],
+   "cevap_notu": "Cevap 21:00'de."
+  }
+ ]
+}
