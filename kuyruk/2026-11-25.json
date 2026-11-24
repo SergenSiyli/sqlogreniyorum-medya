@@ -34,24 +34,24 @@
   "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_1300_anket_v5.png"
  },
  {
-  "id": "2026-11-25_1800_reel_mulakat_13_limit_esitlik",
+  "id": "2026-11-25_1800_reel_30gun_gun2_where",
   "hedef": "2026-11-25T18:00",
   "tur": "REEL",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/reel_mulakat_13_limit_esitlik.mp4",
-  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/reel_mulakat_13_limit_esitlik_kapak.png",
-  "aciklama": "SQL Mülakat Sorusu #13: En iyi 3 satıcıya prim verdim, Deniz itiraz etti 😱\n📩 Prim listesini hazırlayan iş arkadaşına gönder.\n\nAyşe ve Deniz 70'te eşit. ORDER BY satis DESC LIMIT 3 eşitliğe bakmaz, tam 3 satır keser; hangisinin kalacağı da garanti değil.\nÇözüm: DENSE_RANK() OVER (ORDER BY satis DESC) ile sira <= 3 → Ali, Can, Ayşe, Deniz.\n\nSQL öğrenen bir arkadaşına gönder. Kaydet, mülakatta sorulur.\n\n#sql #sqlöğren #verianalisti #mülakat #veri #yazılım #denserank"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/reel_30gun_sql_gun02_where.mp4",
+  "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/reel_30gun_sql_gun02_where_kapak.png",
+  "aciklama": "30 Günde SQL · Gün 2/30: WHERE. İzmirli müşterileri istedim, 0 satır geldi 😅\n📩 SQL'e yeni başlayan arkadaşına gönder, seriye birlikte devam edin.\n\nWHERE sehir = 'izmir' → tabloda 'İzmir' yazıyor; = metni harfi harfine karşılaştırır (PostgreSQL, SQLite). Sonuç: 0 satır.\n\nDoğrusu: WHERE sehir = 'İzmir' → Ayşe, Zeynep. MySQL ve SQL Server çoğu ayarda harfe duyarsızdır; yine de metni tablodaki gibi yaz.\n\nSoru: SELECT ad FROM musteri WHERE sehir <> 'İzmir'; kaç satır döner? Yoruma sadece sayıyı yaz 👇\n\nYarın Gün 3/30: ORDER BY. Kaçırmamak için takip et.\n\n#sql #sqlöğren #veritabanı #verianalisti #yazılım #30gündesql #where #kodlama"
  },
  {
   "id": "2026-11-25_1805_story_duyuru_v5",
   "hedef": "2026-11-25T18:05",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-25/story_1805_duyuru_v5.png"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/story_1805_duyuru_v5.png"
  },
  {
   "id": "2026-11-25_2100_story_cevap_kart_v5",
   "hedef": "2026-11-25T21:00",
   "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_2100_cevap_kart_v5.png"
+  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/story_2100_cevap_kart_v5.png"
  },
  {
   "id": "2026-11-25_2300_story_iyigeceler_v5",

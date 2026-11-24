@@ -1,6 +1,7 @@
 # Strateji (Büyüme Stratejisti)
 
-## 🧭 YENİLİK v6 (24 Kasım, Sergen: "yüz yok, ses yok, ortak paylaşım yok; yenilik getirin") — v5 görsel/kanca kuralları sürer, bunlar EKLENİR
+## 🧭 YENİLİK v6
+SIRA (24 Kasım düzeltme): GÜNDE TEK REELS, 18:00. Gün 1 = 24 Kasım, Gün 2 (WHERE) = 25 Kasım, Gün N = 23+N Kasım (her gün +1). Mülakat #13/#14 Reels'leri kuyruktan çıkarıldı (dosyalar yedek); seri bitene kadar ikinci Reels YOK. Gün 1 videosu 'Yarın Gün 2' diyor, gün atlanmaz. 26 Kasım 18:00 = Gün 3 (gece turu üretir, duyuru/cevap story'leri dahil). (24 Kasım, Sergen: "yüz yok, ses yok, ortak paylaşım yok; yenilik getirin") — v5 görsel/kanca kuralları sürer, bunlar EKLENİR
 VERİ: v5 koyu Reels 3 sn oranı %33–35'e döndü (v4'te %18–24) ama erişim 150–185, paylaşım 0, takipçi 1.556→1.558. Sorun artık izlenme değil, GÖNDERİLME ve TAKİP ETME SEBEBİ.
 1. "30 GÜNDE SQL" SERİSİ (takip sebebi): Reels'ler numaralı tek yol haritası: "Gün 1/30: SELECT", "Gün 2/30: WHERE" … Kapakta büyük "GÜN N/30", son sahnede "Yarın Gün N+1: <konu>. Kaçırmamak için takip et". Profilde sabit sıra. Başlangıç: 24 Kasım 18:00 Gün 1 (SELECT, yayında). Her gün 18:00 bir sonraki gün: 25 Kasım 18:00'de eski Mülakat #13 var, Gün 2 (WHERE) 26 Kasım 18:00, sonra her gün +1. 26 Kasım 12:30'da Mülakat #14. Hata-hikâyesi kancası her bölümde korunur (o günün konusunun tipik hatası).
 2. EXCEL KULLANICISINA HİTAP (kitleyi büyüt): haftada 2 Reels "Excel'de 2 saat, SQL'de 1 satır" serisi: aynı işi önce Excel'de (DÜŞEYARA, PİVOT, KOŞULLU TOPLAM) sonra tek SQL sorgusuyla göster. Ofis çalışanı, muhasebe, satış, İK = öğrenciden çok daha büyük kitle; iş arkadaşına GÖNDERİLİR. Açıklama: "Excel'de boğulan iş arkadaşına gönder".
