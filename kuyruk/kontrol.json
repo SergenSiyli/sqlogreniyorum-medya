@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-24T15:26:51+03:00",
+ "zaman": "2026-11-24T15:28:31+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 259,
  "hesap": {
@@ -20,15 +20,6 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-24/story_1805_duyuru_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-25/story_1805_duyuru_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-25/story_1015_kadina_siddet_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/story_0900_gunaydin_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/story_1300_anket_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/reel_30gun_sql_gun02_where.mp4": "video/mp4",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/reel_30gun_sql_gun02_where_kapak.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/story_1805_duyuru_v5.png": "HATA HTTP Error 403: Forbidden",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/story_2100_cevap_kart_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/story_2300_iyigeceler_v5.png": "image/png"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/story_1805_duyuru_v5.png": "image/png"
  }
 }
