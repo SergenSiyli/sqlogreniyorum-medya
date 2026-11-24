@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-24T07:34:15+03:00",
+ "zaman": "2026-11-24T09:53:57+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 259,
  "hesap": {
@@ -20,12 +20,6 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4cc21d100f674c6fda7eef1acfc87db581ae64d7/gun/2026-11-24/story_0900_gunaydin_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4cc21d100f674c6fda7eef1acfc87db581ae64d7/gun/2026-11-24/story_1300_anket_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/reel_mulakat_13_limit_esitlik.mp4": "video/mp4",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4cc21d100f674c6fda7eef1acfc87db581ae64d7/gun/2026-11-24/story_1805_duyuru_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4cc21d100f674c6fda7eef1acfc87db581ae64d7/gun/2026-11-24/story_2100_cevap_kart_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@4cc21d100f674c6fda7eef1acfc87db581ae64d7/gun/2026-11-24/story_2300_iyigeceler_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@f92fcf8c30bddb0a80141e4f5a3f9b370474fdb1/gun/2026-11-24/reel_mulakat_13_limit_esitlik_kapak.png": "image/png"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@12f2bc97b8f45f958310116a0ec62ea6ae0293f9/gun/2026-11-24/story_1030_ogretmenler_gunu_v5.png": "image/png"
  }
 }
