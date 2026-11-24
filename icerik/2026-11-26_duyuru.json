@@ -6,9 +6,9 @@
  "slaytlar": [
   {
    "tip": "kapak",
-   "ust": "30 Günde SQL · Gün 2/30",
-   "baslik": "İzmirli müşterileri istedim. *0* satır geldi.",
-   "alt": "Tabloda 2 İzmirli vardı. Neden? Cevap yeni Reels'te. Yarın Gün 3: ORDER BY. Profilime dokun 👆"
+   "ust": "30 Günde SQL · Gün 3/30",
+   "baslik": "Pahalıdan ucuza sıraladım. En pahalısı *altta* çıktı.",
+   "alt": "DESC yazmıştım. 1250, 900'ün altında kaldı. Neden? Cevap yeni Reels'te. Yarın Gün 4: LIMIT. Profilime dokun 👆"
   }
  ]
 }
