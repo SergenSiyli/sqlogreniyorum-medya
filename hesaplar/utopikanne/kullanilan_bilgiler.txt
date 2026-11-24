@@ -174,3 +174,15 @@ SÖZ: 2026-11-23 POST seçenek "Anne olmadan önce: 'Ben asla bebeğe şarkı s�
 SÖZ: 2026-11-24 POST seçenek "Anneme küçük bir not: İlk öğretmenim sendin anne. Şimdi aynı sabırla torununa 'agu' öğretiyorsun."
 SÖZ: 2026-11-24 POST seçenek "Anne olduktan sonra zamanı artık saatle değil, 'En son ne zaman emdi?' diye ölçüyorum."
 SÖZ: 2026-11-24 POST seçenek "Anne arkadaşıma küçük bir not: Aynı gece uykusuz kalıp sabah birbirimize 'Harikayız' yazmamız var ya… En sevdiğim yalanımız."
+2026-11-25 günaydın: Ay'daki ayak izleri milyonlarca yıl kalabilir (rüzgâr/yağmur yok) — NASA
+2026-11-25 hamilelik soru-cevap: kılıç balığı, köpek balığı, marlin yok (cıva) — NHS
+2026-11-25 bebek soru-cevap: kucağa alınmak için kollarını kaldırma en geç 9. ay — CDC
+2026-11-25 temizlik soru-cevap: biberon/emzik en az 12 aylık olana kadar sterilize — NHS
+2026-11-25 ek gıda soru-cevap: mikrodalgada ısıtılan yemek karıştır, soğut, sıcaklık kontrol (sıcak noktalar) — NHS
+2026-11-25 bilgi soru-cevap: Uranüs ekseni ~98° eğik, yan yatmış döner — NASA
+2026-11-25 bilgi kartı: her zebranın çizgi deseni kendine özgü — Smithsonian Ulusal Hayvanat Bahçesi
+2026-11-25 bilgi kartı: bal arısı ömrü boyunca 1/12 çay kaşığı bal — National Honey Board
+2026-11-25 iyi geceler (küçük not, tarihli): 26 Kasım 1922 Howard Carter Tutankamon mezarına ilk bakış — Griffith Enstitüsü (Oxford)
+SÖZ: 2026-11-25 POST seçenek "Eşime küçük bir not: 'Bir şey lazım mı?' diye sorma. Bebeği al, çayımı tazele, bana 10 dakika ver. Gerisini ben hallederim."
+SÖZ: 2026-11-25 POST seçenek "Bebeğin uyku düzeni: Gündüz kucakta 20 dakika. Sabaha karşı 4: tam enerji. Benim uyku düzenim: Yükleniyor…"
+SÖZ: 2026-11-25 POST seçenek "Kendime küçük bir not: Aynada yorgun bir kadın görüyorsan bil ki o bebek seni dünyanın en güzel yüzü sanıyor. Ve haklı."
