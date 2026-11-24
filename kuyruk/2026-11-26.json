@@ -1,26 +1,40 @@
 [
- {
-  "id": "2026-11-26_0900_story_gunaydin_v5",
-  "hedef": "2026-11-26T09:00",
-  "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_0900_gunaydin_v5.png"
- },
- {
-  "id": "2026-11-26_1300_story_anket_v5",
-  "hedef": "2026-11-26T13:00",
-  "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_1300_anket_v5.png"
- },
- {
-  "id": "2026-11-26_2100_story_cevap_kart_v5",
-  "hedef": "2026-11-26T21:00",
-  "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_2100_cevap_kart_v5.png"
- },
- {
-  "id": "2026-11-26_2300_story_iyigeceler_v5",
-  "hedef": "2026-11-26T23:00",
-  "tur": "STORY",
-  "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@108c951f7a4cbc1dc1e0321daee337454b96d991/gun/2026-11-26/story_2300_iyigeceler_v5.png"
- }
+  {
+    "id": "2026-11-26_0900_story_gunaydin_v5",
+    "hedef": "2026-11-26T09:00",
+    "tur": "STORY",
+    "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_0900_gunaydin_v5.png"
+  },
+  {
+    "id": "2026-11-26_1300_story_anket_v5",
+    "hedef": "2026-11-26T13:00",
+    "tur": "STORY",
+    "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_1300_anket_v5.png"
+  },
+  {
+    "id": "2026-11-26_1800_reel_30gun_gun3_order_by",
+    "hedef": "2026-11-26T18:00",
+    "tur": "REEL",
+    "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a97c309df3f9396db53f3cb2dbb48d2634791f5b/gun/2026-11-26/reel_30gun_sql_gun03_order_by.mp4",
+    "kapak": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a97c309df3f9396db53f3cb2dbb48d2634791f5b/gun/2026-11-26/reel_30gun_sql_gun03_order_by_kapak.png",
+    "aciklama": "30 Günde SQL · Gün 3/30: ORDER BY. En pahalıdan ucuza sıraladım, en pahalısı en altta çıktı 😅\n📩 SQL'e yeni başlayan arkadaşına gönder, seriye birlikte devam edin.\n\nORDER BY fiyat DESC → 900, 450, 250, 1250. Çünkü fiyat sütunu metin (TEXT): metin harf harf sıralanır, '9' > '1' olduğu için '900' > '1250'.\n\nDoğrusu: ORDER BY CAST(fiyat AS INTEGER) DESC → Monitör 1250 en üstte. En iyisi sayıyı baştan sayı sütununda saklamak.\nORDER BY varsayılanı ASC (küçükten büyüğe); büyükten küçüğe için DESC.\n\nSoru: SELECT ad FROM urun ORDER BY CAST(fiyat AS INTEGER); ilk satırda hangi ürün var? Yoruma sadece adını yaz 👇\n\nYarın Gün 4/30: LIMIT. Kaçırmamak için takip et.\n\n#sql #sqlöğren #veritabanı #verianalisti #yazılım #30gündesql #orderby #kodlama"
+  },
+  {
+    "id": "2026-11-26_1805_story_duyuru_gun3",
+    "hedef": "2026-11-26T18:05",
+    "tur": "STORY",
+    "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a97c309df3f9396db53f3cb2dbb48d2634791f5b/gun/2026-11-26/story_1805_duyuru_gun3.png"
+  },
+  {
+    "id": "2026-11-26_2100_story_cevap_kart_v5",
+    "hedef": "2026-11-26T21:00",
+    "tur": "STORY",
+    "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@42e8250cb8590c9e2647690fd817acc899ea9c19/gun/2026-11-25/story_2100_cevap_kart_v5.png"
+  },
+  {
+    "id": "2026-11-26_2300_story_iyigeceler_v5",
+    "hedef": "2026-11-26T23:00",
+    "tur": "STORY",
+    "medya": "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@a97c309df3f9396db53f3cb2dbb48d2634791f5b/gun/2026-11-26/story_2300_iyigeceler_gun4.png"
+  }
 ]
