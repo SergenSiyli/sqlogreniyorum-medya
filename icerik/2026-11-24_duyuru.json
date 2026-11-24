@@ -5,9 +5,9 @@
  "slaytlar": [
   {
    "tip": "kapak",
-   "ust": "SQL Mülakat Sorusu #13",
-   "baslik": "En iyi 3 satıcıya prim verdim. *Deniz* itiraz etti.",
-   "alt": "Deniz de 70 sattı ama listede yoktu. Neden? Cevap yeni Reels'te. Profilime dokun 👆",
+   "ust": "30 Günde SQL · Gün 1/30",
+   "baslik": "Ad ve soyadı istedim, *tek* sütun geldi.",
+   "alt": "Yeni seri başladı: 30 gün, her gün bir SQL konusu. Bugün SELECT. Sıradaki: Gün 2, WHERE. Profilime dokun 👆",
    "ikonlar": [
     "trophy",
     "red_exclamation_mark",

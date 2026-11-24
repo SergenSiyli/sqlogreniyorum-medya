@@ -6,9 +6,9 @@
  "slaytlar": [
   {
    "tip": "kapak",
-   "ust": "30 Günde SQL · Gün 1/30",
-   "baslik": "Müşteri adlarını istedim. Her *satırda* 'ad' yazdı.",
-   "alt": "Yeni seri başladı: 30 gün, her gün bir SQL konusu. Bugün SELECT. Reels'i izle, yarın Gün 2: WHERE. Profilime dokun 👆"
+   "ust": "30 Günde SQL · Gün 2/30",
+   "baslik": "İzmirli müşterileri istedim. *0* satır geldi.",
+   "alt": "Tabloda 2 İzmirli vardı. Neden? Cevap yeni Reels'te. Yarın Gün 3: ORDER BY. Profilime dokun 👆"
   }
  ]
 }
