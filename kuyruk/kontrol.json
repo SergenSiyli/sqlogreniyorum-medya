@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-25T21:50:29+03:00",
+ "zaman": "2026-11-25T21:52:53+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 259,
  "hesap": {
@@ -20,20 +20,7 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/story_0900_gunaydin_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/kopya_sira_01.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/kopya_sira_02.jpg": "HATA HTTP Error 403: Forbidden",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/kopya_sira_03.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/kopya_sira_04.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/kopya_sira_05.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/kopya_sira_06.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/kopya_sira_07.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/kopya_sira_08.jpg": "image/jpeg",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/story_1300_anket_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/reel_30gun_sql_gun04_limit.mp4": "video/mp4",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/reel_30gun_sql_gun04_limit_kapak.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/story_1805_duyuru_v5.png": "HATA HTTP Error 403: Forbidden",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/story_2100_cevap_kart_v5.png": "image/png",
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/story_2300_iyigeceler_v5.png": "image/png"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/kopya_sira_02.jpg": "image/jpeg",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@308d9334756af8251db16148edb08ce425fc38a9/gun/2026-11-27/story_1805_duyuru_v5.png": "image/png"
  }
 }
