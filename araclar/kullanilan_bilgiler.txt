@@ -64,3 +64,5 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-25 23:00 iyi geceler: "hello, world" Kernighan 1972 B dili eğitimi (Bell Labs), 1978 C kitabıyla gelenek — kaynak: Wikipedia, Nokia Bell Labs
 2026-11-26 09:00 günaydın: SQL 1986 ANSI standardı, 1987 ISO; mini soru SELECT * tüm sütunlar (A) — kaynak: ANSI, ISO, Wikipedia
 2026-11-26 23:00 iyi geceler: CAPTCHA açılımı (Completely Automated Public Turing test to tell Computers and Humans Apart), 2000'lerin başı Carnegie Mellon, Luis von Ahn ve ekibi — kaynak: Carnegie Mellon, Wikipedia
+2026-11-27 09:00 günaydın: "byte" 1956 IBM, Werner Buchholz; "bit"le karışmasın diye y ile; mini soru boş tabloda COUNT(*) → 0 (A) — kaynak: IBM, Wikipedia
+2026-11-27 23:00 iyi geceler: Stack Overflow 2008, Jeff Atwood ve Joel Spolsky — kaynak: Stack Overflow, Wikipedia

@@ -1,0 +1,14 @@
+{
+ "ad": "story_2100_cevap_kart",
+ "seri": "BUGÜNÜN CEVAPLARI 🎯",
+ "tema": "koyu",
+ "hesap": "sqlogreniyorum",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Anket: LENGTH('SQL ')",
+   "baslik": "Cevap: *4*",
+   "alt": "Sondaki boşluk da karakter sayılır. Günaydın sorusu: boş tabloda COUNT(*) → 0 (A); SUM ise NULL döner. Reels sorusu: ORDER BY satis LIMIT 1 → Silgi."
+  }
+ ]
+}

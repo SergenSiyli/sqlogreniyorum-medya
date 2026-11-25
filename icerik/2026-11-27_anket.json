@@ -1,0 +1,19 @@
+{
+ "ad": "story_1300_anket",
+ "seri": "ANKET · HANGİSİ DÖNER?",
+ "tema": "koyu",
+ "hesap": "sqlogreniyorum",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "LENGTH('SQL ')",
+   "baslik": "Kaç döner? Sonda boşluk var.",
+   "secenekler": [
+    "3",
+    "4",
+    "NULL"
+   ],
+   "cevap_notu": "Cevap 21:00'de."
+  }
+ ]
+}

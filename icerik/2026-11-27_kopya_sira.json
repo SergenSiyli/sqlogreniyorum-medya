@@ -1,0 +1,123 @@
+{
+ "ad": "kopya_sira",
+ "hesap": "sqlogreniyorum",
+ "seri": "SQL KOPYA KÂĞIDI",
+ "no": 3,
+ "tema": "koyu",
+ "slaytlar": [
+  {
+   "tip": "kapak",
+   "ust": "Mülakattan önce kaydet 📌",
+   "baslik": "SQL sorgunu *hangi sırayla* çalıştırır?",
+   "alt": "Yazdığın sıra değil. 4 hatayı bu sıra açıklıyor. Kaydır 👉",
+   "ikonlar": [
+    "card_file_box",
+    "laptop",
+    "sparkles"
+   ]
+  },
+  {
+   "tip": "liste",
+   "baslik": "Çalışma sırası: *7 adım*",
+   "maddeler": [
+    {
+     "yazi": "FROM → WHERE: al, satırları süz",
+     "ikon": "card_file_box"
+    },
+    {
+     "yazi": "GROUP BY: grupla",
+     "ikon": "card_index_dividers"
+    },
+    {
+     "yazi": "HAVING: grupları süz",
+     "ikon": "magnifying_glass_tilted_left"
+    },
+    {
+     "yazi": "SELECT: sütunları seç",
+     "ikon": "pushpin"
+    },
+    {
+     "yazi": "ORDER BY → LIMIT: sırala, kes",
+     "ikon": "bar_chart"
+    }
+   ]
+  },
+  {
+   "tip": "tablo",
+   "baslik": "Örnek: *siparis* tablosu",
+   "sutunlar": [
+    "id",
+    "sehir",
+    "tutar"
+   ],
+   "satirlar": [
+    [
+     1,
+     "Ankara",
+     300
+    ],
+    [
+     2,
+     "İzmir",
+     80
+    ],
+    [
+     3,
+     "Ankara",
+     150
+    ],
+    [
+     4,
+     "Bursa",
+     500
+    ],
+    [
+     5,
+     "İzmir",
+     60
+    ],
+    [
+     6,
+     "Ankara",
+     40
+    ]
+   ],
+   "metin": "Ankara 3, İzmir 2, Bursa 1 sipariş."
+  },
+  {
+   "tip": "kod",
+   "baslik": "1: WHERE'de *COUNT* olmaz",
+   "kod": "SELECT sehir FROM siparis\nWHERE COUNT(*) > 1\nGROUP BY sehir;\n-- HATA: misuse of aggregate\n\n... GROUP BY sehir\nHAVING COUNT(*) > 1;\n-- Ankara 3, İzmir 2",
+   "metin": "WHERE gruplamadan önce çalışır; grubu sayamaz. Grup koşulu HAVING'e yazılır."
+  },
+  {
+   "tip": "kod",
+   "baslik": "2: WHERE *önce* süzer",
+   "kod": "SELECT sehir, COUNT(*)\nFROM siparis\nWHERE tutar > 100\nGROUP BY sehir;\n-- Ankara 2, Bursa 1",
+   "metin": "100 TL altı siparişler sayılmadan atıldı: İzmir hiç gelmedi, Ankara 3 değil 2."
+  },
+  {
+   "tip": "kod",
+   "baslik": "3: ORDER BY *takma adı* bilir",
+   "kod": "SELECT sehir,\n  SUM(tutar) AS ciro\nFROM siparis\nGROUP BY sehir\nORDER BY ciro DESC;\n-- Bursa 500, Ankara 490,\n-- İzmir 140",
+   "metin": "ORDER BY, SELECT'ten sonra çalışır; ciro adını tanır."
+  },
+  {
+   "tip": "kod",
+   "baslik": "4: LIMIT *en son* keser",
+   "kod": "... GROUP BY sehir\nORDER BY ciro DESC\nLIMIT 1;\n-- Bursa 500",
+   "metin": "Önce sıralanır, sonra kesilir. ORDER BY'sız LIMIT, ilk 1'i değil, gelen ilk satırı verir."
+  },
+  {
+   "tip": "son",
+   "baslik": "Mülakattan önce *kaydet*",
+   "metin": "Her hafta yeni SQL kopya kâğıdı için takip et.",
+   "gonder": "SQL öğrenen arkadaşına gönder",
+   "ikonlar": [
+    "trophy",
+    "rocket",
+    "sparkles"
+   ]
+  }
+ ]
+}
