@@ -186,3 +186,15 @@ SÖZ: 2026-11-24 POST seçenek "Anne arkadaşıma küçük bir not: Aynı gece u
 SÖZ: 2026-11-25 POST seçenek "Eşime küçük bir not: 'Bir şey lazım mı?' diye sorma. Bebeği al, çayımı tazele, bana 10 dakika ver. Gerisini ben hallederim."
 SÖZ: 2026-11-25 POST seçenek "Bebeğin uyku düzeni: Gündüz kucakta 20 dakika. Sabaha karşı 4: tam enerji. Benim uyku düzenim: Yükleniyor…"
 SÖZ: 2026-11-25 POST seçenek "Kendime küçük bir not: Aynada yorgun bir kadın görüyorsan bil ki o bebek seni dünyanın en güzel yüzü sanıyor. Ve haklı."
+2026-11-26 günaydın: yıldırım havayı ~28.000 °C'ye ısıtır, Güneş yüzeyinden ~5 kat sıcak — NOAA Ulusal Hava Durumu Servisi
+2026-11-26 hamilelik soru-cevap: 28. haftadan sonra uykuya yan yatarak dal, sırtüstü uyanırsan yan dön — NHS
+2026-11-26 bebek soru-cevap: iki nesneyi birbirine vurma en geç 9. ay — CDC
+2026-11-26 temizlik soru-cevap: ağza giren plastik oyuncaklar sabunlu su, durula, kurut — CDC
+2026-11-26 ek gıda soru-cevap: parmak yiyecekler parmak boyunda yumuşak çubuk (bal kabağı, patates), dik otur — NHS
+2026-11-26 bilgi soru-cevap: kalp günde ~100.000 kez atar — American Heart Association
+2026-11-26 bilgi kartı: yeni doğan kanguru yavrusu jelibon kadar (~2 cm), keseye kendisi tırmanır — Avustralya Müzesi
+2026-11-26 bilgi kartı: Dünya yüzeyinin ~%71'i suyla kaplı — USGS
+2026-11-26 iyi geceler (küçük not, tarihli): 27 Kasım 1895 Alfred Nobel vasiyetini Paris'te imzaladı — Nobel Vakfı
+SÖZ: 2026-11-26 POST seçenek "En yakın arkadaşıma küçük bir not: Saçım dağınık, sohbetim bebek uykusu, sözümüz hep yarım kalıyor… Yine de hiç vazgeçmedin benden. İyi ki varsın."
+SÖZ: 2026-11-26 POST seçenek "Annelerin ses ölçeği: Ağlama sesi: normal. Kahkaha sesi: mutluluk. Hiç ses yok: Koş!"
+SÖZ: 2026-11-26 POST seçenek "Bebeğime küçük bir not: Bir gün kucağıma sığmayacak kadar büyüyeceksin. O yüzden bu gece de seni biraz daha uzun tutacağım."
