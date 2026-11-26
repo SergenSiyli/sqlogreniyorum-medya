@@ -66,3 +66,5 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-26 23:00 iyi geceler: CAPTCHA açılımı (Completely Automated Public Turing test to tell Computers and Humans Apart), 2000'lerin başı Carnegie Mellon, Luis von Ahn ve ekibi — kaynak: Carnegie Mellon, Wikipedia
 2026-11-27 09:00 günaydın: "byte" 1956 IBM, Werner Buchholz; "bit"le karışmasın diye y ile; mini soru boş tabloda COUNT(*) → 0 (A) — kaynak: IBM, Wikipedia
 2026-11-27 23:00 iyi geceler: Stack Overflow 2008, Jeff Atwood ve Joel Spolsky — kaynak: Stack Overflow, Wikipedia
+2026-11-28 09:00 günaydın: JSON'u Douglas Crockford 2000'lerin başında tanımladı, json.org; mini soru WHERE puan > 50 NULL satırı getirmez (B) — kaynak: json.org, Wikipedia
+2026-11-28 23:00 iyi geceler: Linux maskotu Tux 1996, Larry Ewing çizdi, penguen fikri Linus Torvalds — kaynak: Wikipedia, Linux.com
