@@ -27,12 +27,13 @@ body:before{content:"";position:absolute;left:96px;top:0;bottom:0;width:3px;back
 .kapak{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 140px}
 .kapak .s{font-family:"Caladea",serif;font-style:italic;font-size:56px;color:#A0522D}
 .kapak .b{font-size:34px;font-weight:700;letter-spacing:8px;color:#fff;background:#B5532E;padding:12px 34px;border-radius:40px;margin:36px 0}
+.kapak .t{font-size:40px;font-weight:600;color:#6B5A50;margin-top:18px}
 .kapak h1{font-family:"Caladea",serif;font-size:150px;line-height:1.05;color:#3B2A22}
 .kapak .k{font-size:38px;color:#6B5A50;margin-top:50px}"""
 def sayfa(govde): return f'<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>{CSS}</style></head><body>{govde}<div class="alt">@utopikanne</div></body></html>'
 pages = []
 k = d["kapak"]
-pages.append(sayfa(f'<div class="kapak"><div class="s">Alya\'nın Günlüğü</div><div class="b">BÖLÜM {d["bolum"]}</div><h1>{e(k["baslik"])}</h1><div class="k">{e(k.get("alt","Kaydır →"))}</div></div>'))
+pages.append(sayfa(f'<div class="kapak"><div class="s">Alya\'nın Günlüğü</div><div class="t">{e(k.get("tur","🤰 Bir hamilelik dizisi"))}</div><div class="b">BÖLÜM {d["bolum"]}</div><h1>{e(k["baslik"])}</h1><div class="k">{e(k.get("alt","Kaydır →"))}</div></div>'))
 for s in d["sayfalar"]:
     g = f'<div class="ust"><div class="seri">Alya\'nın Günlüğü</div><div class="zaman">{e(s["zaman"])}</div></div>'
     if s.get("gunluk"): g += f'<div class="gunluk">{e(s["gunluk"])}</div>'
