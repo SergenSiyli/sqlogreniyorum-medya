@@ -78,3 +78,14 @@ DİZİ MÜZİĞİ: "La Maritza - Piano Version" (Penguin Piano), Instagram müzi
 KURAL (26 Kasım 21:06, B1 hatası): Mesajlar günlüğe bakmadan da anlaşılır olmalı; karakter yalnız kendisine söylenmiş/yazılmış bilgiyi bilir. Günlük satırının başında '📖 Alya'nın defteri' etiketi, el yazısı hissi, balonlarla arasında boşluk.
 
 ## DIŞ GÖRÜŞ SONRASI (26 Kasım 21:50, ChatGPT yorumu değerlendirildi): ALINANLAR: (1) kapakta bölümün merak cümlesi büyük başlık (ör. 'Kapıyı açtığımda…'), (2) son sayfaya 'Devamını kaçırmamak için takipte kal 🤍' çağrısı, boşluk azaltılır, (3) açıklamaya 'Alya kurgusal bir karakter; yaşadıkları hepimizin.' satırı. ALINMAYANLAR: haftada 2 bölüm (3'te kalıyoruz), 7 günlük dolu takvim (Paz boş, Reels Melike'nin isteğine göre).
+
+## KONU LİSTESİ EKİ (Melike 26 Kasım 22:23)
+- Vitaminler: folik asit, demir, D vitamini, magnezyum → yalnız 'Dr. Aylin önerdi/tahlile göre' şeklinde; DOZ, marka, takviye tavsiyesi YOK. (B4/B6 içine)
+- Kilo ve iştah: Burcu hızlı kilo alıyor ve dertleniyor, Alya ilk aylarda iştahsız; Dr. Aylin 'takibi ben yaparım'. SAYI, hedef, diyet dili YOK; beden yorumu sevgiyle. (B13)
+- Aşerme: gece 2 tuhaf kombinasyonlar (B9).
+- Siyatik: kalçadan bacağa vuran ağrı, uykusuz geceler (B15).
+- NST: ilk NST heyecanı, bebek tam o an uyuyor (B17).
+- Ultrason: yüzünü ilk görme, ölçümler, detaylı ultrason (B5 ve test bölümleri).
+- Beslenme: kahve, peynir, balık, bitki çayları (bitki çayı bilgisi resmî kaynakla doğrulanmadan yazılmaz), merak edilen yiyecekler (B5 ve ara bölümler).
+- Doğum: normal doğum, sezaryen, sancı, epidural; üç arkadaşın farklı doğumları (sezon finali).
+- Lohusalık: süt, emzirme, uykusuzluk (Sezon 2).
