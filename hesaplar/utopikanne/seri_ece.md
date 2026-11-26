@@ -47,13 +47,24 @@ SEZON 2: ANNELİK (kapak açık mavi): lohusalık ve 40 gün, Sevim'in ziyaretle
 ÜÇÜNCÜ HAMİLE: MERVE (38, ileri anne yaşı, ailede genetik hastalık öyküsü, uzun denemeden sonra hamile): titiz, listeci, her testi yaptırıyor, kaygısını espriyle örtüyor. Üç farklı hamilelik:
 - Ece: "normal" ilk hamilelik; ikili test yaptırıyor, fetal DNA yaptırmıyor (sonradan "acaba yaptırsa mıydım?" kaygısı).
 - Selin: gebelik şekeri, "bir şey olmaz ya".
-- Merve: ileri yaş + aile öyküsü; doktor fetal DNA (NIPT) öneriyor, daha pahalı; gerekirse ileri tanı (amniyosentez) konuşuluyor.
+- Merve: ileri yaş + aile öyküsü; doktor fetal DNA (NIPT) öneriyor; gerekirse ileri tanı (amniyosentez) konuşuluyor.
 TEST BÖLÜMLERİ (sezona eklenir, sıra haftaya göre):
-- 10-11.hf "Fetal DNA mı, ikili mi?": üç kadın kafede tartışıyor. Bilgi: ikisi de TARAMA testidir, tanı koymaz. Fetal DNA (hücre dışı DNA) daha yüksek doğrulukta tarar ve daha pahalıdır. İleri yaş, aile öyküsü, riskli tarama sonucunda doktor önerebilir. Riskli sonuç ileri tanı testleriyle doğrulanır. (Kaynak: gov.uk Türkçe tarama broşürü, T.C. Sağlık Bakanlığı Doğum Öncesi Bakım Rehberi)
+- 10-11.hf "Fetal DNA mı, ikili mi?": üç kadın kafede tartışıyor. Bilgi: ikisi de TARAMA testidir, tanı koymaz. Fetal DNA (hücre dışı DNA) daha yüksek doğrulukta tarar. İleri yaş, aile öyküsü, riskli tarama sonucunda doktor önerebilir. Riskli sonuç ileri tanı testleriyle doğrulanır. (Kaynak: gov.uk Türkçe tarama broşürü, T.C. Sağlık Bakanlığı Doğum Öncesi Bakım Rehberi)
 - 11-14.hf İkili test: ense kalınlığı ultrasonu + kan; sonuç beklerken uykusuz gece. Bilgi: hafta aralığı ve ne ölçer.
 - 15-16.hf Merve'nin sonucu: bekleme kaygısı, gerekirse amniyosentez konuşması (sonuç iyi biter; korkutma yok). Bilgi: ileri tanı ne zaman konuşulur, doktorla.
 - 18-22.hf Detaylı ultrason (2. düzey): organlar tek tek; Can her şeye "bu kafası mı?" diyor.
 - 24-28.hf Şeker yüklemesi (mevcut B12), kan grubu/Rh uyumsuzluğu notu (resmî kaynakla doğrulanırsa).
 - 37-38.hf NST (mevcut).
-Kural: Türkiye'deki uygulama Sağlık Bakanlığı rehberiyle doğrulanır; fiyat rakamı yazılmaz ("daha pahalı" yeter). Korkutucu/kesin tıbbi iddia yok; sonuçlar doktorla konuşulur.
+Kural: Türkiye'deki uygulama Sağlık Bakanlığı rehberiyle doğrulanır; fiyat/maliyet konusu YAZILMAZ. Korkutucu/kesin tıbbi iddia yok; sonuçlar doktorla konuşulur.
 FİNAL: Üç doğum farklı (Selin erken ve sezaryen, Merve planlı, Ece normal doğum). Sonra SEZON 2: üç annenin lohusalığı ve bebekleri.
+
+## GÜNCELLEME 26 Kasım 19:36 (Melike: "sen de araştır, batıl inançlar, ne yenir, bebek gelişimi, kıyafet, duygular; herkes kendini bulsun")
+SOHBETİN OMURGASI (her bölümde üç kadının WhatsApp/kafe muhabbeti):
+- "Benimki bu hafta ne kadar?": yaklaşık boy karşılaştırması (meyve gibi, "yaklaşık" diye) + o haftanın gelişimi (kalp atışı, parmaklar, parmak izi, kaşlar, işitme, ilk kıpırtı, gözlerin açılması…). Kaynak: NHS hafta hafta rehberi; her bölümde ilgili hafta sayfası kontrol edilir.
+- Kıpırtı yarışı: Merve hissediyor, Ece "gaz mı bebek mi?" diye bekliyor.
+BATIL İNANÇLAR (Nermin ve Sevim söyler; sonunda Dr. Aylin alay etmeden, tatlı bir dille "Cinsiyeti ultrason ya da test söyler" der):
+karın sivri/aşağıdaysa erkek, yuvarlak/yukarıdaysa kız · tatlı aşermesi kız, tuzlu/ekşi erkek · "kız annesinin güzelliğini alır", erkek anneyi güzelleştirir · ipe bağlı alyans ileri geri sallanırsa erkek, daire çizerse kız · göbek altı çizgisi yukarı uzanırsa erkek · kalp atışı 140 üstü kız · ayaklar soğuksa erkek · huysuzluk kız. Bölüm fikri: Sevim yüzüğü sallıyor, Nermin karına bakıyor, ikisi farklı söylüyor, ultrason ikisini de şaşırtıyor. Ece "çirkinleştim, demek kız" diye üzülüyor, Selin "parlıyorum, demek erkek" diyor.
+NE YENİR / NE YENMEZ (Duygu ve Dr. Aylin; Türkiye'ye uyarlanmış; kaynak NHS/nidirect):
+pastörize edilmemiş süt ve peynir (köy peyniri, taze keçi peyniri) yok; pastörize beyaz peynir, kaşar, yoğurt tamam · çiğ ya da az pişmiş et yok (etli çiğ köfte, az pişmiş köfte) · sucuk/salam iyice pişmeli · ciğer ve ciğerli ürünler yok (A vitamini) · kılıç balığı, köpek balığı, marlin yok; yağlı balık haftada 2 porsiyonla sınırlı · yumurta tam pişmiş · kafein günde 200 mg (hazır kahve ~100, filtre ~140, çay ~75 mg) · alkol yok. "İki kişilik ye" efsanesi Dr. Aylin'de çürür (sayı/kalori yok).
+DUYGULAR: hamile kıyafeti alışverişi (pantolonun düğmesi kapanmıyor, lastik bel mutluluğu) · "çirkinleştim mi?" (Ece) / "hiç bu kadar güzel olmamıştım" (Selin) · bir annenin "annelik çok zor" dediğini duyup gece ağlamak, Can'ın "Biz yaparız" demesi · bebek odası, isim tartışması (Sevim kayınpederin adını istiyor).
+GERÇEKLİK KURALI: Forumlardaki ORTAK deneyim kalıplarından yararlanılır; belirli bir kişinin yazısı/hikâyesi kelimesi kelimesine KOPYALANMAZ (mahremiyet + telif). Her bölümde en az bir sıcak an olur (Can'ın küçük bir jesti, bebeğin ilk kıpırtısı, annesinin elini karna koyması).
