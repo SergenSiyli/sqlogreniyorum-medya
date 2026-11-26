@@ -322,3 +322,9 @@ Ece'nin Günlüğü GERÇEKÇİ hamilelik evreleri üzerine. Her bölüm 5 sayfa
 HAMİLELİK SEZONU: B1 5.hf iki çizgi (yayında) · B2 6-8.hf bulantı · B3 8.hf ilk doktor, kalp atışı, folik asit · B4 12.hf tahlil, demir eksikliği · B5 20.hf ilk tekme, detaylı ultrason · B6 24-28.hf şeker yüklemesi · B7 28-32.hf mide yanması, yan yatma · B8 32-34.hf siyatik/bel-kasık ağrısı · B9 35-37.hf ödem (ani yüz/el şişliği → hemen doktor) · B10 38.hf NST · B11 39.hf hastane çantası, sahte/gerçek sancı · B12 doğum (sezon finali).
 ANNELİK SEZONU: lohusalık/40 gün, emzirme, gaz sancısı, aşılar, uyku, 6.ay ek gıda, ilk diş…
 Takvim: Pzt/Çar/Cum post. B2 = 30 Kasım Pazartesi.
+### 5l KARAR (26 Kasım, Melike'nin "nasıl ilerleyelim" sorusu):
+- Pzt/Çar/Cum 21:00 Ece bölümü (5 sayfalık kaydırmalı post); Sal/Per/Cmt Melike'nin Reels'i; Paz boş. Aynı anda tek post serisi: Annelik Günlüğü (kahve) bekletilir, yalnız boşluk olursa kullanılır.
+- Tasarım B2'den itibaren: KAPAK sezon rengi (Hamilelik = pudra pembe zemin, büyük "Bölüm N" + "X. hafta", seri logosu "Ece'nin Günlüğü"), iç sayfalar krem defter, BİLGİ sayfası beyaz kutu + "Bilgi notu" etiketi + kaynak, son sayfa "Devamı <gün>" + soru. Izgarada kapaklar aynı renk → seri tanınır.
+- Hikâye (story) desteği: bölüm günü 21:05 "Yeni bölüm yayında" story (kapak + bağlantı çıkartması Melike ekler) + ertesi gün anket "Sen bu evreyi yaşadın mı? Yaşadım / Şu an yaşıyorum". Öne çıkan: "Ece'nin Günlüğü" (her bölüm kapağı sırayla). Gece teslim paketine bölüm günlerinde bu iki story eklenir.
+- Yönlendirme: açıklama ilk satırı "Bölüm 1'den başla: profilde 📖", sabit etiket #ecenıngünlüğü, Melike'nin Reels açıklamalarında 1 satır "Ece'nin Günlüğü'nün yeni bölümü profilde".
+- Ölçüm 11 Aralık (B1-B6): kaydetme, gönderme, profil ziyareti, bölüm başına takipçi; B1'e göre düşüyorsa kapak/merak değişir, iyi ise sürer.
