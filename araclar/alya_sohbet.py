@@ -25,7 +25,8 @@ body:before{content:"";position:absolute;left:96px;top:0;bottom:0;width:3px;back
 .kim{font-size:28px;font-weight:700;color:#A0522D;margin-bottom:6px}
 .son{position:absolute;left:140px;right:90px;bottom:200px;text-align:center}
 .son b{display:block;font-family:"Caladea",serif;font-style:italic;font-size:64px;color:#B5532E;margin-bottom:24px}
-.son span{font-size:40px;color:#6B5A50}
+.son span{font-size:40px;color:#6B5A50;display:block}
+.son i{display:block;margin-top:34px;font-style:normal;font-size:34px;font-weight:600;color:#fff;background:#B5532E;padding:16px 28px;border-radius:40px}
 .alt{position:absolute;bottom:64px;left:0;right:0;text-align:center;font-size:28px;color:#8B7A70;letter-spacing:1px}
 .kapak{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 140px}
 .kapak .s{font-family:"Caladea",serif;font-style:italic;font-size:56px;color:#A0522D}
@@ -44,7 +45,7 @@ for s in d["sayfalar"]:
         g += '<div class="sohbet">' + "".join(
             f'<div class="m sag">{e(m["yazi"])}</div>' if m["kim"] == "Alya" else f'<div class="m sol"><div class="kim">{e(m["kim"])}</div>{e(m["yazi"])}</div>'
             for m in s["mesajlar"]) + '</div>'
-    if s.get("son"): g += f'<div class="son"><b>{e(s["son"])}</b><span>{e(s.get("soru",""))}</span></div>'
+    if s.get("son"): g += f'<div class="son"><b>{e(s["son"])}</b><span>{e(s.get("soru",""))}</span><i>Devamını kaçırmamak için takipte kal 🤍</i></div>'
     pages.append(sayfa(g))
 from playwright.sync_api import sync_playwright
 with sync_playwright() as pw:
