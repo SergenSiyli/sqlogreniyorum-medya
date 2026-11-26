@@ -70,3 +70,6 @@ DUYGULAR: hamile kıyafeti alışverişi (pantolonun düğmesi kapanmıyor, last
 GERÇEKLİK KURALI: Forumlardaki ORTAK deneyim kalıplarından yararlanılır; belirli bir kişinin yazısı/hikâyesi kelimesi kelimesine KOPYALANMAZ (mahremiyet + telif). Her bölümde en az bir sıcak an olur (Can'ın küçük bir jesti, bebeğin ilk kıpırtısı, annesinin elini karna koyması).
 
 ## İSİM KARARI 26 Kasım 20:15: karakter adı ALYA, dizi "Alya'nın Günlüğü", kapakta "utopikanne sunar". B1 yeniden yazıldı: hazir/2026-11-26/ozel/alya_b1 (gerçek erken belirtiler + NHS bilgi notu). Dizi müziği: her bölümde AYNI sakin enstrümantal ses.
+
+## FORMAT KİLİDİ 26 Kasım 20:21 (Melike: "çok güzel, aynen böyle")
+Şablon: araclar/alya_sohbet.py (mesaj balonlu günlük). Kızların WhatsApp grubu (Alya, Selin, Merve) ana omurga; bazı sayfalar yalnız günlük (Alya'nın duyguları, gündelik hayatı), bazıları yüz yüze konuşma (Can, Nermin, Sevim, Dr. Aylin) aynı balon stilinde. Bilgi sayfası araya GİRMEZ; bilgi açıklamaya (kaynak + doktoruna danış). Mantık hatası kontrolü: her sayfa bir öncekine bağlanmalı. 'sunar' yok.
