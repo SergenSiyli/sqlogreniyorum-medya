@@ -14,8 +14,10 @@ body:before{content:"";position:absolute;left:96px;top:0;bottom:0;width:3px;back
 .ust{position:absolute;top:70px;left:140px;right:80px;display:flex;justify-content:space-between;align-items:center}
 .seri{font-family:"Caladea",serif;font-style:italic;font-size:38px;color:#A0522D}
 .zaman{font-size:30px;font-weight:600;color:#fff;background:#B5532E;padding:12px 26px;border-radius:40px}
-.gunluk{position:absolute;top:180px;left:140px;right:90px;font-family:"Caladea",serif;font-style:italic;font-size:54px;line-height:1.3;color:#3B2A22}
-.ic{font-family:"Inter",sans-serif;font-style:normal;font-size:28px;font-weight:700;letter-spacing:1px;color:#A0522D;margin-bottom:10px}
+.gunluk{position:absolute;top:175px;left:150px;right:110px;font-family:"Caladea",serif;font-style:italic;font-size:50px;line-height:1.3;color:#4A3A55;background:#EFE7F7;border:3px dashed #B9A3D6;border-radius:60px;padding:34px 44px}
+.gunluk:after{content:"";position:absolute;left:70px;bottom:-46px;width:34px;height:34px;border-radius:50%;background:#EFE7F7;border:3px dashed #B9A3D6}
+.gunluk:before{content:"";position:absolute;left:40px;bottom:-78px;width:18px;height:18px;border-radius:50%;background:#EFE7F7;border:3px dashed #B9A3D6}
+.ic{font-family:"Inter",sans-serif;font-style:normal;font-size:28px;font-weight:700;letter-spacing:1px;color:#7B5EA7;margin-bottom:10px}
 .sohbet{position:absolute;left:120px;right:70px;bottom:190px;display:flex;flex-direction:column;gap:22px}
 .m{max-width:78%;padding:24px 32px;border-radius:34px;font-size:42px;line-height:1.3;box-shadow:0 6px 16px #0000000f}
 .sol{align-self:flex-start;background:#fff;border-bottom-left-radius:8px}
@@ -34,7 +36,7 @@ body:before{content:"";position:absolute;left:96px;top:0;bottom:0;width:3px;back
 def sayfa(govde): return f'<!doctype html><html lang="tr"><head><meta charset="utf-8"><style>{CSS}</style></head><body>{govde}<div class="alt">@utopikanne</div></body></html>'
 pages = []
 k = d["kapak"]
-pages.append(sayfa(f'<div class="kapak"><div class="s">Alya\'nın Günlüğü</div><div class="t">{e(k.get("tur","🤰 Bir hamilelik dizisi"))}</div><div class="b">BÖLÜM {d["bolum"]}</div><h1>{e(k["baslik"])}</h1><div class="k">{e(k.get("alt","Kaydır →"))}</div></div>'))
+pages.append(sayfa(f'<div class="kapak"><div class="s">Alya\'nın Günlüğü</div><div class="t">{e(k.get("tur","🤰 Bir hamilelik hikâyesi"))}</div><div class="b">BÖLÜM {d["bolum"]}</div><h1>{e(k["baslik"])}</h1><div class="k">{e(k.get("alt","Kaydır →"))}</div></div>'))
 for s in d["sayfalar"]:
     g = f'<div class="ust"><div class="seri">Alya\'nın Günlüğü</div><div class="zaman">{e(s["zaman"])}</div></div>'
     if s.get("gunluk"): g += f'<div class="gunluk"><div class="ic">💭 Alya\'nın içinden</div>{e(s["gunluk"])}</div>'
