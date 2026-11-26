@@ -42,3 +42,18 @@ SEZON 2: ANNELİK (kapak açık mavi): lohusalık ve 40 gün, Sevim'in ziyaretle
 - Story anketi: "Senin çevrende hangisi var? Selin / Duygu / Sevim".
 - Öne çıkan: "Ece'nin Günlüğü".
 - Kaynak kuralı: her bilgi sayfası yayından önce resmî kaynakla doğrulanır; doğrulanamazsa o bilgi çıkarılır.
+
+## GÜNCELLEME 26 Kasım 19:31 (Melike: "hamilelikte ne varsa: ikili test, fetal DNA, detaylı ultrason… 3 farklı hamilelik")
+ÜÇÜNCÜ HAMİLE: MERVE (38, ileri anne yaşı, ailede genetik hastalık öyküsü, uzun denemeden sonra hamile): titiz, listeci, her testi yaptırıyor, kaygısını espriyle örtüyor. Üç farklı hamilelik:
+- Ece: "normal" ilk hamilelik; ikili test yaptırıyor, fetal DNA yaptırmıyor (sonradan "acaba yaptırsa mıydım?" kaygısı).
+- Selin: gebelik şekeri, "bir şey olmaz ya".
+- Merve: ileri yaş + aile öyküsü; doktor fetal DNA (NIPT) öneriyor, daha pahalı; gerekirse ileri tanı (amniyosentez) konuşuluyor.
+TEST BÖLÜMLERİ (sezona eklenir, sıra haftaya göre):
+- 10-11.hf "Fetal DNA mı, ikili mi?": üç kadın kafede tartışıyor. Bilgi: ikisi de TARAMA testidir, tanı koymaz. Fetal DNA (hücre dışı DNA) daha yüksek doğrulukta tarar ve daha pahalıdır. İleri yaş, aile öyküsü, riskli tarama sonucunda doktor önerebilir. Riskli sonuç ileri tanı testleriyle doğrulanır. (Kaynak: gov.uk Türkçe tarama broşürü, T.C. Sağlık Bakanlığı Doğum Öncesi Bakım Rehberi)
+- 11-14.hf İkili test: ense kalınlığı ultrasonu + kan; sonuç beklerken uykusuz gece. Bilgi: hafta aralığı ve ne ölçer.
+- 15-16.hf Merve'nin sonucu: bekleme kaygısı, gerekirse amniyosentez konuşması (sonuç iyi biter; korkutma yok). Bilgi: ileri tanı ne zaman konuşulur, doktorla.
+- 18-22.hf Detaylı ultrason (2. düzey): organlar tek tek; Can her şeye "bu kafası mı?" diyor.
+- 24-28.hf Şeker yüklemesi (mevcut B12), kan grubu/Rh uyumsuzluğu notu (resmî kaynakla doğrulanırsa).
+- 37-38.hf NST (mevcut).
+Kural: Türkiye'deki uygulama Sağlık Bakanlığı rehberiyle doğrulanır; fiyat rakamı yazılmaz ("daha pahalı" yeter). Korkutucu/kesin tıbbi iddia yok; sonuçlar doktorla konuşulur.
+FİNAL: Üç doğum farklı (Selin erken ve sezaryen, Merve planlı, Ece normal doğum). Sonra SEZON 2: üç annenin lohusalığı ve bebekleri.
