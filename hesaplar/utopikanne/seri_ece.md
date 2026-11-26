@@ -74,3 +74,4 @@ GERÇEKLİK KURALI: Forumlardaki ORTAK deneyim kalıplarından yararlanılır; b
 ## FORMAT KİLİDİ 26 Kasım 20:21 (Melike: "çok güzel, aynen böyle")
 Şablon: araclar/alya_sohbet.py (mesaj balonlu günlük). Kızların WhatsApp grubu (Alya, Burcu, Sevda) ana omurga; bazı sayfalar yalnız günlük (Alya'nın duyguları, gündelik hayatı), bazıları yüz yüze konuşma (Can, Nermin, Sevim, Dr. Aylin) aynı balon stilinde. Bilgi sayfası araya GİRMEZ; bilgi açıklamaya (kaynak + doktoruna danış). Mantık hatası kontrolü: her sayfa bir öncekine bağlanmalı. 'sunar' yok.
 İSİMLER (26 Kasım 20:25): Alya, Burcu (gebelik şekeri, eski Selin), Sevda (38, ileri yaş, eski Merve), eşi Can.
+DİZİ MÜZİĞİ: "La Maritza - Piano Version" (Penguin Piano), Instagram müzik kütüphanesi; her bölümde aynı.
