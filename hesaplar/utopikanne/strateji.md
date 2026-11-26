@@ -314,3 +314,6 @@ Seri: "Patronun Menüsü #N" (Aren yeni yiyecek tadar, sonunda "Patron onayladı
 
 ## 5k. "Annelik Günlüğü · Sayfa N" serisi (Melike onayı 26 Kasım: "seri seri olsun")
 Sayfa 1 = 26 Kasım (kahve ısıtma). Her post gününde (Pzt/Çar/Cum) secenek_A = bir sonraki sayfa (anne_soz.py, ust "Annelik Günlüğü · Sayfa N", 3-4 saatli satır, son satır *vurgulu* twist, alt "Devamı …" tek satır). Genel, herkesin yaşadığı anlar; GERÇEK OLAY İDDİASI YOK, uydurma takipçi hikâyesi YOK. Sayfa 2 = 27 Kasım Cuma. "Sizden Gelenler": yalnız Melike'nin hikâye soru çıkartmasına gelen GERÇEK cevaplardan, isimsiz.
+
+## 5l. "Ece'nin Günlüğü · Bölüm N" (kaydırmalı post, kurgu karakter; Melike 26 Kasım: "sen yarat", "herkes kendinden bir şey bulsun")
+Ece = herkesin kendini bulacağı kurgu anne; Melike'nin gerçek hayatı gibi SUNULMAZ. 5 sayfa, her bölüm merakla biter ("Devamı …", yorum sorusu). Akış: hamilelik → doğum → ilk aylar. Bölüm 1 (26 Kasım): mide bulantısı/döner, eczacı test, iki çizgi, kapı çaldı. Bölüm 2 pazartesi: kapıdaki kişi (yorumlardan en çok tahmin edileni kullanmak serbest). Sağlık bilgisi verilirse resmî kaynak + "doktoruna danış".
