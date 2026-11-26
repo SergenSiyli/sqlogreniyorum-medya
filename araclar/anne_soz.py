@@ -31,7 +31,7 @@ em{{font-style:italic;color:#B5532E}}
 </style></head><body>
 {f'<div class="ust">{html.escape(d["ust"])}</div>' if d.get("ust") else ""}{satir}
 {f'<div class="alt">{v(d["alt"])}</div>' if d.get("alt") else ""}{ik}
-<div class="el">{imza}{('<span class="ad">Melike</span><span class="nk">·</span>' if d.get("hesap","utopikanne")=="utopikanne" and d.get("imza", True) else "")}@{d.get("hesap","utopikanne")}</div></body></html>'''
+<div class="el">{imza}{('<span class="ad">'+html.escape(d.get("imza_ad","Melike"))+'</span><span class="nk">·</span>' if d.get("hesap","utopikanne")=="utopikanne" and d.get("imza", True) else "")}@{d.get("hesap","utopikanne")}</div></body></html>'''
 from playwright.sync_api import sync_playwright
 with sync_playwright() as pw:
     b = pw.chromium.launch(); pg = b.new_page(viewport={"width":1080,"height":1350})
