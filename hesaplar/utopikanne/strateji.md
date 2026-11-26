@@ -338,3 +338,17 @@ Karakter görselleri: telifli karakter (Barbie, Winx, Powerpuff vb.) YOK. Öneri
 ## PROFİL SON KARAR 26 Kasım 20:46: ad 'Melike Siyli | Hamilelik & Annelik'; bio 3 satır (🤍 Aren'in annesi · ek gıda günlüğü / 📖 Alya'nın Günlüğü: hamilelik dizisi / 💌 melikesiyili@gmail.com). Öne çıkan: Alya'nın Günlüğü · Ek Gıda · Bebek · Hamilelik · Bilgi (Temizlik → Bilgi olarak yeniden adlandırılır). Hikâye havuzunda 'Öne çıkan: Temizlik' ve 'Bilgi' → artık 'Bilgi'.
 
 ## ÖNE ÇIKAN TEMİZLİĞİ 26 Kasım 20:59: 5 öne çıkan: Alya'nın Günlüğü · Ek Gıda · Aren · Hamilelik · Önerilerim (Alışveriş+Öneriler+Dolap birleşir). Temizlik ve Tatil kaldırılır (iyi temizlik hikâyeleri Aren'e). Kapaklar marka/one_cikan_v2. Hikâye havuzunda öne çıkan eşleme: Temizlik/Bebek/Bilgi → Aren, Ek gıda → Ek Gıda, Hamilelik → Hamilelik.
+
+## 5n. HAMİLELİK KONU HAVUZU (Melike, 27 Kasım gecesi gönderdi)
+Alya'nın Günlüğü bölümlerinde ve gece hikâye havuzundaki soru_hamilelik'te bu 10 başlık dönüşümlü kullanılır (her gece 1 konu, sırayla; aynı bilgi tekrar yok):
+1. Gebelik şekeri: test (şeker yükleme), beslenme, tatlı krizleri, şeker ölçümleri
+2. Vitaminler: folik asit, demir, D vitamini, magnezyum, doktor önerileri
+3. Kilo: çok kilo alanlar, az kilo alanlar, iştah değişimleri
+4. Aşerme: gece canı bir şey isteyenler, tuhaf yiyecek kombinasyonları
+5. Siyatik: kalçadan bacağa vuran ağrılar, uyuyamayan anne adayları
+6. NST: ilk kez NST'ye girenler, bebeğin hareketlerini bekleyenler
+7. Ultrason: bebeğin yüzünü görme, gelişim ölçümleri, detaylı ultrason
+8. Beslenme: kahve, peynir, balık, bitki çayları, merak edilen yiyecekler
+9. Doğum: normal doğum, sezaryen, sancı, epidural
+10. Lohusalık: süt, emzirme, uykusuzluk, annelik
+GÜVENLİK: vitamin/takviye DOZU, ilaç adı, kilo hedefi, kalori, diyet YOK ("doktorunun önerdiği şekilde"). Kilo konusu yargısız, kıyaslamasız. Şeker değerleri/eşik sayıları yazılmaz, "doktorun değerlendirir". Doğum türlerinde taraf tutulmaz. Bitki çayları için "doktoruna danışmadan içme" dili. Kaynak: NHS, ACOG, T.C. Sağlık Bakanlığı. Belirti anlatımında "hemen doktoruna başvur" notu.
