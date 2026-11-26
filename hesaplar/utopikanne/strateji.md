@@ -317,3 +317,8 @@ Sayfa 1 = 26 Kasım (kahve ısıtma). Her post gününde (Pzt/Çar/Cum) secenek_
 
 ## 5l. "Ece'nin Günlüğü · Bölüm N" (kaydırmalı post, kurgu karakter; Melike 26 Kasım: "sen yarat", "herkes kendinden bir şey bulsun")
 Ece = herkesin kendini bulacağı kurgu anne; Melike'nin gerçek hayatı gibi SUNULMAZ. 5 sayfa, her bölüm merakla biter ("Devamı …", yorum sorusu). Akış: hamilelik → doğum → ilk aylar. Bölüm 1 (26 Kasım): mide bulantısı/döner, eczacı test, iki çizgi, kapı çaldı. Bölüm 2 pazartesi: kapıdaki kişi (yorumlardan en çok tahmin edileni kullanmak serbest). Sağlık bilgisi verilirse resmî kaynak + "doktoruna danış".
+### 5l güncelleme (Melike 26 Kasım: "çocuk şeyi gibi olmuş, hamilelik evrelerini anlat"):
+Ece'nin Günlüğü GERÇEKÇİ hamilelik evreleri üzerine. Her bölüm 5 sayfa: 1 kapak (hafta + merak), 2-3 Ece'nin yaşadığı (gerçekçi, hafif mizah), 4 "Bilgi notu" (resmî kaynak NHS/T.C. Sağlık Bakanlığı/ACOG, ilaç/doz YOK, "doktoruna danış"), 5 "Sen de yaşadın mı?" + sonraki bölüm merakı. Masal/abartı kurgu (kayınvalide bahisleri, yüzük sallama) YOK.
+HAMİLELİK SEZONU: B1 5.hf iki çizgi (yayında) · B2 6-8.hf bulantı · B3 8.hf ilk doktor, kalp atışı, folik asit · B4 12.hf tahlil, demir eksikliği · B5 20.hf ilk tekme, detaylı ultrason · B6 24-28.hf şeker yüklemesi · B7 28-32.hf mide yanması, yan yatma · B8 32-34.hf siyatik/bel-kasık ağrısı · B9 35-37.hf ödem (ani yüz/el şişliği → hemen doktor) · B10 38.hf NST · B11 39.hf hastane çantası, sahte/gerçek sancı · B12 doğum (sezon finali).
+ANNELİK SEZONU: lohusalık/40 gün, emzirme, gaz sancısı, aşılar, uyku, 6.ay ek gıda, ilk diş…
+Takvim: Pzt/Çar/Cum post. B2 = 30 Kasım Pazartesi.
