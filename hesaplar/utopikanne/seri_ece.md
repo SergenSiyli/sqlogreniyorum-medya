@@ -76,3 +76,5 @@ GERÇEKLİK KURALI: Forumlardaki ORTAK deneyim kalıplarından yararlanılır; b
 İSİMLER (26 Kasım 20:25): Alya, Burcu (gebelik şekeri, eski Selin), Sevda (38, ileri yaş, eski Merve), eşi Can.
 DİZİ MÜZİĞİ: "La Maritza - Piano Version" (Penguin Piano), Instagram müzik kütüphanesi; her bölümde aynı.
 KURAL (26 Kasım 21:06, B1 hatası): Mesajlar günlüğe bakmadan da anlaşılır olmalı; karakter yalnız kendisine söylenmiş/yazılmış bilgiyi bilir. Günlük satırının başında '📖 Alya'nın defteri' etiketi, el yazısı hissi, balonlarla arasında boşluk.
+
+## DIŞ GÖRÜŞ SONRASI (26 Kasım 21:50, ChatGPT yorumu değerlendirildi): ALINANLAR: (1) kapakta bölümün merak cümlesi büyük başlık (ör. 'Kapıyı açtığımda…'), (2) son sayfaya 'Devamını kaçırmamak için takipte kal 🤍' çağrısı, boşluk azaltılır, (3) açıklamaya 'Alya kurgusal bir karakter; yaşadıkları hepimizin.' satırı. ALINMAYANLAR: haftada 2 bölüm (3'te kalıyoruz), 7 günlük dolu takvim (Paz boş, Reels Melike'nin isteğine göre).
