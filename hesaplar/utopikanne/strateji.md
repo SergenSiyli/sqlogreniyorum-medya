@@ -328,3 +328,8 @@ Takvim: Pzt/Çar/Cum post. B2 = 30 Kasım Pazartesi.
 - Hikâye (story) desteği: bölüm günü 21:05 "Yeni bölüm yayında" story (kapak + bağlantı çıkartması Melike ekler) + ertesi gün anket "Sen bu evreyi yaşadın mı? Yaşadım / Şu an yaşıyorum". Öne çıkan: "Ece'nin Günlüğü" (her bölüm kapağı sırayla). Gece teslim paketine bölüm günlerinde bu iki story eklenir.
 - Yönlendirme: açıklama ilk satırı "Bölüm 1'den başla: profilde 📖", sabit etiket #ecenıngünlüğü, Melike'nin Reels açıklamalarında 1 satır "Ece'nin Günlüğü'nün yeni bölümü profilde".
 - Ölçüm 11 Aralık (B1-B6): kaydetme, gönderme, profil ziyareti, bölüm başına takipçi; B1'e göre düşüyorsa kapak/merak değişir, iyi ise sürer.
+
+## 5m. YENİ KİMLİK (26 Kasım 19:43): "oğluna ek gıda hazırlayan, oyun oynayan + hamilelik dizisi yazan anne"
+Üç ayak: (1) Reels = Melike'nin gerçek hayatı (Aren, ek gıda, oyun, Patronun Menüsü) → erişim. (2) Ece'nin Günlüğü post dizisi Pzt/Çar/Cum 21:00 → takip sebebi + gönderilme. (3) Story = günlük bilgi havuzu + bölüm duyurusu/anketi.
+Profil önerisi (Melike kendi değiştirir): ad "Melike Siyli | Ek Gıda & Hamilelik"; bio: 🤍 Aren'in annesi / 🥄 Ek gıda tariflerimiz / 📖 Ece'nin Günlüğü: hamilelik dizisi, Pzt-Çar-Cum / 💌 İş birliği: melikesiyili@gmail.com. Öne çıkan sırası: Ece'nin Günlüğü · Ek Gıda · Aren · Bilgi · Alışveriş. Sabit: 1M ve 615B Reels kalır, 240B yerine Ece Bölüm 1.
+Karakter görselleri: telifli karakter (Barbie, Winx, Powerpuff vb.) YOK. Öneri: özgün, sade, zarif çizim avatarlar (çocuksu değil); B2 ile örnek set Melike onayına sunulacak.
