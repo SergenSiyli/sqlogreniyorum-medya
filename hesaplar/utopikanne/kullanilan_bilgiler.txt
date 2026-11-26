@@ -198,3 +198,15 @@ SÖZ: 2026-11-25 POST seçenek "Kendime küçük bir not: Aynada yorgun bir kad�
 SÖZ: 2026-11-26 POST seçenek "En yakın arkadaşıma küçük bir not: Saçım dağınık, sohbetim bebek uykusu, sözümüz hep yarım kalıyor… Yine de hiç vazgeçmedin benden. İyi ki varsın."
 SÖZ: 2026-11-26 POST seçenek "Annelerin ses ölçeği: Ağlama sesi: normal. Kahkaha sesi: mutluluk. Hiç ses yok: Koş!"
 SÖZ: 2026-11-26 POST seçenek "Bebeğime küçük bir not: Bir gün kucağıma sığmayacak kadar büyüyeceksin. O yüzden bu gece de seni biraz daha uzun tutacağım."
+2026-11-27 günaydın: deniz atlarında yavruları erkek taşır ve dünyaya getirir — Smithsonian Okyanus Portalı
+2026-11-27 hamilelik soru-cevap: emniyet kemeri kucak kısmı karnın altından, çapraz göğüslerin arasından — NHS
+2026-11-27 bebek soru-cevap: ce-e oyununda gülme en geç 9. ay — CDC
+2026-11-27 temizlik soru-cevap: ek gıda kâsesi/kaşığı sterilize gerekmez, sıcak sabunlu su — NHS
+2026-11-27 ek gıda soru-cevap: reddedilen yeni tadı yeniden sun, 10+ deneme gerekebilir, şeker/tuz yok — NHS
+2026-11-27 bilgi soru-cevap: kar taneleri 6 kollu (altıgen) — NOAA
+2026-11-27 bilgi kartı: zürafa boynunda 7 omur — San Diego Hayvanat Bahçesi
+2026-11-27 bilgi kartı: yer fıstığı baklagil — Britannica
+2026-11-27 iyi geceler (küçük not, tarihli): 28 Kasım 1520 Macellan Pasifik'e çıktı, "barışçıl" adı — Britannica
+SÖZ: 2026-11-27 POST seçenek "Annelik Günlüğü · Sayfa 2: 10.00 Dışarı çıkıyoruz… 11.16 O koku geldi. Baştan başlıyoruz."
+SÖZ: 2026-11-27 POST seçenek "Kardeşime küçük bir not: Çocukken oyuncaklarımı senden saklardım. Şimdi en kıymetlimi, bebeğimi, sana gönül rahatlığıyla emanet ediyorum."
+SÖZ: 2026-11-27 POST seçenek "Eskiden: 'Cuma akşamı nereye gidiyoruz?' Şimdi: 'Cuma akşamı ilk kim uyuyakalacak?'"

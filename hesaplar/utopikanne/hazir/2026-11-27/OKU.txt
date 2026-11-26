@@ -1,0 +1,19 @@
+27 KASIM CUMA — HİKÂYE SEÇENEK HAVUZU (beğendiklerini seç, kendi sıranla at; saat yok)
+
+gunaydin.png — Günaydın: Deniz atlarında yavruları babalar taşır ve dünyaya getirir (Smithsonian)
+soru_hamilelik.png + cevap_hamilelik.png — Hamilelikte emniyet kemeri: kucak kısmı karnın altından, çapraz kısmı göğüslerin arasından (NHS) → Öne çıkan: Hamilelik
+soru_bebek.png + cevap_bebek.png — Ce-e oyununda gülme en geç 9. ay (CDC) → Öne çıkan: Aren
+soru_temizlik.png + cevap_temizlik.png — Ek gıda kâsesi/kaşığı: sterilize gerekmez, sıcak sabunlu su yeterli (NHS) → Öne çıkan: Aren
+soru_ekgida.png + cevap_ekgida.png — Reddedilen yeni sebzeyi başka günlerde yeniden sun, 10+ deneme gerekebilir (NHS) — Aren'in bal kabağı/elma denemelerine bağlanabilir → Öne çıkan: Ek Gıda
+soru_bilgi.png + cevap_bilgi.png — Kar taneleri 6 kollu (NOAA) → Öne çıkan: Aren (ya da eklemeden)
+bilgi_1.png — Zürafanın boynunda da insanınki gibi 7 omur var (San Diego Hayvanat Bahçesi)
+bilgi_2.png — Yer fıstığı baklagil, fasulyenin akrabası (Britannica)
+iyi_geceler.png — Yarın için küçük not: 28 Kasım 1520, Macellan'ın gemileri Pasifik'e çıktı, "barışçıl" adını verdiler (Britannica)
+
+Soru görsellerinin altı boş: anket/çıkartmanı oraya ekle.
+
+POSTLAR (Cuma = post günü; Alya'nın bölümü pazartesi olduğu için bugün boşluk günü):
+secenek_A.png — Annelik Günlüğü · Sayfa 2: dışarı çıkma hazırlığı, 11.16 "O koku geldi. Baştan başlıyoruz." (mizah, seri)
+secenek_B.png — Kardeşime küçük bir not: "Çocukken oyuncaklarımı senden saklardım; şimdi en kıymetlimi sana gönül rahatlığıyla emanet ediyorum." (ETİKETLETİR)
+secenek_C.png — Eskiden / Şimdi: "Cuma akşamı nereye gidiyoruz?" → "Cuma akşamı ilk kim uyuyakalacak?" (mizah, eşe gönderilir)
+Açıklamalar, etiketler, sabit yorumlar: post_aciklama.txt
