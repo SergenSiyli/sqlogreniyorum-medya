@@ -1,17 +1,1 @@
-{"bolum":1,"kapak":{"baslik":"İki çizgi.","alt":"Kaydır →"},
-"sayfalar":[
-{"zaman":"Pazartesi · 08.10","gunluk":"Sabahtan beri midem bulanıyor. Dün akşam döner yemiştik…","mesajlar":[
- {"kim":"Alya","yazi":"Burcu dünkü döner beni bitirdi 🤢"},
- {"kim":"Burcu","yazi":"Aynı dönerden ben de yedim, turp gibiyim 🤔"},
- {"kim":"Alya","yazi":"Benim midem hassas işte"}]},
-{"zaman":"Salı · 15.40","gunluk":"Toplantıda gözlerim kapandı. Regl de 4 gün gecikti.","mesajlar":[
- {"kim":"Alya","yazi":"Stresten herhalde ya"},
- {"kim":"Burcu","yazi":"😏"},
- {"kim":"Burcu","yazi":"Alya. Eczane. Şimdi."}]},
-{"zaman":"Salı · 23.50","gunluk":"Banyoda üç dakika. Hayatımın en uzun üç dakikası.","mesajlar":[
- {"kim":"Alya","yazi":"Burcu…"},
- {"kim":"Alya","yazi":"İKİ ÇİZGİ 😳"},
- {"kim":"Burcu","yazi":"AAAAAA 😭😭😭"},
- {"kim":"Burcu","yazi":"Can'a söyledin mi??"}]},
-{"zaman":"Salı · 23.52","gunluk":"Testi elimden düşürdüm. Ve tam o an… kapı çaldı. 🚪","son":"Devamı pazartesi","soru":"Sence kapıdaki kim? Yorumlara yaz 👇"}
-]}
+{"bolum": 1, "kapak": {"baslik": "İki çizgi.", "alt": "Kaydır →"}, "sayfalar": [{"zaman": "Pazartesi · 08.10", "gunluk": "Sabahtan beri midem bulanıyor. Dün akşam döner yemiştik…", "mesajlar": [{"kim": "Alya", "yazi": "Burcu dünkü döner beni bitirdi 🤢"}, {"kim": "Burcu", "yazi": "Aynı dönerden ben de yedim, turp gibiyim 🤔"}, {"kim": "Alya", "yazi": "Benim midem hassas işte"}]}, {"zaman": "Salı · 15.40", "gunluk": "Toplantıda gözlerim kapandı. Bir de takvime baktım…", "mesajlar": [{"kim": "Alya", "yazi": "Regl 4 gün gecikti, stresten herhalde ya"}, {"kim": "Burcu", "yazi": "😏"}, {"kim": "Burcu", "yazi": "Alya. Eczane. Şimdi."}]}, {"zaman": "Salı · 23.50", "gunluk": "Banyoda üç dakika. Hayatımın en uzun üç dakikası.", "mesajlar": [{"kim": "Alya", "yazi": "Burcu…"}, {"kim": "Alya", "yazi": "İKİ ÇİZGİ 😳"}, {"kim": "Burcu", "yazi": "AAAAAA 😭😭😭"}, {"kim": "Burcu", "yazi": "Can'a söyledin mi??"}]}, {"zaman": "Salı · 23.52", "gunluk": "Testi elimden düşürdüm. Ve tam o an… kapı çaldı. 🚪", "son": "Devamı pazartesi", "soru": "Sence kapıdaki kim? Yorumlara yaz 👇"}]}
