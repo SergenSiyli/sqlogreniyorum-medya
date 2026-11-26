@@ -336,3 +336,5 @@ Profil önerisi (Melike kendi değiştirir): ad "Melike Siyli | Ek Gıda & Hamil
 Karakter görselleri: telifli karakter (Barbie, Winx, Powerpuff vb.) YOK. Öneri: özgün, sade, zarif çizim avatarlar (çocuksu değil); B2 ile örnek set Melike onayına sunulacak.
 
 ## PROFİL SON KARAR 26 Kasım 20:46: ad 'Melike Siyli | Hamilelik & Annelik'; bio 3 satır (🤍 Aren'in annesi · ek gıda günlüğü / 📖 Alya'nın Günlüğü: hamilelik dizisi / 💌 melikesiyili@gmail.com). Öne çıkan: Alya'nın Günlüğü · Ek Gıda · Bebek · Hamilelik · Bilgi (Temizlik → Bilgi olarak yeniden adlandırılır). Hikâye havuzunda 'Öne çıkan: Temizlik' ve 'Bilgi' → artık 'Bilgi'.
+
+## ÖNE ÇIKAN TEMİZLİĞİ 26 Kasım 20:59: 5 öne çıkan: Alya'nın Günlüğü · Ek Gıda · Aren · Hamilelik · Önerilerim (Alışveriş+Öneriler+Dolap birleşir). Temizlik ve Tatil kaldırılır (iyi temizlik hikâyeleri Aren'e). Kapaklar marka/one_cikan_v2. Hikâye havuzunda öne çıkan eşleme: Temizlik/Bebek/Bilgi → Aren, Ek gıda → Ek Gıda, Hamilelik → Hamilelik.
