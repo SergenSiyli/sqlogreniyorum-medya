@@ -46,7 +46,7 @@ for s in d["sayfalar"]:
         g += '<div class="sohbet">' + "".join(
             f'<div class="m sag">{e(m["yazi"])}</div>' if m["kim"] == "Alya" else f'<div class="m sol"><div class="kim">{e(m["kim"])}</div>{e(m["yazi"])}</div>'
             for m in s["mesajlar"]) + '</div>'
-    if s.get("son"): g += f'<div class="son"><b>{e(s["son"])}</b><span>{e(s.get("soru",""))}</span><i>Devamını kaçırmamak için takipte kal 🤍</i></div>'
+    if s.get("son"): g += f'<div class="son"><b>{e(s["son"])}</b><span>{e(s.get("soru",""))}</span><i>{e(s.get("takip","Devamını kaçırmamak için takipte kal 🤍"))}</i></div>'
     pages.append(sayfa(g))
 from playwright.sync_api import sync_playwright
 with sync_playwright() as pw:
