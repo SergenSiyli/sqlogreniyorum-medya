@@ -91,3 +91,4 @@ KURAL (26 Kasım 21:06, B1 hatası): Mesajlar günlüğe bakmadan da anlaşılı
 - Lohusalık: süt, emzirme, uykusuzluk (Sezon 2).
 
 ## İÇERİK KURALI (Melike 26 Kasım 22:26): Her bölüm = 1 KONU (listeden) + 1 DUYGU + 1 BİLGİ (açıklamada, resmî kaynak + 'doktoruna danış') + 1 MERAK (son sayfa). Konular: Vitaminler · Kilo/iştah · Aşerme · Siyatik · NST · Ultrason · Beslenme · Doğum · Lohusalık. Yayından önce kontrol: konuşma gerçek yazışma gibi mi, her mesaj kendi başına anlaşılıyor mu, bilgi doğru ve kaynaklı mı, doz/kilo sayısı/diyet dili yok mu.
+İŞ AKIŞI (Melike 27 Kasım 14:01): Her bölümün diyalogları ÖNCE düz yazı olarak Melike'ye gönderilir, onaylarsa tasarım (alya_sohbet.py) yapılır. Araştırma notları: hesaplar/utopikanne/alya_arastirma.md.
