@@ -1,18 +1,24 @@
-{"bolum":2,"kapak":{"baslik":"Kapıdaki kim?","alt":"Kaydır →"},
+{"bolum":2,"kapak":{"baslik":"Hamile olduğunu öğrendin. İlk ne yapmalısın?","alt":"Kaydır →"},
 "sayfalar":[
-{"zaman":"Salı · 23.52","gunluk":"Testi bornozun cebine sakladım. Kalbim kulaklarımda atıyordu.","mesajlar":[
+{"zaman":"Salı · 23.52","gunluk":"Kapıda Can vardı. Testi bornozun cebine sakladım.","mesajlar":[
  {"kim":"Can","yazi":"Anahtarımı unutmuşum 🙈 uyandırdım mı?"},
  {"kim":"Alya","yazi":"Yok yok, uyumuyordum"},
  {"kim":"Can","yazi":"Yüzün bembeyaz, iyi misin sen?"},
  {"kim":"Alya","yazi":"Dönerden herhalde…"}]},
-{"zaman":"Çarşamba · 00.30","gunluk":"Can uyudu bile. Ben tavana bakıyorum. Nasıl söylenir ki bu?","mesajlar":[
- {"kim":"Alya","yazi":"Kapıdaki Can'mış, anahtarını unutmuş 😅"},
- {"kim":"Burcu","yazi":"Söyledin mi???"},
- {"kim":"Alya","yazi":"Söyleyemedim 🙈 dilim tutuldu"},
- {"kim":"Burcu","yazi":"Alyaaa 😂"}]},
-{"zaman":"Çarşamba · 07.40","gunluk":"Testi küçük bir kutuya koydum. Üstüne de bir not yazdım.","mesajlar":[
- {"kim":"Burcu","yazi":"Bu arada kadın doğuma randevu al. İlk muayenede folik asidi de sor 🤍"},
- {"kim":"Alya","yazi":"Tamam, bugün ararım 🤍"},
- {"kim":"Alya","yazi":"Can'a kahvaltıda söyleyeceğim. Bir planım var 😏"}]},
-{"zaman":"Çarşamba · 08.15","gunluk":"Can kutuyu açtı. Notu okudu. Üç saniye… hiç ses yok.","son":"Devamı çarşamba","soru":"Sence Can ne yaptı? 👇"}
+{"zaman":"Çarşamba · 00.30","gunluk":"Can uyudu. Ben uyuyamadım, kızlara yazdım.","mesajlar":[
+ {"kim":"Alya","yazi":"Kızlar… test pozitif 🙈 Can'a daha söyleyemedim"},
+ {"kim":"Sevda","yazi":"AAA çok sevindim 😭🤍"},
+ {"kim":"Burcu","yazi":"İlk iş ne yapacaksın peki?"},
+ {"kim":"Alya","yazi":"Bilmiyorum ki… ne yapılır?"}]},
+{"zaman":"Çarşamba · 00.40","mesajlar":[
+ {"kim":"Sevda","yazi":"Ben ilk iş kadın doğuma randevu almıştım"},
+ {"kim":"Burcu","yazi":"Folik asidi de sor, doktor ilk onu konuşuyor genelde"},
+ {"kim":"Sevda","yazi":"Kullandığın bir ilaç varsa onu da sor. Kendi kendine ne bırak ne başla"},
+ {"kim":"Alya","yazi":"Not alıyorum 📝"}]},
+{"zaman":"Çarşamba · 00.45","gunluk":"Not defterime yazdım: randevu, folik asit, ilaçlar… ve kahve.","mesajlar":[
+ {"kim":"Alya","yazi":"Sabah kahvemi de mi bırakıyorum yani 😩"},
+ {"kim":"Burcu","yazi":"Bırakma, azalt 😅 kafeinin bir günlük sınırı var, doktoruna sor"},
+ {"kim":"Alya","yazi":"Tamam… peki Can'a nasıl söyleyeceğim?"},
+ {"kim":"Sevda","yazi":"Kahvaltıda sürpriz yap 😏"}]},
+{"zaman":"Çarşamba · 08.15","gunluk":"Testi küçük bir kutuya koydum. Can kutuyu açtı… üç saniye hiç ses yok.","son":"Devamı çarşamba","soru":"Sen hamile olduğunu öğrenince ilk ne yaptın? 👇"}
 ]}
