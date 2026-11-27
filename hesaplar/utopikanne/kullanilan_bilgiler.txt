@@ -210,3 +210,15 @@ SÖZ: 2026-11-26 POST seçenek "Bebeğime küçük bir not: Bir gün kucağıma 
 SÖZ: 2026-11-27 POST seçenek "Annelik Günlüğü · Sayfa 2: 10.00 Dışarı çıkıyoruz… 11.16 O koku geldi. Baştan başlıyoruz."
 SÖZ: 2026-11-27 POST seçenek "Kardeşime küçük bir not: Çocukken oyuncaklarımı senden saklardım. Şimdi en kıymetlimi, bebeğimi, sana gönül rahatlığıyla emanet ediyorum."
 SÖZ: 2026-11-27 POST seçenek "Eskiden: 'Cuma akşamı nereye gidiyoruz?' Şimdi: 'Cuma akşamı ilk kim uyuyakalacak?'"
+2026-11-28 günaydın: fil gebeliği ~22 ay, karada en uzun — Smithsonian Ulusal Hayvanat Bahçesi
+2026-11-28 hamilelik soru-cevap: sauna/buhar/jakuzi aşırı ısınma, uzak dur — NHS
+2026-11-28 bebek soru-cevap: düşen/gözden kaybolan oyuncağı arama en geç 9. ay — CDC
+2026-11-28 temizlik soru-cevap: temizlik ürünleri orijinal kabında, ulaşılamayacak yerde — CDC
+2026-11-28 ek gıda soru-cevap: ev yapımı püre buzdolabında 2 gün, yarım kalan kâse atılır — NHS
+2026-11-28 bilgi soru-cevap: en çok uydusu olan gezegen Satürn — NASA
+2026-11-28 bilgi kartı: yunuslar beynin yarısıyla uyur — Smithsonian Okyanus Portalı
+2026-11-28 bilgi kartı: ilk havuçlar mor ve sarı — Britannica
+2026-11-28 iyi geceler (küçük not, tarihli): 29 Kasım 1877 Edison fonografı ilk kez gösterdi — ABD Kongre Kütüphanesi
+SÖZ: 2026-11-28 POST seçenek "Babama küçük bir not: Bir zamanlar beni omzunda uyuturdun. Şimdi torununu aynı omuzda uyuturken seni izliyorum… En güzel ninni hâlâ sende."
+SÖZ: 2026-11-28 POST seçenek "Annelik Günlüğü · Sayfa 3: 21.10 Uyudu… 21.11 Kapı gıcırdadı. 21.12 Gözler kocaman açık: 'Nereye anne?'"
+SÖZ: 2026-11-28 POST seçenek "Anne olunca anladım ki annem hiç 'Canım istemiyor' demezmiş. Son dilimi bize bırakmak için öyle dermiş."

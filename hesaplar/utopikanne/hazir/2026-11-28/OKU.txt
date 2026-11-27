@@ -1,0 +1,19 @@
+28 KASIM CUMARTESİ — HİKÂYE SEÇENEK HAVUZU (beğendiklerini seç, kendi sıranla at; saat yok)
+
+gunaydin.png — Günaydın: Fil annelerin hamileliği yaklaşık 22 ay sürer (Smithsonian Ulusal Hayvanat Bahçesi)
+soru_hamilelik.png + cevap_hamilelik.png — Hamilelikte sauna/jakuzi: aşırı ısınma, uzak durmak önerilir (NHS) → Öne çıkan: Hamilelik
+soru_bebek.png + cevap_bebek.png — Düşen oyuncağı gözleriyle arama en geç 9. ay (CDC) → Öne çıkan: Aren
+soru_temizlik.png + cevap_temizlik.png — Temizlik ürünleri orijinal kabında, ulaşılamayacak yerde (CDC) → Öne çıkan: Temizlik
+soru_ekgida.png + cevap_ekgida.png — Ev yapımı bal kabağı püresi buzdolabında 2 gün; yarım kalan kâse atılır (NHS) — Aren'in bal kabağı denemesine bağlanabilir → Öne çıkan: Ek Gıda
+soru_bilgi.png + cevap_bilgi.png — En çok uydusu olan gezegen Satürn (NASA) → Öne çıkan: Aren (ya da eklemeden)
+bilgi_1.png — Yunuslar beyinlerinin yarısıyla uyur (Smithsonian Okyanus Portalı)
+bilgi_2.png — İlk havuçlar mor ve sarıydı (Britannica)
+iyi_geceler.png — Yarın için küçük not: 29 Kasım 1877, Edison fonografı ilk kez gösterdi (ABD Kongre Kütüphanesi)
+
+Soru görsellerinin altı boş: anket/çıkartmanı oraya ekle.
+
+POSTLAR (Cumartesi = Reels günü; bunlar sakla, pazartesi ya da sonraki post gününde kullan):
+secenek_A.png — Babama küçük bir not: "Bir zamanlar beni omzunda uyuturdun… En güzel ninni hâlâ sende." (ETİKETLETİR)
+secenek_B.png — Annelik Günlüğü · Sayfa 3: uyku rutini, 21.11 kapı gıcırdadı, "Nereye anne?" (mizah, seri)
+secenek_C.png — Anne olunca anladım ki… annem "Canım istemiyor" derken son dilimi bize bırakıyormuş (anneye gönder)
+Açıklamalar, etiketler, sabit yorumlar: post_aciklama.txt
