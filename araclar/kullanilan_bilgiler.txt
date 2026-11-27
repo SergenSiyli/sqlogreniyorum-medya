@@ -68,3 +68,5 @@ QWERTY Sholes 1870ler (2026-11-08)
 2026-11-27 23:00 iyi geceler: Stack Overflow 2008, Jeff Atwood ve Joel Spolsky — kaynak: Stack Overflow, Wikipedia
 2026-11-28 09:00 günaydın: JSON'u Douglas Crockford 2000'lerin başında tanımladı, json.org; mini soru WHERE puan > 50 NULL satırı getirmez (B) — kaynak: json.org, Wikipedia
 2026-11-28 23:00 iyi geceler: Linux maskotu Tux 1996, Larry Ewing çizdi, penguen fikri Linus Torvalds — kaynak: Wikipedia, Linux.com
+2026-11-29 09:00 günaydın: SQLite kaynak kodu kamu malı (public domain), lisans yok; mini soru 'a' || 'b' → ab (A) — kaynak: sqlite.org
+2026-11-29 23:00 iyi geceler: Tetris 1984, Aleksey Pajitnov, Sovyet Bilimler Akademisi, Elektronika 60 — kaynak: Wikipedia, Britannica
