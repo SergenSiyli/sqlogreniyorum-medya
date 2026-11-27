@@ -1,5 +1,5 @@
 {
- "zaman": "2026-11-27T21:48:39+03:00",
+ "zaman": "2026-11-27T21:49:49+03:00",
  "anahtar_turu": "facebook",
  "anahtar_uzunlugu": 259,
  "hesap": {
@@ -20,6 +20,11 @@
  },
  "durum": "ok",
  "medya": {
-  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@bf1655778f544dee7584152e8cde43656561246f/gun/2026-11-29/story_0900_gunaydin_v5.png,https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@bf1655778f544dee7584152e8cde43656561246f/gun/2026-11-29/story_1300_anket_v5.png,https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@bf1655778f544dee7584152e8cde43656561246f/gun/2026-11-29/story_1805_duyuru_v5.png,https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@bf1655778f544dee7584152e8cde43656561246f/gun/2026-11-29/story_2100_cevap_kart_v5.png,https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@bf1655778f544dee7584152e8cde43656561246f/gun/2026-11-29/story_2300_iyigeceler_v5.png,https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@bf1655778f544dee7584152e8cde43656561246f/gun/2026-11-29/reel_30gun_sql_gun06_and_or_kapak.png": "HATA HTTP Error 400: Bad Request"
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@bf1655778f544dee7584152e8cde43656561246f/gun/2026-11-29/story_0900_gunaydin_v5.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@bf1655778f544dee7584152e8cde43656561246f/gun/2026-11-29/story_1300_anket_v5.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@bf1655778f544dee7584152e8cde43656561246f/gun/2026-11-29/story_1805_duyuru_v5.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@bf1655778f544dee7584152e8cde43656561246f/gun/2026-11-29/story_2100_cevap_kart_v5.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@bf1655778f544dee7584152e8cde43656561246f/gun/2026-11-29/story_2300_iyigeceler_v5.png": "image/png",
+  "https://cdn.jsdelivr.net/gh/SergenSiyli/sqlogreniyorum-medya@bf1655778f544dee7584152e8cde43656561246f/gun/2026-11-29/reel_30gun_sql_gun06_and_or_kapak.png": "HATA HTTP Error 403: Forbidden"
  }
 }
