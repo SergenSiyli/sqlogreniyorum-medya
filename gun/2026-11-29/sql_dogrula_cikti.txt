@@ -1,0 +1,6 @@
+tablo: [('Telefon Pro', 'Telefon', 4), ('Telefon Mini', 'Telefon', 0), ('Telefon Lite', 'Telefon', 0), ('Tablet 11', 'Tablet', 3), ('Tablet 8', 'Tablet', 0), ('Kulaklık X', 'Kulaklık', 7)]
+EKRAN YANLIS: [('Telefon Pro', 4), ('Telefon Mini', 0), ('Telefon Lite', 0), ('Tablet 11', 3)]
+EKRAN DOGRU: [('Telefon Pro', 4), ('Tablet 11', 3)]
+EKRAN YORUM: [(3,)]
+GUNAYDIN ||: [('ab',)]
+ANKET 1 OR 0 AND 0: [(1,)]
