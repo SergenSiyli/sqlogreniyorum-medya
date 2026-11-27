@@ -14,7 +14,7 @@ body:before{content:"";position:absolute;left:96px;top:0;bottom:0;width:3px;back
 .ust{position:absolute;top:70px;left:140px;right:80px;display:flex;justify-content:space-between;align-items:center}
 .seri{font-family:"Caladea",serif;font-style:italic;font-size:38px;color:#A0522D}
 .zaman{font-size:30px;font-weight:600;color:#fff;background:#B5532E;padding:12px 26px;border-radius:40px}
-.gunluk{position:absolute;top:175px;left:150px;right:110px;font-family:"Caladea",serif;font-style:italic;font-size:50px;line-height:1.3;color:#4A3A55;background:#EFE7F7;border:3px dashed #B9A3D6;border-radius:60px;padding:34px 44px}
+.gunluk{white-space:pre-line;position:absolute;top:175px;left:150px;right:110px;font-family:"Caladea",serif;font-style:italic;font-size:50px;line-height:1.3;color:#4A3A55;background:#EFE7F7;border:3px dashed #B9A3D6;border-radius:60px;padding:34px 44px}
 .gunluk:after{content:"";position:absolute;left:70px;bottom:-46px;width:34px;height:34px;border-radius:50%;background:#EFE7F7;border:3px dashed #B9A3D6}
 .gunluk:before{content:"";position:absolute;left:40px;bottom:-78px;width:18px;height:18px;border-radius:50%;background:#EFE7F7;border:3px dashed #B9A3D6}
 .ic{font-family:"Inter",sans-serif;font-style:normal;font-size:28px;font-weight:700;letter-spacing:1px;color:#7B5EA7;margin-bottom:10px}
